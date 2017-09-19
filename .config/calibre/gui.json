@@ -1,0 +1,148 @@
+{
+  "quick_start_guide_added": true, 
+  "previous_sort_order_BooksView": {
+    "timestamp": false, 
+    "title": true, 
+    "authors": true
+  }, 
+  "library_usage_stats": {
+    "/mnt/Data/Docs/Calibre Library": 11
+  }, 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    526
+  ], 
+  "grid view visible": false, 
+  "search bar visible": true, 
+  "exim-calibre-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAJpAAABDQAABYoAAAOFAAACagAAAS0AAAWJAAADhAAAAAAAAAAAB4A="
+  }, 
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "\u2217 \u2217 \u2217", 
+    "\u2022 \u2022 \u2022", 
+    "\u2666 \u2666 \u2666", 
+    "\u2020 \u2020", 
+    "\u2021 \u2021 \u2021", 
+    "\u221e \u221e \u221e", 
+    "\u00a4 \u00a4 \u00a4"
+  ], 
+  "convert_bulk_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAABEAAAAHgAAB38AAASdAAAARQAAAD4AAAd+AAAEnAAAAAAAAAAAB4A="
+  }, 
+  "quickview visible": false, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAALKAAABWwAABScAAAL4AAACywAAAXsAAAUmAAAC9wAAAAAAAAAAB4A="
+  }, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    290
+  ], 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "tag browser search box visible": false
+}

@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-fill '/home/notami/.config/variety/Downloaded/Desktoppr/wwww.jpg' 
