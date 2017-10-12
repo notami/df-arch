@@ -11,21 +11,97 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ 
+~Msle0~/\<failed\>
+
+# Last Substitute Search Pattern:
+~MSle0&p>
+
+# Last Substitute String:
+$blockquote>
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1505786003,,"wq"
 :q
-|2,0,1505632070,,"q"
+|2,0,1507747032,,"q"
+:w
+|2,0,1507747027,,"w"
+:LivedownPreview
+|2,0,1507744561,,"LivedownPreview"
+:ls b
+|2,0,1507744543,,"ls b"
+:b1
+|2,0,1507744426,,"b1"
+:b4
+|2,0,1507744422,,"b4"
+:b3
+|2,0,1507744416,,"b3"
+:3
+|2,0,1507744409,,"3"
+:LivedownKill
+|2,0,1507728904,,"LivedownKill"
+:ls
+|2,0,1507726160,,"ls"
+:la b
+|2,0,1507726153,,"la b"
+:lsb
+|2,0,1507726146,,"lsb"
+:bn
+|2,0,1507726131,,"bn"
+:LivedownStart
+|2,0,1507724953,,"LivedownStart"
+:b2
+|2,0,1507724878,,"b2"
+:LivedownToggle
+|2,0,1507724174,,"LivedownToggle"
+:wq
+|2,0,1507723168,,"wq"
+:PluginInstall
+|2,0,1507693631,,"PluginInstall"
+:instant-markdown-d > /dev/null 2>&1 &
+|2,0,1507692427,,"instant-markdown-d > /dev/null 2>&1 &"
+:call system("curl -X PUT -T - http://localhost:8090/ &>/dev/null &", join(getbufline("%", 1, "$"), "\n"))
+|2,0,1507689710,,"call system(\"curl -X PUT -T - http://localhost:8090/ &>/dev/null &\", join(getbufline(\"%\", 1, \"$\"), \"\\n\"))"
+:call OpenMarkdown ()
+|2,0,1507689703,,"call OpenMarkdown ()"
+:e
+|2,0,1507664726,,"e"
+:exec "!curl -I www.google.com"
+|2,0,1507666507,,"exec \"!curl -I www.google.com\""
+:[200~:call system("curl -X PUT -T - http://localhost:8090/ &>/dev/null &", join(getbufline("%", 1, "$"), "\n"))<PasteEnd>
+|2,0,1507665401,,"[200~:call system(\"curl -X PUT -T - http://localhost:8090/ &>/dev/null &\", join(getbufline(\"%\", 1, \"$\"), \"\\n\"))<PasteEnd>"
+:s/p>/blockquote>
+|2,0,1507653202,,"s/p>/blockquote>"
+:s/p/div
+|2,0,1507653146,,"s/p/div"
+:s/div/p
+|2,0,1507653125,,"s/div/p"
+:%S\div\p
+|2,0,1507652580,,"%S\\div\\p"
+:%S/div/p
+|2,0,1507652537,,"%S/div/p"
+:%S div p
+|2,0,1507652511,,"%S div p"
+:'<,'<s/span/div/
+|2,0,1507652253,,"'<,'<s/span/div/"
+::'<,'<s/span/div/
+|2,0,1507652204,,":'<,'<s/span/div/"
+:help text-objects
+|2,0,1507650772,,"help text-objects"
+:b
+|2,0,1507650721,,"b"
+:lb
+|2,0,1507650694,,"lb"
+:w test.md
+|2,0,1507603612,,"w test.md"
 :q!
-|2,0,1505267568,,"q!"
+|2,0,1507602202,,"q!"
+:s *
+|2,0,1507602135,,"s *"
+:set paste
+|2,0,1507602058,,"set paste"
 :i
 |2,0,1505256614,,"i"
 :,?
 |2,0,1501119645,,",?"
-:PluginInstall
-|2,0,1501110750,,"PluginInstall"
 :.!boxes -d shell
 |2,0,1500670721,,".!boxes -d shell"
 :'<,'>!boxes -d shell
@@ -42,277 +118,602 @@
 |2,0,1500668872,,"'<,'>boxes -d headline -r"
 
 # Search String History (newest to oldest):
+? \<failed\>
+|2,1,1507725116,,"\\<failed\\>"
+?/nerd
+|2,1,1507723582,47,"nerd"
+?/python
+|2,1,1507691038,47,"python"
+? p>
+|2,1,1507653202,,"p>"
+? p
+|2,1,1507653146,,"p"
+? div
+|2,1,1507653125,,"div"
+? span
+|2,1,1507652253,,"span"
+? \<uinstall\>
+|2,1,1507649962,,"\\<uinstall\\>"
+?/2 
+|2,1,1507646178,47,"2 "
+?/-
+|2,1,1507645291,47,"-"
+? \<Tom\>
+|2,1,1507645139,,"\\<Tom\\>"
+? \<Using\>
+|2,1,1507603475,,"\\<Using\\>"
+? \<Learn\>
+|2,1,1507602954,,"\\<Learn\\>"
 ?? 
 |2,1,1501119774,63," "
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@cite>
+|2,3,1507645030,,"cite>"
+@p>
+|2,3,1507605617,,"p>"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	y
-|3,1,0,0,1,0,1503416030,"y"
-"1	LINE	0
-	 
-|3,0,1,1,1,0,1502541359," "
+"0	CHAR	0
+	*
+|3,0,0,0,1,0,1507725305,"*"
+""1	LINE	0
+	Hi Perbolle
+|3,1,1,1,1,0,1507747023,"Hi Perbolle"
 "2	LINE	0
-	1-gallon/4-liter jug filled with water, or other 
-|3,0,2,1,1,0,1502541358,"1-gallon/4-liter jug filled with water, or other "
+	
+|3,0,2,1,1,0,1507735190,""
 "3	LINE	0
-	Cloth cover
-|3,0,3,1,1,0,1502541353,"Cloth cover"
+	```shell
+	`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`
+|3,0,3,1,2,0,1507725293,"```shell","`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`"
 "4	LINE	0
-	weight 
-|3,0,4,1,1,0,1502541352,"weight "
+	
+|3,0,4,1,1,0,1507724824,""
 "5	LINE	0
-	Plate that fits inside crock or bucket 
-|3,0,5,1,1,0,1502541350,"Plate that fits inside crock or bucket "
+	sudo rm /etc/modules-load.d/virtualbox.conf
+|3,0,5,1,1,0,1507724692,"sudo rm /etc/modules-load.d/virtualbox.conf"
 "6	LINE	0
-	Ceramic crock or food-grade plastic bucket 
-|3,0,6,1,1,0,1502541349,"Ceramic crock or food-grade plastic bucket "
+	sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch
+|3,0,6,1,1,0,1507724649,"sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch"
 "7	LINE	0
-	SPECIAL EQUIPMENT:
-|3,0,7,1,1,0,1502541348,"SPECIAL EQUIPMENT:"
+	```
+|3,0,7,1,1,0,1507724241,"```"
 "8	LINE	0
-	397
-<I persevered though, compelled by a craving deep inside of me for the yummy garlic-dill sour pickles of Guss’s pickle stall on the Lower East Side of Manhattan and Zabar’s on the Upper West Side and Bubbie’s in upscale health food stores elsewhere. As it turns out, brine pickles are easy. You just need to give them regular attention in the summer heat, when cucumbers are most abundant.
-|3,0,8,1,1,0,1502541267,"I persevered though, compelled by a craving deep inside of me for the yummy garlic-dill sour pickles of Guss’s pickle stall on the Lower East Side of Manhattan and Zabar’s on the Upper West Side and Bubbie’s in upscale health food stores elsewhere. As it turns out, brine pickles are easy. You just need to give them regular attention in the summer heat, when cucumbers are most abundant."
+	
+|3,0,8,1,1,0,1507694442,""
 "9	LINE	0
-	434
-<Pickle-making requires close attention. My first attempt at brine pickle-making resulted in soft, unappealing pickles that fell apart, because I abandoned it for a few days, and perhaps because the brine was not salty enough, and because of the heat of the Tennessee summer. And and and. “Our perfection lies in our imperfection.” There are, inevitably, fermentation failures. We are dealing with fickle life forces, after all.
-|3,0,9,1,1,0,1502541266,"Pickle-making requires close attention. My first attempt at brine pickle-making resulted in soft, unappealing pickles that fell apart, because I abandoned it for a few days, and perhaps because the brine was not salty enough, and because of the heat of the Tennessee summer. And and and. “Our perfection lies in our imperfection.” There are, inevitably, fermentation failures. We are dealing with fickle life forces, after all."
+	One of these days
+|3,0,9,1,1,0,1507694352,"One of these days"
 "-	CHAR	0
-	crock
-|3,0,36,0,1,0,1502541661,"crock"
+	` `
+|3,0,36,0,1,0,1507725305,"` `"
 
 # File marks:
-'0  1  12  /tmp/mutt-monid-arch-1000-16877-12375958526543144511
-|4,48,1,12,1505786003,"/tmp/mutt-monid-arch-1000-16877-12375958526543144511"
-'1  1  0  ~/.zshrc
-|4,49,1,0,1505632070,"~/.zshrc"
-'2  36  0  ~/.zshrc
-|4,50,36,0,1505617984,"~/.zshrc"
-'3  36  0  ~/.zshrc
-|4,51,36,0,1505617984,"~/.zshrc"
-'4  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,52,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
-'5  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,53,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
-'6  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,54,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
-'7  4  24  /tmp/mutt-monid-arch-1000-4502-397827166414315801
-|4,55,4,24,1504665045,"/tmp/mutt-monid-arch-1000-4502-397827166414315801"
-'8  58  0  ~/.Xresources
-|4,56,58,0,1504197660,"~/.Xresources"
-'9  69  0  ~/.zshrc
-|4,57,69,0,1503676487,"~/.zshrc"
+'0  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,48,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+'1  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,49,23,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+'2  24  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,50,24,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+'3  1  0  ~/archlabs.md
+|4,51,1,0,1507744213,"~/archlabs.md"
+'4  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,52,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
+'5  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,53,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
+'6  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,54,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
+'7  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,55,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
+'8  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,56,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+'9  74  0  ~/.vimrc
+|4,57,74,0,1507723589,"~/.vimrc"
 
 # Jumplist (newest first):
--'  1  12  /tmp/mutt-monid-arch-1000-16877-12375958526543144511
-|4,39,1,12,1505786003,"/tmp/mutt-monid-arch-1000-16877-12375958526543144511"
--'  1  0  ~/.zshrc
-|4,39,1,0,1505632070,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1505632070,"~/.zshrc"
--'  36  0  ~/.zshrc
-|4,39,36,0,1505617984,"~/.zshrc"
--'  36  0  ~/.zshrc
-|4,39,36,0,1505617984,"~/.zshrc"
--'  36  0  ~/.zshrc
-|4,39,36,0,1505617984,"~/.zshrc"
--'  36  0  ~/.zshrc
-|4,39,36,0,1505617984,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1505615829,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1505615829,"~/.zshrc"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  14  4  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,14,4,1505256734,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-|4,39,1,0,1505256609,"/tmp/mutt-monid-arch-1000-12328-3602351262935882359"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  1  0  /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-|4,39,1,0,1504889507,"/tmp/mutt-monid-arch-1000-6298-8760766565389684294"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
--'  5  4  /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-|4,39,5,4,1504801013,"/tmp/mutt-monid-arch-1000-19281-18231436902845169479"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,23,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  24  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,24,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  114  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,114,2,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,1,0,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  115  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,115,2,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,1,0,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507744436,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  3  0  /mnt/www/nginx/notes/articles/clonezilla-bu.md
+|4,39,3,0,1507744426,"/mnt/www/nginx/notes/articles/clonezilla-bu.md"
+-'  3  0  /mnt/www/nginx/notes/articles/clonezilla-bu.md
+|4,39,3,0,1507744426,"/mnt/www/nginx/notes/articles/clonezilla-bu.md"
+-'  1  0  /mnt/www/nginx/notes/articles/5854601.md
+|4,39,1,0,1507744422,"/mnt/www/nginx/notes/articles/5854601.md"
+-'  1  0  /mnt/www/nginx/notes/articles/5854601.md
+|4,39,1,0,1507744422,"/mnt/www/nginx/notes/articles/5854601.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744352,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  ~/archlabs.md
+|4,39,1,0,1507744213,"~/archlabs.md"
+-'  1  0  ~/archlabs.md
+|4,39,1,0,1507744213,"~/archlabs.md"
+-'  1  0  ~/archlabs.md
+|4,39,1,0,1507744213,"~/archlabs.md"
+-'  1  0  ~/archlabs.md
+|4,39,1,0,1507744213,"~/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  1  0  /mnt/www/nginx/notes/navigation.md
+|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  43  0  /mnt/www/nginx/notes/index.md
+|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507725328,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507725328,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507725328,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  6  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,6,1,1507725327,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  6  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,6,1,1507725327,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  6  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,6,1,1507725327,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  6  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,6,1,1507725327,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  7  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,7,1,1507725326,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  7  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,7,1,1507725326,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  7  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,7,1,1507725326,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  7  1  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,7,1,1507725326,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  3  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,3,0,1507724885,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  4  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,4,0,1507724885,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  4  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,4,0,1507724885,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507723743,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507723743,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  1  0  /mnt/www/nginx/notes/articles/mount.md
+|4,39,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+-'  22  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,22,0,1507723699,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,1,0,1507723699,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,23,0,1507723699,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,1,0,1507723699,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,23,0,1507723699,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  11  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,11,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  47  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,47,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  12  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,12,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  12  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,12,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  48  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,48,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,1,0,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  12  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,12,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  48  2  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,48,2,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,39,1,0,1507723628,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+-'  74  0  ~/.vimrc
+|4,39,74,0,1507723589,"~/.vimrc"
+-'  74  0  ~/.vimrc
+|4,39,74,0,1507723589,"~/.vimrc"
+-'  74  0  ~/.vimrc
+|4,39,74,0,1507723589,"~/.vimrc"
+-'  74  0  ~/.vimrc
+|4,39,74,0,1507723589,"~/.vimrc"
+-'  74  0  ~/.vimrc
+|4,39,74,0,1507723589,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
+
+> /mnt/www/nginx/notes/articles/archlabs.md
+	*	1507747027	0
+	"	8	0
+	.	9	0
+	+	2	0
+	+	3	114
+	+	4	0
+	+	6	69
+	+	7	42
+	+	6	2
+	+	8	3
+	+	9	0
+	+	6	1
+	+	8	0
+	+	7	1
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	3	0
+	+	3	117
+	+	3	0
+	+	3	117
+	+	6	7
+	+	8	0
+	+	6	0
+	+	5	0
+	+	1	0
+	+	3	266
+	+	1	15
+	+	5	0
+	+	9	0
+
+> /mnt/www/nginx/notes/articles/NERD_tree_1
+	*	1507744530	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /mnt/www/nginx/notes/articles/clonezilla-bu.md
+	*	1507744422	0
+	"	3	0
+
+> /mnt/www/nginx/notes/articles/5854601.md
+	*	1507744416	0
+	"	1	0
+
+> ~/archlabs.md
+	*	1507744205	0
+	"	1	0
+
+> /mnt/www/nginx/notes/navigation.md
+	*	1507726131	0
+	"	1	0
+
+> /mnt/www/nginx/notes/index.md
+	*	1507726120	0
+	"	43	0
+	^	46	7
+	.	46	7
+	+	45	0
+	+	45	28
+	+	46	7
+
+> /mnt/www/nginx/notes/articles/mount.md
+	*	1507723704	0
+	"	1	0
+
+> ~/.vimrc
+	*	1507723582	0
+	"	74	0
+	^	48	27
+	.	48	26
+	+	274	8
+	+	274	0
+	+	274	4
+	+	274	18
+	+	274	0
+	+	47	30
+	+	48	0
+	+	48	33
+	+	54	0
+	+	48	0
+	+	54	0
+	+	66	17
+	+	54	0
+	+	66	10
+	+	54	0
+	+	66	1
+	+	68	94
+	+	66	17
+	+	68	0
+	+	66	0
+	+	47	0
+	+	48	26
+
+> /mnt/www/nginx/notes/articles/.vimrc
+	*	1507723538	0
+	"	1	0
+
+> ~/.oh-my-zsh/custom/alias.zsh
+	*	1507723160	0
+	"	81	8
+	^	81	9
+	.	81	8
+	+	78	50
+	+	81	8
+
+> ~/.zshrc
+	*	1507722983	0
+	"	127	0
+
+> /mnt/Audio/.config-smb-Audio.json
+	*	1507722747	0
+	"	1	0
+
+> /var/log/lastlog
+	*	1507721681	0
+	"	1	0
+
+> ~/test.markdown
+	*	1507694448	0
+	"	4	0
+	.	4	0
+	+	3	0
+	+	2	0
+	+	3	8
+	+	4	0
+
+> ~/.bashrc
+	*	1507691328	0
+	"	58	0
+	^	48	48
+	.	48	47
+	+	48	47
+
+> /usr/lib/node_modules/instant-markdown-d/instant-markdown-d
+	*	1507691101	0
+	"	1	0
+
+> ~/README.md
+	*	1507669342	0
+	"	1	0
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/test.md
+	*	1507656399	0
+	"	1	0
+	^	72	2
+	.	72	1
+	+	62	0
+	+	63	2
+	+	65	1
+	+	67	1
+	+	63	0
+	+	64	0
+	+	63	0
+	+	65	0
+	+	67	0
+	+	65	0
+	+	68	0
+	+	67	0
+	+	83	3
+	+	83	625
+	+	66	2
+	+	68	2
+	+	75	0
+	+	76	57
+	+	11	30
+	+	15	30
+	+	15	36
+	+	15	48
+	+	16	37
+	+	15	50
+	+	11	5
+	+	15	5
+	+	16	5
+	+	11	5
+	+	15	5
+	+	16	5
+	+	11	34
+	+	15	34
+	+	15	40
+	+	15	52
+	+	16	41
+	+	15	34
+	+	15	40
+	+	15	0
+	+	16	41
+	+	15	0
+	+	15	40
+	+	15	52
+	+	26	0
+	+	27	0
+	+	26	2
+	+	27	2
+	+	29	2
+	+	30	2
+	+	31	2
+	+	32	2
+	+	33	2
+	+	27	0
+	+	26	2
+	+	27	2
+	+	29	2
+	+	30	2
+	+	31	2
+	+	32	2
+	+	33	2
+	+	28	2
+	+	29	33
+	+	30	39
+	+	31	49
+	+	32	41
+	+	33	39
+	+	29	33
+	+	30	40
+	+	31	0
+	+	30	39
+	+	31	49
+	+	32	41
+	+	33	39
+	+	21	0
+	+	18	0
+	+	39	0
+	+	40	0
+	+	39	12
+	+	22	0
+	+	11	2
+	+	15	0
+	+	12	0
+	+	13	2
+	+	14	2
+	+	15	2
+	+	16	2
+	+	22	51
+	+	23	0
+	+	22	47
+	+	21	0
+	+	22	0
+	+	21	0
+	+	22	0
+	+	72	1
+
+> /usr/share/vim/vim80/doc/motion.txt
+	*	1507650876	0
+	"	710	0
+
+> /tmp/mutt-monid-arch-1000-6168-11838111084934094965
+	*	1507262033	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	2	0
+	+	1	19
+
+> /tmp/mutt-monid-arch-1000-18886-12008843026725807715
+	*	1507031922	0
+	"	6	4
+	^	6	5
+	.	6	4
+	+	7	0
+	+	6	4
+
+> /tmp/mutt-monid-arch-1000-4823-10429872488618016451
+	*	1506216124	0
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
+
+> /tmp/mutt-monid-arch-1000-3191-17245128903183967209
+	*	1506204660	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> /tmp/mutt-monid-arch-1000-3968-12378572136371967542
+	*	1506131016	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	3	0
+	+	2	12
+
+> /tmp/mutt-monid-arch-1000-750-18302393634333517153
+	*	1505860990	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	4	52
+	+	6	0
 
 > /tmp/mutt-monid-arch-1000-16877-12375958526543144511
 	*	1505786002	0
@@ -321,10 +722,6 @@
 	.	1	12
 	+	2	0
 	+	1	12
-
-> ~/.zshrc
-	*	1505632066	0
-	"	1	0
 
 > /tmp/mutt-monid-arch-1000-12328-3602351262935882359
 	*	1505256733	0
@@ -422,13 +819,6 @@
 	+	3	215
 	+	4	0
 	+	5	4
-
-> ~/.oh-my-zsh/custom/alias.zsh
-	*	1503414581	0
-	"	78	50
-	^	78	51
-	.	78	50
-	+	78	50
 
 > /tmp/mutt-monid-arch-1000-1630-16734580452215933649
 	*	1503256910	0
@@ -619,18 +1009,6 @@
 	.	1	35
 	+	3	64
 	+	1	35
-
-> ~/.vimrc
-	*	1501119936	0
-	"	1	0
-	.	48	0
-	+	271	8
-	+	271	0
-	+	271	4
-	+	271	18
-	+	271	0
-	+	47	30
-	+	48	0
 
 > ~/.vim/bundle/vim-cheat40/plugin/cheat40.vim
 	*	1501119827	0

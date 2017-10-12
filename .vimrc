@@ -45,6 +45,7 @@ Plugin 'mattn/emmet-vim' , {'on_ft': 'html'}
 Plugin 'chriskempson/base16-vim'
 Plugin 'powerline/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'lifepillar/vim-cheat40'
+Plugin 'shime/vim-livedown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -61,6 +62,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "}}}
+
+"set shell=zsh\ -i
 
 " COLORS 
 

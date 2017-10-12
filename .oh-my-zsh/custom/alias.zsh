@@ -76,3 +76,6 @@ alias pks="packer -S"
 alias pksn="packer -S --noconfirm --noedit"
 alias pksyu="packer -Syu  --noconfirm --noedit"
 alias tvstart="systemctl start teamviewerd.service"
+
+# show log output
+alias syslog="journalctl -p 3 -xb"

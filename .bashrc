@@ -45,6 +45,7 @@ alias pksyu="packer -Syu  --noconfirm --noedit"
 
 alias fixpng="find . -type f -name "*.png" -exec convert {} -strip {} \;"
 
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 shopt -s autocd # change to named directory
 shopt -s cdspell # autocorrects cd misspellings

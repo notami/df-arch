@@ -24,7 +24,7 @@ numlockx &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Volume control for systray
-(sleep 2; volumeicon) &
+#(sleep 2; volumeicon) &
 #(sleep 2; pasystray) &
 
 ## Turn off/on System Beep
