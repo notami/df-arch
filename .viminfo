@@ -21,11 +21,15 @@ $blockquote>
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1507778640,,"wq"
+|2,0,1507838664,,"wq"
+:'<,'>!boxes -d shell
+|2,0,1507838497,,"'<,'>!boxes -d shell"
 :q
-|2,0,1507747032,,"q"
+|2,0,1507838167,,"q"
 :w
-|2,0,1507747027,,"w"
+|2,0,1507812700,,"w"
+:bn
+|2,0,1507812678,,"bn"
 :LivedownPreview
 |2,0,1507744561,,"LivedownPreview"
 :ls b
@@ -46,8 +50,6 @@ $blockquote>
 |2,0,1507726153,,"la b"
 :lsb
 |2,0,1507726146,,"lsb"
-:bn
-|2,0,1507726131,,"bn"
 :LivedownStart
 |2,0,1507724953,,"LivedownStart"
 :b2
@@ -104,8 +106,6 @@ $blockquote>
 |2,0,1501119645,,",?"
 :.!boxes -d shell
 |2,0,1500670721,,".!boxes -d shell"
-:'<,'>!boxes -d shell
-|2,0,1500670445,,"'<,'>!boxes -d shell"
 :.!,xc
 |2,0,1500669862,,".!,xc"
 :.!,mc
@@ -158,267 +158,352 @@ $blockquote>
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	*
-|3,0,0,0,1,0,1507725305,"*"
+"0	LINE	0
+	alias cdrip="cdparanoia -BZ"
+|3,0,0,1,1,0,1507838311,"alias cdrip=\"cdparanoia -BZ\""
 ""1	LINE	0
 	
-	Hi Perbolle
-|3,1,1,1,2,0,1507778608,"","Hi Perbolle"
+|3,1,1,1,1,0,1507838503,""
 "2	LINE	0
-	Hi Perbolle
-|3,0,2,1,1,0,1507747023,"Hi Perbolle"
+	
+|3,0,2,1,1,0,1507838329,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1507735190,""
+	Hi Perbolle
+|3,0,3,1,2,0,1507778608,"","Hi Perbolle"
 "4	LINE	0
-	```shell
-	`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`
-|3,0,4,1,2,0,1507725293,"```shell","`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`"
+	Hi Perbolle
+|3,0,4,1,1,0,1507747023,"Hi Perbolle"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1507724824,""
+|3,0,5,1,1,0,1507735190,""
 "6	LINE	0
-	sudo rm /etc/modules-load.d/virtualbox.conf
-|3,0,6,1,1,0,1507724692,"sudo rm /etc/modules-load.d/virtualbox.conf"
+	```shell
+	`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`
+|3,0,6,1,2,0,1507725293,"```shell","`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`"
 "7	LINE	0
-	sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch
-|3,0,7,1,1,0,1507724649,"sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch"
-"8	LINE	0
-	```
-|3,0,8,1,1,0,1507724241,"```"
-"9	LINE	0
 	
-|3,0,9,1,1,0,1507694442,""
+|3,0,7,1,1,0,1507724824,""
+"8	LINE	0
+	sudo rm /etc/modules-load.d/virtualbox.conf
+|3,0,8,1,1,0,1507724692,"sudo rm /etc/modules-load.d/virtualbox.conf"
+"9	LINE	0
+	sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch
+|3,0,9,1,1,0,1507724649,"sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch"
 "-	CHAR	0
-	` `
-|3,0,36,0,1,0,1507725305,"` `"
+	#
+|3,0,36,0,1,0,1507838457,"#"
 
 # File marks:
-'0  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,48,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
-'1  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,49,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
-'2  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,50,23,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
-'3  24  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,51,24,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
-'4  1  0  ~/archlabs.md
-|4,52,1,0,1507744213,"~/archlabs.md"
-'5  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,53,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
-'6  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,54,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
-'7  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,55,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
-'8  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,56,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
-'9  1  0  /mnt/www/nginx/notes/articles/mount.md
-|4,57,1,0,1507723712,"/mnt/www/nginx/notes/articles/mount.md"
+'0  99  58  ~/.oh-my-zsh/custom/alias.zsh
+|4,48,99,58,1507838664,"~/.oh-my-zsh/custom/alias.zsh"
+'1  205  0  ~/.vimrc
+|4,49,205,0,1507838167,"~/.vimrc"
+'2  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,50,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
+'3  40  0  /mnt/www/nginx/notes/index.md
+|4,51,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+'4  40  0  /mnt/www/nginx/notes/index.md
+|4,52,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+'5  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,53,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+'6  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,54,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+'7  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,55,1,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+'8  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,56,1,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+'9  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
+|4,57,1,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
 
 # Jumplist (newest first):
+-'  99  58  ~/.oh-my-zsh/custom/alias.zsh
+|4,39,99,58,1507838664,"~/.oh-my-zsh/custom/alias.zsh"
+-'  205  0  ~/.vimrc
+|4,39,205,0,1507838167,"~/.vimrc"
+-'  77  0  ~/.oh-my-zsh/custom/alias.zsh
+|4,39,77,0,1507837852,"~/.oh-my-zsh/custom/alias.zsh"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1507837775,"~/.vimrc"
+-'  1  0  ~/.oh-my-zsh/custom/alias.zsh
+|4,39,1,0,1507837468,"~/.oh-my-zsh/custom/alias.zsh"
+-'  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  39  0  /mnt/www/nginx/notes/index.md
+|4,39,39,0,1507812678,"/mnt/www/nginx/notes/index.md"
+-'  39  0  /mnt/www/nginx/notes/index.md
+|4,39,39,0,1507812678,"/mnt/www/nginx/notes/index.md"
+-'  39  0  /mnt/www/nginx/notes/index.md
+|4,39,39,0,1507812678,"/mnt/www/nginx/notes/index.md"
+-'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,1,0,1507812651,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,1,0,1507812651,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,1,0,1507812651,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  40  0  /mnt/www/nginx/notes/index.md
+|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+-'  40  0  /mnt/www/nginx/notes/index.md
+|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+-'  40  0  /mnt/www/nginx/notes/index.md
+|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+-'  40  0  /mnt/www/nginx/notes/index.md
+|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+-'  40  0  /mnt/www/nginx/notes/index.md
+|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+-'  40  0  /mnt/www/nginx/notes/index.md
+|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
+-'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,1,0,1507812114,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,1,0,1507812114,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
+|4,39,1,0,1507812114,"/mnt/www/nginx/notes/articles/dotfiles.md"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
+-'  1  12  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
 -'  1  12  ~/.cfg/COMMIT_EDITMSG
 |4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
 -'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
 |4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
 -'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
 |4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,23,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  24  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,24,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  23  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,23,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  24  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,24,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  114  2  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,114,2,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,1,0,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  115  2  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,115,2,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,1,0,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  114  2  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,114,2,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,1,0,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  115  2  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,115,2,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,39,1,0,1507744469,"/mnt/www/nginx/notes/articles/NERD_tree_1"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507744436,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507744436,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  0  /mnt/www/nginx/notes/articles/clonezilla-bu.md
-|4,39,3,0,1507744426,"/mnt/www/nginx/notes/articles/clonezilla-bu.md"
--'  3  0  /mnt/www/nginx/notes/articles/clonezilla-bu.md
-|4,39,3,0,1507744426,"/mnt/www/nginx/notes/articles/clonezilla-bu.md"
--'  3  0  /mnt/www/nginx/notes/articles/clonezilla-bu.md
-|4,39,3,0,1507744426,"/mnt/www/nginx/notes/articles/clonezilla-bu.md"
--'  3  0  /mnt/www/nginx/notes/articles/clonezilla-bu.md
-|4,39,3,0,1507744426,"/mnt/www/nginx/notes/articles/clonezilla-bu.md"
--'  1  0  /mnt/www/nginx/notes/articles/5854601.md
-|4,39,1,0,1507744422,"/mnt/www/nginx/notes/articles/5854601.md"
--'  1  0  /mnt/www/nginx/notes/articles/5854601.md
-|4,39,1,0,1507744422,"/mnt/www/nginx/notes/articles/5854601.md"
--'  1  0  /mnt/www/nginx/notes/articles/5854601.md
-|4,39,1,0,1507744422,"/mnt/www/nginx/notes/articles/5854601.md"
--'  1  0  /mnt/www/nginx/notes/articles/5854601.md
-|4,39,1,0,1507744422,"/mnt/www/nginx/notes/articles/5854601.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744352,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744352,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  1  0  ~/archlabs.md
-|4,39,1,0,1507744213,"~/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507737046,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  4  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,4,0,1507734580,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  3  178  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,3,178,1507734578,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  5  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,5,0,1507734569,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  1  0  /mnt/www/nginx/notes/navigation.md
-|4,39,1,0,1507726136,"/mnt/www/nginx/notes/navigation.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
--'  43  0  /mnt/www/nginx/notes/index.md
-|4,39,43,0,1507726131,"/mnt/www/nginx/notes/index.md"
 -'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507725328,"/mnt/www/nginx/notes/articles/archlabs.md"
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
+|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.oh-my-zsh/custom/alias.zsh
+	*	1507838660	0
+	"	99	58
+	^	99	59
+	.	99	58
+	+	87	50
+	+	90	8
+	+	33	0
+	+	39	0
+	+	47	0
+	+	53	0
+	+	57	0
+	+	60	0
+	+	63	0
+	+	91	0
+	+	77	0
+	+	74	0
+	+	75	0
+	+	96	28
+	+	97	26
+	+	98	0
+	+	98	11
+	+	92	0
+	+	93	1
+	+	92	0
+	+	96	0
+	+	93	17
+	+	93	0
+	+	96	0
+	+	99	14
+	+	100	0
+	+	99	58
+	i	92	0
+
+> ~/.vimrc
+	*	1507838166	0
+	"	205	0
+	^	48	27
+	.	48	26
+	+	274	8
+	+	274	0
+	+	274	4
+	+	274	18
+	+	274	0
+	+	47	30
+	+	48	0
+	+	48	33
+	+	54	0
+	+	48	0
+	+	54	0
+	+	66	17
+	+	54	0
+	+	66	10
+	+	54	0
+	+	66	1
+	+	68	94
+	+	66	17
+	+	68	0
+	+	66	0
+	+	47	0
+	+	48	26
+
+> /mnt/www/nginx/notes/articles/dotfiles.md
+	*	1507812700	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	40	0
+	+	5	0
+
+> /mnt/www/nginx/notes/index.md
+	*	1507812669	0
+	"	39	0
+	^	46	7
+	.	46	7
+	+	45	0
+	+	45	28
+	+	46	7
+
+> /mnt/www/nginx/notes/articles/NERD_tree_1
+	*	1507812650	0
+	"	13	0
+	.	1	0
+	+	1	0
 
 > ~/.cfg/COMMIT_EDITMSG
 	*	1507778639	0
@@ -460,12 +545,6 @@ $blockquote>
 	+	5	0
 	+	9	0
 
-> /mnt/www/nginx/notes/articles/NERD_tree_1
-	*	1507744530	0
-	"	4	0
-	.	1	0
-	+	1	0
-
 > /mnt/www/nginx/notes/articles/clonezilla-bu.md
 	*	1507744422	0
 	"	3	0
@@ -482,58 +561,13 @@ $blockquote>
 	*	1507726131	0
 	"	1	0
 
-> /mnt/www/nginx/notes/index.md
-	*	1507726120	0
-	"	43	0
-	^	46	7
-	.	46	7
-	+	45	0
-	+	45	28
-	+	46	7
-
 > /mnt/www/nginx/notes/articles/mount.md
 	*	1507723704	0
 	"	1	0
 
-> ~/.vimrc
-	*	1507723582	0
-	"	74	0
-	^	48	27
-	.	48	26
-	+	274	8
-	+	274	0
-	+	274	4
-	+	274	18
-	+	274	0
-	+	47	30
-	+	48	0
-	+	48	33
-	+	54	0
-	+	48	0
-	+	54	0
-	+	66	17
-	+	54	0
-	+	66	10
-	+	54	0
-	+	66	1
-	+	68	94
-	+	66	17
-	+	68	0
-	+	66	0
-	+	47	0
-	+	48	26
-
 > /mnt/www/nginx/notes/articles/.vimrc
 	*	1507723538	0
 	"	1	0
-
-> ~/.oh-my-zsh/custom/alias.zsh
-	*	1507723160	0
-	"	81	8
-	^	81	9
-	.	81	8
-	+	78	50
-	+	81	8
 
 > ~/.zshrc
 	*	1507722983	0

@@ -30,11 +30,13 @@ alias uls="cd /usr/local/share"
 alias l.="ls -A | egrep '^\.'"      
 
 alias xpp="xprop | grep -i 'class'" 
+
 ### config - (git alias) ###
 alias cs="config status"
 alias ca="config add"
 alias cc="config commit -m"
 alias cp="config push"
+
 ### dot files ###
 alias v3="vim /home/notami/.i3/config"
 alias vg="vim /home/notami/.config/ranger/rc.conf"
@@ -42,18 +44,23 @@ alias vr="vim /home/notami/.vimperatorrc"
 alias vv="vim /home/notami/.vimrc"
 alias vz="vim /home/notami/.zshrc"
 alias vza="vim /home/notami/.oh-my-zsh/custom/alias.zsh"
+
 ### nav ###
 alias www="cd /mnt/www/nginx/dev/"
 alias wwn="cd /mnt/www/nginx/notes/articles"
 alias wwr="cd /mnt/www/nginx/refDesk/"
 alias wwt="cd /mnt/www/nginx/tv-home/"
+
 ### ssh ###
 alias ssh.f="ssh notami@freenas.local"
 alias ssh.d="ssh dbsaurer@dbsaurer.com"
+
 ### commands ###
 alias scrimp="scrot -q 85 -d 5 screenshot.png && gimp screenshot.png &"
+
 ### iohyve ###
 alias io="iohyve"
+
 ### rsync ###
 alias rsdbsd="rsync -auvzhe ssh --progress dbsaurer@104.255.96.68:/home/dbsaurer/public_html/ /home/notami/Documents/MyDocuments/Client/DBS/dbsaurer.com/BU-DBS/LocalMirror-DBS/"
 alias rsdbsf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/DBS/" "/mnt/Data/Docs/Client/DBS/""
@@ -64,7 +71,9 @@ alias rsmhf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Cl
 alias rsold="rsync -auvzhe ssh --progress olnb@104.255.96.68:/home/olnb/public_html/ "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/olnb.org/BU-OLNB/LocalMirror-OLNB/""
 alias rsolf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/" "/mnt/Data/Docs/Client/One Love No Boundaries/""
 
-# Aliases for software managment
+####################################
+# Aliases for software managment #
+####################################
 # pacman or pm
 alias pmsyu="sudo pacman -Syu --color=auto"
 alias pacman='sudo pacman --color auto'
@@ -79,3 +88,13 @@ alias tvstart="systemctl start teamviewerd.service"
 
 # show log output
 alias syslog="journalctl -p 3 -xb"
+
+
+######################
+# CD Rip-MP3 Convert #
+######################
+alias cdck="cdparanoia -vsQ"
+alias cdrip="cdparanoia -BZ"
+alias cdrip+="cdparanoia -B"
+alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
+
