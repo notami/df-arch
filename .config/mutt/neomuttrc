@@ -1,0 +1,118 @@
+##							##
+##	CONFIGURATION FILE FOR MUTT, ONLY FOR GMAIL.	##
+##########################################################
+
+#######################################
+############ EDIT FROM HERE ###########
+#######################################
+
+#YOUR USERNAME OF GMAIL without @gmail.com
+set imap_user = "notami"
+#
+# ENTER YOUR GMAIL ACCOUNT IN PLACE OF "user"
+set smtp_url = "smtp://notami@smtp.gmail.com:587/"
+#
+# AGAIN ENTER YOUR EMAIL
+set from = "notami@gmail.com"
+#
+# YOUR FULL NAME, IT WILL APPEAR TO RECIEVER
+set realname = "D Bruce Saurer"
+#
+# YOUR TEXT EDITOR 
+set editor = "vim"
+#
+#######################################
+############ EDIT UPTO HERE ###########
+#######################################
+
+########## OPTIONAL #############################################################
+######### ENTER THE VALUE IN QUOTES #############################################
+######### IF YOU DON'T FILL THIS, MUTT WILL AUTOMATICALLY ASK WHEN YOU OPEN MUTT
+#################################################################################
+set imap_pass = "Basil339!"
+set smtp_pass = "Basil339!"
+########## OPTIONAL ###################
+
+#####################################################
+###                  BASIC CONFIG                 ###
+#####################################################
+# set wait_key = no        # don't prompt for <enter> so much
+# set move = no
+set markers = no
+set mbox_type = Maildir  # mailbox type
+set timeout = 3          # idle time before scanning
+set mail_check = 0       # minimum time between scans
+set copy = yes           # store a copy of sent mail in the record
+set delete               # don't confirm deletes
+unset move               # gmail does that
+unset confirmappend      # don't prompt every time we append to mailbox
+unset mark_old           # read/new is good enough for me
+set beep_new             # bell on new mails
+set pipe_decode          # strip headers and eval mimes when piping
+set thorough_search      # strip headers and eval mimes before searching
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set imap_check_subscribed
+set hostname = gmail.com
+set mail_check = 120
+set timeout = 300
+set imap_keepalive = 300
+set postponed = "+[Gmail]/Drafts"
+set mailcap_path = ~/.mailcap # entries for filetypes
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+set include
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
+set auto_tag = yes
+set sendmail_wait=0
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+hdr_order Date From To Cc
+alternative_order text/calendar text/plain text/enriched  text/html *
+auto_view text/calendar text/html
+set query_command="goobook query '%s'"  #connects mutt to gmail contacts
+#####################################################
+###                  KEY BINDINGS                 ###
+#####################################################
+bind editor <Tab> complete-query
+bind editor ^T complete
+bind editor <space> noop 
+# delete msg
+# bind index d delete-message
+# bind pager d delete-message
+
+# Gmail-style keyboard shortcuts
+macro index,pager y "<enter-command>unset trash\n <delete-message>" "Gmail archive message"
+macro index,pager d "<enter-command>set trash=\"imaps://imap.googlemail.com/[GMail]/Bin\"\n <delete-message>" "Gmail delete message"
+bind index g noop
+bind pager g noop
+macro index,pager gi "<change-folder>=INBOX<enter>" "Go to inbox"
+macro index,pager ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
+macro index,pager gp "<change-folder>=[Gmail]/Purchased<enter>" "Go to Purchased"
+macro index,pager gd "<change-folder>=GD<enter>" "Go to GD"
+macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+macro index,pager gp "<change-folder>=Purchased<enter>" "Go to Purchased"
+macro index,pager \cb ": unset wait_key; set pipe_decode\n|w3m\n: set wait_key; unset pipe_decode\n" "call w3m to extract URLs out of a message"
+macro index,pager \Ch "v<right>m" "view message in browser"
+
+# Make urlscan replace urlview.  urlscan supports more encodings and has more info in the url list (but can be compacted like urlview with a config option)
+macro index,pager \cu "<pipe-message> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+macro attach,compose \cu "<pipe-entry> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+
+##### TEMPLATE FOR ADDING MORE SHORTCUTS ##########
+#macro index,pager gl "<change-folder>=NewLabel<enter>" "Go to NewLabel"
+##### TEMPLATE FOR ADDING MORE SHORTCUTS ##########
+
+# open in gui browser: hit "v" then go down to text/html then hit "m"
+bind attach <return> view-mailcap
+# alternative_order text/calendar text/plain text/enriched text/html text/*     # list html for last
+# auto_view text/html text/calendar
+
+#####  MUTTRC CALLS #########
+source $MAILCONF~/.config/mutt/nv.sidebarrc
+source $MAILCONF~/.config/mutt/mutt-colors-solarized-dark-256.muttrc
+##### MUTTRC CALLS ##########

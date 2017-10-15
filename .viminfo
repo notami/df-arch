@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<failed\>
+~MSle0~/boxes
 
 # Last Substitute Search Pattern:
 ~MSle0&p>
@@ -20,20 +20,66 @@
 $blockquote>
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1507838664,,"wq"
-:'<,'>!boxes -d shell
-|2,0,1507838497,,"'<,'>!boxes -d shell"
 :q
-|2,0,1507838167,,"q"
+|2,0,1508077471,,"q"
 :w
-|2,0,1507812700,,"w"
+|2,0,1508077468,,"w"
+:source .neomuttrc
+|2,0,1508035911,,"source .neomuttrc"
+:wq
+|2,0,1508035715,,"wq"
+:ls
+|2,0,1508033010,,"ls"
+:q!
+|2,0,1508032617,,"q!"
+:'<,'>!boxes -d shell
+|2,0,1508032241,,"'<,'>!boxes -d shell"
+:source ~/.vimrc
+|2,0,1508031841,,"source ~/.vimrc"
+:!
+|2,0,1508031097,,"!"
+:5B
+|2,0,1508029227,,"5B"
+:5A
+|2,0,1508029226,,"5A"
+:2A
+|2,0,1508028999,,"2A"
+:bd!
+|2,0,1508031386,,"bd!"
+:bd
+|2,0,1508031370,,"bd"
+:bd #!
+|2,0,1508031343,,"bd #!"
+:bd #
+|2,0,1508031334,,"bd #"
+:bd#
+|2,0,1508031317,,"bd#"
+:bp
+|2,0,1508031293,,"bp"
+:bp bd #
+|2,0,1508031277,,"bp bd #"
+:enew
+|2,0,1508030624,,"enew"
+:ls b
+|2,0,1508030447,,"ls b"
+:bl
+|2,0,1508030441,,"bl"
+:<>
+|2,0,1508030073,,"<>"
+:%M
+|2,0,1508027075,,"%M"
+:!!boxes -d vim-cmt
+|2,0,1507936245,,"!!boxes -d vim-cmt"
+:!!boxes -d vim-cmt -r
+|2,0,1507936216,,"!!boxes -d vim-cmt -r"
+:.!boxes -d shell
+|2,0,1507936053,,".!boxes -d shell"
+:set paste
+|2,0,1507868530,,"set paste"
+:LivedownPreview
+|2,0,1507867589,,"LivedownPreview"
 :bn
 |2,0,1507812678,,"bn"
-:LivedownPreview
-|2,0,1507744561,,"LivedownPreview"
-:ls b
-|2,0,1507744543,,"ls b"
 :b1
 |2,0,1507744426,,"b1"
 :b4
@@ -44,8 +90,6 @@ $blockquote>
 |2,0,1507744409,,"3"
 :LivedownKill
 |2,0,1507728904,,"LivedownKill"
-:ls
-|2,0,1507726160,,"ls"
 :la b
 |2,0,1507726153,,"la b"
 :lsb
@@ -76,48 +120,16 @@ $blockquote>
 |2,0,1507653146,,"s/p/div"
 :s/div/p
 |2,0,1507653125,,"s/div/p"
-:%S\div\p
-|2,0,1507652580,,"%S\\div\\p"
-:%S/div/p
-|2,0,1507652537,,"%S/div/p"
-:%S div p
-|2,0,1507652511,,"%S div p"
-:'<,'<s/span/div/
-|2,0,1507652253,,"'<,'<s/span/div/"
-::'<,'<s/span/div/
-|2,0,1507652204,,":'<,'<s/span/div/"
-:help text-objects
-|2,0,1507650772,,"help text-objects"
-:b
-|2,0,1507650721,,"b"
-:lb
-|2,0,1507650694,,"lb"
-:w test.md
-|2,0,1507603612,,"w test.md"
-:q!
-|2,0,1507602202,,"q!"
-:s *
-|2,0,1507602135,,"s *"
-:set paste
-|2,0,1507602058,,"set paste"
-:i
-|2,0,1505256614,,"i"
-:,?
-|2,0,1501119645,,",?"
-:.!boxes -d shell
-|2,0,1500670721,,".!boxes -d shell"
-:.!,xc
-|2,0,1500669862,,".!,xc"
-:.!,mc
-|2,0,1500669690,,".!,mc"
-:boxes
-|2,0,1500668917,,"boxes"
-:boxes -d headline -r
-|2,0,1500668890,,"boxes -d headline -r"
-:'<,'>boxes -d headline -r
-|2,0,1500668872,,"'<,'>boxes -d headline -r"
 
 # Search String History (newest to oldest):
+?/status_le
+|2,1,1508026287,47,"status_le"
+?/boxes
+|2,1,1507935886,47,"boxes"
+?/search
+|2,1,1507935842,47,"search"
+?/boxe
+|2,1,1507935802,47,"boxe"
 ? \<failed\>
 |2,1,1507725116,,"\\<failed\\>"
 ?/nerd
@@ -159,311 +171,315 @@ $blockquote>
 
 # Registers:
 "0	LINE	0
-	alias cdrip="cdparanoia -BZ"
-|3,0,0,1,1,0,1507838311,"alias cdrip=\"cdparanoia -BZ\""
-""1	LINE	0
-	
-|3,1,1,1,1,0,1507838503,""
+	<html5>/html5
+|3,0,0,1,1,0,1508030262,"<html5>/html5"
+"1	LINE	0
+	macro index,pager \cu 'urlview' 'Follow links with urlview'
+|3,0,1,1,1,0,1508040787,"macro index,pager \\cu 'urlview' 'Follow links with urlview'"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1507838329,""
+	macro index,pager \Ch "v<right>m" "view message in browser"
+|3,0,2,1,1,0,1508040786,"macro index,pager \\Ch \"v<right>m\" \"view message in browser\""
 "3	LINE	0
-	
-	Hi Perbolle
-|3,0,3,1,2,0,1507778608,"","Hi Perbolle"
+	</html>
+|3,0,3,1,1,0,1508030301,"</html>"
 "4	LINE	0
-	Hi Perbolle
-|3,0,4,1,1,0,1507747023,"Hi Perbolle"
-"5	LINE	0
 	
-|3,0,5,1,1,0,1507735190,""
+|3,0,4,1,1,0,1508030300,""
+"5	LINE	0
+	<html>
+|3,0,5,1,1,0,1508030300,"<html>"
 "6	LINE	0
-	```shell
-	`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`
-|3,0,6,1,2,0,1507725293,"```shell","`sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch`"
+	<html5>/html5
+|3,0,6,1,1,0,1508030250,"<html5>/html5"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1507724824,""
+|3,0,7,1,1,0,1508025470,""
 "8	LINE	0
-	sudo rm /etc/modules-load.d/virtualbox.conf
-|3,0,8,1,1,0,1507724692,"sudo rm /etc/modules-load.d/virtualbox.conf"
+	
+	![Image](http://lorempixel.com/400/200/food)
+|3,0,8,1,2,0,1507869252,"","![Image](http://lorempixel.com/400/200/food)"
 "9	LINE	0
-	sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch
-|3,0,9,1,1,0,1507724649,"sudo pacman -Rns virtualbox-guest-utils virtualbox-guest-modules-arch"
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1507838457,"#"
+	![Image](http://lorempixel.com/400/200/food)
+|3,0,9,1,1,0,1507869216,"![Image](http://lorempixel.com/400/200/food)"
+"w	CHAR	0
+	wiindex,
+|3,0,32,0,1,0,1508035892,"wiindex,"
+""-	CHAR	0
+	b
+|3,1,36,0,1,0,1508040808,"b"
 
 # File marks:
-'0  99  58  ~/.oh-my-zsh/custom/alias.zsh
-|4,48,99,58,1507838664,"~/.oh-my-zsh/custom/alias.zsh"
-'1  205  0  ~/.vimrc
-|4,49,205,0,1507838167,"~/.vimrc"
-'2  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,50,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
-'3  40  0  /mnt/www/nginx/notes/index.md
-|4,51,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
-'4  40  0  /mnt/www/nginx/notes/index.md
-|4,52,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
-'5  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,53,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
-'6  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,54,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
-'7  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,55,1,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
-'8  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,56,1,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
-'9  1  0  /mnt/www/nginx/notes/articles/NERD_tree_1
-|4,57,1,0,1507744510,"/mnt/www/nginx/notes/articles/NERD_tree_1"
+'0  100  58  ~/.config/mutt/neomuttrc
+|4,48,100,58,1508077471,"~/.config/mutt/neomuttrc"
+'1  104  23  ~/.config/mutt/neomuttrc
+|4,49,104,23,1508040826,"~/.config/mutt/neomuttrc"
+'2  103  23  ~/.config/mutt/neomuttrc
+|4,50,103,23,1508040826,"~/.config/mutt/neomuttrc"
+'3  1  0  ~/.config/mutt/.neomuttrc
+|4,51,1,0,1508040706,"~/.config/mutt/.neomuttrc"
+'4  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,52,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+'5  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,53,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+'6  102  11  ~/.config/mutt/neomuttrc
+|4,54,102,11,1508035923,"~/.config/mutt/neomuttrc"
+'7  102  11  ~/.config/mutt/neomuttrc
+|4,55,102,11,1508035923,"~/.config/mutt/neomuttrc"
+'8  101  11  ~/.config/mutt/neomuttrc
+|4,56,101,11,1508035923,"~/.config/mutt/neomuttrc"
+'9  101  11  ~/.config/mutt/neomuttrc
+|4,57,101,11,1508035923,"~/.config/mutt/neomuttrc"
 
 # Jumplist (newest first):
--'  99  58  ~/.oh-my-zsh/custom/alias.zsh
-|4,39,99,58,1507838664,"~/.oh-my-zsh/custom/alias.zsh"
--'  205  0  ~/.vimrc
-|4,39,205,0,1507838167,"~/.vimrc"
--'  77  0  ~/.oh-my-zsh/custom/alias.zsh
-|4,39,77,0,1507837852,"~/.oh-my-zsh/custom/alias.zsh"
--'  1  0  ~/.vimrc
-|4,39,1,0,1507837775,"~/.vimrc"
--'  1  0  ~/.oh-my-zsh/custom/alias.zsh
-|4,39,1,0,1507837468,"~/.oh-my-zsh/custom/alias.zsh"
--'  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  5  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,5,0,1507812819,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  39  0  /mnt/www/nginx/notes/index.md
-|4,39,39,0,1507812678,"/mnt/www/nginx/notes/index.md"
--'  39  0  /mnt/www/nginx/notes/index.md
-|4,39,39,0,1507812678,"/mnt/www/nginx/notes/index.md"
--'  39  0  /mnt/www/nginx/notes/index.md
-|4,39,39,0,1507812678,"/mnt/www/nginx/notes/index.md"
--'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,1,0,1507812651,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,1,0,1507812651,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,1,0,1507812651,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  40  0  /mnt/www/nginx/notes/index.md
-|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
--'  40  0  /mnt/www/nginx/notes/index.md
-|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
--'  40  0  /mnt/www/nginx/notes/index.md
-|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
--'  40  0  /mnt/www/nginx/notes/index.md
-|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
--'  40  0  /mnt/www/nginx/notes/index.md
-|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
--'  40  0  /mnt/www/nginx/notes/index.md
-|4,39,40,0,1507812311,"/mnt/www/nginx/notes/index.md"
--'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  40  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,40,0,1507812270,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,1,0,1507812114,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,1,0,1507812114,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  1  0  /mnt/www/nginx/notes/articles/dotfiles.md
-|4,39,1,0,1507812114,"/mnt/www/nginx/notes/articles/dotfiles.md"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  1  12  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,12,1507778640,"~/.cfg/COMMIT_EDITMSG"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  8  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,8,0,1507747032,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  9  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,9,0,1507746979,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1507744527,"/mnt/www/nginx/notes/articles/archlabs.md"
+-'  100  58  ~/.config/mutt/neomuttrc
+|4,39,100,58,1508077471,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508077127,"~/.config/mutt/neomuttrc"
+-'  104  23  ~/.config/mutt/neomuttrc
+|4,39,104,23,1508040826,"~/.config/mutt/neomuttrc"
+-'  103  23  ~/.config/mutt/neomuttrc
+|4,39,103,23,1508040826,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508040762,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/.neomuttrc
+|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
+-'  1  0  ~/.config/mutt/.neomuttrc
+|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
+-'  1  0  ~/.config/mutt/.neomuttrc
+|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
+-'  1  0  ~/.config/mutt/.neomuttrc
+|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
+-'  102  11  ~/.config/mutt/neomuttrc
+|4,39,102,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  101  11  ~/.config/mutt/neomuttrc
+|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  101  14  ~/.config/mutt/neomuttrc
+|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1508033154,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.oh-my-zsh/custom/alias.zsh
-	*	1507838660	0
-	"	99	58
-	^	99	59
-	.	99	58
-	+	87	50
-	+	90	8
-	+	33	0
-	+	39	0
-	+	47	0
-	+	53	0
-	+	57	0
-	+	60	0
-	+	63	0
-	+	91	0
-	+	77	0
-	+	74	0
-	+	75	0
-	+	96	28
-	+	97	26
-	+	98	0
-	+	98	11
-	+	92	0
-	+	93	1
-	+	92	0
-	+	96	0
-	+	93	17
-	+	93	0
-	+	96	0
-	+	99	14
-	+	100	0
-	+	99	58
-	i	92	0
+> ~/.config/mutt/neomuttrc
+	*	1508077468	0
+	"	100	58
+	^	100	59
+	.	100	58
+	+	90	16
+	+	91	9
+	+	102	52
+	+	102	0
+	+	102	155
+	+	104	102
+	+	101	0
+	+	103	20
+	+	104	23
+	+	100	58
+
+> ~/.config/mutt/.neomuttrc
+	*	1508040697	0
+	"	1	0
+
+> /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+	*	1508036029	0
+	"	1	0
+
+> /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+	*	1508036009	0
+	"	1	0
+
+> ~/.zshrc
+	*	1508033018	0
+	"	1	0
+	.	1	0
+	+	20	0
+	+	64	0
+	+	1	0
 
 > ~/.vimrc
-	*	1507838166	0
-	"	205	0
-	^	48	27
-	.	48	26
-	+	274	8
-	+	274	0
-	+	274	4
-	+	274	18
-	+	274	0
+	*	1508032799	0
+	"	1	0
+	^	117	13
+	.	117	0
+	+	279	8
+	+	279	0
+	+	279	4
+	+	279	18
+	+	279	0
 	+	47	30
 	+	48	0
 	+	48	33
@@ -481,6 +497,122 @@ $blockquote>
 	+	66	0
 	+	47	0
 	+	48	26
+	+	224	0
+	+	268	0
+	+	264	0
+	+	268	0
+	+	267	0
+	+	268	0
+	+	266	0
+	+	265	0
+	+	257	0
+	+	262	0
+	+	261	0
+	+	257	0
+	+	261	16
+	+	192	0
+	+	187	0
+	+	240	14
+	+	1	1
+	+	1	0
+	+	13	1
+	+	119	0
+	+	118	42
+	+	116	0
+	+	112	1
+	+	113	1
+	+	114	1
+	+	115	1
+	+	117	25
+	+	118	24
+	+	117	0
+
+> ~/.vim/.vimrc
+	*	1508032385	0
+	"	1	0
+
+> ~/.tmux/.tmux.conf.local
+	*	1508028013	0
+	"	151	0
+
+> ~/.oh-my-zsh/custom/alias.zsh
+	*	1508025632	0
+	"	66	16
+	^	66	17
+	.	66	17
+	+	91	50
+	+	94	8
+	+	33	0
+	+	39	0
+	+	47	0
+	+	53	0
+	+	57	0
+	+	60	0
+	+	65	0
+	+	95	0
+	+	81	0
+	+	78	0
+	+	79	0
+	+	100	28
+	+	101	26
+	+	102	0
+	+	102	11
+	+	96	0
+	+	97	1
+	+	96	0
+	+	100	0
+	+	97	17
+	+	97	0
+	+	100	0
+	+	103	14
+	+	104	0
+	+	103	58
+	+	63	0
+	+	64	7
+	+	65	23
+	+	66	17
+	i	96	0
+
+> /mnt/www/nginx/notes/test.markdown
+	*	1508000861	0
+	"	1	0
+	^	62	46
+	.	62	45
+	+	63	0
+	+	64	0
+	+	63	47
+	+	64	0
+	+	63	43
+	+	64	0
+	+	63	0
+	+	62	45
+	b	62	0
+	c	62	0
+
+> /mnt/www/nginx/notes/articles/NERD_tree_1
+	*	1507999973	0
+	"	20	0
+	.	1	0
+	+	1	0
+
+> ~/.tmux.conf.local
+	*	1507952180	0
+	"	1	0
+
+> .tmux/.tmux.conf
+	*	1507949098	0
+	"	1	0
+
+> ~/.tmux.conf
+	*	1507948832	0
+	"	1	0
+
+> ~/.config/ranger/rc.conf
+	*	1507935319	0
+	"	346	0
+	^	87	23
+	.	87	22
+	+	87	22
 
 > /mnt/www/nginx/notes/articles/dotfiles.md
 	*	1507812700	0
@@ -498,12 +630,6 @@ $blockquote>
 	+	45	0
 	+	45	28
 	+	46	7
-
-> /mnt/www/nginx/notes/articles/NERD_tree_1
-	*	1507812650	0
-	"	13	0
-	.	1	0
-	+	1	0
 
 > ~/.cfg/COMMIT_EDITMSG
 	*	1507778639	0
@@ -568,10 +694,6 @@ $blockquote>
 > /mnt/www/nginx/notes/articles/.vimrc
 	*	1507723538	0
 	"	1	0
-
-> ~/.zshrc
-	*	1507722983	0
-	"	127	0
 
 > /mnt/Audio/.config-smb-Audio.json
 	*	1507722747	0
@@ -1029,14 +1151,6 @@ $blockquote>
 	+	2	0
 	+	1	78
 
-> ~/.config/mutt/neomuttrc
-	*	1501722662	0
-	"	81	0
-	^	90	10
-	.	91	9
-	+	90	16
-	+	91	9
-
 > /tmp/mutt-monid-arch-1000-25023-2889425502753835473
 	*	1501511389	0
 	"	5	0
@@ -1079,13 +1193,6 @@ $blockquote>
 	^	11	35
 	.	11	34
 	+	11	34
-
-> ~/.config/ranger/rc.conf
-	*	1499837965	0
-	"	87	22
-	^	87	23
-	.	87	22
-	+	87	22
 
 > ~/.vimperatorrc
 	*	1499836826	0

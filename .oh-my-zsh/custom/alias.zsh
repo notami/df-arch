@@ -61,6 +61,10 @@ alias scrimp="scrot -q 85 -d 5 screenshot.png && gimp screenshot.png &"
 ### iohyve ###
 alias io="iohyve"
 
+### tmux ###
+alias tmn="tmux new -s"
+alias tma="tmux a -t"
+
 ### rsync ###
 alias rsdbsd="rsync -auvzhe ssh --progress dbsaurer@104.255.96.68:/home/dbsaurer/public_html/ /home/notami/Documents/MyDocuments/Client/DBS/dbsaurer.com/BU-DBS/LocalMirror-DBS/"
 alias rsdbsf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/DBS/" "/mnt/Data/Docs/Client/DBS/""

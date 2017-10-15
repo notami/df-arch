@@ -1,4 +1,3 @@
-Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
 tint2: xRandr: Found crtc's: 2
 tint2: xRandr: Linking output LVDS-1 with crtc 0
 tint2: xRandr: crtc 1 seems disabled
@@ -7,6 +6,7 @@ tint2: Loading config file: /home/notami/.config/tint2/tint2rc
 tint2: deprecated config option "primary_monitor_first"
        Please see the documentation regarding the alternatives.
 tint2: real transparency on... depth: 32
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
 tint2: panel items: LTBSC
 tint2: Systray composited rendering on
 [1;32mtint2: Found power device BAT0[0m
@@ -15,84 +15,753 @@ tint2: Systray composited rendering on
 [1;32mFound mains "AC"[0m
 tint2: nb monitors 1, nb monitors used 1, nb desktops 4
 tint2: Kernel uevent interface initialized...
-tint2: systray window 10485772
+tint2: systray window 8388620
 [1;32mtint2: systray started[0m
-[1;32madd_icon: 23068675 (pamac-tray), pid 601, visual 0x55d50179edf0, colormap 23068674, depth 32, width 1, height 1[0m
-[1;32madd_icon: 25165827 (NetworkManager Applet), pid 607, visual 0x55d50179edf0, colormap 25165826, depth 32, width 1, height 1[0m
+[1;32madd_icon: 23068675 (pamac-tray), pid 587, visual 0x55ad08065df0, colormap 23068674, depth 32, width 1, height 1[0m
+[1;32madd_icon: 27262979 (NetworkManager Applet), pid 596, visual 0x55ad08065df0, colormap 27262978, depth 32, width 1, height 1[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
 [1;33mtint2: remove_icon: 23068675 (pamac-tray)[0m
-[1;32madd_icon: 23068683 (pamac-tray), pid 601, visual 0x55d50179edf0, colormap 23068674, depth 32, width 1, height 1[0m
+[1;32madd_icon: 23068683 (pamac-tray), pid 587, visual 0x55ad08065df0, colormap 23068674, depth 32, width 1, height 1[0m
 
-(pamac-tray:601): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(pamac-tray:587): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 conky: desktop window (39e) is root window
 conky: window type - desktop
-conky: drawing to created window (0x1a00002)
+conky: drawing to created window (0x1800002)
 conky: drawing to double buffer
-conky: forked to background, pid is 668
+conky: forked to background, pid is 696
 
 Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-WARNING: 2017-10-11 07:31:18,079: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
-[1;32madd_icon: 29360131 (variety), pid 600, visual 0x55d50179edf0, colormap 29360130, depth 32, width 1, height 1[0m
+WARNING: 2017-10-13 14:01:02,977: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+[1;32madd_icon: 29360131 (variety), pid 586, visual 0x55ad08065df0, colormap 29360130, depth 32, width 1, height 1[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
 [1;33mtint2: remove_icon: 29360131 (variety)[0m
-[1;32madd_icon: 29360135 (variety), pid 600, visual 0x55d50179edf0, colormap 29360130, depth 32, width 16, height 16[0m
+[1;32madd_icon: 29360135 (variety), pid 586, visual 0x55ad08065df0, colormap 29360130, depth 32, width 1, height 1[0m
 
-(variety:600): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(variety:586): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 conky: desktop window (39e) is root window
 conky: window type - desktop
 conky: drawing to created window (0x2200001)
 conky: drawing to double buffer
 conky: one or more $endif's are missing
-conky: forked to background, pid is 710
+conky: forked to background, pid is 739
 
 
-** (clipit:705): WARNING **: Binding '<Ctrl><Alt>A' failed!
+** (clipit:734): WARNING **: Binding '<Ctrl><Alt>A' failed!
 
 
-** (clipit:705): WARNING **: Binding '<Ctrl><Alt>F' failed!
+** (clipit:734): WARNING **: Binding '<Ctrl><Alt>F' failed!
 
 
-** (clipit:705): WARNING **: Binding '<Ctrl><Alt>O' failed!
+** (clipit:734): WARNING **: Binding '<Ctrl><Alt>O' failed!
 
-[1;32madd_icon: 33554438 (clipit), pid 705, visual 0x55d50179edf0, colormap 33554437, depth 32, width 1, height 1[0m
+[1;32madd_icon: 33554438 (clipit), pid 734, visual 0x55ad08065df0, colormap 33554437, depth 32, width 1, height 1[0m
+[1;31mtint2: systray: error code 9[0m
+[1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
 [1;33mtint2: remove_icon: 33554438 (clipit)[0m
-[1;32madd_icon: 33554442 (clipit), pid 705, visual 0x55d50179edf0, colormap 33554437, depth 32, width 1, height 1[0m
+[1;32madd_icon: 33554442 (clipit), pid 734, visual 0x55ad08065df0, colormap 33554437, depth 32, width 1, height 1[0m
 
-(clipit:705): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-ERROR: 2017-10-11 07:31:20,430: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/v1920x1200blue.png'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
-    i = PILImage.open(img)
-  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
-    % (filename if filename else fp))
-IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/v1920x1200blue.png'
+(clipit:734): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
-/usr/lib/python2.7/site-packages/PIL/TiffImagePlugin.py:742: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-ERROR: 2017-10-11 07:31:22,091: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/75.png'
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-13 14:01:23,489: reporting_thread_method() 'Stats: Could not report config'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
+    self.smart.stats_report_config()
+  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
+    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
+    r.raise_for_status()
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-13 14:01:54,032: reporting_thread_method() 'Stats: Could not report config'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
+    self.smart.stats_report_config()
+  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
+    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
+    r.raise_for_status()
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-13 14:02:24,559: reporting_thread_method() 'Stats: Could not report config'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
+    self.smart.stats_report_config()
+  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
+    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
+    r.raise_for_status()
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+** (variety:586): CRITICAL **: XMP Toolkit error 203: Duplicate property or field node
+
+
+** (variety:586): WARNING **: Failed to decode XMP metadata.
+
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+
+** (variety:586): CRITICAL **: XMP Toolkit error 203: Duplicate property or field node
+
+
+** (variety:586): WARNING **: Failed to decode XMP metadata.
+
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+** (variety:586): CRITICAL **: XMP Toolkit error 203: Duplicate property or field node
+
+
+** (variety:586): WARNING **: Failed to decode XMP metadata.
+
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+** (variety:586): WARNING **: Updating namespace URI for pmtm from http://www.hdrsoft.com/photomatix_settings01/ to http://www.hdrsoft.com/tone_mapping_settings/
+
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-13 20:02:25,437: reporting_thread_method() 'Stats: Could not report config'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
+    self.smart.stats_report_config()
+  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
+    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
+    r.raise_for_status()
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+[1;32madd_icon: 6291461 (), pid 3999, visual 0x55ad08065df0, colormap 6291460, depth 32, width 22, height 22[0m
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+ERROR: 2017-10-13 22:08:55,042: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/daft_punk_wallpaper_by_plm_creative-d3dbmm3.png'
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
     i = PILImage.open(img)
   File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
     % (filename if filename else fp))
-IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/75.png'
-ERROR: 2017-10-11 07:31:25,557: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/1357574751422.png'
+IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/daft_punk_wallpaper_by_plm_creative-d3dbmm3.png'
+ERROR: 2017-10-13 22:08:55,783: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/1357574751422.png'
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
     i = PILImage.open(img)
   File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
     % (filename if filename else fp))
 IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/1357574751422.png'
+/usr/lib/python2.7/site-packages/PIL/TiffImagePlugin.py:742: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+ERROR: 2017-10-13 22:08:59,526: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/tml.png'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
+    i = PILImage.open(img)
+  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/tml.png'
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
-ERROR: 2017-10-11 07:31:38,609: reporting_thread_method() 'Stats: Could not report config'
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+** (variety:586): CRITICAL **: XMP Toolkit error 203: Duplicate property or field node
+
+
+** (variety:586): WARNING **: Failed to decode XMP metadata.
+
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+
+** (variety:586): CRITICAL **: XMP Toolkit error 203: Duplicate property or field node
+
+
+** (variety:586): WARNING **: Failed to decode XMP metadata.
+
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+** (variety:586): CRITICAL **: XMP Toolkit error 203: Duplicate property or field node
+
+
+** (variety:586): WARNING **: Failed to decode XMP metadata.
+
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 02:02:26,032: reporting_thread_method() 'Stats: Could not report config'
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
     self.smart.stats_report_config()
@@ -110,7 +779,126 @@ HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api
 Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
-ERROR: 2017-10-11 07:32:09,135: reporting_thread_method() 'Stats: Could not report config'
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 03:32:45,778: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/03-afternoon.png'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
+    i = PILImage.open(img)
+  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/03-afternoon.png'
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+** (variety:586): WARNING **: Failed to decode IPTC metadata.
+
+
+** (variety:586): WARNING **: Removing 29 characters from the beginning of the XMP packet
+
+
+** (variety:586): WARNING **: Failed to decode IPTC metadata.
+
+
+** (variety:586): WARNING **: Removing 29 characters from the beginning of the XMP packet
+
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 08:02:26,585: reporting_thread_method() 'Stats: Could not report config'
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
     self.smart.stats_report_config()
@@ -124,21 +912,50 @@ Traceback (most recent call last):
     raise HTTPError(http_error_msg, response=self)
 HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
-ERROR: 2017-10-11 07:32:39,679: reporting_thread_method() 'Stats: Could not report config'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
-    self.smart.stats_report_config()
-  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
-    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
-    return Util.request(url, data).json()
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
-    r.raise_for_status()
-  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
@@ -176,20 +993,487 @@ Fontconfig warning: Directory/file mtime in the future. New fonts may not be det
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 09:20:46,244: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/big_75df8421f5f93f0796c6a0daab69bdf8b6e10ce2.png'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
+    i = PILImage.open(img)
+  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/big_75df8421f5f93f0796c6a0daab69bdf8b6e10ce2.png'
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 14:02:27,176: reporting_thread_method() 'Stats: Could not report config'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
+    self.smart.stats_report_config()
+  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
+    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
+    r.raise_for_status()
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 18:09:39,327: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/big_75df8421f5f93f0796c6a0daab69bdf8b6e10ce2.png'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
+    i = PILImage.open(img)
+  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/big_75df8421f5f93f0796c6a0daab69bdf8b6e10ce2.png'
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+This tool has been deprecated, use 'gio trash' instead.
+See 'gio help trash' for more info.
 
-** (xfsettingsd:560): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
 
-** (xfsettingsd:560): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-** (xfsettingsd:560): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-10-14 20:02:27,801: reporting_thread_method() 'Stats: Could not report config'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
+    self.smart.stats_report_config()
+  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
+    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
+    r.raise_for_status()
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
 
-** (xfsettingsd:560): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-conky: received SIGINT or SIGTERM to terminate. bye!
-[1;33mtint2: remove_icon: 33554442 (clipit)[0m
-conky: received SIGHUP or SIGUSR1. reloading the config file.
+(variety:586): Gdk-WARNING **: GdkWindow 0x1c00007 unexpectedly destroyed
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Gdk-Message: polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: blueberry-obex-agent.py: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: clipit: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
 XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 42826 requests (42826 known processed) with 0 events remaining.
+      after 15602298 requests (15602298 known processed) with 7 events remaining.
+Gdk-Message: pamac-tray: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(nm-applet:596): Gdk-WARNING **: GdkWindow 0x1a00003 unexpectedly destroyed
+thunar: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 165640 requests (165640 known processed) with 0 events remaining.
-XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 160765 requests (160765 known processed) with 0 events remaining.
+      after 15168814 requests (15168814 known processed) with 4 events remaining.
+Gdk-Message: variety: Fatal IO error 25 (Inappropriate ioctl for device) on X server :0.
+

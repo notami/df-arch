@@ -10,7 +10,7 @@ set modelines=0				" helps security
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -109,10 +109,13 @@ set clipboard^=unnamed      " copy paste bliss
 cmap w!! w !sudo tee > /dev/null %
 
 " Automatically source .vimrc
-augroup autosourcing
-    autocmd!
-    autocmd BufWritePost .vimrc source %
-augroup END
+" augroup autosourcing
+"     autocmd!
+"     autocmd BufWritePost .vimrc source %
+" augroup END
+
+map <leader>vimrc :tabe ~/.vimrc<cr>
+autocmd bufwritepost .vimrc source $MYVIMRC
 
 " Get out of insert mode free
 inoremap jk <Esc>
@@ -181,7 +184,7 @@ set foldnestmax=10      " max 10 depth
 set foldenable          " don't fold files by default on open 
 nnoremap <space> za
 set foldlevelstart=10    " start with fold level of 1
-
+"
 " BOXES COMMENTING
 
 vmap ,mc !boxes -d c-cmt<CR>
@@ -234,7 +237,7 @@ nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
-nmap <leader>bl :ls<CR>i
+nmap <leader>bs :ls<CR>i
 "}}}
 
 " Line Shortcuts 
@@ -251,9 +254,11 @@ cmap w!! w !sudo tee % >/dev/null
 
 "quick pairs 
 imap <leader>' ''<ESC>i
+imap <leader>" ""<ESC>i
 imap <leader>( ()<ESC>i
 imap <leader>[ []<ESC>i
 imap <leader>{ {}<ESC>i
+imap <leader>< < ><ESC>i
 "
 
 " Bubble single lines 
