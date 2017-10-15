@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "Sök">
+<!ENTITY menu.sort.column.as "Sortera kolumn som">
+<!ENTITY menu.multisort.column.as "Sortera flera kolumner som">
+<!ENTITY menuitem.us.time.m.d.y "Amerikanskt datum (M D Å)">
+<!ENTITY menuitem.european.time.d.m.y "Europeiskt datum (D M Å)">
+<!ENTITY menuitem.time.y.m.d "Datum (Å M D)">
+<!ENTITY menuitem.number.currency "Tal/Valuta">
+<!ENTITY menuitem.ip.address "IP-adress">
+<!ENTITY menuitem.alphanumerically "Alfanumerisk">
+<!ENTITY menuitem.auto.detect "Identifiera typ automatiskt">
+<!ENTITY menu.copy "Kopiera">
+<!ENTITY menu.filter "Filtrera">
+<!ENTITY menuitem.toggle.filters.dropdown "Växla rullgardinsfilter">
+<!ENTITY menuitem.toggle.filters.search "Växla sökfilter">
+<!ENTITY menuitem.toggle.filters.both "Växla båda filtertyperna">
+<!ENTITY menuitem.reset.filters.dropdown "Återställ rullgardinsfilter">
+<!ENTITY menuitem.reset.filters.search "Återställ sökfilter">
+<!ENTITY menuitem.reset.filters.both "Återställ båda filtertyperna">
+<!ENTITY menuitem.copy.as.tab.delimited.text "Tabell som tabbavgränsad text">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "Tabell som marginaljusterad tabbavgränsad text">
+<!ENTITY menuitem.copy.as.html "Tabell som HTML">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "Markerade rader som tabbavgränsad text">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "Markerade rader som marginaljusterad tabbavgränsad text">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "Markerade kolumner som tabbavgränsad text">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "Markerade kolumner som marginaljusterad tabbavgränsad text">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "Markerade celler som tabbavgränsad text">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "Markerade celler som marginaljusterad tabbavgränsad text">
+<!ENTITY menuitem.chart "Skapa diagram">
+<!ENTITY menuitem.toggle.summary "Växla tabellfot (sammanfattning)">
+<!ENTITY menu.others "Övrigt">
+<!ENTITY menuitem.sort.down.only "Sorterings-/filtreringsintervallet startar på klickad rad">
+<!ENTITY menuitem.sort.up.only "Sorterings-/filtreringsintervallet slutar vid klickad rad">
+<!ENTITY menuitem.clear.sort.range "Rensa sorterings-/filtreringsintervallet">
+<!ENTITY menuitem.add.table.combine "Lägg till tabell för att kombinera">
+<!ENTITY menuitem.add.table.compare "Lägg till tabell för att jämföra">
+<!ENTITY menuitem.show.combined.table "Visa kombinerade/jämförda tabeller">
+<!ENTITY menuitem.clear.combined.table "Rensa de kombinerade tabellerna">
+<!ENTITY menuitem.scroll.to.summary "Rulla till tabellfot (sammanfattning)">
+<!ENTITY menuitem.hide.column "Dölj klickad kolumn">
+<!ENTITY menuitem.show.hidden.columns "Visa alla dolda kolumner">
+<!ENTITY menuitem.clear.matched.cells "Rensa markerade celler">
+<!ENTITY menuitem.scroll.to.table.top "Rulla till toppen av tabellen">

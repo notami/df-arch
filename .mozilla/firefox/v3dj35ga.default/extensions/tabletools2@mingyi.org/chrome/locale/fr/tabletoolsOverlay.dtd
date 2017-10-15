@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "Rechercher">
+<!ENTITY menu.sort.column.as "Trier la colonne comme">
+<!ENTITY menu.multisort.column.as "Tri multiple de colonne comme">
+<!ENTITY menuitem.us.time.m.d.y "Date US (M J A)">
+<!ENTITY menuitem.european.time.d.m.y "Date européenne (J M A)">
+<!ENTITY menuitem.time.y.m.d "Date (A M J)">
+<!ENTITY menuitem.number.currency "Nombre/monnaie">
+<!ENTITY menuitem.ip.address "Adresse IP">
+<!ENTITY menuitem.alphanumerically "Alphanumérique">
+<!ENTITY menuitem.auto.detect "Type détecté automatiquement">
+<!ENTITY menu.copy "Copier">
+<!ENTITY menu.filter "Filtrer">
+<!ENTITY menuitem.toggle.filters.dropdown "Afficher/masquer les filtres">
+<!ENTITY menuitem.toggle.filters.search "Afficher/masquer les filtres de recherche">
+<!ENTITY menuitem.toggle.filters.both "Afficher/masquer les deux types de filtres">
+<!ENTITY menuitem.reset.filters.dropdown "Réinitialiser les filtres">
+<!ENTITY menuitem.reset.filters.search "Réinitialiser les filtres de recherche">
+<!ENTITY menuitem.reset.filters.both "Réinitialiser les deux types de filtres">
+<!ENTITY menuitem.copy.as.tab.delimited.text "Tableau comme texte et tabulations">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "Tableau comme texte et tabulations justifié">
+<!ENTITY menuitem.copy.as.html "Tableau au format HTML">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "Lignes sélectionnées au format texte et tabulations">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "Lignes sélectionnées au format texte et tabulations justifié">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "Colonnes sélectionnées au format texte et tabulations">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "Colonnes sélectionnées au format texte et tabulations justifié">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "Cellules sélectionnées au format texte et tabulations">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "Cellules sélectionnées au format texte justifié et tabulations">
+<!ENTITY menuitem.chart "Dessiner le diagramme">
+<!ENTITY menuitem.toggle.summary "Afficher/masquer le bas de tableau (sommaire)">
+<!ENTITY menu.others "Autres">
+<!ENTITY menuitem.sort.down.only "Trier/filtrer de la ligne cliquée à la fin">
+<!ENTITY menuitem.sort.up.only "Trier/filtrer du début à la ligne cliquée">
+<!ENTITY menuitem.clear.sort.range "Annuler le tri/filtre de la sélection">
+<!ENTITY menuitem.add.table.combine "Ajouter le tableau à combiner">
+<!ENTITY menuitem.add.table.compare "Ajouter le tableau à comparer">
+<!ENTITY menuitem.show.combined.table "Afficher les tableaux combinés/comparés">
+<!ENTITY menuitem.clear.combined.table "Effacer les tableaux combinés">
+<!ENTITY menuitem.scroll.to.summary "Aller à la fin du tableau (sommaire)">
+<!ENTITY menuitem.hide.column "Masquer la colonne cliquée">
+<!ENTITY menuitem.show.hidden.columns "Afficher toutes les colonnes masquées">
+<!ENTITY menuitem.clear.matched.cells "Effacer les cellules en surbrillance">
+<!ENTITY menuitem.scroll.to.table.top "Aller au début du tableau">

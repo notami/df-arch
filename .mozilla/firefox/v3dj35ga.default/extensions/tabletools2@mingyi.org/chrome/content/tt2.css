@@ -1,0 +1,18 @@
+.tt_icon_asc, .tt_icon_desc, .tt_icon_asc1, .tt_icon_desc1, .tt_icon_asc2, .tt_icon_desc2, .tt_icon_asc3, .tt_icon_desc3, .tt_icon_asc4, .tt_icon_desc4 { padding-right: 8px; background-repeat: no-repeat; background-position: center right; }
+.tt_icon_asc { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAKElEQVQYlWNggAGe8/8ZeM7/Z0ABMEEUSXRBuCRMBbJqFCOx2jH0JQCDSj71Y9NI5gAAAABJRU5ErkJggg==); }
+.tt_icon_desc { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAKUlEQVQYlWNggAGe8/8ZeM7/Z8AAQ10CxkGW4Dn/HyGAjlFUY7UHTRAA8BY+9dt90dMAAAAASUVORK5CYII=); }
+.tt_icon_asc1 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAALUlEQVQYlWNggAGe8/8ZeM7/Z0ABMEEUSXRBuCRMBbJqFCMx7MBpFF5XDTYJAOjBRl2TiMRpAAAAAElFTkSuQmCC); }
+.tt_icon_desc1 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAKklEQVQYlWNggAGe8/8ZeM7/Z8AAg0sCJoCO8etAl+A5/5+AUTjNx2IHAOMuRl3oMgi9AAAAAElFTkSuQmCC); }
+.tt_icon_asc2 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAALUlEQVQYlWNggAGe8/8ZeM7/Z0ABMEEUSXRBuCRMBbJqFCMx7MBpFBV10F4CANvZTcX72GStAAAAAElFTkSuQmCC); }
+.tt_icon_desc2 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAKklEQVQYlWNggAGe8/8ZeM7/Z8AAtJSACaBjautAl+A5/5+AUTjNx2IHAEi0TcXmBWzoAAAAAElFTkSuQmCC); }
+.tt_icon_asc3 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAALUlEQVQYlWNggAGe8/8ZeM7/Z0ABMEEUSXRBuCRMBbJqFCMx7MBp1IDqIFUCAFySVS21ONifAAAAAElFTkSuQmCC); }
+.tt_icon_desc3 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAKklEQVQYlWNggAGe8/8ZeM7/Z8AAxEvABNDxwOtAl+A5/5+AUTjNx2IHACCZVS2kOc3PAAAAAElFTkSuQmCC); }
+.tt_icon_asc4 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAK0lEQVQYlWNggAGe8/8ZeM7/Z0ABMEEUSXRBuCRMBbJqFCMx7MBp1JDSAQBq3VyV9AphZwAAAABJRU5ErkJggg==); }
+.tt_icon_desc4 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAJklEQVQYlWNggAGe8/8ZeM7/Z8AQQMdDUQe6BM/5/wSMwmk+FjsAat1clW2GeUoAAAAASUVORK5CYII=); }
+.tt_it { color: #543; background: #ffc; border: 1px solid #715; width:95%; }
+.tt_sel { color: #543; background: #cff; border: 1px solid #517; width:95%; }
+.tt_inv { background: #ff0; }
+td.tt_found { background: #ff9; }
+tr.tt_summary { background: #fcf; }
+td.tt_summary { text-align: center; font-size: 10px; }
+

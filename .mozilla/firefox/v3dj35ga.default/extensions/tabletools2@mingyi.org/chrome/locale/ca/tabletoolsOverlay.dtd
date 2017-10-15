@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "Cerca">
+<!ENTITY menu.sort.column.as "Ordena la columna com">
+<!ENTITY menu.multisort.column.as "Ordena més d'una columna com">
+<!ENTITY menuitem.us.time.m.d.y "Format dels EUA (M D A)">
+<!ENTITY menuitem.european.time.d.m.y "Format europeu (D M A)">
+<!ENTITY menuitem.time.y.m.d "Data (A M D)">
+<!ENTITY menuitem.number.currency "Nombre/Moneda">
+<!ENTITY menuitem.ip.address "Adreça IP">
+<!ENTITY menuitem.alphanumerically "Alfanumèric">
+<!ENTITY menuitem.auto.detect "Detecta automàticament">
+<!ENTITY menu.copy "Copia">
+<!ENTITY menu.filter "Filtra">
+<!ENTITY menuitem.toggle.filters.dropdown "Canvia els filtres desplegables">
+<!ENTITY menuitem.toggle.filters.search "Canvia els filtres de cerca">
+<!ENTITY menuitem.toggle.filters.both "Canvia els dos tipus de filtre">
+<!ENTITY menuitem.reset.filters.dropdown "Restableix els filtres desplegables">
+<!ENTITY menuitem.reset.filters.search "Restableix els filtres de cerca">
+<!ENTITY menuitem.reset.filters.both "Restableix els dos tipus de filtre">
+<!ENTITY menuitem.copy.as.tab.delimited.text "Taula com a text delimitat per tabuladors">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "Taula com a text justificat delimitat per tabuladors">
+<!ENTITY menuitem.copy.as.html "Taula com HTML">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "Files seleccionades com a text delimitat per tabuladors">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "Files seleccionades com a text justificat delimitat per tabuladors">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "Columnes seleccionades com a text separat per tabuladors">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "Columnes seleccionades com a text justificat separat per tabuladors">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "Cel·les seleccionades com a text separat per tabuladors">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "Cel·les seleccionades com a text justificat separat per tabuladors">
+<!ENTITY menuitem.chart "Dibuixa el diagrama">
+<!ENTITY menuitem.toggle.summary "Canvia (resum) el peu">
+<!ENTITY menu.others "Altres">
+<!ENTITY menuitem.sort.down.only "L'interval d'ordenació/filtratge comença a la fila clicada">
+<!ENTITY menuitem.sort.up.only "L'interval d'ordenació/filtratge acaba a la fila clicada">
+<!ENTITY menuitem.clear.sort.range "Neteja l'interval d'ordenació/filtratge">
+<!ENTITY menuitem.add.table.combine "Afegeix una taula per combinar">
+<!ENTITY menuitem.add.table.compare "Afegeix una taula per comparar">
+<!ENTITY menuitem.show.combined.table "Mostra taules combinades/comparades">
+<!ENTITY menuitem.clear.combined.table "Neteja les taules combinades">
+<!ENTITY menuitem.scroll.to.summary "Vés al peu (resum)">
+<!ENTITY menuitem.hide.column "Amaga la columna clicada">
+<!ENTITY menuitem.show.hidden.columns "Mostra totes les columnes amagades">
+<!ENTITY menuitem.clear.matched.cells "Buida les cel·les ressaltades">
+<!ENTITY menuitem.scroll.to.table.top "Desplaça al capdamunt de la taula">

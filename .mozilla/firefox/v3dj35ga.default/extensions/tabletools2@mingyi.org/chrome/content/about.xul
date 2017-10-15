@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE window SYSTEM "chrome://tabletools2/locale/about.dtd" >
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window class="dialog" title="&window.tabletools.about;" orient="vertical" autostretch="always" onload="sizeToContent()" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- Original template by Jed Brown -->
+
+
+  <groupbox align="center" orient="horizontal">
+    <vbox>
+      <text value="TableTools2" style="font-weight: bold; font-size: x-large;" />
+      <hbox>
+        <vbox>
+          <separator class="thin" />
+          <text value="&text.created.by;" style="font-weight: bold;" />
+          <text value="&text.mingyi.liu;" style="color: blue; cursor: pointer; text-decoration: underline;" onclick="window.open('http://www.mingyi.org');" />
+          <text value="&text.new.features;" style="color: blue; cursor: pointer; text-decoration: underline;" onclick="window.open('http://www.mingyi.org/TableTools2');" />
+          <separator class="thin" />
+          <text value="&text.inspirations;" style="font-weight: bold;" />
+          <text value="&text.charlie.liu;" style="color: blue; cursor: pointer; text-decoration: underline" onclick="window.open('http://www.youtube.com/youngpianist');" />
+          <text value="&text.william.liu;" style="color: blue; cursor: pointer; text-decoration: underline" onclick="window.open('http://www.charlie-liu.com');" />
+        </vbox>
+        <spring style="width:80px" />
+        <image src="chrome://tabletools2/skin/ttool_large.png" />
+      </hbox>
+      <vbox flex="1">
+        <separator class="thin" />
+        <text value="&text.contributors;" style="font-weight: bold;" />
+        <text value="Isaac Neuhaus" style="color: blue; cursor: pointer; text-decoration: underline" onclick="window.open('http://www.canvasxpress.org');" />
+        <separator class="thin" />
+        <text value="&text.icons;" style="font-weight: bold;" />
+        <text value="Yusuke Kamiyamane, FatCow Web Hosting, Dat Nguyen" />
+        <text value="Oliver Scholtz (and others), IconDrawer, Visual Pharm" />
+        <text value="Momenticons, Everaldo Coelho, Gasyoun, Aha-soft" />
+        <separator class="thin" />
+        <text value="&text.translators;" style="font-weight: bold;" />
+        <text value="BabelZilla: jojaba,k2jp,Lakrits,erglo,yfdyh000,chuzo,Joergen,ucn,maurojs10,jmontane" />
+      </vbox>
+    </vbox>
+  </groupbox>
+
+  <hbox>
+    <spacer flex="1" />
+    <button label="&button.close;" oncommand="window.close();" />
+  </hbox>
+
+</window>

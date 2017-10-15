@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "Search">
+<!ENTITY menu.sort.column.as "Sort Column as">
+<!ENTITY menu.multisort.column.as "Multi-Sort Column as">
+<!ENTITY menuitem.us.time.m.d.y "US Time (M D Y)">
+<!ENTITY menuitem.european.time.d.m.y "European Time (D M Y)">
+<!ENTITY menuitem.time.y.m.d "Time (Y M D)">
+<!ENTITY menuitem.number.currency "Number/Currency">
+<!ENTITY menuitem.ip.address "IP Address">
+<!ENTITY menuitem.alphanumerically "AlphaNumeric">
+<!ENTITY menuitem.auto.detect "Auto-Detected Type">
+<!ENTITY menu.copy "Copy">
+<!ENTITY menu.filter "Filter">
+<!ENTITY menuitem.toggle.filters.dropdown "Toggle Dropdown Filters">
+<!ENTITY menuitem.toggle.filters.search "Toggle Search Filters">
+<!ENTITY menuitem.toggle.filters.both "Toggle Both Filters">
+<!ENTITY menuitem.reset.filters.dropdown "Reset Dropdown Filters">
+<!ENTITY menuitem.reset.filters.search "Reset Search Filters">
+<!ENTITY menuitem.reset.filters.both "Reset Both Filters">
+<!ENTITY menuitem.copy.as.tab.delimited.text "Table as Tab-Delimited Text">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "Table as Justified Tab-Delimited">
+<!ENTITY menuitem.copy.as.html "Table as HTML">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "Selected Rows as Tab-Delimited Text">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "Selected Rows as Justified Tab-Delimited Text">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "Selected Columns as Tab-Delimited Text">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "Selected Columns as Justified Tab-Delimited Text">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "Selected Cells as Tab-Delimited Text">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "Selected Cells as Justified Tab-Delimited Text">
+<!ENTITY menuitem.chart "Draw Chart">
+<!ENTITY menuitem.toggle.summary "Toggle (Summary) Footer">
+<!ENTITY menu.others "Other">
+<!ENTITY menuitem.sort.down.only "Sort/Filter Range Starts from Clicked Row">
+<!ENTITY menuitem.sort.up.only "Sort/Filter Range Ends at Clicked Row">
+<!ENTITY menuitem.clear.sort.range "Clear Sort/Filter Range">
+<!ENTITY menuitem.add.table.combine "Add Table to Combine">
+<!ENTITY menuitem.add.table.compare "Add Table to Compare">
+<!ENTITY menuitem.show.combined.table "Show Combined/Compared Tables">
+<!ENTITY menuitem.clear.combined.table "Clear the Combined Tables">
+<!ENTITY menuitem.scroll.to.summary "Scroll to (Summary) Footer">
+<!ENTITY menuitem.hide.column "Hide Clicked Column">
+<!ENTITY menuitem.show.hidden.columns "Show All Hidden Columns">
+<!ENTITY menuitem.clear.matched.cells "Clear Highlighted Cells">
+<!ENTITY menuitem.scroll.to.table.top "Scroll to Top of Table">

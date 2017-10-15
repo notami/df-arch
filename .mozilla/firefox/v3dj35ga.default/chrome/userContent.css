@@ -1,0 +1,48 @@
+/**
+* Default colors for HTML-Forms when using dark GTK Themes.
+*
+* @author Julius Beckmann kontakt@juliusbeckmann.de
+*/
+
+button,
+input,
+input[type="radio"],
+input[type="checkbox"],
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+select,
+textarea {
+-moz-appearance: none !important;
+background-color: white;
+color: black;
+}
+
+// path: /home/$USER/.mozilla/firefox/<RANDOM>.default/chrome/userContent.css
+input {  
+    border: 2px inset white;
+    background-color: white;
+    color: black;
+    -moz-appearance: none !important;
+}
+
+input[type="radio"],  
+input[type="checkbox"] {  
+    border: 2px inset white !important;
+    background-color: white !important;
+    color: ThreeDFace !important;
+    -moz-appearance: none !important;
+}
+
+*|*::-moz-radio {
+    background-color: white;
+    -moz-appearance: none !important;
+}
+
+body {  
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 8px;
+    -moz-appearance: none !important;
+}

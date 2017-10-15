@@ -1,0 +1,16 @@
+content    tabletools2     chrome/content/
+
+locale     tabletools2     en-US            chrome/locale/en-US/
+locale     tabletools2     zh-CN            chrome/locale/zh-CN/
+locale     tabletools2     sv-SE            chrome/locale/sv-SE/
+locale     tabletools2     ja            chrome/locale/ja/
+locale     tabletools2     fr            chrome/locale/fr/
+locale     tabletools2     de            chrome/locale/de/
+locale     tabletools2     es            chrome/locale/es/
+locale     tabletools2     da            chrome/locale/da/
+locale     tabletools2     pt-BR            chrome/locale/pt-BR/
+locale     tabletools2     ca            chrome/locale/ca/
+
+skin       tabletools2     classic/1.0          chrome/skin/
+
+overlay   chrome://browser/content/browser.xul  chrome://tabletools2/content/tabletoolsOverlay.xul

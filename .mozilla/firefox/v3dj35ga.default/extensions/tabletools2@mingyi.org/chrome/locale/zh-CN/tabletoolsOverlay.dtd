@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "搜索">
+<!ENTITY menu.sort.column.as "此列排序为">
+<!ENTITY menu.multisort.column.as "多列排序为">
+<!ENTITY menuitem.us.time.m.d.y "美式时间 (月 日 年)">
+<!ENTITY menuitem.european.time.d.m.y "欧式时间 (日 月 年)">
+<!ENTITY menuitem.time.y.m.d "时间 (年 月 日)">
+<!ENTITY menuitem.number.currency "数字/货币">
+<!ENTITY menuitem.ip.address "IP 地址">
+<!ENTITY menuitem.alphanumerically "字母数字混合">
+<!ENTITY menuitem.auto.detect "自动检测类型">
+<!ENTITY menu.copy "复制">
+<!ENTITY menu.filter "筛选">
+<!ENTITY menuitem.toggle.filters.dropdown "切换下拉式筛选">
+<!ENTITY menuitem.toggle.filters.search "切换搜索式筛选">
+<!ENTITY menuitem.toggle.filters.both "同时切换两种筛选">
+<!ENTITY menuitem.reset.filters.dropdown "重置下拉式筛选">
+<!ENTITY menuitem.reset.filters.search "重置搜索式筛选">
+<!ENTITY menuitem.reset.filters.both "同时重置两种筛选">
+<!ENTITY menuitem.copy.as.tab.delimited.text "表格为制表符分隔文本">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "表格为对齐的制表符分隔模式">
+<!ENTITY menuitem.copy.as.html "表格为 HTML 代码模式">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "选择的行成制表符分隔文本">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "选择的行成对齐的对齐的制表符分隔文本">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "选择的列成制表符分隔文本">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "选择的列成对齐的制表符分隔文本">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "选择的单元成制表符分隔文本">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "选择的单元成对齐的制表符分隔文本">
+<!ENTITY menuitem.chart "绘制图表">
+<!ENTITY menuitem.toggle.summary "切换页脚 (摘要)">
+<!ENTITY menu.others "其他">
+<!ENTITY menuitem.sort.down.only "排序/筛选从此行开始">
+<!ENTITY menuitem.sort.up.only "排序/筛选到此行结束">
+<!ENTITY menuitem.clear.sort.range "清除设置的排序/筛选区域">
+<!ENTITY menuitem.add.table.combine "将此表格合并">
+<!ENTITY menuitem.add.table.compare "将此表格合并以便作比较">
+<!ENTITY menuitem.show.combined.table "显示合并的表格">
+<!ENTITY menuitem.clear.combined.table "清除合并的表格">
+<!ENTITY menuitem.scroll.to.summary "下移到页脚 (摘要)">
+<!ENTITY menuitem.hide.column "隐藏此列">
+<!ENTITY menuitem.show.hidden.columns "显示所有隐藏的列">
+<!ENTITY menuitem.clear.matched.cells "清除搜索结果的颜色">
+<!ENTITY menuitem.scroll.to.table.top "上移到表格顶部">

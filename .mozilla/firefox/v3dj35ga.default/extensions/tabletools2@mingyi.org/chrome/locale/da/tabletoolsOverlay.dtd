@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "Søg">
+<!ENTITY menu.sort.column.as "Sorter kolonne som">
+<!ENTITY menu.multisort.column.as "Multi-sorter kolonne som">
+<!ENTITY menuitem.us.time.m.d.y "US tid (M D Å)">
+<!ENTITY menuitem.european.time.d.m.y "Europæisk tid (D M Å)">
+<!ENTITY menuitem.time.y.m.d "Tid (Å M D)">
+<!ENTITY menuitem.number.currency "Tal/Valuta">
+<!ENTITY menuitem.ip.address "IP-adresse">
+<!ENTITY menuitem.alphanumerically "Alfanumerisk">
+<!ENTITY menuitem.auto.detect "Auto-detekter type">
+<!ENTITY menu.copy "Kopier">
+<!ENTITY menu.filter "Filter">
+<!ENTITY menuitem.toggle.filters.dropdown "Slå rullefiltre til/fra">
+<!ENTITY menuitem.toggle.filters.search "Slå søgefiltre til/fra">
+<!ENTITY menuitem.toggle.filters.both "Slå begge filtre til/fra">
+<!ENTITY menuitem.reset.filters.dropdown "Nulstil rullefiltre">
+<!ENTITY menuitem.reset.filters.search "Nulstil søgefiltre">
+<!ENTITY menuitem.reset.filters.both "Nulstil begge filtre">
+<!ENTITY menuitem.copy.as.tab.delimited.text "Tabel som tab-separeret tekst">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "Tabel som justeret tab-separeret">
+<!ENTITY menuitem.copy.as.html "Tabel som HTML">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "Valgte rækker som tab-separeret tekst">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "Valgte rækker som justeret tab-separeret tekst">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "Valgte kolonner som tab-separeret tekst">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "Valgte kolonner som justeret tab-separeret tekst">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "Valgte celler som tab-separeret tekst">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "Valgte celler som justeret tab-separeret tekst">
+<!ENTITY menuitem.chart "Tegn diagram">
+<!ENTITY menuitem.toggle.summary "Vis/Skjul sammendrag">
+<!ENTITY menu.others "Andre">
+<!ENTITY menuitem.sort.down.only "Sorterings-/filterområde begynder fra klikket række">
+<!ENTITY menuitem.sort.up.only "Sorterings-/filterområde ender ved klikket række">
+<!ENTITY menuitem.clear.sort.range "Ryd sorterings/filterområde">
+<!ENTITY menuitem.add.table.combine "Tilføj tabel for at kombinere">
+<!ENTITY menuitem.add.table.compare "Tilføj tabel for at sammenligne">
+<!ENTITY menuitem.show.combined.table "Vis kombinerede/sammenlignede tabeller">
+<!ENTITY menuitem.clear.combined.table "Ryd de kombinerede tabeller">
+<!ENTITY menuitem.scroll.to.summary "Rul til sammendrag">
+<!ENTITY menuitem.hide.column "Skjul klikket kolonne">
+<!ENTITY menuitem.show.hidden.columns "Vis alle skjulte kolonner">
+<!ENTITY menuitem.clear.matched.cells "Ryd fremhævede celler">
+<!ENTITY menuitem.scroll.to.table.top "Rul til toppen af tabellen">

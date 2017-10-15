@@ -1,0 +1,24 @@
+<!ENTITY dialog.tabletools.options "TableTools2 Options">
+<!ENTITY caption.app.options "General Options">
+<!ENTITY caption.basic.options "Basic Options">
+<!ENTITY caption.advanced.options "Advanced Options">
+<!ENTITY label.first.sort.dir "When sorting a column, sort">
+<!ENTITY checkbox.show.context.shortcuts "Display shortcut reminder on context menu?">
+<!ENTITY checkbox.show.summary.labels "Display the labels for the summary functions when shown?">
+<!ENTITY checkbox.copy.column.heading.for.row.copy "Copy column headings when copying selected rows?">
+<!ENTITY checkbox.copy.column.heading.for.cell.copy "Copy column headings when copying selected cells?">
+<!ENTITY label.when.guessing.time.format.assume.the.date.is "When guessing time format, assume the date is ">
+<!ENTITY menuitem.us.style.month.day.year "US-style (Month/Day/Year)">
+<!ENTITY menuitem.european.style.day.month.year "European-style (Day/Month/Year)">
+<!ENTITY label.which.decimal.point "The decimal point symbol for numbers is ">
+<!ENTITY menuitem.asc "ascendingly first">
+<!ENTITY menuitem.desc "descendingly first">
+<!ENTITY caption.copy.shortcuts "Filter/Combine/Copy Shortcuts">
+<!ENTITY caption.other.shortcuts "Other Shortcuts">
+<!ENTITY checkbox.filters.should.be.filled.on.demand.good.for.large.tables "Filters should be filled on-demand? (good for large tables)">
+<!ENTITY checkbox.show.the.benchmark.of.sorting.and.updating.the.tables "Show the benchmark of sorting and updating the tables">
+<!ENTITY checkbox.use.restart "Allow using Ctrl+Alt+R to restart firefox?">
+<!ENTITY label.when.the.data.rows.in.the.table.are.sorted.and.moved "When the data rows in the table are sorted and moved,">
+<!ENTITY menuitem.the.rows.should.retain.their.previous.formatting.fastest "the rows should retain their previous formatting (fastest)">
+<!ENTITY menuitem.the.rows.should.get.the.formatting.of.their.new.positions.slow "the rows should get the formatting of their new positions (slow)">
+<!ENTITY menuitem.each.cell.should.get.the.formatting.of.its.new.position.slowest "each cell should get the formatting of its new position (slowest!)">

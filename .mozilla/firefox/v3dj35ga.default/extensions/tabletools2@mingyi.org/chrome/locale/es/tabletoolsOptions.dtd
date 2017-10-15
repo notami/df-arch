@@ -1,0 +1,24 @@
+<!ENTITY dialog.tabletools.options "TableTools - Opciones">
+<!ENTITY caption.app.options "Opciones generales">
+<!ENTITY caption.basic.options "Opciones básicas">
+<!ENTITY caption.advanced.options "Opciones avanzadas">
+<!ENTITY label.first.sort.dir "Al ordenar una columna, ordenar">
+<!ENTITY checkbox.show.context.shortcuts "¿Mostrar recordatorio de atajos en el menú contextual?">
+<!ENTITY checkbox.show.summary.labels "¿Mostrar las etiquetas para el resumen de funciones al mostrar?">
+<!ENTITY checkbox.copy.column.heading.for.row.copy "¿Copiar las cabeceras de las columnas al copiar las filas seleccionadas?">
+<!ENTITY checkbox.copy.column.heading.for.cell.copy "¿Copiar las cabeceras de las columnas al copiar las celdas seleccionadas?">
+<!ENTITY label.when.guessing.time.format.assume.the.date.is "Al trabajar con formatos de fechas, asumir que el formato es">
+<!ENTITY menuitem.us.style.month.day.year "Estilo US (mes/día/año)">
+<!ENTITY menuitem.european.style.day.month.year "Estilo europeo (día/mes/año)">
+<!ENTITY label.which.decimal.point "El símbolo para el punto decimal es">
+<!ENTITY menuitem.asc "primero en orden ascendente">
+<!ENTITY menuitem.desc "primero en orden descendente">
+<!ENTITY caption.copy.shortcuts "Filtrar/Combinar/Copiar atajos">
+<!ENTITY caption.other.shortcuts "Otros atajos">
+<!ENTITY checkbox.filters.should.be.filled.on.demand.good.for.large.tables "Los filtros pueden completarse bajo demanda (bueno para tablas grandes)">
+<!ENTITY checkbox.show.the.benchmark.of.sorting.and.updating.the.tables "Mostrar el banco de pruebas de ordenación y actualización de tablas">
+<!ENTITY checkbox.use.restart "¿Permitir usar Ctrl+Alt+R para reiniciar Firefox?">
+<!ENTITY label.when.the.data.rows.in.the.table.are.sorted.and.moved "Cuando las filas de la tabla se ordenan o son movidas,">
+<!ENTITY menuitem.the.rows.should.retain.their.previous.formatting.fastest "las filas mantienen su formato anterior (más rápido)">
+<!ENTITY menuitem.the.rows.should.get.the.formatting.of.their.new.positions.slow "las filas deben tener el formato de su nueva posición (lento)">
+<!ENTITY menuitem.each.cell.should.get.the.formatting.of.its.new.position.slowest "cada celda debe tener el formato de su nueva posición (más lento)">

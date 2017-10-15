@@ -1,0 +1,24 @@
+<!ENTITY dialog.tabletools.options "Opções do TableTools2">
+<!ENTITY caption.app.options "Opções gerais">
+<!ENTITY caption.basic.options "Opções básicas">
+<!ENTITY caption.advanced.options "Opções avançadas">
+<!ENTITY label.first.sort.dir "Ao ordenar uma coluna, colocar">
+<!ENTITY checkbox.show.context.shortcuts "Mostrar lembrete de atalhos no menu de contexto">
+<!ENTITY checkbox.show.summary.labels "Mostrar nomes das funções ao exibir sumário">
+<!ENTITY checkbox.copy.column.heading.for.row.copy "Copiar títulos das colunas ao copiar linhas">
+<!ENTITY checkbox.copy.column.heading.for.cell.copy "Copiar títulos das colunas ao copiar células">
+<!ENTITY label.when.guessing.time.format.assume.the.date.is "Ao adivinhar formato de hora, assumir que a data está">
+<!ENTITY menuitem.us.style.month.day.year "no estilo dos Estados Unidos (mês/dia/ano)">
+<!ENTITY menuitem.european.style.day.month.year "no estilo da Europa (dia/mês/ano)">
+<!ENTITY label.which.decimal.point "O símbolo decimal para números é">
+<!ENTITY menuitem.asc "em ordem crescente primeiro">
+<!ENTITY menuitem.desc "em ordem decrescente primeiro">
+<!ENTITY caption.copy.shortcuts "Atalhos de filtrar/combinar/copiar">
+<!ENTITY caption.other.shortcuts "Outros atalhos">
+<!ENTITY checkbox.filters.should.be.filled.on.demand.good.for.large.tables "Os filtros devem ser preenchidos sob demanda (bom para tabelas grandes)">
+<!ENTITY checkbox.show.the.benchmark.of.sorting.and.updating.the.tables "Exibir tempo gasto na ordenação e atualização das tabelas">
+<!ENTITY checkbox.use.restart "Permitir usar o Ctrl+Alt+R para reiniciar o Firefox">
+<!ENTITY label.when.the.data.rows.in.the.table.are.sorted.and.moved "Ao ordenar e mover linhas de dados na tabela,">
+<!ENTITY menuitem.the.rows.should.retain.their.previous.formatting.fastest "as linhas devem manter a sua formatação original (rápido)">
+<!ENTITY menuitem.the.rows.should.get.the.formatting.of.their.new.positions.slow "as linhas devem receber formatação conforme suas novas posições (lento)">
+<!ENTITY menuitem.each.cell.should.get.the.formatting.of.its.new.position.slowest "cada célula deve receber formatação conforme sua nova posição (muito lento!)">

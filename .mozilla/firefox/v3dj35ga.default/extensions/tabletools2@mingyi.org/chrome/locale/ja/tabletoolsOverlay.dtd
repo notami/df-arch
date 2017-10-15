@@ -1,0 +1,42 @@
+<!ENTITY menu.searchmenu "検索">
+<!ENTITY menu.sort.column.as "列ソートする。対象のデータ型:">
+<!ENTITY menu.multisort.column.as "複数列ソートする。対象のデータ型:">
+<!ENTITY menuitem.us.time.m.d.y "アメリカ表記の時間（月 日 年）">
+<!ENTITY menuitem.european.time.d.m.y "ヨーロッパ表記の時間（日 月 年）">
+<!ENTITY menuitem.time.y.m.d "時間（年 月 日）">
+<!ENTITY menuitem.number.currency "数値／通貨">
+<!ENTITY menuitem.ip.address "IP アドレス">
+<!ENTITY menuitem.alphanumerically "英数字">
+<!ENTITY menuitem.auto.detect "自動検出したデータ型">
+<!ENTITY menu.copy "コピー">
+<!ENTITY menu.filter "フィルタ">
+<!ENTITY menuitem.toggle.filters.dropdown "ドロップダウンフィルタの切り替え">
+<!ENTITY menuitem.toggle.filters.search "検索フィルタの切り替え">
+<!ENTITY menuitem.toggle.filters.both "両フィルタの切り替え">
+<!ENTITY menuitem.reset.filters.dropdown "ドロップダウンフィルタをリセット">
+<!ENTITY menuitem.reset.filters.search "検索フィルタをリセット">
+<!ENTITY menuitem.reset.filters.both "両フィルタをリセット">
+<!ENTITY menuitem.copy.as.tab.delimited.text "テーブル（タブ区切りテキスト）">
+<!ENTITY menuitem.copy.as.justified.tab.delimited "テーブル（頭位置揃え＋タブ区切り）">
+<!ENTITY menuitem.copy.as.html "テーブル（ＨＴＭＬ）">
+<!ENTITY menuitem.copy.rows.as.tab.delimited.text "選択行（タブ区切りテキスト）">
+<!ENTITY menuitem.copy.rows.as.justified.tab.delimited.text "選択行（頭位置揃え＋タブ区切りテキスト）">
+<!ENTITY menuitem.copy.cols.as.tab.delimited.text "選択列（タブ区切りテキスト）">
+<!ENTITY menuitem.copy.cols.as.justified.tab.delimited.text "選択列（頭位置揃え＋タブ区切りテキスト）">
+<!ENTITY menuitem.copy.cells.as.tab.delimited.text "選択セル（タブ区切りテキスト）">
+<!ENTITY menuitem.copy.cells.as.justified.tab.delimited.text "選択セル（頭位置揃え＋タブ区切りテキスト）">
+<!ENTITY menuitem.chart "図表を描く">
+<!ENTITY menuitem.toggle.summary "フッター（サマリー）切り替え">
+<!ENTITY menu.others "その他">
+<!ENTITY menuitem.sort.down.only "クリックした行以降をソート／フィルタ">
+<!ENTITY menuitem.sort.up.only "クリックした行までをソート／フィルタ">
+<!ENTITY menuitem.clear.sort.range "ソート／フィルタの範囲をクリア">
+<!ENTITY menuitem.add.table.combine "結合するテーブルを追加">
+<!ENTITY menuitem.add.table.compare "比較するテーブルを追加">
+<!ENTITY menuitem.show.combined.table "結合／比較テーブルを表示">
+<!ENTITY menuitem.clear.combined.table "結合テーブルをクリアする">
+<!ENTITY menuitem.scroll.to.summary "フッターへスクロール">
+<!ENTITY menuitem.hide.column "クリックした列を隠す">
+<!ENTITY menuitem.show.hidden.columns "隠した列を再表示">
+<!ENTITY menuitem.clear.matched.cells "ハイライトしたセルをクリアする">
+<!ENTITY menuitem.scroll.to.table.top "テーブルトップへスクロール">

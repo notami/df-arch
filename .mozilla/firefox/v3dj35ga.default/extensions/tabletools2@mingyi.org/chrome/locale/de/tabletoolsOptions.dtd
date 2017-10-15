@@ -1,0 +1,24 @@
+<!ENTITY dialog.tabletools.options "TableTools2 Einstellungen">
+<!ENTITY caption.app.options "Allgemeine Einstellungen">
+<!ENTITY caption.basic.options "Grundeinstellungen">
+<!ENTITY caption.advanced.options "Fortgeschrittene Einstellungen">
+<!ENTITY label.first.sort.dir "Beim Sortieren einer Spalte, sortiere">
+<!ENTITY checkbox.show.context.shortcuts "Tastenkürzel im Kontextmenü anzeigen?">
+<!ENTITY checkbox.show.summary.labels "Beschriftungen einblenden, wenn die Zusammenfassungsfunktionen angezeigt werden?">
+<!ENTITY checkbox.copy.column.heading.for.row.copy "Spaltenüberschrift mit den gewählten Spalten mitkopieren?">
+<!ENTITY checkbox.copy.column.heading.for.cell.copy "Spaltenüberschrift mit den gewählten Zeilen mitkopieren?">
+<!ENTITY label.when.guessing.time.format.assume.the.date.is "Bei der Zeitformaterkennung, dieses Datumsformat bevorzugen:">
+<!ENTITY menuitem.us.style.month.day.year "US-Format (Monat/Tag/Jahr)">
+<!ENTITY menuitem.european.style.day.month.year "Europäisches Format (Tag/Monat/Jahr)">
+<!ENTITY label.which.decimal.point "Das Dezimalpunkt-Zeichen für Nummern ist">
+<!ENTITY menuitem.asc "aufsteigend">
+<!ENTITY menuitem.desc "absteigend">
+<!ENTITY caption.copy.shortcuts "Tastenkürzel zum Filtern/Kombinieren/Kopieren">
+<!ENTITY caption.other.shortcuts "Weitere Tastenkürzel">
+<!ENTITY checkbox.filters.should.be.filled.on.demand.good.for.large.tables "Filter erst bei Bedarf ausfüllen? (gut für große Tabellen)">
+<!ENTITY checkbox.show.the.benchmark.of.sorting.and.updating.the.tables "Die Leistungserfassung beim Sortieren und Aktualisieren der Tabellen anzeigen">
+<!ENTITY checkbox.use.restart "Die Verwendung von Strg+Alt+R für einen Firefox-Neustart erlauben?">
+<!ENTITY label.when.the.data.rows.in.the.table.are.sorted.and.moved "Wenn die Datenzeilen der Tabellen sortiert und verschoben werden,">
+<!ENTITY menuitem.the.rows.should.retain.their.previous.formatting.fastest "sollen die Zeilen ihre vorherige Formatierung beibehalten (am schnellsten)">
+<!ENTITY menuitem.the.rows.should.get.the.formatting.of.their.new.positions.slow "sollen die Zeilen die Formatierung ihrer neuen Position erhalten (langsam)">
+<!ENTITY menuitem.each.cell.should.get.the.formatting.of.its.new.position.slowest "soll jede Zelle die Formatierung ihrer neuen Position erhalten (am langsamsten!)">
