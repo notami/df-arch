@@ -1,0 +1,21 @@
+nano
+shellqq
+set show hidden
+set show_hidden
+set show-hidden
+open_with i" vi
+open_with 
+shell udo mkdir
+set show_hidden true
+shell 
+
+search Pic
+rename 
+rename font-awesome-4.7.0
+delete
+search fam
+search donal
+open_wit
+delete 
+open_with vim -r
+open_with vim
