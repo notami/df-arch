@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/boxes
+~MSle0~/font
 
 # Last Substitute Search Pattern:
 ~MSle0&p>
@@ -21,9 +21,13 @@ $blockquote>
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1508077471,,"q"
+|2,0,1508133326,,"q"
+:source .zshrc
+|2,0,1508133317,,"source .zshrc"
 :w
-|2,0,1508077468,,"w"
+|2,0,1508133292,,"w"
+:LivedownPreview
+|2,0,1508125842,,"LivedownPreview"
 :source .neomuttrc
 |2,0,1508035911,,"source .neomuttrc"
 :wq
@@ -76,8 +80,6 @@ $blockquote>
 |2,0,1507936053,,".!boxes -d shell"
 :set paste
 |2,0,1507868530,,"set paste"
-:LivedownPreview
-|2,0,1507867589,,"LivedownPreview"
 :bn
 |2,0,1507812678,,"bn"
 :b1
@@ -118,10 +120,10 @@ $blockquote>
 |2,0,1507653202,,"s/p>/blockquote>"
 :s/p/div
 |2,0,1507653146,,"s/p/div"
-:s/div/p
-|2,0,1507653125,,"s/div/p"
 
 # Search String History (newest to oldest):
+?/font
+|2,1,1508130142,47,"font"
 ?/status_le
 |2,1,1508026287,47,"status_le"
 ?/boxes
@@ -170,308 +172,372 @@ $blockquote>
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	<html5>/html5
-|3,0,0,1,1,0,1508030262,"<html5>/html5"
-"1	LINE	0
-	macro index,pager \cu 'urlview' 'Follow links with urlview'
-|3,0,1,1,1,0,1508040787,"macro index,pager \\cu 'urlview' 'Follow links with urlview'"
+"0	CHAR	0
+	orrville, ohio
+|3,0,0,0,1,0,1508128701,"orrville, ohio"
+"1	CHAR	0
+	As you can see in the above outputs, You can find almost all hardware details in seconds using inxi. 
+|3,0,1,0,1,0,1508128000,"As you can see in the above outputs, You can find almost all hardware details in seconds using inxi. "
 "2	LINE	0
-	macro index,pager \Ch "v<right>m" "view message in browser"
-|3,0,2,1,1,0,1508040786,"macro index,pager \\Ch \"v<right>m\" \"view message in browser\""
+	
+|3,0,2,1,1,0,1508127754,""
 "3	LINE	0
-	</html>
-|3,0,3,1,1,0,1508030301,"</html>"
+	Now, let us see how to use it to reveal the Linux system details. inxi usage is pretty simple and straight forward.
+|3,0,3,1,1,0,1508127751,"Now, let us see how to use it to reveal the Linux system details. inxi usage is pretty simple and straight forward."
 "4	LINE	0
 	
-|3,0,4,1,1,0,1508030300,""
+|3,0,4,1,1,0,1508127557,""
 "5	LINE	0
-	<html>
-|3,0,5,1,1,0,1508030300,"<html>"
-"6	LINE	0
-	<html5>/html5
-|3,0,6,1,1,0,1508030250,"<html5>/html5"
-"7	LINE	0
+	Network card?
 	
-|3,0,7,1,1,0,1508025470,""
+	inxi -N
+	
+	As you can see in the above outputs, You can find almost all hardware details in seconds using inxi.
+	
+	It is not only display the hardware details, but also the some other stuffs too.
+	
+	Repositories in your system.  
+	inxi -r
+|3,0,5,1,10,0,1508127347,"Network card?","","inxi -N","","As you can see in the above outputs, You can find almost all hardware details in seconds using inxi.","","It is not only display the hardware details, but also the some other stuffs too.","","Repositories in your system.  ","inxi -r"
+"6	LINE	0
+	
+	Sample output:
+	
+	Code: Select all
+	
+	Weather:   Conditions: 50 F (10 C) - Partly Cloudy Time: June 13, 6:09 AM CEST
+	
+	
+	Really cool, isn’t it?
+	
+|3,0,6,1,10,0,1508127339,"","Sample output:","","Code: Select all","","Weather:   Conditions: 50 F (10 C) - Partly Cloudy Time: June 13, 6:09 AM CEST","","","Really cool, isn’t it?",""
+"7	CHAR	0
+	Yes, you read it right. Let me show you the weather details of my location.
+	
+	
+|3,0,7,0,3,0,1508127216,"Yes, you read it right. Let me show you the weather details of my location.","",""
 "8	LINE	0
 	
-	![Image](http://lorempixel.com/400/200/food)
-|3,0,8,1,2,0,1507869252,"","![Image](http://lorempixel.com/400/200/food)"
+	Sample output:
+	
+	Code: Select all
+	
+	Repos:     Active pacman repo servers in file: /etc/pacman.d/mirrorlist
+	           http://arch.tamcore.eu/$repo/os/$arch
+	           http://mirror.nl.leaseweb.net/archlinux/$repo/os/$arch
+	           http://archlinux.polymorf.fr/$repo/os/$arch
+	           http://mirror.united-gameserver.de/archlinux/$repo/os/$arch
+	           http://archlinux.mirror.kangaroot.net/$repo/os/$arch
+	           http://archlinux.mirrors.uk2.net/$repo/os/$arch
+	           http://archlinux.mailtunnel.eu/$repo/os/$arch
+	           http://mirror.tyborek.pl/arch/$repo/os/$arch
+	           http://archlinux.mirror.pkern.at/$repo/os/$arch
+	           http://mirrors.n-ix.net/archlinux/$repo/os/$arch
+	           http://arch.yourlabs.org/$repo/os/$arch
+	           http://mirror.de.leaseweb.net/archlinux/$repo/os/$arch
+	           http://ftp.snt.utwente.nl/pub/os/linux/archlinux/$repo/os/$arch
+	           http://mirrors.niyawe.de/archlinux/$repo/os/$arch
+	           http://mirror.pseudoform.org/$repo/os/$arch
+	           http://mirror.fluxent.de/archlinux/$repo/os/$arch
+	           http://mirror.vfn-nrw.de/archlinux/$repo/os/$arch
+	           http://mirror.i3d.net/pub/archlinux/$repo/os/$arch
+	           http://ftp.halifax.rwth-aachen.de/archlinux/$repo/os/$arch
+	           https://mirror.nl.leaseweb.net/archlinux/$repo/os/$arch
+	           http://archlinux.thaller.ws/$repo/os/$arch
+	           https://mirror.tyborek.pl/arch/$repo/os/$arch
+	           http://arch.jensgutermuth.de/$repo/os/$arch
+	           http://mirror.js-webcoding.de/pub/archlinux/$repo/os/$arch
+	           http://mirror.ubrco.de/archlinux/$repo/os/$arch
+	           http://mirror.gnomus.de/$repo/os/$arch
+	           https://mirror.wormhole.eu/archlinux/$repo/os/$arch
+	           https://www.mailtunnel.eu/archlinux/$repo/os/$arch
+	           http://archlinux.honkgong.info/$repo/os/$arch
+	           http://mirror.selfnet.de/archlinux/$repo/os/$arch
+	           http://mirrors.manchester.m247.com/arch-linux/$repo/os/$arch
+	           http://archlinux.mirror.iphh.net/$repo/os/$arch
+	           https://mirror.bethselamin.de/$repo/os/$arch
+	           http://mirror.lastmikoi.net/archlinux/$repo/os/$arch
+	           https://archlinux.mirror.pkern.at/$repo/os/$arch
+	           http://repo.itmettke.de/archlinux/$repo/os/$arch
+	           https://mirror.vfn-nrw.de/archlinux/$repo/os/$arch
+	           http://mirror.23media.de/archlinux/$repo/os/$arch
+	           http://arch.serverspace.co.uk/arch/$repo/os/$arch
+	           https://mirror.de.leaseweb.net/archlinux/$repo/os/$arch
+	           https://arch.jensgutermuth.de/$repo/os/$arch
+	           http://ftp.nluug.nl/os/Linux/distr/archlinux/$repo/os/$arch
+	           https://mirror.fluxent.de/archlinux/$repo/os/$arch
+	           http://fooo.biz/archlinux/$repo/os/$arch
+|3,0,8,1,50,0,1508127162,"","Sample output:","","Code: Select all","","Repos:     Active pacman repo servers in file: /etc/pacman.d/mirrorlist","           http://arch.tamcore.eu/$repo/os/$arch","           http://mirror.nl.leaseweb.net/archlinux/$repo/os/$arch","           http://archlinux.polymorf.fr/$repo/os/$arch","           http://mirror.united-gameserver.de/archlinux/$repo/os/$arch","           http://archlinux.mirror.kangaroot.net/$repo/os/$arch",>60
+|<"           http://archlinux.mirrors.uk2.net/$repo/os/$arch","           http://archlinux.mailtunnel.eu/$repo/os/$arch","           http://mirror.tyborek.pl/arch/$repo/os/$arch","           http://archlinux.mirror.pkern.at/$repo/os/$arch","           http://mirrors.n-ix.net/archlinux/$repo/os/$arch","           http://arch.yourlabs.org/$repo/os/$arch","           http://mirror.de.leaseweb.net/archlinux/$repo/os/$arch",>76
+|<"           http://ftp.snt.utwente.nl/pub/os/linux/archlinux/$repo/os/$arch","           http://mirrors.niyawe.de/archlinux/$repo/os/$arch","           http://mirror.pseudoform.org/$repo/os/$arch","           http://mirror.fluxent.de/archlinux/$repo/os/$arch","           http://mirror.vfn-nrw.de/archlinux/$repo/os/$arch","           http://mirror.i3d.net/pub/archlinux/$repo/os/$arch","           http://ftp.halifax.rwth-aachen.de/archlinux/$repo/os/$arch",>68
+|<"           https://mirror.nl.leaseweb.net/archlinux/$repo/os/$arch","           http://archlinux.thaller.ws/$repo/os/$arch","           https://mirror.tyborek.pl/arch/$repo/os/$arch","           http://arch.jensgutermuth.de/$repo/os/$arch","           http://mirror.js-webcoding.de/pub/archlinux/$repo/os/$arch","           http://mirror.ubrco.de/archlinux/$repo/os/$arch","           http://mirror.gnomus.de/$repo/os/$arch","           https://mirror.wormhole.eu/archlinux/$repo/os/$arch",>63
+|<"           https://www.mailtunnel.eu/archlinux/$repo/os/$arch","           http://archlinux.honkgong.info/$repo/os/$arch","           http://mirror.selfnet.de/archlinux/$repo/os/$arch","           http://mirrors.manchester.m247.com/arch-linux/$repo/os/$arch","           http://archlinux.mirror.iphh.net/$repo/os/$arch","           https://mirror.bethselamin.de/$repo/os/$arch","           http://mirror.lastmikoi.net/archlinux/$repo/os/$arch",>61
+|<"           https://archlinux.mirror.pkern.at/$repo/os/$arch","           http://repo.itmettke.de/archlinux/$repo/os/$arch","           https://mirror.vfn-nrw.de/archlinux/$repo/os/$arch","           http://mirror.23media.de/archlinux/$repo/os/$arch","           http://arch.serverspace.co.uk/arch/$repo/os/$arch","           https://mirror.de.leaseweb.net/archlinux/$repo/os/$arch","           https://arch.jensgutermuth.de/$repo/os/$arch",>72
+|<"           http://ftp.nluug.nl/os/Linux/distr/archlinux/$repo/os/$arch","           https://mirror.fluxent.de/archlinux/$repo/os/$arch","           http://fooo.biz/archlinux/$repo/os/$arch"
 "9	LINE	0
-	![Image](http://lorempixel.com/400/200/food)
-|3,0,9,1,1,0,1507869216,"![Image](http://lorempixel.com/400/200/food)"
+	Sample output:
+	
+	Code: Select all
+	
+	Network:   Card: Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe driver: tg3
+	
+	
+|3,0,9,1,7,0,1508127141,"Sample output:","","Code: Select all","","Network:   Card: Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe driver: tg3","",""
 "w	CHAR	0
 	wiindex,
 |3,0,32,0,1,0,1508035892,"wiindex,"
 ""-	CHAR	0
-	b
-|3,1,36,0,1,0,1508040808,"b"
+	powerline
+|3,1,36,0,1,0,1508133283,"powerline"
 
 # File marks:
-'0  100  58  ~/.config/mutt/neomuttrc
-|4,48,100,58,1508077471,"~/.config/mutt/neomuttrc"
-'1  104  23  ~/.config/mutt/neomuttrc
-|4,49,104,23,1508040826,"~/.config/mutt/neomuttrc"
-'2  103  23  ~/.config/mutt/neomuttrc
-|4,50,103,23,1508040826,"~/.config/mutt/neomuttrc"
-'3  1  0  ~/.config/mutt/.neomuttrc
-|4,51,1,0,1508040706,"~/.config/mutt/.neomuttrc"
-'4  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,52,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
-'5  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,53,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
-'6  102  11  ~/.config/mutt/neomuttrc
-|4,54,102,11,1508035923,"~/.config/mutt/neomuttrc"
-'7  102  11  ~/.config/mutt/neomuttrc
-|4,55,102,11,1508035923,"~/.config/mutt/neomuttrc"
-'8  101  11  ~/.config/mutt/neomuttrc
-|4,56,101,11,1508035923,"~/.config/mutt/neomuttrc"
-'9  101  11  ~/.config/mutt/neomuttrc
-|4,57,101,11,1508035923,"~/.config/mutt/neomuttrc"
+'0  11  35  ~/.zshrc
+|4,48,11,35,1508133326,"~/.zshrc"
+'1  45  0  ~/.zshrc
+|4,49,45,0,1508133233,"~/.zshrc"
+'2  45  0  ~/.zshrc
+|4,50,45,0,1508133233,"~/.zshrc"
+'3  25  0  ~/.config/termite/config
+|4,51,25,0,1508132340,"~/.config/termite/config"
+'4  2  0  ~/.config/termite/config
+|4,52,2,0,1508131834,"~/.config/termite/config"
+'5  2  0  ~/.config/termite/config
+|4,53,2,0,1508131834,"~/.config/termite/config"
+'6  1  0  ~/.zshrc
+|4,54,1,0,1508131561,"~/.zshrc"
+'7  1  0  ~/.zshrc
+|4,55,1,0,1508131561,"~/.zshrc"
+'8  1  0  ~/.zshrc
+|4,56,1,0,1508131561,"~/.zshrc"
+'9  1  0  ~/.zshrc
+|4,57,1,0,1508131561,"~/.zshrc"
 
 # Jumplist (newest first):
--'  100  58  ~/.config/mutt/neomuttrc
-|4,39,100,58,1508077471,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508077127,"~/.config/mutt/neomuttrc"
--'  104  23  ~/.config/mutt/neomuttrc
-|4,39,104,23,1508040826,"~/.config/mutt/neomuttrc"
--'  103  23  ~/.config/mutt/neomuttrc
-|4,39,103,23,1508040826,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508040762,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/.neomuttrc
-|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
--'  1  0  ~/.config/mutt/.neomuttrc
-|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
--'  1  0  ~/.config/mutt/.neomuttrc
-|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
--'  1  0  ~/.config/mutt/.neomuttrc
-|4,39,1,0,1508040706,"~/.config/mutt/.neomuttrc"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-|4,39,1,0,1508036032,"/tmp/mutt-monid-arch-1000-23820-13866078664803506783"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  1  0  /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-|4,39,1,0,1508036012,"/tmp/mutt-monid-arch-1000-23820-11831545603335654077"
--'  102  11  ~/.config/mutt/neomuttrc
-|4,39,102,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  101  11  ~/.config/mutt/neomuttrc
-|4,39,101,11,1508035923,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035834,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  101  14  ~/.config/mutt/neomuttrc
-|4,39,101,14,1508035715,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1508035481,"~/.config/mutt/neomuttrc"
+-'  11  35  ~/.zshrc
+|4,39,11,35,1508133326,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
+|4,39,1,0,1508133255,"~/.zshrc"
+-'  45  0  ~/.zshrc
+|4,39,45,0,1508133233,"~/.zshrc"
+-'  45  0  ~/.zshrc
+|4,39,45,0,1508133233,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
+|4,39,1,0,1508132711,"~/.zshrc"
+-'  25  0  ~/.config/termite/config
+|4,39,25,0,1508132340,"~/.config/termite/config"
+-'  25  0  ~/.config/termite/config
+|4,39,25,0,1508132340,"~/.config/termite/config"
+-'  25  0  ~/.config/termite/config
+|4,39,25,0,1508132340,"~/.config/termite/config"
+-'  25  0  ~/.config/termite/config
+|4,39,25,0,1508132340,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508132250,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508132250,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508132250,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508132250,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  2  0  ~/.config/termite/config
+|4,39,2,0,1508131834,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131566,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131566,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131566,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131566,"~/.config/termite/config"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
+|4,39,1,0,1508131561,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
+|4,39,1,0,1508131561,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
+|4,39,1,0,1508131561,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508033154,"~/.zshrc"
+|4,39,1,0,1508131561,"~/.zshrc"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508131371,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  15  24  ~/.config/termite/config
+|4,39,15,24,1508131317,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1508130983,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
+-'  11  7  ~/.config/termite/config
+|4,39,11,7,1508130751,"~/.config/termite/config"
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/mutt/neomuttrc
-	*	1508077468	0
-	"	100	58
-	^	100	59
-	.	100	58
-	+	90	16
-	+	91	9
-	+	102	52
-	+	102	0
-	+	102	155
-	+	104	102
-	+	101	0
-	+	103	20
-	+	104	23
-	+	100	58
-
-> ~/.config/mutt/.neomuttrc
-	*	1508040697	0
-	"	1	0
-
-> /tmp/mutt-monid-arch-1000-23820-13866078664803506783
-	*	1508036029	0
-	"	1	0
-
-> /tmp/mutt-monid-arch-1000-23820-11831545603335654077
-	*	1508036009	0
-	"	1	0
-
 > ~/.zshrc
-	*	1508033018	0
-	"	1	0
-	.	1	0
+	*	1508133323	0
+	"	11	35
+	^	11	36
+	.	11	35
 	+	20	0
 	+	64	0
 	+	1	0
+	+	11	35
+
+> ~/.config/termite/config
+	*	1508132337	0
+	"	25	0
+	^	25	0
+	.	25	0
+	+	11	32
+	+	24	77
+	+	26	21
+	+	25	0
 
 > ~/.vimrc
-	*	1508032799	0
+	*	1508130582	0
 	"	1	0
 	^	117	13
 	.	117	0
@@ -526,6 +592,136 @@ $blockquote>
 	+	117	25
 	+	118	24
 	+	117	0
+
+> /mnt/www/nginx/notes/articles/archlabs.md
+	*	1508129456	0
+	"	50	9
+	^	48	28
+	.	46	18
+	+	26	0
+	+	26	9
+	+	30	0
+	+	25	2
+	+	31	0
+	+	30	0
+	+	31	0
+	+	26	0
+	+	31	0
+	+	30	0
+	+	26	9
+	+	30	42
+	+	25	83
+	+	29	0
+	+	28	0
+	+	29	0
+	+	28	3
+	+	32	42
+	+	50	11
+	+	32	2
+	+	34	0
+	+	33	0
+	+	45	0
+	+	45	36
+	+	50	0
+	+	32	3
+	+	45	0
+	+	34	0
+	+	32	35
+	+	34	28
+	+	34	29
+	+	45	0
+	+	45	36
+	+	49	0
+	+	45	36
+	+	46	0
+	+	45	0
+	+	45	28
+	+	45	29
+	+	46	21
+	+	49	0
+	+	36	2
+	+	40	100
+	+	43	2
+	+	45	2
+	+	49	2
+	+	50	0
+	+	49	41
+	+	45	40
+	+	25	0
+	+	37	0
+	+	38	0
+	+	33	0
+	+	35	0
+	+	37	0
+	+	44	0
+	+	46	0
+	+	50	0
+	+	36	17
+	+	18	0
+	+	17	36
+	+	22	97
+	+	27	0
+	+	20	0
+	+	21	0
+	+	22	64
+	+	22	0
+	+	25	0
+	+	26	0
+	+	25	80
+	+	24	0
+	+	30	0
+	+	32	2
+	+	32	0
+	+	34	0
+	+	36	0
+	+	43	0
+	+	45	0
+	+	49	0
+	+	40	4
+	+	48	0
+	+	47	20
+	+	48	1
+	+	47	22
+	+	48	0
+	+	38	18
+	+	39	0
+	+	41	0
+	+	48	26
+	+	46	18
+
+> /mnt/www/nginx/notes/articles/NERD_tree_1
+	*	1508125740	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/.config/mutt/neomuttrc
+	*	1508077468	0
+	"	100	58
+	^	100	59
+	.	100	58
+	+	90	16
+	+	91	9
+	+	102	52
+	+	102	0
+	+	102	155
+	+	104	102
+	+	101	0
+	+	103	20
+	+	104	23
+	+	100	58
+
+> ~/.config/mutt/.neomuttrc
+	*	1508040697	0
+	"	1	0
+
+> /tmp/mutt-monid-arch-1000-23820-13866078664803506783
+	*	1508036029	0
+	"	1	0
+
+> /tmp/mutt-monid-arch-1000-23820-11831545603335654077
+	*	1508036009	0
+	"	1	0
 
 > ~/.vim/.vimrc
 	*	1508032385	0
@@ -589,12 +785,6 @@ $blockquote>
 	b	62	0
 	c	62	0
 
-> /mnt/www/nginx/notes/articles/NERD_tree_1
-	*	1507999973	0
-	"	20	0
-	.	1	0
-	+	1	0
-
 > ~/.tmux.conf.local
 	*	1507952180	0
 	"	1	0
@@ -637,39 +827,6 @@ $blockquote>
 	^	1	13
 	.	1	13
 	+	1	13
-
-> /mnt/www/nginx/notes/articles/archlabs.md
-	*	1507747027	0
-	"	8	0
-	.	9	0
-	+	2	0
-	+	3	114
-	+	4	0
-	+	6	69
-	+	7	42
-	+	6	2
-	+	8	3
-	+	9	0
-	+	6	1
-	+	8	0
-	+	7	1
-	+	6	0
-	+	7	0
-	+	6	0
-	+	7	0
-	+	3	0
-	+	3	117
-	+	3	0
-	+	3	117
-	+	6	7
-	+	8	0
-	+	6	0
-	+	5	0
-	+	1	0
-	+	3	266
-	+	1	15
-	+	5	0
-	+	9	0
 
 > /mnt/www/nginx/notes/articles/clonezilla-bu.md
 	*	1507744422	0
@@ -1186,13 +1343,6 @@ $blockquote>
 > /tmp/yaourt-tmp-notami/aur-darktable-git/darktable.install
 	*	1499999873	0
 	"	1	0
-
-> ~/.config/termite/config
-	*	1499884296	0
-	"	11	34
-	^	11	35
-	.	11	34
-	+	11	34
 
 > ~/.vimperatorrc
 	*	1499836826	0
