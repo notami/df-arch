@@ -19,3 +19,5 @@ open_wit
 delete 
 open_with vim -r
 open_with vim
+shell extract
+shell extract_mpeg2 

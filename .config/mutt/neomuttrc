@@ -91,11 +91,11 @@ bind index g noop
 bind pager g noop
 macro index,pager gi "<change-folder>=INBOX<enter>" "Go to inbox"
 macro index,pager ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
-macro index,pager gp "<change-folder>=[Gmail]/Purchased<enter>" "Go to Purchased"
-macro index,pager gd "<change-folder>=GD<enter>" "Go to GD"
-macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
-macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 macro index,pager gp "<change-folder>=Purchased<enter>" "Go to Purchased"
+macro index,pager gd "<change-folder>=GD<enter>" "Go to GD"
+# macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to Sent Mail"
 macro index,pager \cb ": unset wait_key; set pipe_decode\n|w3m\n: set wait_key; unset pipe_decode\n" "call w3m to extract URLs out of a message"
 macro index,pager \Ch "v<right>m" "view message in browser"
 

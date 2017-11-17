@@ -8,7 +8,7 @@
     "__value__": "AdnQywACAAAAAAMPAAABVgAABEsAAALrAAADEAAAAXYAAARKAAAC6gAAAAAAAAAAB4A="
   }, 
   "library_usage_stats": {
-    "/mnt/Data/Docs/Calibre Library": 16
+    "/mnt/Data/Docs/Calibre Library": 17
   }, 
   "book_details_splitter_horizontal_state": [
     true, 
@@ -122,10 +122,14 @@
     ]
   ], 
   "tag browser search box visible": false, 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAAPAAAAHgAAB0oAAARrAAAAEAAAAD4AAAdJAAAEagAAAAAAAAAAB4A="
+  }, 
   "previous_sort_order_BooksView": {
     "timestamp": false, 
-    "authors": true, 
-    "title": true
+    "title": true, 
+    "authors": true
   }, 
   "preferences dialog geometry": {
     "__class__": "bytearray", 

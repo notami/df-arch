@@ -436,7 +436,7 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>termite -e "mutt"</command>
+        <command>termite -e "neomutt"</command>
       </action>
     </keybind>
     <keybind key="W-b">

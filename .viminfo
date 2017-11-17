@@ -11,41 +11,103 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/font
+~Msle0~/\<macro\>
 
 # Last Substitute Search Pattern:
-~MSle0&p>
+~MSle0&=editor
 
 # Last Substitute String:
-$blockquote>
+$=vim
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1508183194,,"wq"
+|2,0,1510854258,,"wq"
+:q
+|2,0,1510853988,,"q"
+:bn
+|2,0,1510160219,,"bn"
+:ls
+|2,0,1510160162,,"ls"
+:b1
+|2,0,1510160153,,"b1"
+:q!
+|2,0,1510152755,,"q!"
+:.!boxes -d shell
+|2,0,1510113262,,".!boxes -d shell"
+:split
+|2,0,1510113066,,"split"
+:hsplit
+|2,0,1510113060,,"hsplit"
+:mb
+|2,0,1510113044,,"mb"
+:InstantMarkdownPreview
+|2,0,1510028453,,"InstantMarkdownPreview"
+:PluginInstall
+|2,0,1510028242,,"PluginInstall"
+:bs
+|2,0,1510027861,,"bs"
 :w
-|2,0,1508182973,,"w"
+|2,0,1509943602,,"w"
+:n
+|2,0,1509818733,,"n"
+:cd ~/
+|2,0,1509818613,,"cd ~/"
+:.vimrc
+|2,0,1509818185,,".vimrc"
+:~/.vimrc
+|2,0,1509818164,,"~/.vimrc"
+:vim ~/.vimrc
+|2,0,1509818135,,"vim ~/.vimrc"
+:bls
+|2,0,1509818099,,"bls"
+:lsb
+|2,0,1509818093,,"lsb"
+:5B
+|2,0,1509817816,,"5B"
+:5A
+|2,0,1509817812,,"5A"
+:let @+=@%
+|2,0,1509739325,,"let @+=@%"
+:let "+=@%
+|2,0,1509739298,,"let \"+=@%"
+:system('ls') 
+|2,0,1509738826,,"system('ls') "
+:version
+|2,0,1509738438,,"version"
+:reg
+|2,0,1509738320,,"reg"
+:,n
+|2,0,1509724137,,",n"
+:,l
+|2,0,1509724128,,",l"
+:b3
+|2,0,1509722249,,"b3"
+:1
+|2,0,1509722169,,"1"
+:ls b
+|2,0,1509722155,,"ls b"
+:b2
+|2,0,1509722145,,"b2"
+:b
+|2,0,1509722132,,"b"
+:%s,=editor,=vim
+|2,0,1509251722,,"%s,=editor,=vim"
+:/nano
+|2,0,1508507715,,"/nano"
+:/firefox
+|2,0,1508506963,,"/firefox"
+:source .zshrc
+|2,0,1508206391,,"source .zshrc"
 :LivedownPreview
 |2,0,1508181298,,"LivedownPreview"
-:q
-|2,0,1508135032,,"q"
-:source .zshrc
-|2,0,1508133317,,"source .zshrc"
 :source .neomuttrc
 |2,0,1508035911,,"source .neomuttrc"
-:ls
-|2,0,1508033010,,"ls"
-:q!
-|2,0,1508032617,,"q!"
 :'<,'>!boxes -d shell
 |2,0,1508032241,,"'<,'>!boxes -d shell"
 :source ~/.vimrc
 |2,0,1508031841,,"source ~/.vimrc"
 :!
 |2,0,1508031097,,"!"
-:5B
-|2,0,1508029227,,"5B"
-:5A
-|2,0,1508029226,,"5A"
 :2A
 |2,0,1508028999,,"2A"
 :bd!
@@ -58,70 +120,30 @@ $blockquote>
 |2,0,1508031334,,"bd #"
 :bd#
 |2,0,1508031317,,"bd#"
-:bp
-|2,0,1508031293,,"bp"
-:bp bd #
-|2,0,1508031277,,"bp bd #"
-:enew
-|2,0,1508030624,,"enew"
-:ls b
-|2,0,1508030447,,"ls b"
-:bl
-|2,0,1508030441,,"bl"
-:<>
-|2,0,1508030073,,"<>"
-:%M
-|2,0,1508027075,,"%M"
-:!!boxes -d vim-cmt
-|2,0,1507936245,,"!!boxes -d vim-cmt"
-:!!boxes -d vim-cmt -r
-|2,0,1507936216,,"!!boxes -d vim-cmt -r"
-:.!boxes -d shell
-|2,0,1507936053,,".!boxes -d shell"
-:set paste
-|2,0,1507868530,,"set paste"
-:bn
-|2,0,1507812678,,"bn"
-:b1
-|2,0,1507744426,,"b1"
-:b4
-|2,0,1507744422,,"b4"
-:b3
-|2,0,1507744416,,"b3"
-:3
-|2,0,1507744409,,"3"
-:LivedownKill
-|2,0,1507728904,,"LivedownKill"
-:la b
-|2,0,1507726153,,"la b"
-:lsb
-|2,0,1507726146,,"lsb"
-:LivedownStart
-|2,0,1507724953,,"LivedownStart"
-:b2
-|2,0,1507724878,,"b2"
-:LivedownToggle
-|2,0,1507724174,,"LivedownToggle"
-:PluginInstall
-|2,0,1507693631,,"PluginInstall"
-:instant-markdown-d > /dev/null 2>&1 &
-|2,0,1507692427,,"instant-markdown-d > /dev/null 2>&1 &"
-:call system("curl -X PUT -T - http://localhost:8090/ &>/dev/null &", join(getbufline("%", 1, "$"), "\n"))
-|2,0,1507689710,,"call system(\"curl -X PUT -T - http://localhost:8090/ &>/dev/null &\", join(getbufline(\"%\", 1, \"$\"), \"\\n\"))"
-:call OpenMarkdown ()
-|2,0,1507689703,,"call OpenMarkdown ()"
-:e
-|2,0,1507664726,,"e"
-:exec "!curl -I www.google.com"
-|2,0,1507666507,,"exec \"!curl -I www.google.com\""
-:[200~:call system("curl -X PUT -T - http://localhost:8090/ &>/dev/null &", join(getbufline("%", 1, "$"), "\n"))<PasteEnd>
-|2,0,1507665401,,"[200~:call system(\"curl -X PUT -T - http://localhost:8090/ &>/dev/null &\", join(getbufline(\"%\", 1, \"$\"), \"\\n\"))<PasteEnd>"
-:s/p>/blockquote>
-|2,0,1507653202,,"s/p>/blockquote>"
-:s/p/div
-|2,0,1507653146,,"s/p/div"
 
 # Search String History (newest to oldest):
+? \<macro\>
+|2,1,1510854212,,"\\<macro\\>"
+?/solution
+|2,1,1510584404,47,"solution"
+?/spli
+|2,1,1510152275,47,"spli"
+?/../../../..
+|2,1,1510112795,47,"../../../.."
+?/../../..
+|2,1,1510112795,47,"../../.."
+?/../..
+|2,1,1510112795,47,"../.."
+?/..
+|2,1,1510112795,47,".."
+? =editor
+|2,1,1509251722,,"=editor"
+?/na
+|2,1,1509249902,47,"na"
+? nano
+|2,1,1508507715,,"nano"
+? firefox
+|2,1,1508506963,,"firefox"
 ?/font
 |2,1,1508130142,47,"font"
 ?/status_le
@@ -162,6 +184,18 @@ $blockquote>
 |2,1,1501119774,63," "
 
 # Expression History (newest to oldest):
+=system('ls /mnt')
+|2,2,1509739096,,"system('ls /mnt')"
+=system('ls ~/')
+|2,2,1509739063,,"system('ls ~/')"
+=system('ls ~/Downloads')
+|2,2,1509739047,,"system('ls ~/Downloads')"
+=system('ls')
+|2,2,1509739029,,"system('ls')"
+=system('ls ~/Documents')
+|2,2,1509738981,,"system('ls ~/Documents')"
+=4+4
+|2,2,1509738898,,"4+4"
 
 # Input Line History (newest to oldest):
 @cite>
@@ -172,293 +206,586 @@ $blockquote>
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	s
-|3,0,0,0,1,0,1508182325,"s"
-""1	LINE	0
+"0	LINE	0
+	192.168.1.1
+	192.168.1.2
+	192.168.1.3
+	192.168.1.4
+	192.168.1.0
+	192.168.1.0
+	192.168.1.0
+	192.168.1.0
+|3,0,0,1,8,0,1509738404,"192.168.1.1","192.168.1.2","192.168.1.3","192.168.1.4","192.168.1.0","192.168.1.0","192.168.1.0","192.168.1.0"
+"1	LINE	0
 	
-|3,1,1,1,1,0,1508182921,""
+|3,0,1,1,1,0,1510846997,""
 "2	LINE	0
-	ZSH_THEME="powerlevel9k/powerlevel9k"
-	 
-|3,0,2,1,2,0,1508182304,"ZSH_THEME=\"powerlevel9k/powerlevel9k\""," "
-"3	CHAR	0
-	As you can see in the above outputs, You can find almost all hardware details in seconds using inxi. 
-|3,0,3,0,1,0,1508128000,"As you can see in the above outputs, You can find almost all hardware details in seconds using inxi. "
+	
+|3,0,2,1,1,0,1510846935,""
+"3	LINE	0
+	# Other examples:
+	# set -g @plugin 'github_username/plugin_name'
+	# set -g @plugin 'git@github.com/user/plugin'
+	# set -g @plugin 'git@bitbucket.com/user/plugin'
+|3,0,3,1,4,0,1510846932,"# Other examples:","# set -g @plugin 'github_username/plugin_name'","# set -g @plugin 'git@github.com/user/plugin'","# set -g @plugin 'git@bitbucket.com/user/plugin'"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1508127754,""
+|3,0,4,1,1,0,1510846864,""
 "5	LINE	0
-	Now, let us see how to use it to reveal the Linux system details. inxi usage is pretty simple and straight forward.
-|3,0,5,1,1,0,1508127751,"Now, let us see how to use it to reveal the Linux system details. inxi usage is pretty simple and straight forward."
+	
+	PLUGINS
+|3,0,5,1,2,0,1510846851,"","PLUGINS"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1508127557,""
+|3,0,6,1,1,0,1510846837,""
 "7	LINE	0
-	Network card?
-	
-	inxi -N
-	
-	As you can see in the above outputs, You can find almost all hardware details in seconds using inxi.
-	
-	It is not only display the hardware details, but also the some other stuffs too.
-	
-	Repositories in your system.  
-	inxi -r
-|3,0,7,1,10,0,1508127347,"Network card?","","inxi -N","","As you can see in the above outputs, You can find almost all hardware details in seconds using inxi.","","It is not only display the hardware details, but also the some other stuffs too.","","Repositories in your system.  ","inxi -r"
+	<i class="icon-quote-left icon-large"></i> Can't plug your solution into my problem. 
+|3,0,7,1,1,0,1510584414,"<i class=\"icon-quote-left icon-large\"></i> Can't plug your solution into my problem. "
 "8	LINE	0
+	q
+|3,0,8,1,1,0,1509739119,"q"
+"9	LINE	0
+	Hello
 	
-	Sample output:
+	World
 	
-	Code: Select all
-	
-	Weather:   Conditions: 50 F (10 C) - Partly Cloudy Time: June 13, 6:09 AM CEST
-	
-	
-	Really cool, isnâ€™t it?
-	
-|3,0,8,1,10,0,1508127339,"","Sample output:","","Code: Select all","","Weather:   Conditions: 50 F (10 C) - Partly Cloudy Time: June 13, 6:09 AM CEST","","","Really cool, isnâ€™t it?",""
-"9	CHAR	0
-	Yes, you read it right. Let me show you the weather details of my location.
-	
-	
-|3,0,9,0,3,0,1508127216,"Yes, you read it right. Let me show you the weather details of my location.","",""
+	Bye Bye
+|3,0,9,1,5,0,1509738752,"Hello","","World","","Bye Bye"
+"a	LINE	0
+	Bye Bye
+|3,0,10,1,1,0,1509737182,"Bye Bye"
+"b	LINE	0
+	World
+|3,0,11,1,1,0,1509737187,"World"
+"c	LINE	0
+	Hello
+|3,0,12,1,1,0,1509737192,"Hello"
+"q	CHAR	0
+	ui=€ku€kl€kl€kb€kb/mntq
+|3,0,26,0,1,0,1509739105,"ui=€ku€kl€kl€kb€kb/mntq"
 "w	CHAR	0
 	wiindex,
 |3,0,32,0,1,0,1508035892,"wiindex,"
-"-	CHAR	0
-	ZSH_THEME="powerlevel9k/powerlevel9k"
-|3,0,36,0,1,0,1508182325,"ZSH_THEME=\"powerlevel9k/powerlevel9k\""
+""-	CHAR	0
+	]/
+|3,1,36,0,1,0,1510854166,"]/"
 
 # File marks:
-'0  48  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,48,48,0,1508183194,"/mnt/www/nginx/notes/articles/archlabs.md"
-'1  11  41  ~/.config/termite/config
-|4,49,11,41,1508137250,"~/.config/termite/config"
-'2  11  36  ~/.zshrc
-|4,50,11,36,1508135120,"~/.zshrc"
-'3  11  0  ~/.zshrc
-|4,51,11,0,1508135032,"~/.zshrc"
-'4  11  35  ~/.zshrc
-|4,52,11,35,1508133326,"~/.zshrc"
-'5  12  35  ~/.zshrc
-|4,53,12,35,1508133326,"~/.zshrc"
-'6  11  35  ~/.zshrc
-|4,54,11,35,1508133326,"~/.zshrc"
-'7  12  35  ~/.zshrc
-|4,55,12,35,1508133326,"~/.zshrc"
-'8  11  35  ~/.zshrc
-|4,56,11,35,1508133326,"~/.zshrc"
-'9  45  0  ~/.zshrc
-|4,57,45,0,1508133233,"~/.zshrc"
+'0  97  1  ~/.config/mutt/neomuttrc
+|4,48,97,1,1510854258,"~/.config/mutt/neomuttrc"
+'1  98  37  ~/.config/mutt/neomuttrc
+|4,49,98,37,1510854043,"~/.config/mutt/neomuttrc"
+'2  98  37  ~/.config/mutt/neomuttrc
+|4,50,98,37,1510854043,"~/.config/mutt/neomuttrc"
+'3  65  0  ~/.config/mutt/nv.sidebarrc
+|4,51,65,0,1510853988,"~/.config/mutt/nv.sidebarrc"
+'4  98  78  ~/.config/mutt/neomuttrc
+|4,52,98,78,1510853654,"~/.config/mutt/neomuttrc"
+'5  98  78  ~/.config/mutt/neomuttrc
+|4,53,98,78,1510853654,"~/.config/mutt/neomuttrc"
+'6  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,54,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+'7  275  0  ~/.tmux/.tmux.conf.local
+|4,55,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+'8  274  0  ~/.tmux/.tmux.conf.local
+|4,56,274,0,1510846942,"~/.tmux/.tmux.conf.local"
+'9  1  0  ~/.tmux/.tmux.conf
+|4,57,1,0,1510844507,"~/.tmux/.tmux.conf"
 
 # Jumplist (newest first):
--'  48  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,48,0,1508183194,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  10  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,10,0,1508183162,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  63  113  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,63,113,1508183157,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  57  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,57,0,1508182942,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  54  103  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,54,103,1508182653,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  64  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,64,0,1508182308,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  72  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,72,0,1508181801,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  66  16  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,66,16,1508181556,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  11  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,11,0,1508181029,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  1  0  /mnt/www/nginx/notes/articles/archlabs.md
-|4,39,1,0,1508181024,"/mnt/www/nginx/notes/articles/archlabs.md"
--'  11  41  ~/.config/termite/config
-|4,39,11,41,1508137250,"~/.config/termite/config"
--'  11  41  ~/.config/termite/config
-|4,39,11,41,1508137250,"~/.config/termite/config"
--'  11  36  ~/.zshrc
-|4,39,11,36,1508135120,"~/.zshrc"
--'  11  36  ~/.zshrc
-|4,39,11,36,1508135120,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508135102,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508135102,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1508135032,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1508135032,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508135006,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508135006,"~/.zshrc"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508134446,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508134446,"~/.config/termite/config"
--'  11  35  ~/.zshrc
-|4,39,11,35,1508133326,"~/.zshrc"
--'  12  35  ~/.zshrc
-|4,39,12,35,1508133326,"~/.zshrc"
--'  12  35  ~/.zshrc
-|4,39,12,35,1508133326,"~/.zshrc"
--'  11  35  ~/.zshrc
-|4,39,11,35,1508133326,"~/.zshrc"
--'  11  35  ~/.zshrc
-|4,39,11,35,1508133326,"~/.zshrc"
--'  12  35  ~/.zshrc
-|4,39,12,35,1508133326,"~/.zshrc"
--'  12  35  ~/.zshrc
-|4,39,12,35,1508133326,"~/.zshrc"
--'  11  35  ~/.zshrc
-|4,39,11,35,1508133326,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508133255,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508133255,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508133255,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508133255,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  46  0  ~/.zshrc
-|4,39,46,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  46  0  ~/.zshrc
-|4,39,46,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  46  0  ~/.zshrc
-|4,39,46,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  46  0  ~/.zshrc
-|4,39,46,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  45  0  ~/.zshrc
-|4,39,45,0,1508133233,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508132711,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508132711,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508132711,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1508132711,"~/.zshrc"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  25  0  ~/.config/termite/config
-|4,39,25,0,1508132340,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1508132250,"~/.config/termite/config"
+-'  97  1  ~/.config/mutt/neomuttrc
+|4,39,97,1,1510854258,"~/.config/mutt/neomuttrc"
+-'  96  0  ~/.config/mutt/neomuttrc
+|4,39,96,0,1510854212,"~/.config/mutt/neomuttrc"
+-'  95  1  ~/.config/mutt/neomuttrc
+|4,39,95,1,1510854207,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1510854147,"~/.config/mutt/neomuttrc"
+-'  98  37  ~/.config/mutt/neomuttrc
+|4,39,98,37,1510854043,"~/.config/mutt/neomuttrc"
+-'  98  37  ~/.config/mutt/neomuttrc
+|4,39,98,37,1510854043,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1510853993,"~/.config/mutt/neomuttrc"
+-'  65  0  ~/.config/mutt/nv.sidebarrc
+|4,39,65,0,1510853988,"~/.config/mutt/nv.sidebarrc"
+-'  65  0  ~/.config/mutt/nv.sidebarrc
+|4,39,65,0,1510853988,"~/.config/mutt/nv.sidebarrc"
+-'  65  0  ~/.config/mutt/nv.sidebarrc
+|4,39,65,0,1510853988,"~/.config/mutt/nv.sidebarrc"
+-'  65  0  ~/.config/mutt/nv.sidebarrc
+|4,39,65,0,1510853988,"~/.config/mutt/nv.sidebarrc"
+-'  1  0  ~/.config/mutt/nv.sidebarrc
+|4,39,1,0,1510853752,"~/.config/mutt/nv.sidebarrc"
+-'  1  0  ~/.config/mutt/nv.sidebarrc
+|4,39,1,0,1510853752,"~/.config/mutt/nv.sidebarrc"
+-'  1  0  ~/.config/mutt/nv.sidebarrc
+|4,39,1,0,1510853752,"~/.config/mutt/nv.sidebarrc"
+-'  1  0  ~/.config/mutt/nv.sidebarrc
+|4,39,1,0,1510853752,"~/.config/mutt/nv.sidebarrc"
+-'  98  78  ~/.config/mutt/neomuttrc
+|4,39,98,78,1510853654,"~/.config/mutt/neomuttrc"
+-'  98  78  ~/.config/mutt/neomuttrc
+|4,39,98,78,1510853654,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1510853460,"~/.config/mutt/neomuttrc"
+-'  1  0  ~/.config/mutt/neomuttrc
+|4,39,1,0,1510853460,"~/.config/mutt/neomuttrc"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  15  4  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,15,4,1510850638,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  3  162  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,3,162,1510850315,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  1  0  /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+|4,39,1,0,1510850092,"/tmp/neomutt-monid-arch-1000-24370-11091502188250266772"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  275  0  ~/.tmux/.tmux.conf.local
+|4,39,275,0,1510847004,"~/.tmux/.tmux.conf.local"
+-'  1  0  ~/.tmux/.tmux.conf.local
+|4,39,1,0,1510846982,"~/.tmux/.tmux.conf.local"
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/mutt/neomuttrc
+	*	1510854224	0
+	"	97	1
+	^	96	2
+	.	96	1
+	+	90	16
+	+	91	9
+	+	102	52
+	+	102	0
+	+	102	155
+	+	104	102
+	+	101	0
+	+	103	20
+	+	104	23
+	+	100	58
+	+	98	37
+	+	94	38
+	+	95	0
+	+	96	1
+
+> ~/.config/mutt/nv.sidebarrc
+	*	1510853836	0
+	"	65	0
+
+> /tmp/neomutt-monid-arch-1000-24370-11091502188250266772
+	*	1510850637	0
+	"	15	4
+	^	15	5
+	.	15	4
+	+	16	0
+	+	3	59
+	+	3	53
+	+	4	27
+	+	3	75
+	+	6	62
+	+	9	59
+	+	12	76
+	+	15	4
+
+> ~/.tmux/.tmux.conf.local
+	*	1510846997	0
+	"	275	0
+	.	275	0
+	+	277	28
+	+	268	0
+	+	270	6
+	+	268	0
+	+	270	0
+	+	268	0
+	+	270	0
+	+	269	14
+	+	275	0
+	+	274	44
+	+	275	0
+	b	269	0
+
+> ~/.tmux/.tmux.conf
+	*	1510844230	0
+	"	1	0
+	.	3	0
+	+	3	0
+
+> /tmp/neomutt-monid-arch-1000-15017-16779158046000569260
+	*	1510770421	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	3	254
+	+	1	15
+
+> /tmp/neomutt-monid-arch-1000-9148-12815223298996153240
+	*	1510691353	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	2	0
+	+	1	23
+
+> /tmp/neomutt-monid-arch-1000-5547-13542272185888485286
+	*	1510680751	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> /mnt/www/nginx/refDesk/rantex/quotes.txt
+	*	1510584418	0
+	"	16	0
+	.	16	0
+	+	16	0
+
+> /mnt/www/nginx/notes/rsync.md
+	*	1510160292	0
+	"	3	0
+	.	3	0
+	+	3	0
+
+> /mnt/www/nginx/notes/NERD_tree_1
+	*	1510160281	0
+	"	20	0
+	.	1	0
+	+	1	0
+
+> /mnt/www/nginx/notes/test.markdown
+	*	1510160275	0
+	"	36	0
+	^	62	46
+	.	36	0
+	+	63	0
+	+	64	0
+	+	63	47
+	+	64	0
+	+	63	43
+	+	64	0
+	+	63	0
+	+	62	45
+	+	46	0
+	+	36	41
+	+	36	42
+	+	36	0
+	b	62	0
+	c	62	0
+
+> /mnt/www/nginx/notes/mdwiki-latest.html
+	*	1510159889	0
+	"	1	0
+	.	3	0
+	+	3	0
+
+> /mnt/www/nginx/notes/mdwiki-latest
+	*	1510159511	0
+	"	1	0
+
+> ~/.tmux.conf
+	*	1510152751	0
+	"	177	0
+	.	90	0
+	+	58	0
+	+	1	59
+	+	1	139
+	+	90	0
+
+> ~/.oh-my-zsh/custom/alias.zsh
+	*	1510113309	0
+	"	105	0
+	^	109	0
+	.	108	20
+	+	91	50
+	+	94	8
+	+	33	0
+	+	39	0
+	+	47	0
+	+	53	0
+	+	57	0
+	+	60	0
+	+	65	0
+	+	95	0
+	+	81	0
+	+	78	0
+	+	79	0
+	+	100	28
+	+	101	26
+	+	102	0
+	+	102	11
+	+	96	0
+	+	97	1
+	+	96	0
+	+	100	0
+	+	97	17
+	+	97	0
+	+	100	0
+	+	103	14
+	+	104	0
+	+	103	58
+	+	63	0
+	+	64	7
+	+	65	23
+	+	66	17
+	+	105	0
+	+	108	20
+	b	105	15
+	i	96	0
+
+> ~/.vimrc
+	*	1510113204	0
+	"	180	0
+	^	121	0
+	.	241	22
+	+	281	8
+	+	281	0
+	+	281	4
+	+	281	18
+	+	281	0
+	+	47	30
+	+	48	0
+	+	48	33
+	+	55	0
+	+	48	0
+	+	55	0
+	+	67	17
+	+	55	0
+	+	67	10
+	+	55	0
+	+	67	1
+	+	69	94
+	+	67	17
+	+	69	0
+	+	67	0
+	+	47	0
+	+	48	26
+	+	225	0
+	+	269	0
+	+	265	0
+	+	269	0
+	+	268	0
+	+	269	0
+	+	267	0
+	+	266	0
+	+	258	0
+	+	263	0
+	+	262	0
+	+	258	0
+	+	262	16
+	+	193	0
+	+	188	0
+	+	241	14
+	+	1	1
+	+	1	0
+	+	13	1
+	+	120	0
+	+	119	42
+	+	117	0
+	+	113	1
+	+	114	1
+	+	115	1
+	+	116	1
+	+	118	25
+	+	119	24
+	+	118	0
+	+	49	33
+	+	274	0
+	+	276	0
+	+	275	0
+	+	274	31
+	+	16	0
+	+	249	0
+	+	250	0
+	+	249	0
+	+	248	0
+	+	242	0
+	+	241	22
+	b	16	25
+
+> /mnt/www/nginx/notes/articles/brew.md
+	*	1510028493	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_1
+	*	1510028444	0
+	"	31	0
+	.	1	0
+	+	1	0
+
+> ~/Downloads/Bootstrap/Darkly/index.html
+	*	1509943626	0
+	"	15	0
+	^	1382	0
+	.	1381	7
+	+	1381	7
+
+> /mnt/www/nginx/notes/articles/NERD_tree_1
+	*	1509818710	0
+	"	74	0
+	.	1	0
+	+	1	0
+
+> ~/.tmux.conf.local
+	*	1509817644	0
+	"	261	0
+
+> ~/log.txt
+	*	1509817554	0
+	"	1	0
+
 > /mnt/www/nginx/notes/articles/archlabs.md
-	*	1508183176	0
-	"	48	0
+	*	1509817039	0
+	"	2	0
 	^	63	114
 	.	62	0
 	+	45	40
@@ -556,22 +883,188 @@ $blockquote>
 	+	59	0
 	+	62	0
 
-> /mnt/www/nginx/notes/articles/NERD_tree_1
-	*	1508181019	0
-	"	6	0
+> ~/default.txt
+	*	1509739500	0
+	"	9	0
+	.	8	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	5	0
+	+	6	0
+	+	3	0
+	+	6	0
+	+	4	0
+	+	7	11
+	+	8	11
+	+	14	11
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	7	10
+	+	8	10
+	+	9	10
+	+	10	10
+	+	9	0
+	+	8	0
+	+	9	0
+	+	8	0
+
+> ~/Documents/NERD_tree_1
+	*	1509739012	0
+	"	5	0
 	.	1	0
 	+	1	0
 
 > ~/.zshrc
-	*	1508135118	0
-	"	11	36
-	^	11	37
-	.	11	36
-	+	21	0
-	+	65	0
+	*	1509563687	0
+	"	1	0
+	^	9	21
+	.	9	20
+	+	25	0
+	+	69	0
 	+	1	0
-	+	12	35
-	+	11	36
+	+	15	35
+	+	14	36
+	+	16	35
+	+	16	39
+	+	8	51
+	+	6	0
+	+	9	20
+
+> /tmp/neomutt-monid-arch-1000-12569-15350221554876054314
+	*	1509408603	0
+	"	1	0
+
+> ~/.conkyrc
+	*	1509252429	0
+	"	1	0
+
+> ~/.zprofile
+	*	1509251734	0
+	"	11	0
+	^	11	57
+	.	11	0
+	+	11	0
+
+> ~/.config/ranger/rc.conf
+	*	1509250452	0
+	"	619	0
+	^	87	23
+	.	87	22
+	+	87	22
+
+> ~/.config/ranger/scope.sh
+	*	1509249867	0
+	"	1	4
+
+> ~/.config/ranger/rifle.conf
+	*	1509249776	0
+	"	197	0
+
+> /tmp/neomutt-monid-arch-1000-6628-9038825043318421993
+	*	1509207470	0
+	"	1	112
+	^	1	113
+	.	1	112
+	+	3	0
+	+	1	112
+
+> /tmp/neomutt-monid-arch-1000-6628-3122011834821266329
+	*	1509207350	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	4	0
+	+	2	0
+	+	1	0
+
+> /tmp/neomutt-monid-arch-1000-5617-1920549507962427653
+	*	1508942403	0
+	"	6	4
+	^	6	5
+	.	6	4
+	+	7	0
+	+	3	103
+	+	6	4
+
+> /tmp/neomutt-monid-arch-1000-26301-2345087064105695054
+	*	1508871642	0
+	"	24	4
+	^	24	5
+	.	24	4
+	+	8	0
+	+	2	238
+	+	3	7
+	+	4	0
+	+	1	1
+	+	5	59
+	+	7	27
+	+	6	0
+	+	4	57
+	+	9	66
+	+	11	55
+	+	9	29
+	+	2	218
+	+	3	171
+	+	16	242
+	+	18	70
+	+	13	208
+	+	13	89
+	+	15	38
+	+	19	39
+	+	15	0
+	+	26	0
+	+	21	32
+	+	24	4
+
+> ~/.task/task.d6df655a.task
+	*	1508851907	0
+	"	1	0
+
+> /tmp/neomutt-monid-arch-1000-22741-8566590517976458732
+	*	1508849440	0
+	"	1	0
+
+> ~/.task/task.e96020cd.task
+	*	1508638092	0
+	"	24	0
+
+> ~/.bashrc
+	*	1508508892	0
+	"	54	0
+	.	55	0
+	+	48	47
+	+	57	9
+	+	55	0
+
+> ~/.mailcap
+	*	1508507120	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> /tmp/neomutt-monid-arch-1000-22613-15254116554675278833
+	*	1508374533	0
+	"	1	56
+	^	1	57
+	.	1	56
+	+	2	0
+	+	1	56
+
+> ~/.taskrc
+	*	1508210540	0
+	"	1	0
+
+> ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
+	*	1508209174	0
+	"	125	0
 
 > ~/.config/termite/config
 	*	1508134625	0
@@ -583,79 +1076,6 @@ $blockquote>
 	+	26	21
 	+	25	0
 	+	11	0
-
-> ~/.vimrc
-	*	1508130582	0
-	"	1	0
-	^	117	13
-	.	117	0
-	+	279	8
-	+	279	0
-	+	279	4
-	+	279	18
-	+	279	0
-	+	47	30
-	+	48	0
-	+	48	33
-	+	54	0
-	+	48	0
-	+	54	0
-	+	66	17
-	+	54	0
-	+	66	10
-	+	54	0
-	+	66	1
-	+	68	94
-	+	66	17
-	+	68	0
-	+	66	0
-	+	47	0
-	+	48	26
-	+	224	0
-	+	268	0
-	+	264	0
-	+	268	0
-	+	267	0
-	+	268	0
-	+	266	0
-	+	265	0
-	+	257	0
-	+	262	0
-	+	261	0
-	+	257	0
-	+	261	16
-	+	192	0
-	+	187	0
-	+	240	14
-	+	1	1
-	+	1	0
-	+	13	1
-	+	119	0
-	+	118	42
-	+	116	0
-	+	112	1
-	+	113	1
-	+	114	1
-	+	115	1
-	+	117	25
-	+	118	24
-	+	117	0
-
-> ~/.config/mutt/neomuttrc
-	*	1508077468	0
-	"	100	58
-	^	100	59
-	.	100	58
-	+	90	16
-	+	91	9
-	+	102	52
-	+	102	0
-	+	102	155
-	+	104	102
-	+	101	0
-	+	103	20
-	+	104	23
-	+	100	58
 
 > ~/.config/mutt/.neomuttrc
 	*	1508040697	0
@@ -673,82 +1093,9 @@ $blockquote>
 	*	1508032385	0
 	"	1	0
 
-> ~/.tmux/.tmux.conf.local
-	*	1508028013	0
-	"	151	0
-
-> ~/.oh-my-zsh/custom/alias.zsh
-	*	1508025632	0
-	"	66	16
-	^	66	17
-	.	66	17
-	+	91	50
-	+	94	8
-	+	33	0
-	+	39	0
-	+	47	0
-	+	53	0
-	+	57	0
-	+	60	0
-	+	65	0
-	+	95	0
-	+	81	0
-	+	78	0
-	+	79	0
-	+	100	28
-	+	101	26
-	+	102	0
-	+	102	11
-	+	96	0
-	+	97	1
-	+	96	0
-	+	100	0
-	+	97	17
-	+	97	0
-	+	100	0
-	+	103	14
-	+	104	0
-	+	103	58
-	+	63	0
-	+	64	7
-	+	65	23
-	+	66	17
-	i	96	0
-
-> /mnt/www/nginx/notes/test.markdown
-	*	1508000861	0
-	"	1	0
-	^	62	46
-	.	62	45
-	+	63	0
-	+	64	0
-	+	63	47
-	+	64	0
-	+	63	43
-	+	64	0
-	+	63	0
-	+	62	45
-	b	62	0
-	c	62	0
-
-> ~/.tmux.conf.local
-	*	1507952180	0
-	"	1	0
-
 > .tmux/.tmux.conf
 	*	1507949098	0
 	"	1	0
-
-> ~/.tmux.conf
-	*	1507948832	0
-	"	1	0
-
-> ~/.config/ranger/rc.conf
-	*	1507935319	0
-	"	346	0
-	^	87	23
-	.	87	22
-	+	87	22
 
 > /mnt/www/nginx/notes/articles/dotfiles.md
 	*	1507812700	0
@@ -814,13 +1161,6 @@ $blockquote>
 	+	2	0
 	+	3	8
 	+	4	0
-
-> ~/.bashrc
-	*	1507691328	0
-	"	58	0
-	^	48	48
-	.	48	47
-	+	48	47
 
 > /usr/lib/node_modules/instant-markdown-d/instant-markdown-d
 	*	1507691101	0
@@ -1196,100 +1536,3 @@ $blockquote>
 	+	4	12
 	+	4	77
 	+	9	4
-
-> ~/doiboot.sh
-	*	1502675634	0
-	"	18	5
-	^	18	6
-	.	18	5
-	+	18	5
-
-> /tmp/mutt-monid-arch-1000-901-5622897192437182634
-	*	1502541749	0
-	"	1	11
-	^	40	75
-	.	40	74
-	+	41	178
-	+	3	0
-	+	13	0
-	+	24	0
-	+	4	0
-	+	6	0
-	+	8	0
-	+	10	0
-	+	27	0
-	+	29	0
-	+	31	0
-	+	33	0
-	+	35	0
-	+	37	0
-	+	39	0
-	+	41	0
-	+	32	28
-	+	34	73
-	+	36	36
-	+	38	12
-	+	38	27
-	+	40	74
-
-> /tmp/mutt-monid-arch-1000-8975-14882896249298225383
-	*	1502291375	0
-	"	43	4
-	^	43	5
-	.	43	4
-	+	46	78
-	+	3	72
-	+	3	57
-	+	43	4
-
-> ~/.mutt/cache/headers
-	*	1501985569	0
-	"	1	0
-
-> /tmp/mutt-monid-arch-1000-15584-17553016420148012190
-	*	1501725230	0
-	"	1	78
-	^	1	79
-	.	1	78
-	+	2	0
-	+	1	78
-
-> /tmp/mutt-monid-arch-1000-25023-2889425502753835473
-	*	1501511389	0
-	"	5	0
-	^	5	0
-	.	5	4
-	+	5	4
-
-> /tmp/mutt-monid-arch-1000-15143-17189166056344692315
-	*	1501126783	0
-	"	1	34
-	^	1	35
-	.	1	35
-	+	3	64
-	+	1	35
-
-> ~/.vim/bundle/vim-cheat40/plugin/cheat40.vim
-	*	1501119827	0
-	"	13	15
-	^	13	16
-	.	13	15
-	+	13	15
-
-> /tmp/mutt-monid-arch-1000-15036-14284637672143094354
-	*	1500404958	0
-	"	7	4
-	^	7	5
-	.	7	4
-	+	8	0
-	+	3	79
-	+	4	4
-	+	7	4
-
-> /tmp/yaourt-tmp-notami/aur-darktable-git/darktable.install
-	*	1499999873	0
-	"	1	0
-
-> ~/.vimperatorrc
-	*	1499836826	0
-	"	1	0

@@ -46,6 +46,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'powerline/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'lifepillar/vim-cheat40'
 Plugin 'shime/vim-livedown'
+Plugin 'dhruvasagar/vim-table-mode'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -237,14 +238,14 @@ nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
-nmap <leader>bs :ls<CR>i
+nmap <leader>bs :ls<CR>
 "}}}
 
 " Line Shortcuts 
 nnoremap G Gzz
 nnoremap { {zz
 nnoremap } }zz
-"
+
 
 " COMMAND SHORTCUTS 
 nnoremap ; :
@@ -270,6 +271,7 @@ vmap <C-Up> [egv
 vmap <C-Down> ]egv                                                 
 
 nmap <leader>t :NERDTreeToggle<CR>                                 
+nmap <leader>tm :TableModeToggle<CR>                                 
 
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256

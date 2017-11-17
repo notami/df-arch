@@ -102,3 +102,8 @@ alias cdrip="cdparanoia -BZ"
 alias cdrip+="cdparanoia -B"
 alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 
+####################
+# Search arch wiki #
+####################
+alias aw='arch-wiki'
+

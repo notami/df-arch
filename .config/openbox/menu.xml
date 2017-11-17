@@ -60,7 +60,7 @@
     <item label="Qt4 Designer"><action name="Execute"><command><![CDATA[designer-qt4]]></command></action></item>
     <item label="Qt4 Linguist"><action name="Execute"><command><![CDATA[linguist-qt4]]></command></action></item>
     <item label="Qt4 QDbusViewer"><action name="Execute"><command><![CDATA[qdbusviewer-qt4]]></command></action></item>
-    <item label="Sublime Text 3 Dev"><action name="Execute"><command><![CDATA[subl3]]></command></action></item>
+    <item label="Sublime Text"><action name="Execute"><command><![CDATA[/opt/sublime_text/sublime_text]]></command></action></item>
   </menu>
   <menu id="Graphics" label="Graphics">
     <item label="Darktable"><action name="Execute"><command><![CDATA[/usr/bin/darktable]]></command></action></item>
@@ -94,7 +94,8 @@
     <item label="Avahi VNC Server Browser"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
     <item label="ELinks"><action name="Execute"><command><![CDATA[termite -e '/usr/bin/elinks']]></command></action></item>
     <item label="FileZilla"><action name="Execute"><command><![CDATA[filezilla]]></command></action></item>
-    <item label="Firefox"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Firefox ESR - Safe Mode"><action name="Execute"><command><![CDATA[firefox-esr -safe-mode]]></command></action></item>
+    <item label="Firefox ESR"><action name="Execute"><command><![CDATA[firefox-esr]]></command></action></item>
     <item label="HexChat"><action name="Execute"><command><![CDATA[hexchat --existing]]></command></action></item>
     <item label="lftp"><action name="Execute"><command><![CDATA[termite -e 'lftp']]></command></action></item>
     <item label="Mail Reader"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
@@ -155,7 +156,7 @@
     <item label="Avahi Zeroconf Browser"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
     <item label="Bulk Rename"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
     <item label="Disk Usage Analyzer"><action name="Execute"><command><![CDATA[baobab]]></command></action></item>
-    <item label="GParted"><action name="Execute"><command><![CDATA[/usr/bin/gparted_polkit]]></command></action></item>
+    <item label="GParted"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
     <item label="Grsync"><action name="Execute"><command><![CDATA[/usr/bin/grsync -i]]></command></action></item>
     <item label="Grub Customizer"><action name="Execute"><command><![CDATA[grub-customizer]]></command></action></item>
     <item label="Htop"><action name="Execute"><command><![CDATA[termite -e 'htop']]></command></action></item>

@@ -49,7 +49,8 @@ x W-k             	slimlock
 x W-r             	rofi-theme-selector
 x C-A-r           	rofi-theme-selector
 x W-e             	geany
-x W-m             	deadbeef
+x W-m             	termite -e "mutt"
+x W-b             	deadbeef
 x W-h             	urxvt -T 'htop task manager' -e htop
 x W-v             	pavucontrol
 x C-A-u           	pavucontrol
@@ -78,7 +79,7 @@ x                 	variety -n
 x A-Down          	variety --resume
 x A-Up            	variety --pause
 x W-Pause         	oblogout
-o S-W-q           	Close
+o W-q             	Close
 x W-Return        	termite
 x S-W-Return      	thunar
 x W-F1            	exo-open --launch webbrowser
@@ -98,6 +99,7 @@ x C-A-j           	obmenu3
 x C-A-k           	obkey
 x C-A-a           	xfce4-appfinder
 x C-A-T           	termite
+x C-A-T           	termite -e mutt
 o C-A-d           	ToggleShowDesktop
 x C-A-V           	vivaldi-snapshot
 x C-A-B           	thunar

@@ -3,13 +3,16 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/notami/.oh-my-zsh
-export VISUAL=vim
-export EDITOR="$VISUAL"
+# export VISUAL=vim
+# export EDITOR="$VISUAL"
+VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 POWERLEVEL9K_MODE='awesome-fontconfig'
 ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_TIME_FORMAT="%D{%l:%M} \uf017"
 
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"

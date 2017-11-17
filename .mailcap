@@ -1,4 +1,4 @@
-text/html; firefox %s &; test=test -n "$DISPLAY"; needsterminal;
+text/html; firefox-esr %s &; test=test -n "$DISPLAY"; needsterminal;
 text/plain; w3m -I %{charset} -T text/html; copiousoutput;
 text/calendar; ~/.config/mutt/dump-ical.py %s; copiousoutput;
 image/*; /usr/bin/feh '%s'; test=test -n "$DISPLAY"

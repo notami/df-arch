@@ -3,90 +3,80 @@ tint2: xRandr: Linking output LVDS-1 with crtc 0
 tint2: xRandr: crtc 1 seems disabled
 tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
 tint2: Loading config file: /home/notami/.config/tint2/tint2rc
-tint2: deprecated config option "primary_monitor_first"
-       Please see the documentation regarding the alternatives.
 tint2: real transparency on... depth: 32
-tint2: panel items: LTBSC
+tint2: panel items: LTSC
 tint2: Systray composited rendering on
-[1;32mtint2: Found power device BAT0[0m
-[1;32mFound battery "BAT0"[0m
-[1;32mtint2: Found power device AC[0m
-[1;32mFound mains "AC"[0m
 tint2: nb monitors 1, nb monitors used 1, nb desktops 4
 Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
 tint2: Kernel uevent interface initialized...
-tint2: systray window 12582924
+tint2: systray window 10485772
 [1;32mtint2: systray started[0m
-[1;32madd_icon: 23068675 (pamac-tray), pid 16094, visual 0x55c93fe5fdf0, colormap 23068674, depth 32, width 1, height 1[0m
-[1;32madd_icon: 25165827 (NetworkManager Applet), pid 16099, visual 0x55c93fe5fdf0, colormap 25165826, depth 32, width 1, height 1[0m
+/bin/sh: /opt/Temps/Temps.app: No such file or directory
+[1;32madd_icon: 29360131 (pamac-tray), pid 577, visual 0x5582755dbdf0, colormap 29360130, depth 32, width 1, height 1[0m
+[1;32madd_icon: 27262979 (NetworkManager Applet), pid 586, visual 0x5582755dbdf0, colormap 27262978, depth 32, width 1, height 1[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
-[1;33mtint2: remove_icon: 23068675 (pamac-tray)[0m
-[1;32madd_icon: 23068683 (pamac-tray), pid 16094, visual 0x55c93fe5fdf0, colormap 23068674, depth 32, width 1, height 1[0m
+[1;33mtint2: remove_icon: 29360131 (pamac-tray)[0m
+[1;32madd_icon: 29360139 (pamac-tray), pid 577, visual 0x5582755dbdf0, colormap 29360130, depth 32, width 1, height 1[0m
 
-(pamac-tray:16094): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-WARNING: 2017-10-16 01:39:18,981: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+(pamac-tray:577): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 conky: desktop window (39e) is root window
 conky: window type - desktop
-conky: drawing to created window (0x1c00002)
+conky: drawing to created window (0x1e00002)
 conky: drawing to double buffer
-conky: forked to background, pid is 16193
-[1;32madd_icon: 27262979 (variety), pid 16093, visual 0x55c93fe5fdf0, colormap 27262978, depth 32, width 1, height 1[0m
+conky: forked to background, pid is 695
 
+Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
+WARNING: 2017-11-16 15:44:39,559: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+[1;32madd_icon: 33554435 (variety), pid 576, visual 0x5582755dbdf0, colormap 33554434, depth 32, width 1, height 1[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
-[1;33mtint2: remove_icon: 27262979 (variety)[0m
-[1;32madd_icon: 27262983 (variety), pid 16093, visual 0x55c93fe5fdf0, colormap 27262978, depth 32, width 16, height 16[0m
+[1;33mtint2: remove_icon: 33554435 (variety)[0m
+[1;32madd_icon: 33554439 (variety), pid 576, visual 0x5582755dbdf0, colormap 33554434, depth 32, width 1, height 1[0m
 
-(variety:16093): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(variety:576): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 conky: desktop window (39e) is root window
 conky: window type - desktop
-conky: drawing to created window (0x2200001)
+conky: drawing to created window (0x2400001)
 conky: drawing to double buffer
 conky: one or more $endif's are missing
-conky: forked to background, pid is 16220
+conky: forked to background, pid is 736
 
 
-** (clipit:16215): WARNING **: Binding '<Ctrl><Alt>A' failed!
+** (clipit:735): WARNING **: Binding '<Ctrl><Alt>A' failed!
 
 
-** (clipit:16215): WARNING **: Binding '<Ctrl><Alt>F' failed!
+** (clipit:735): WARNING **: Binding '<Ctrl><Alt>F' failed!
 
 
-** (clipit:16215): WARNING **: Binding '<Ctrl><Alt>O' failed!
+** (clipit:735): WARNING **: Binding '<Ctrl><Alt>O' failed!
 
-[1;32madd_icon: 33554438 (clipit), pid 16215, visual 0x55c93fe5fdf0, colormap 33554437, depth 32, width 1, height 1[0m
+[1;32madd_icon: 35651590 (clipit), pid 735, visual 0x5582755dbdf0, colormap 35651589, depth 32, width 1, height 1[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
 [1;31mtint2: systray: error code 9[0m
-[1;33mtint2: remove_icon: 33554438 (clipit)[0m
-[1;32madd_icon: 33554442 (clipit), pid 16215, visual 0x55c93fe5fdf0, colormap 33554437, depth 32, width 1, height 1[0m
+[1;33mtint2: remove_icon: 35651590 (clipit)[0m
+[1;32madd_icon: 35651594 (clipit), pid 735, visual 0x5582755dbdf0, colormap 35651589, depth 32, width 1, height 1[0m
 
-(clipit:16215): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-ERROR: 2017-10-16 01:39:28,916: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/big_75df8421f5f93f0796c6a0daab69bdf8b6e10ce2.png'
+(clipit:735): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+ERROR: 2017-11-16 15:44:41,895: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/wallpaper-2182291.png'
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
     i = PILImage.open(img)
   File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
     % (filename if filename else fp))
-IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/big_75df8421f5f93f0796c6a0daab69bdf8b6e10ce2.png'
-ERROR: 2017-10-16 01:39:28,918: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/03-afternoon.png'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
-    i = PILImage.open(img)
-  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
-    % (filename if filename else fp))
-IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/03-afternoon.png'
+IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/wallpaper-2182291.png'
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
 Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
 /usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecureRequestWarning)
-ERROR: 2017-10-16 01:39:39,447: reporting_thread_method() 'Stats: Could not report config'
+/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+ERROR: 2017-11-16 15:45:00,080: reporting_thread_method() 'Stats: Could not report config'
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
     self.smart.stats_report_config()
@@ -99,222 +89,10 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-ERROR: 2017-10-16 01:40:09,993: reporting_thread_method() 'Stats: Could not report config'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
-    self.smart.stats_report_config()
-  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
-    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
-    return Util.request(url, data).json()
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
-    r.raise_for_status()
-  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-ERROR: 2017-10-16 01:40:40,533: reporting_thread_method() 'Stats: Could not report config'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
-    self.smart.stats_report_config()
-  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
-    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
-    return Util.request(url, data).json()
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
-    r.raise_for_status()
-  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-ERROR: 2017-10-16 04:39:20,591: image_ok() 'Error in image_ok for file /home/notami/.config/variety/Downloaded/Desktoppr/snowycreek1440p.png'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1531, in image_ok
-    i = PILImage.open(img)
-  File "/usr/lib/python2.7/site-packages/PIL/Image.py", line 2572, in open
-    % (filename if filename else fp))
-IOError: cannot identify image file u'/home/notami/.config/variety/Downloaded/Desktoppr/snowycreek1440p.png'
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-ERROR: 2017-10-16 07:40:41,099: reporting_thread_method() 'Stats: Could not report config'
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/site-packages/variety/VarietyWindow.py", line 1003, in reporting_thread_method
-    self.smart.stats_report_config()
-  File "/usr/lib/python2.7/site-packages/variety/Smart.py", line 851, in stats_report_config
-    res = Util.fetch_json(Smart.API_URL + '/stats/%s/report-config' % statsid, data=data)
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 534, in fetch_json
-    return Util.request(url, data).json()
-  File "/usr/lib/python2.7/site-packages/variety/Util.py", line 507, in request
-    r.raise_for_status()
-  File "/usr/lib/python2.7/site-packages/requests/models.py", line 935, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-HTTPError: 500 Server Error: Internal Server Error for url: https://vrty.org/api/stats/mcpe04pkk5/report-config
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-Property "/backdrop/screen0/monitor0/workspace0/last-image" does not exist on channel "xfce4-desktop".
-/usr/lib/python2.7/site-packages/urllib3/connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
-  InsecureRequestWarning)
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-
-** (xfsettingsd:16101): CRITICAL **: dbus_g_proxy_disconnect_signal: assertion '!DBUS_G_PROXY_DESTROYED (proxy)' failed
-[1;31mtint2: systray: error code 9[0m
-[1;33mtint2: remove_icon: 25165827 (NetworkManager Applet)[0m
+[1;33mtint2: remove_icon: 35651594 (clipit)[0m
 XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 118655 requests (118655 known processed) with 0 events remaining.
-/home/notami/.config/openbox/autostart: line 37: 16215 Terminated              clipit
+      after 5541 requests (5538 known processed) with 0 events remaining.
 XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
-      after 3952510 requests (3952510 known processed) with 0 events remaining.
+      after 6795 requests (6795 known processed) with 0 events remaining.
 XIO:  fatal IO error 0 (Success) on X server ":0"
-      after 3842486 requests (3842486 known processed) with 0 events remaining.
+      after 6307 requests (6307 known processed) with 0 events remaining.

@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns:NC="http://home.netscape.com/NC-rdf#" xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="urn:mozilla:install-manifest" em:id="tabletools2@mingyi.org" em:unpack="true" em:type="2" em:name="TableTools2" em:version="1.17.1-signed.1-signed" em:creator="Mingyi Liu" em:description="Sort, search, filter, chart, summarize, copy, rearrange, combine and compare HTML tables" em:homepageURL="http://www.mingyi.org" em:iconURL="chrome://tabletools2/skin/ttool_small.png" em:optionsURL="chrome://tabletools2/content/tabletoolsOptions.xul" em:aboutURL="chrome://tabletools2/content/about.xul" em:contributor="TT2 Charting function uses the canvasXpress package by Isaac Neuhaus">
-    <em:targetApplication RDF:resource="rdf:#$qQzMT2"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$qQzMT2" em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}" em:minVersion="1.0" em:maxVersion="13.*"/>
-</RDF:RDF>
