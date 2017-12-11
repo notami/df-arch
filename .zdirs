@@ -1,10 +1,13 @@
-/mnt/www/nginx/notes
 /mnt/www/nginx/notes/articles
+/run/media/notami/Music
+/run/media/notami
+/home/notami/.newsboat
+/home/notami/Downloads
+/mnt/www/nginx/notes
 /home/notami
 /home/notami/Downloads/Archlabs/Archlabs-Nemesis
 /home/notami/Downloads/Bootstrap/Darkly
 /home/notami/Downloads/Bootstrap
-/home/notami/Downloads
 /home/notami/Documents
 /usr/share
 /home
@@ -13,8 +16,3 @@
 /home/notami/.oh-my-zsh
 /run/media/notami/EASY2BOOT/_ISO/docs/linux_utils
 /run/media/notami/EASY2BOOT/_ISO/docs
-/run/media/notami/EASY2BOOT
-/run/media/notami/EASY2BOOT/_ISO
-/run/media/notami/EASY2BOOT/_ISO/LINUX
-/run/media/notami
-/home/notami/Downloads/Easy2Boot_v1.96/_ISO/docs/linux_utils

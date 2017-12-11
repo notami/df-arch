@@ -39,8 +39,10 @@ alias cp="config push"
 
 ### dot files ###
 alias v3="vim /home/notami/.i3/config"
-alias vg="vim /home/notami/.config/ranger/rc.conf"
-alias vr="vim /home/notami/.vimperatorrc"
+alias vr="vim /home/notami/.config/ranger/rc.conf"
+alias vm="vim /home/notami/.config/mutt/neomuttrc"
+alias vn="vim /home/notami/.newsboat/config"
+alias vp="vim /home/notami/.vimperatorrc"
 alias vv="vim /home/notami/.vimrc"
 alias vz="vim /home/notami/.zshrc"
 alias vza="vim /home/notami/.oh-my-zsh/custom/alias.zsh"

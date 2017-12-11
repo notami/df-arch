@@ -81,8 +81,7 @@ bind editor <Tab> complete-query
 bind editor ^T complete
 bind editor <space> noop 
 # delete msg
-# bind index d delete-message
-# bind pager d delete-message
+# bind index,pager d delete-message
 
 # Gmail-style keyboard shortcuts
 macro index,pager y "<enter-command>unset trash\n <delete-message>" "Gmail archive message"
@@ -97,7 +96,7 @@ macro index,pager gd "<change-folder>=GD<enter>" "Go to GD"
 macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to Sent Mail"
 macro index,pager \cb ": unset wait_key; set pipe_decode\n|w3m\n: set wait_key; unset pipe_decode\n" "call w3m to extract URLs out of a message"
-macro index,pager \Ch "v<right>m" "view message in browser"
+macro index,pager o "v<right>m" "view message in browser"
 
 # Make urlscan replace urlview.  urlscan supports more encodings and has more info in the url list (but can be compacted like urlview with a config option)
 macro index,pager \cu "<pipe-message> urlscan<Enter>" "call urlscan to extract URLs out of a message"
