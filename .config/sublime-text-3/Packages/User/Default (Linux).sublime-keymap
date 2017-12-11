@@ -1,0 +1,18 @@
+[
+// run paste as link command on selected text
+    { "keys": ["ctrl+super+v"], "command": "reference_new_inline_link", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+        ]
+    },
+    { "keys": ["ctrl+shift+super+v"], "command": "reference_new_reference", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+        ]
+    },
+    { "keys": ["ctrl+alt+g"], "command": "reference_jump", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+        ]
+    }
+]

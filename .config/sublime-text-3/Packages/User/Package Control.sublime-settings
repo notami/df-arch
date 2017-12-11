@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements",
+		"Sublimerge 3",
+		"Theme - Cobalt2",
+		"View In Browser"
+	]
+}
