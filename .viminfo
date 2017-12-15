@@ -20,10 +20,12 @@
 $freenas.local
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1512931984,,"q"
 :wq
-|2,0,1512064738,,"wq"
+|2,0,1513299440,,"wq"
+:q
+|2,0,1513136303,,"q"
+:!q;
+|2,0,1513136221,,"!q;"
 :w
 |2,0,1511633437,,"w"
 :q!
@@ -118,8 +120,6 @@ $freenas.local
 |2,0,1508507715,,"/nano"
 :/firefox
 |2,0,1508506963,,"/firefox"
-:source .zshrc
-|2,0,1508206391,,"source .zshrc"
 
 # Search String History (newest to oldest):
 ? \<Archlabs\>
@@ -220,39 +220,38 @@ $freenas.local
 	alias vg="vim /home/notami/.config/ranger/rc.conf"
 |3,0,0,1,1,0,1511232484,"alias vg=\"vim /home/notami/.config/ranger/rc.conf\""
 "1	LINE	0
-	bind index,pager r tag-message
-|3,0,1,1,1,0,1511233480,"bind index,pager r tag-message"
+	autoload -U edit-command-line
+|3,0,1,1,1,0,1513299384,"autoload -U edit-command-line"
 "2	LINE	0
-	File:   $HOME/.newsboat/config
-	Author: Bruce Saurer <notami@gmail.com>
-|3,0,2,1,2,0,1511060598,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
+	bind index,pager r tag-message
+|3,0,2,1,1,0,1511233480,"bind index,pager r tag-message"
 "3	LINE	0
 	File:   $HOME/.newsboat/config
 	Author: Bruce Saurer <notami@gmail.com>
-|3,0,3,1,2,0,1511060575,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
+|3,0,3,1,2,0,1511060598,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
 "4	LINE	0
 	File:   $HOME/.newsboat/config
 	Author: Bruce Saurer <notami@gmail.com>
-|3,0,4,1,2,0,1511060551,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
+|3,0,4,1,2,0,1511060575,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1510846997,""
+	File:   $HOME/.newsboat/config
+	Author: Bruce Saurer <notami@gmail.com>
+|3,0,5,1,2,0,1511060551,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1510846935,""
+|3,0,6,1,1,0,1510846997,""
 "7	LINE	0
+	
+|3,0,7,1,1,0,1510846935,""
+"8	LINE	0
 	# Other examples:
 	# set -g @plugin 'github_username/plugin_name'
 	# set -g @plugin 'git@github.com/user/plugin'
 	# set -g @plugin 'git@bitbucket.com/user/plugin'
-|3,0,7,1,4,0,1510846932,"# Other examples:","# set -g @plugin 'github_username/plugin_name'","# set -g @plugin 'git@github.com/user/plugin'","# set -g @plugin 'git@bitbucket.com/user/plugin'"
-"8	LINE	0
-	
-|3,0,8,1,1,0,1510846864,""
+|3,0,8,1,4,0,1510846932,"# Other examples:","# set -g @plugin 'github_username/plugin_name'","# set -g @plugin 'git@github.com/user/plugin'","# set -g @plugin 'git@bitbucket.com/user/plugin'"
 "9	LINE	0
 	
-	PLUGINS
-|3,0,9,1,2,0,1510846851,"","PLUGINS"
+|3,0,9,1,1,0,1510846864,""
 "a	LINE	0
 	Bye Bye
 |3,0,10,1,1,0,1509737182,"Bye Bye"
@@ -269,234 +268,337 @@ $freenas.local
 	wiindex,
 |3,0,32,0,1,0,1508035892,"wiindex,"
 ""-	CHAR	0
-	source
-|3,1,36,0,1,0,1511636902,"source"
+	/fstab
+|3,1,36,0,1,0,1513299436,"/fstab"
 
 # File marks:
-'0  1  0  /etc/fstab
-|4,48,1,0,1512931984,"/etc/fstab"
-'1  16  14  /tmp/neomutt-monid-arch-1000-11560-11646191177887031843
-|4,49,16,14,1512064738,"/tmp/neomutt-monid-arch-1000-11560-11646191177887031843"
-'2  6  2  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,50,6,2,1512062797,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
-'3  111  0  ~/.config/mutt/neomuttrc
-|4,51,111,0,1512052559,"~/.config/mutt/neomuttrc"
-'4  2  46  ~/.newsboat/urls
-|4,52,2,46,1512052367,"~/.newsboat/urls"
-'5  6711  0  /var/log/pacman.log
-|4,53,6711,0,1512051424,"/var/log/pacman.log"
-'6  38  4  /tmp/neomutt-monid-arch-1000-23164-10758276421142406297
-|4,54,38,4,1511839752,"/tmp/neomutt-monid-arch-1000-23164-10758276421142406297"
-'7  7  4  /tmp/neomutt-monid-arch-1000-20301-3206853583081134261
-|4,55,7,4,1511793695,"/tmp/neomutt-monid-arch-1000-20301-3206853583081134261"
-'8  1  0  /tmp/neomutt-monid-arch-1000-20301-745636044896141879
-|4,56,1,0,1511793402,"/tmp/neomutt-monid-arch-1000-20301-745636044896141879"
-'9  2  25  /tmp/neomutt-monid-arch-1000-18396-8849896661177171157
-|4,57,2,25,1511743582,"/tmp/neomutt-monid-arch-1000-18396-8849896661177171157"
+'0  1  13  /tmp/zsh1YHEHn
+|4,48,1,13,1513299440,"/tmp/zsh1YHEHn"
+'1  30  0  ~/.zshrc
+|4,49,30,0,1513299403,"~/.zshrc"
+'2  1  13  /tmp/zshEG5d4O
+|4,50,1,13,1513299297,"/tmp/zshEG5d4O"
+'3  5  28  ~/.zshrc
+|4,51,5,28,1513298798,"~/.zshrc"
+'4  5  28  ~/.zshrc
+|4,52,5,28,1513298798,"~/.zshrc"
+'5  1  0  ~/.zshrc
+|4,53,1,0,1513136303,"~/.zshrc"
+'6  1  0  ~/.zshrc
+|4,54,1,0,1513136303,"~/.zshrc"
+'7  1  0  ~/.zshrc
+|4,55,1,0,1513136303,"~/.zshrc"
+'8  1  0  ~/.zshrc
+|4,56,1,0,1513136303,"~/.zshrc"
+'9  117  0  ~/.vimrc
+|4,57,117,0,1513136227,"~/.vimrc"
 
 # Jumplist (newest first):
+-'  1  13  /tmp/zsh1YHEHn
+|4,39,1,13,1513299440,"/tmp/zsh1YHEHn"
+-'  30  0  ~/.zshrc
+|4,39,30,0,1513299403,"~/.zshrc"
+-'  30  0  ~/.zshrc
+|4,39,30,0,1513299403,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513299307,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513299307,"~/.zshrc"
+-'  1  13  /tmp/zshEG5d4O
+|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
+-'  1  13  /tmp/zshEG5d4O
+|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
+-'  1  13  /tmp/zshEG5d4O
+|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
+-'  1  13  /tmp/zshEG5d4O
+|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
+-'  5  28  ~/.zshrc
+|4,39,5,28,1513298798,"~/.zshrc"
+-'  5  28  ~/.zshrc
+|4,39,5,28,1513298798,"~/.zshrc"
+-'  5  28  ~/.zshrc
+|4,39,5,28,1513298798,"~/.zshrc"
+-'  5  28  ~/.zshrc
+|4,39,5,28,1513298798,"~/.zshrc"
+-'  5  28  ~/.zshrc
+|4,39,5,28,1513298798,"~/.zshrc"
+-'  5  28  ~/.zshrc
+|4,39,5,28,1513298798,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513298569,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513298569,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513298569,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513298569,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513136303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513136303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513136303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1513136303,"~/.zshrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  117  0  ~/.vimrc
+|4,39,117,0,1513136227,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1513136159,"~/.vimrc"
 -'  1  0  /etc/fstab
 |4,39,1,0,1512931984,"/etc/fstab"
--'  16  14  /tmp/neomutt-monid-arch-1000-11560-11646191177887031843
-|4,39,16,14,1512064738,"/tmp/neomutt-monid-arch-1000-11560-11646191177887031843"
--'  16  14  /tmp/neomutt-monid-arch-1000-11560-11646191177887031843
-|4,39,16,14,1512064738,"/tmp/neomutt-monid-arch-1000-11560-11646191177887031843"
--'  1  0  /tmp/neomutt-monid-arch-1000-11560-11646191177887031843
-|4,39,1,0,1512064469,"/tmp/neomutt-monid-arch-1000-11560-11646191177887031843"
--'  1  0  /tmp/neomutt-monid-arch-1000-11560-11646191177887031843
-|4,39,1,0,1512064469,"/tmp/neomutt-monid-arch-1000-11560-11646191177887031843"
--'  6  2  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,6,2,1512062797,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  6  2  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,6,2,1512062797,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  6  2  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,6,2,1512062797,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  6  2  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,6,2,1512062797,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  1  0  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,1,0,1512062719,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  1  0  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,1,0,1512062719,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  1  0  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,1,0,1512062719,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  1  0  /tmp/neomutt-monid-arch-1000-11560-8362625802812916718
-|4,39,1,0,1512062719,"/tmp/neomutt-monid-arch-1000-11560-8362625802812916718"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  111  0  ~/.config/mutt/neomuttrc
-|4,39,111,0,1512052559,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  1  0  ~/.config/mutt/neomuttrc
-|4,39,1,0,1512052478,"~/.config/mutt/neomuttrc"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  2  46  ~/.newsboat/urls
-|4,39,2,46,1512052367,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  1  0  ~/.newsboat/urls
-|4,39,1,0,1512052325,"~/.newsboat/urls"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  6711  0  /var/log/pacman.log
-|4,39,6711,0,1512051424,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
--'  1  0  /var/log/pacman.log
-|4,39,1,0,1512051237,"/var/log/pacman.log"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1512931984,"/etc/fstab"
 
 # History of marks within files (newest to oldest):
+
+> /tmp/zsh1YHEHn
+	*	1513299436	0
+	"	1	13
+	.	1	13
+	+	1	13
+
+> ~/.zshrc
+	*	1513299395	0
+	"	30	0
+	^	30	0
+	.	30	0
+	+	26	0
+	+	75	0
+	+	1	0
+	+	15	35
+	+	14	36
+	+	16	35
+	+	16	39
+	+	8	51
+	+	6	0
+	+	9	20
+	+	26	0
+	+	26	42
+	+	29	35
+	+	30	0
+
+> /tmp/zshEG5d4O
+	*	1513299294	0
+	"	1	13
+	^	1	14
+	.	1	14
+	+	1	14
+
+> ~/.vimrc
+	*	1513136222	0
+	"	117	0
+	^	121	0
+	.	241	22
+	+	281	8
+	+	281	0
+	+	281	4
+	+	281	18
+	+	281	0
+	+	47	30
+	+	48	0
+	+	48	33
+	+	55	0
+	+	48	0
+	+	55	0
+	+	67	17
+	+	55	0
+	+	67	10
+	+	55	0
+	+	67	1
+	+	69	94
+	+	67	17
+	+	69	0
+	+	67	0
+	+	47	0
+	+	48	26
+	+	225	0
+	+	269	0
+	+	265	0
+	+	269	0
+	+	268	0
+	+	269	0
+	+	267	0
+	+	266	0
+	+	258	0
+	+	263	0
+	+	262	0
+	+	258	0
+	+	262	16
+	+	193	0
+	+	188	0
+	+	241	14
+	+	1	1
+	+	1	0
+	+	13	1
+	+	120	0
+	+	119	42
+	+	117	0
+	+	113	1
+	+	114	1
+	+	115	1
+	+	116	1
+	+	118	25
+	+	119	24
+	+	118	0
+	+	49	33
+	+	274	0
+	+	276	0
+	+	275	0
+	+	274	31
+	+	16	0
+	+	249	0
+	+	250	0
+	+	249	0
+	+	248	0
+	+	242	0
+	+	241	22
+	b	16	25
 
 > /etc/fstab
 	*	1512931904	0
@@ -828,76 +930,6 @@ $freenas.local
 	+	62	0
 	+	1	1
 
-> ~/.vimrc
-	*	1511024470	0
-	"	92	0
-	^	121	0
-	.	241	22
-	+	281	8
-	+	281	0
-	+	281	4
-	+	281	18
-	+	281	0
-	+	47	30
-	+	48	0
-	+	48	33
-	+	55	0
-	+	48	0
-	+	55	0
-	+	67	17
-	+	55	0
-	+	67	10
-	+	55	0
-	+	67	1
-	+	69	94
-	+	67	17
-	+	69	0
-	+	67	0
-	+	47	0
-	+	48	26
-	+	225	0
-	+	269	0
-	+	265	0
-	+	269	0
-	+	268	0
-	+	269	0
-	+	267	0
-	+	266	0
-	+	258	0
-	+	263	0
-	+	262	0
-	+	258	0
-	+	262	16
-	+	193	0
-	+	188	0
-	+	241	14
-	+	1	1
-	+	1	0
-	+	13	1
-	+	120	0
-	+	119	42
-	+	117	0
-	+	113	1
-	+	114	1
-	+	115	1
-	+	116	1
-	+	118	25
-	+	119	24
-	+	118	0
-	+	49	33
-	+	274	0
-	+	276	0
-	+	275	0
-	+	274	31
-	+	16	0
-	+	249	0
-	+	250	0
-	+	249	0
-	+	248	0
-	+	242	0
-	+	241	22
-	b	16	25
-
 > ~/.config/mutt/nv.sidebarrc
 	*	1510853836	0
 	"	65	0
@@ -1091,22 +1123,6 @@ $freenas.local
 	"	5	0
 	.	1	0
 	+	1	0
-
-> ~/.zshrc
-	*	1509563687	0
-	"	1	0
-	^	9	21
-	.	9	20
-	+	25	0
-	+	69	0
-	+	1	0
-	+	15	35
-	+	14	36
-	+	16	35
-	+	16	39
-	+	8	51
-	+	6	0
-	+	9	20
 
 > /tmp/neomutt-monid-arch-1000-12569-15350221554876054314
 	*	1509408603	0
@@ -1571,11 +1587,3 @@ $freenas.local
 	+	1	255
 	+	2	0
 	+	1	8
-
-> /tmp/mutt-monid-arch-1000-10498-4683205877333116554
-	*	1503418106	0
-	"	1	0
-
-> /tmp/mutt-monid-arch-1000-10498-508626941348971718
-	*	1503418081	0
-	"	12	0

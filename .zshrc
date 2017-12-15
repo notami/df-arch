@@ -22,6 +22,12 @@ alias config='/usr/bin/git --git-dir=/home/notami/.cfg --work-tree=/home/notami'
 # load zmv
 autoload -U zmv
 
+# Enable Ctrl-x-e to edit command line
+# Edit the current command line in $EDITOR
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey '\C-x\C-e' edit-command-line
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
