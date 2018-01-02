@@ -11,9 +11,9 @@
 #fix obvious typo's
 alias cd..='cd ..'
 alias sl="ls"
-alias pdw="pwd"
 
 ## Colorize the grep command output for ease of use (good for log files)##
+alias pdw="pwd"
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -66,6 +66,9 @@ alias io="iohyve"
 ### tmux ###
 alias tmn="tmux new -s"
 alias tma="tmux a -t"
+alias tms="tmux list-sessions"
+alias tmks="tmux kill-session -t"
+alias tmrs="tmux source-file ~/.tmux/.tmux.rsync.conf"
 
 ### rsync ###
 alias rsdbsd="rsync -auvzhe ssh --progress dbsaurer@104.255.96.68:/home/dbsaurer/public_html/ /home/notami/Documents/MyDocuments/Client/DBS/dbsaurer.com/BU-DBS/LocalMirror-DBS/"
@@ -109,3 +112,9 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 ####################
 alias aw='arch-wiki'
 
+#######
+# UFW #
+#######
+alias ufw='sudo ufw'
+alias ufwsv='sudo ufw status verbose'
+alias ufwsn='sudo ufw status numbered'

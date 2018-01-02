@@ -6,16 +6,18 @@
 
 compton -b --config ~/.config/compton.conf &
 
+# Set background image
+nitrogen --restore
+
 tint2 &
 
 #thunar starting in daemon mode
 thunar --daemon &
 
-#bluetooth#
-#(sleep 3; blueberry-tray) &
+(am-conky-session --autostart) &
 
-# Set background image
-(sleep 1; nitrogen --restore) &
+#bluetooth#
+#(blueberry-tray) &
 
 #on laptops without seperate numeric keyboard put hashtag in front
 numlockx &
@@ -24,8 +26,8 @@ numlockx &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Volume control for systray
-#(sleep 2; volumeicon) &
-#(sleep 2; pasystray) &
+(volumeicon) &
+
 
 ## Turn off/on System Beep
 xset b off
@@ -34,16 +36,15 @@ xset b off
 xfce4-power-manager &
 
 ##Clipboard Manager
-(sleep 3; clipit) &
+(xfce4-clipman) &
 
 ## XFCE4 Settings
 xfsettingsd &
 
-(sleep 5; nm-applet) &
+(nm-applet) &
 
-(sleep 2s && al-conky-session --autostart) &
+(plank) &
 
-#plank &
-#(sleep 2; temps) &
+#(temps) &
+
 #redshift-gtk &
-

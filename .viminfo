@@ -11,31 +11,79 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<Archlabs\>
+~MSle0~/firef
 
 # Last Substitute Search Pattern:
-~MSle0&192.168.1.33
+~MSle0&\,
 
 # Last Substitute String:
-$freenas.local
+$\t
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1513299440,,"wq"
 :q
-|2,0,1513136303,,"q"
+|2,0,1514915964,,"q"
+:3t10
+|2,0,1514592466,,"3t10"
+:1,2t10
+|2,0,1514592411,,"1,2t10"
+:q!
+|2,0,1514571262,,"q!"
+:wq
+|2,0,1514491756,,"wq"
+:w
+|2,0,1514491708,,"w"
+:PluginInstall
+|2,0,1514044924,,"PluginInstall"
+:w !sudo tee % >/dev/null
+|2,0,1513955815,,"w !sudo tee % >/dev/null"
+:q;
+|2,0,1513955783,,"q;"
+:q:
+|2,0,1513955777,,"q:"
+:%! markdown
+|2,0,1513824930,,"%! markdown"
+:%! column -t
+|2,0,1513824639,,"%! column -t"
+:%s,\,,\t
+|2,0,1513824633,,"%s,\\,,\\t"
+:ls
+|2,0,1513823366,,"ls"
+:changes
+|2,0,1513823265,,"changes"
+:later 1h
+|2,0,1513823073,,"later 1h"
+:earlier 1h
+|2,0,1513823058,,"earlier 1h"
+:w ~/Documents/install-and-configure-ufw.sh
+|2,0,1513308070,,"w ~/Documents/install-and-configure-ufw.sh"
+:.!boxes -d shell
+|2,0,1513307906,,".!boxes -d shell"
+:%s,                  ,
+|2,0,1513306489,,"%s,                  ,"
+:%s,nullcomment,comment
+|2,0,1513306295,,"%s,nullcomment,comment"
+:%s,allow     Anywhere                   ,null
+|2,0,1513306273,,"%s,allow     Anywhere                   ,null"
+:1457
+<22/tcp                     ALLOW IN    Anywhere                   # ssh80/tcp                     ALLOW IN    Anywhere                   # http443/tcp                    ALLOW IN    Anywhere                   # https115/tcp                    ALLOW IN    Anywhere                   # sftp25                         ALLOW IN    Anywhere                   # smtp143                        ALLOW IN    Anywhere                   # imap53                         ALLOW IN    Anywhere                   # dns1080                       ALLOW IN    Anywhere                   # vpn1080/udp                   ALLOW IN    Anywhere                   # vpn993                        ALLOW IN    Anywhere                   # imap22/tcp (v6)                ALLOW IN    Anywhere (v6)              # ssh80/tcp (v6)                ALLOW IN    Anywhere (v6)              # http443/tcp (v6)               ALLOW IN    Anywhere (v6)              # https115/tcp (v6)               ALLOW IN    Anywhere (v6)              # sftp25 (v6)                    ALLOW IN    Anywhere (v6)              # smtp143 (v6)                   ALLOW IN    Anywhere (v6)              # imap53 (v6)                    ALLOW IN    Anywhere (v6)              # dns1080 (v6)                  ALLOW IN    Anywhere (v6)              # vpn1080/udp (v6)              ALLOW IN    Anywhere (v6)              # vpn993 (v6)                   ALLOW IN    Anywhere (v6)              # imap
+|2,0,1513306216,,>1456
+|<"22/tcp                     ALLOW IN    Anywhere                   # ssh80/tcp                     ALLOW IN    Anywhere                   # http443/tcp                    ALLOW IN    Anywhere                   # https115/tcp                    ALLOW IN    Anywhere                   # sftp25                         ALLOW IN    Anywhere                   # smtp143                        ALLOW IN    Anywhere                   # imap53                         ALLOW IN    Anywhere     
+|<              # dns1080                       ALLOW IN    Anywhere                   # vpn1080/udp                   ALLOW IN    Anywhere                   # vpn993                        ALLOW IN    Anywhere                   # imap22/tcp (v6)                ALLOW IN    Anywhere (v6)              # ssh80/tcp (v6)                ALLOW IN    Anywhere (v6)              # http443/tcp (v6)               ALLOW IN    Anywhere (v6)              # https115/tcp (v6)               ALLOW I
+|<N    Anywhere (v6)              # sftp25 (v6)                    ALLOW IN    Anywhere (v6)              # smtp143 (v6)                   ALLOW IN    Anywhere (v6)              # imap53 (v6)                    ALLOW IN    Anywhere (v6)              # dns1080 (v6)                  ALLOW IN    Anywhere (v6)              # vpn1080/udp (v6)              ALLOW IN    Anywhere (v6)              # vpn993 (v6)                   ALLOW IN    Anywhere (v6)              # imap"
+:%s,[200~22/tcp                     ALLOW IN    Anywhere                   # ssh
+|2,0,1513306183,,"%s,[200~22/tcp                     ALLOW IN    Anywhere                   # ssh"
+:%s,allow    Anywhere,,
+|2,0,1513306152,,"%s,allow    Anywhere,,"
+:%s,ALLOW IN,allow 
+|2,0,1513306034,,"%s,ALLOW IN,allow "
+:%s,#,comment 
+|2,0,1513305994,,"%s,#,comment "
 :!q;
 |2,0,1513136221,,"!q;"
-:w
-|2,0,1511633437,,"w"
-:q!
-|2,0,1511581220,,"q!"
 :smile
 |2,0,1511578959,,"smile"
 :'<,'>!boxes -d shell
 |2,0,1511060617,,"'<,'>!boxes -d shell"
-:w !sudo tee % >/dev/null
-|2,0,1511029413,,"w !sudo tee % >/dev/null"
 :%s/192.168.1.33/freenas.local/g
 |2,0,1511029393,,"%s/192.168.1.33/freenas.local/g"
 :w !sudo tee % >/dev/null w
@@ -50,8 +98,6 @@ $freenas.local
 |2,0,1511024375,,"%s/rw/defaults,_netdev/g"
 :%s,rw,defaults,_netdev
 |2,0,1511024279,,"%s,rw,defaults,_netdev"
-:ls
-|2,0,1511024246,,"ls"
 :bls
 |2,0,1511024242,,"bls"
 :%S,rw,defaults,_netdev
@@ -60,8 +106,6 @@ $freenas.local
 |2,0,1510160219,,"bn"
 :b1
 |2,0,1510160153,,"b1"
-:.!boxes -d shell
-|2,0,1510113262,,".!boxes -d shell"
 :split
 |2,0,1510113066,,"split"
 :hsplit
@@ -70,8 +114,6 @@ $freenas.local
 |2,0,1510113044,,"mb"
 :InstantMarkdownPreview
 |2,0,1510028453,,"InstantMarkdownPreview"
-:PluginInstall
-|2,0,1510028242,,"PluginInstall"
 :bs
 |2,0,1510027861,,"bs"
 :n
@@ -82,46 +124,42 @@ $freenas.local
 |2,0,1509818185,,".vimrc"
 :~/.vimrc
 |2,0,1509818164,,"~/.vimrc"
-:vim ~/.vimrc
-|2,0,1509818135,,"vim ~/.vimrc"
-:lsb
-|2,0,1509818093,,"lsb"
-:5B
-|2,0,1509817816,,"5B"
-:5A
-|2,0,1509817812,,"5A"
-:let @+=@%
-|2,0,1509739325,,"let @+=@%"
-:let "+=@%
-|2,0,1509739298,,"let \"+=@%"
-:system('ls') 
-|2,0,1509738826,,"system('ls') "
-:version
-|2,0,1509738438,,"version"
-:reg
-|2,0,1509738320,,"reg"
-:,n
-|2,0,1509724137,,",n"
-:,l
-|2,0,1509724128,,",l"
-:b3
-|2,0,1509722249,,"b3"
-:1
-|2,0,1509722169,,"1"
-:ls b
-|2,0,1509722155,,"ls b"
-:b2
-|2,0,1509722145,,"b2"
-:b
-|2,0,1509722132,,"b"
-:%s,=editor,=vim
-|2,0,1509251722,,"%s,=editor,=vim"
-:/nano
-|2,0,1508507715,,"/nano"
-:/firefox
-|2,0,1508506963,,"/firefox"
 
 # Search String History (newest to oldest):
+?/firef
+|2,1,1514388253,47,"firef"
+?/| grep
+|2,1,1514044951,47,"| grep"
+?/grep, 
+|2,1,1514044856,47,"grep, "
+?/neo
+|2,1,1514005495,47,"neo"
+? \,
+|2,1,1513824633,,"\\,"
+?/HOME
+|2,1,1513393284,47,"HOME"
+?/f015
+|2,1,1513393247,47,"f015"
+?                   
+|2,1,1513306489,,"                  "
+? nullcomment
+|2,1,1513306295,,"nullcomment"
+? allow     Anywhere                   
+|2,1,1513306273,,"allow     Anywhere                   "
+?/tcp                    ALLOW IN    Anywhere                   # sftp
+|2,1,1513306183,47,"tcp                    ALLOW IN    Anywhere                   # sftp"
+?/tcp                    ALLOW IN    Anywhere                   # https
+|2,1,1513306183,47,"tcp                    ALLOW IN    Anywhere                   # https"
+?/tcp                     ALLOW IN    Anywhere                   # http
+|2,1,1513306183,47,"tcp                     ALLOW IN    Anywhere                   # http"
+? [200~22/tcp                     ALLOW IN    Anywhere                   # ssh
+|2,1,1513306183,,"[200~22/tcp                     ALLOW IN    Anywhere                   # ssh"
+? allow    Anywhere
+|2,1,1513306152,,"allow    Anywhere"
+? ALLOW IN
+|2,1,1513306034,,"ALLOW IN"
+? #
+|2,1,1513305994,,"#"
 ? \<Archlabs\>
 |2,1,1511030921,,"\\<Archlabs\\>"
 ? 192.168.1.33
@@ -188,10 +226,6 @@ $freenas.local
 |2,1,1507645139,,"\\<Tom\\>"
 ? \<Using\>
 |2,1,1507603475,,"\\<Using\\>"
-? \<Learn\>
-|2,1,1507602954,,"\\<Learn\\>"
-?? 
-|2,1,1501119774,63," "
 
 # Expression History (newest to oldest):
 =system('ls /mnt')
@@ -216,42 +250,59 @@ $freenas.local
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	alias vg="vim /home/notami/.config/ranger/rc.conf"
-|3,0,0,1,1,0,1511232484,"alias vg=\"vim /home/notami/.config/ranger/rc.conf\""
+""0	LINE	0
+	###########################################################################
+|3,1,0,1,1,0,1514571226,"###########################################################################"
 "1	LINE	0
-	autoload -U edit-command-line
-|3,0,1,1,1,0,1513299384,"autoload -U edit-command-line"
+	send-keys 'wait'
+|3,0,1,1,1,0,1514139403,"send-keys 'wait'"
 "2	LINE	0
-	bind index,pager r tag-message
-|3,0,2,1,1,0,1511233480,"bind index,pager r tag-message"
+	Brenden   Wagner  Software    Engineer   San      Francisco   28          2011/06/07  $206,850    
+|3,0,2,1,1,0,1513824595,"Brenden   Wagner  Software    Engineer   San      Francisco   28          2011/06/07  $206,850    "
 "3	LINE	0
-	File:   $HOME/.newsboat/config
-	Author: Bruce Saurer <notami@gmail.com>
-|3,0,3,1,2,0,1511060598,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
+	Airi      Satou   Accountant  Tokyo      33       2008/11/28  $162,700                            
+	Angelica  Ramos   Chief       Executive  Officer  (CEO)       London      47          2009/10/09  $1,200,000
+	Ashton    Cox     Junior      Technical  Author   San         Francisco   66          2009/01/12  $86,000
+	Bradley   Greer   Software    Engineer   London   41          2012/10/13  $132,000                
+|3,0,3,1,4,0,1513824593,"Airi      Satou   Accountant  Tokyo      33       2008/11/28  $162,700                            ","Angelica  Ramos   Chief       Executive  Officer  (CEO)       London      47          2009/10/09  $1,200,000","Ashton    Cox     Junior      Technical  Author   San         Francisco   66          2009/01/12  $86,000","Bradley   Greer   Software    Engineer   London   41          2012/10/13  $132,000                "
 "4	LINE	0
-	File:   $HOME/.newsboat/config
-	Author: Bruce Saurer <notami@gmail.com>
-|3,0,4,1,2,0,1511060575,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
+	993 (v6)                   allow     Anywhere (v6)              comment  imap
+|3,0,4,1,1,0,1513306059,"993 (v6)                   allow     Anywhere (v6)              comment  imap"
 "5	LINE	0
-	File:   $HOME/.newsboat/config
-	Author: Bruce Saurer <notami@gmail.com>
-|3,0,5,1,2,0,1511060551,"File:   $HOME/.newsboat/config","Author: Bruce Saurer <notami@gmail.com>"
+	22/tcp (v6)                allow     Anywhere (v6)              comment  ssh
+	80/tcp (v6)                allow     Anywhere (v6)              comment  http
+	443/tcp (v6)               allow     Anywhere (v6)              comment  https
+	115/tcp (v6)               allow     Anywhere (v6)              comment  sftp
+	25 (v6)                    allow     Anywhere (v6)              comment  smtp
+	143 (v6)                   allow     Anywhere (v6)              comment  imap
+	53 (v6)                    allow     Anywhere (v6)              comment  dns
+	1080 (v6)                  allow     Anywhere (v6)              comment  vpn
+	1080/udp (v6)              allow     Anywhere (v6)              comment  vpn
+|3,0,5,1,9,0,1513306057,"22/tcp (v6)                allow     Anywhere (v6)              comment  ssh","80/tcp (v6)                allow     Anywhere (v6)              comment  http","443/tcp (v6)               allow     Anywhere (v6)              comment  https","115/tcp (v6)               allow     Anywhere (v6)              comment  sftp","25 (v6)                    allow     Anywhere (v6)              comment  smtp",>79
+|<"143 (v6)                   allow     Anywhere (v6)              comment  imap","53 (v6)                    allow     Anywhere (v6)              comment  dns","1080 (v6)                  allow     Anywhere (v6)              comment  vpn","1080/udp (v6)              allow     Anywhere (v6)              comment  vpn"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1510846997,""
-"7	LINE	0
 	
-|3,0,7,1,1,0,1510846935,""
+	
+	
+	
+	
+	
+	
+	
+|3,0,6,1,9,0,1513305791,"","","","","","","","",""
+"7	LINE	0
+	sudo ufw allow 143 comment imap
+	sudo ufw allow 53 comment dns
+	sudo ufw allow 1080/udp comment vpn
+	sudo ufw allow 993 comment imap
+|3,0,7,1,4,0,1513305787,"sudo ufw allow 143 comment imap","sudo ufw allow 53 comment dns","sudo ufw allow 1080/udp comment vpn","sudo ufw allow 993 comment imap"
 "8	LINE	0
-	# Other examples:
-	# set -g @plugin 'github_username/plugin_name'
-	# set -g @plugin 'git@github.com/user/plugin'
-	# set -g @plugin 'git@bitbucket.com/user/plugin'
-|3,0,8,1,4,0,1510846932,"# Other examples:","# set -g @plugin 'github_username/plugin_name'","# set -g @plugin 'git@github.com/user/plugin'","# set -g @plugin 'git@bitbucket.com/user/plugin'"
+	## ufw
+|3,0,8,1,1,0,1513304940,"## ufw"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1510846864,""
+|3,0,9,1,1,0,1513304889,""
 "a	LINE	0
 	Bye Bye
 |3,0,10,1,1,0,1509737182,"Bye Bye"
@@ -267,245 +318,413 @@ $freenas.local
 "w	CHAR	0
 	wiindex,
 |3,0,32,0,1,0,1508035892,"wiindex,"
-""-	CHAR	0
-	/fstab
-|3,1,36,0,1,0,1513299436,"/fstab"
+"-	CHAR	0
+	M
+|3,0,36,0,1,0,1514491601,"M"
 
 # File marks:
-'0  1  13  /tmp/zsh1YHEHn
-|4,48,1,13,1513299440,"/tmp/zsh1YHEHn"
-'1  30  0  ~/.zshrc
-|4,49,30,0,1513299403,"~/.zshrc"
-'2  1  13  /tmp/zshEG5d4O
-|4,50,1,13,1513299297,"/tmp/zshEG5d4O"
-'3  5  28  ~/.zshrc
-|4,51,5,28,1513298798,"~/.zshrc"
-'4  5  28  ~/.zshrc
-|4,52,5,28,1513298798,"~/.zshrc"
-'5  1  0  ~/.zshrc
-|4,53,1,0,1513136303,"~/.zshrc"
-'6  1  0  ~/.zshrc
-|4,54,1,0,1513136303,"~/.zshrc"
-'7  1  0  ~/.zshrc
-|4,55,1,0,1513136303,"~/.zshrc"
-'8  1  0  ~/.zshrc
-|4,56,1,0,1513136303,"~/.zshrc"
-'9  117  0  ~/.vimrc
-|4,57,117,0,1513136227,"~/.vimrc"
+'0  72  0  ~/.oh-my-zsh/custom/alias.zsh
+|4,48,72,0,1514915964,"~/.oh-my-zsh/custom/alias.zsh"
+'1  1  0  ~/Documents/MyDocuments
+|4,49,1,0,1514726857,"~/Documents/MyDocuments"
+'2  355  13  ~/.config/ranger/rc.conf
+|4,50,355,13,1514491757,"~/.config/ranger/rc.conf"
+'3  377  11  ~/.config/ranger/rc.conf
+|4,51,377,11,1514491396,"~/.config/ranger/rc.conf"
+'4  377  11  ~/.config/ranger/rc.conf
+|4,52,377,11,1514491396,"~/.config/ranger/rc.conf"
+'5  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,53,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+'6  1  21  ~/.mailcap
+|4,54,1,21,1514388370,"~/.mailcap"
+'7  39  0  ~/.config/mutt/neomuttrc
+|4,55,39,0,1514388258,"~/.config/mutt/neomuttrc"
+'8  1  43  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,56,1,43,1514346345,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+'9  1  47  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,57,1,47,1514174916,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
--'  1  13  /tmp/zsh1YHEHn
-|4,39,1,13,1513299440,"/tmp/zsh1YHEHn"
--'  30  0  ~/.zshrc
-|4,39,30,0,1513299403,"~/.zshrc"
--'  30  0  ~/.zshrc
-|4,39,30,0,1513299403,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513299307,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513299307,"~/.zshrc"
--'  1  13  /tmp/zshEG5d4O
-|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
--'  1  13  /tmp/zshEG5d4O
-|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
--'  1  13  /tmp/zshEG5d4O
-|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
--'  1  13  /tmp/zshEG5d4O
-|4,39,1,13,1513299297,"/tmp/zshEG5d4O"
--'  5  28  ~/.zshrc
-|4,39,5,28,1513298798,"~/.zshrc"
--'  5  28  ~/.zshrc
-|4,39,5,28,1513298798,"~/.zshrc"
--'  5  28  ~/.zshrc
-|4,39,5,28,1513298798,"~/.zshrc"
--'  5  28  ~/.zshrc
-|4,39,5,28,1513298798,"~/.zshrc"
--'  5  28  ~/.zshrc
-|4,39,5,28,1513298798,"~/.zshrc"
--'  5  28  ~/.zshrc
-|4,39,5,28,1513298798,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513298569,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513298569,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513298569,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513298569,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513136303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513136303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513136303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1513136303,"~/.zshrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  117  0  ~/.vimrc
-|4,39,117,0,1513136227,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1513136159,"~/.vimrc"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
--'  1  0  /etc/fstab
-|4,39,1,0,1512931984,"/etc/fstab"
+-'  72  0  ~/.oh-my-zsh/custom/alias.zsh
+|4,39,72,0,1514915964,"~/.oh-my-zsh/custom/alias.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/alias.zsh
+|4,39,1,0,1514915922,"~/.oh-my-zsh/custom/alias.zsh"
+-'  1  0  ~/Documents/MyDocuments
+|4,39,1,0,1514726857,"~/Documents/MyDocuments"
+-'  1  0  ~/Documents/MyDocuments
+|4,39,1,0,1514726857,"~/Documents/MyDocuments"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  355  13  ~/.config/ranger/rc.conf
+|4,39,355,13,1514491757,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491448,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  377  11  ~/.config/ranger/rc.conf
+|4,39,377,11,1514491396,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1514491212,"~/.config/ranger/rc.conf"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
+-'  1  44  ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+|4,39,1,44,1514401717,"~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
 
-> /tmp/zsh1YHEHn
-	*	1513299436	0
-	"	1	13
-	.	1	13
-	+	1	13
+> ~/.oh-my-zsh/custom/alias.zsh
+	*	1514915937	0
+	"	72	0
+	^	70	33
+	.	70	33
+	+	96	50
+	+	99	8
+	+	33	0
+	+	39	0
+	+	49	0
+	+	55	0
+	+	59	0
+	+	62	0
+	+	67	0
+	+	100	0
+	+	86	0
+	+	83	0
+	+	84	0
+	+	105	28
+	+	106	26
+	+	107	0
+	+	107	11
+	+	101	0
+	+	102	1
+	+	101	0
+	+	105	0
+	+	102	17
+	+	102	0
+	+	105	0
+	+	108	14
+	+	109	0
+	+	108	58
+	+	65	0
+	+	66	7
+	+	67	23
+	+	68	17
+	+	110	0
+	+	113	20
+	+	45	0
+	+	43	42
+	+	44	0
+	+	43	6
+	+	44	7
+	+	42	7
+	+	43	6
+	+	45	7
+	+	115	3
+	+	114	0
+	+	115	0
+	+	120	42
+	+	119	10
+	+	120	10
+	+	118	0
+	+	71	52
+	+	14	0
+	+	15	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	16	0
+	+	70	33
+	b	110	15
+	i	101	0
+
+> ~/Documents/MyDocuments
+	*	1514726843	0
+	"	1	0
+
+> ~/.config/ranger/rc.conf
+	*	1514491756	0
+	"	355	13
+	^	355	14
+	.	355	13
+	+	87	22
+	+	355	13
+
+> ~/Documents/ArchMerge-Nemesis/.git/COMMIT_EDITMSG
+	*	1514401717	0
+	"	1	44
+	^	1	45
+	.	1	44
+	+	1	44
+
+> ~/.mailcap
+	*	1514388369	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/.config/mutt/neomuttrc
+	*	1514388253	0
+	"	39	0
+	^	84	13
+	.	84	12
+	+	89	16
+	+	90	9
+	+	101	52
+	+	101	0
+	+	101	155
+	+	103	102
+	+	100	0
+	+	102	20
+	+	103	23
+	+	99	58
+	+	97	37
+	+	93	38
+	+	94	0
+	+	95	1
+	+	99	18
+	+	84	0
+	+	84	12
+
+> ~/.tmux/.tmux.rsync.conf
+	*	1514139418	0
+	"	23	17
+	^	27	2
+	.	23	17
+	+	23	0
+	+	22	15
+	+	24	18
+	+	24	20
+	+	26	22
+	+	24	21
+	+	22	21
+	+	23	22
+	+	24	24
+	+	24	40
+	+	24	38
+	+	26	42
+	+	22	17
+	+	23	18
+	+	24	19
+	+	22	19
+	+	23	20
+	+	24	22
+	+	24	23
+	+	26	22
+	+	27	25
+	+	26	24
+	+	27	27
+	+	24	16
+	+	26	18
+	+	27	21
+	+	22	17
+	+	23	18
+	+	24	20
+	+	25	0
+	+	24	16
+	+	27	16
+	+	24	19
+	+	22	10
+	+	23	18
+	+	24	16
+	+	25	10
+	+	26	17
+	+	24	19
+	+	23	17
+	+	24	16
+	+	26	20
+	+	24	1
+	+	25	0
+	+	26	0
+	+	27	0
+	+	24	0
+	+	23	17
 
 > ~/.zshrc
-	*	1513299395	0
-	"	30	0
+	*	1514042833	0
+	"	26	0
 	^	30	0
 	.	30	0
 	+	26	0
@@ -523,23 +742,56 @@ $freenas.local
 	+	29	35
 	+	30	0
 
-> /tmp/zshEG5d4O
-	*	1513299294	0
-	"	1	13
-	^	1	14
-	.	1	14
-	+	1	14
+> ~/.config/openbox/rc.xml
+	*	1514005500	0
+	"	1	0
+
+> ~/Documents/ArchMerge-Nemesis/010-install-all-fonts-needed-for-conkys-of-archmerge-v1.sh
+	*	1514000830	0
+	"	23	35
+	^	23	36
+	.	23	35
+	+	1	0
+	+	23	35
+
+> ~/.config/termite/config
+	*	1513865683	0
+	"	40	0
+	^	11	26
+	.	11	0
+	+	11	32
+	+	24	77
+	+	26	21
+	+	25	0
+	+	11	0
+
+> /mnt/www/nginx/notes/test.markdown
+	*	1513825014	0
+	"	1	0
+	.	89	0
+	+	89	0
+	+	89	47
+	+	89	0
+	+	89	43
+	+	89	0
+	+	89	45
+	+	89	0
+	+	89	41
+	+	89	42
+	+	89	0
+	b	62	0
+	c	62	0
 
 > ~/.vimrc
-	*	1513136222	0
-	"	117	0
-	^	121	0
-	.	241	22
-	+	281	8
-	+	281	0
-	+	281	4
-	+	281	18
-	+	281	0
+	*	1513824081	0
+	"	14	0
+	^	39	8
+	.	39	0
+	+	284	8
+	+	284	0
+	+	284	4
+	+	284	18
+	+	284	0
 	+	47	30
 	+	48	0
 	+	48	33
@@ -558,18 +810,18 @@ $freenas.local
 	+	47	0
 	+	48	26
 	+	225	0
-	+	269	0
-	+	265	0
-	+	269	0
+	+	272	0
 	+	268	0
+	+	272	0
+	+	271	0
+	+	272	0
+	+	270	0
 	+	269	0
-	+	267	0
+	+	261	0
 	+	266	0
-	+	258	0
-	+	263	0
-	+	262	0
-	+	258	0
-	+	262	16
+	+	265	0
+	+	261	0
+	+	265	16
 	+	193	0
 	+	188	0
 	+	241	14
@@ -587,18 +839,138 @@ $freenas.local
 	+	119	24
 	+	118	0
 	+	49	33
-	+	274	0
-	+	276	0
-	+	275	0
-	+	274	31
+	+	277	0
+	+	279	0
+	+	278	0
+	+	277	31
 	+	16	0
-	+	249	0
-	+	250	0
-	+	249	0
+	+	252	0
+	+	253	0
+	+	252	0
 	+	248	0
 	+	242	0
 	+	241	22
+	+	251	25
+	+	249	0
+	+	39	0
 	b	16	25
+
+> ~/.oh-my-zsh/custom/themes/powerlevel9k/prompt_powerlevel9k_setup
+	*	1513393818	0
+	"	235	0
+
+> ~/.oh-my-zsh/custom/themes/powerlevel9k/functions/icons.zsh
+	*	1513393739	0
+	"	131	0
+
+> ~/.oh-my-zsh/custom/themes/powerline.zsh-theme
+	*	1513393359	0
+	"	63	0
+
+> ~/Documents/install-and-configure-ufw.sh
+	*	1513308070	0
+	"	1	4
+	^	44	5
+	.	44	0
+	+	21	0
+	+	32	34
+	+	32	28
+	+	32	30
+	+	38	72
+	+	32	0
+	+	38	0
+	+	21	0
+	+	38	0
+	+	21	120
+	+	21	8
+	+	29	0
+	+	32	0
+	+	30	0
+	+	31	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	21	13
+	+	29	8
+	+	32	8
+	+	30	0
+	+	32	0
+	+	30	0
+	+	31	13
+	+	33	8
+	+	34	8
+	+	35	8
+	+	36	8
+	+	37	8
+	+	30	8
+	+	21	21
+	+	29	21
+	+	30	22
+	+	31	18
+	+	32	22
+	+	33	18
+	+	34	17
+	+	35	19
+	+	37	18
+	+	20	0
+	+	27	0
+	+	18	0
+	+	1	0
+	+	25	0
+	+	15	11
+	+	1	0
+	+	14	0
+	+	13	0
+	+	5	26
+	+	6	32
+	+	14	0
+	+	16	0
+	+	17	0
+	+	18	1
+	+	15	1
+	+	22	21
+	+	27	15
+	+	38	4
+	+	38	0
+	+	39	0
+	+	39	3
+	+	39	4
+	+	38	0
+	+	42	31
+	+	42	4
+	+	43	0
+	+	44	0
+
+> ~/Downloads/Archlabs/Archlabs-Nemesis/install-dropbox-v1.sh
+	*	1513307104	0
+	"	1	0
+
+> /tmp/zshlAjbHF
+	*	1513305588	0
+	"	1	30
+
+> ~/.zcompdump
+	*	1513305276	0
+	"	1344	0
+
+> ~/.z
+	*	1513305244	0
+	"	36	0
+
+> /tmp/zsh1YHEHn
+	*	1513299436	0
+	"	1	13
+	.	1	13
+	+	1	13
+
+> /tmp/zshEG5d4O
+	*	1513299294	0
+	"	1	13
+	^	1	14
+	.	1	14
+	+	1	14
 
 > /etc/fstab
 	*	1512931904	0
@@ -635,29 +1007,6 @@ $freenas.local
 	+	3	28
 	+	1	65
 	+	6	2
-
-> ~/.config/mutt/neomuttrc
-	*	1512052552	0
-	"	111	0
-	^	84	13
-	.	84	12
-	+	89	16
-	+	90	9
-	+	101	52
-	+	101	0
-	+	101	155
-	+	103	102
-	+	100	0
-	+	102	20
-	+	103	23
-	+	99	58
-	+	97	37
-	+	93	38
-	+	94	0
-	+	95	1
-	+	99	18
-	+	84	0
-	+	84	12
 
 > ~/.newsboat/urls
 	*	1512052363	0
@@ -742,55 +1091,6 @@ $freenas.local
 > /tmp/neomutt-monid-arch-1000-16383-17945583272050512214
 	*	1511233421	0
 	"	1	0
-
-> ~/.oh-my-zsh/custom/alias.zsh
-	*	1511232625	0
-	"	45	7
-	^	45	8
-	.	45	7
-	+	93	50
-	+	96	8
-	+	33	0
-	+	39	0
-	+	49	0
-	+	55	0
-	+	59	0
-	+	62	0
-	+	67	0
-	+	97	0
-	+	83	0
-	+	80	0
-	+	81	0
-	+	102	28
-	+	103	26
-	+	104	0
-	+	104	11
-	+	98	0
-	+	99	1
-	+	98	0
-	+	102	0
-	+	99	17
-	+	99	0
-	+	102	0
-	+	105	14
-	+	106	0
-	+	105	58
-	+	65	0
-	+	66	7
-	+	67	23
-	+	68	17
-	+	107	0
-	+	110	20
-	+	45	0
-	+	43	42
-	+	44	0
-	+	43	6
-	+	44	7
-	+	42	7
-	+	43	6
-	+	45	7
-	b	107	15
-	i	98	0
 
 > ~/.newsboat/config
 	*	1511222970	0
@@ -1013,26 +1313,6 @@ $freenas.local
 	.	1	0
 	+	1	0
 
-> /mnt/www/nginx/notes/test.markdown
-	*	1510160275	0
-	"	36	0
-	^	62	46
-	.	36	0
-	+	63	0
-	+	64	0
-	+	63	47
-	+	64	0
-	+	63	43
-	+	64	0
-	+	63	0
-	+	62	45
-	+	46	0
-	+	36	41
-	+	36	42
-	+	36	0
-	b	62	0
-	c	62	0
-
 > /mnt/www/nginx/notes/mdwiki-latest.html
 	*	1510159889	0
 	"	1	0
@@ -1139,13 +1419,6 @@ $freenas.local
 	.	11	0
 	+	11	0
 
-> ~/.config/ranger/rc.conf
-	*	1509250452	0
-	"	619	0
-	^	87	23
-	.	87	22
-	+	87	22
-
 > ~/.config/ranger/scope.sh
 	*	1509249867	0
 	"	1	4
@@ -1222,13 +1495,6 @@ $freenas.local
 	*	1508638092	0
 	"	24	0
 
-> ~/.mailcap
-	*	1508507120	0
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	21
-
 > /tmp/neomutt-monid-arch-1000-22613-15254116554675278833
 	*	1508374533	0
 	"	1	56
@@ -1244,17 +1510,6 @@ $freenas.local
 > ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
 	*	1508209174	0
 	"	125	0
-
-> ~/.config/termite/config
-	*	1508134625	0
-	"	11	41
-	^	11	26
-	.	11	0
-	+	11	32
-	+	24	77
-	+	26	21
-	+	25	0
-	+	11	0
 
 > ~/.config/mutt/.neomuttrc
 	*	1508040697	0
@@ -1484,106 +1739,3 @@ $freenas.local
 	^	2	0
 	.	2	0
 	+	2	0
-
-> /tmp/mutt-monid-arch-1000-3968-12378572136371967542
-	*	1506131016	0
-	"	2	12
-	^	2	13
-	.	2	12
-	+	3	0
-	+	2	12
-
-> /tmp/mutt-monid-arch-1000-750-18302393634333517153
-	*	1505860990	0
-	"	6	0
-	^	6	0
-	.	6	0
-	+	4	52
-	+	6	0
-
-> /tmp/mutt-monid-arch-1000-16877-12375958526543144511
-	*	1505786002	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	2	0
-	+	1	12
-
-> /tmp/mutt-monid-arch-1000-12328-3602351262935882359
-	*	1505256733	0
-	"	14	4
-	^	14	5
-	.	14	4
-	+	16	0
-	+	11	27
-	+	8	0
-	+	4	0
-	+	1	6
-	+	3	66
-	+	8	9
-	+	14	4
-
-> /tmp/mutt-monid-arch-1000-6298-8760766565389684294
-	*	1504889506	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> /tmp/mutt-monid-arch-1000-19281-18231436902845169479
-	*	1504801006	0
-	"	5	4
-	^	5	5
-	.	5	4
-	+	6	0
-	+	2	143
-	+	5	4
-
-> /tmp/mutt-monid-arch-1000-4502-397827166414315801
-	*	1504665043	0
-	"	4	24
-	^	4	25
-	.	4	25
-	+	6	0
-	+	2	53
-	+	4	25
-
-> ~/.Xresources
-	*	1504196513	0
-	"	58	0
-
-> /tmp/mutt-monid-arch-1000-893-15542208780368580931
-	*	1503654557	0
-	"	1	0
-
-> /tmp/mutt-monid-arch-1000-893-3783681676932534103
-	*	1503654532	0
-	"	1	0
-
-> /tmp/mutt-monid-arch-1000-10598-1164370176558968692
-	*	1503418390	0
-	"	3	0
-	^	3	0
-	.	3	0
-	+	4	0
-	+	3	0
-
-> /tmp/mutt-monid-arch-1000-10598-16401308236685305318
-	*	1503418323	0
-	"	1	22
-	^	1	23
-	.	1	22
-	+	1	22
-
-> /tmp/mutt-monid-arch-1000-10498-3947419645010979180
-	*	1503418206	0
-	"	1	8
-	^	1	9
-	.	1	8
-	+	5	0
-	+	1	271
-	+	1	83
-	+	1	168
-	+	1	255
-	+	2	0
-	+	1	8

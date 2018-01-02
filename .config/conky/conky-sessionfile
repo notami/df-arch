@@ -1,2 +1,2 @@
-conky -c /home/notami/.conkyrc & sleep 1s
-conky -c /home/notami/.config/conky/harfo/ET-Harfo-Yellow.conkyrc & sleep 1s
+conky -c /home/notami/.config/conky/EI-Minimal-Clock-LUA.conkyrc & sleep 1s
+conky -c /home/notami/.config/conky/AUR-ArchMerge.conkyrc & sleep 1s

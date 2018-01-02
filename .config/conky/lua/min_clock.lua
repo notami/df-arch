@@ -29,7 +29,7 @@ clock_table = {
         r  = 25, -- minute ring radius
         border_width = 2,
         -- color settings. {color, alpha}
-        background_color = {0xFFFFFF, 0.5}, -- bgcolor id draw_background is true.
+        background_color = {0xFFFFFF, 0.1}, -- bgcolor id draw_background is true.
         fill_color   = {0xb5145c, 1},       -- fill color for minutes ring
         border_color = {0xFFFFFF, 1},       -- border color
         text_color   = {0xFFFFFF, 1},       -- color of numbers

@@ -1,4 +1,7 @@
 -- Informant Conky
+-- Date    : 26/10/2017
+-- Editor  : Erik Dubois
+-- Version : v3.0.4
 
 -- By Addy
 -- https://plus.google.com/+AdhiPambudi
@@ -21,7 +24,7 @@ own_window_transparent = true,
 own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
 own_window_colour = '#000000',
 own_window_class = 'Conky',
-own_window_title = 'ARCHLabs Top Conky',
+own_window_title = 'ArchMerge Top Conky',
 --## ARGB can be used for real transparency
 --## NOTE that a composite manager is required for real transparency.
 --## This option will not work as desired (in most cases) in conjunction with

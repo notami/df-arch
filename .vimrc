@@ -246,6 +246,9 @@ nnoremap G Gzz
 nnoremap { {zz
 nnoremap } }zz
 
+" Undo File
+set undofile
+set undodir=~/.vim/undodir
 
 " COMMAND SHORTCUTS 
 nnoremap ; :

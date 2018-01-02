@@ -1,10 +1,10 @@
 --[[
 #=====================================================================================
-#                               ArchLabs
-# Date    : 06/07/2017
+#                               ArchMerge
+# Date    : 26/10/2017
 # Author  : http://etlesteam.deviantart.com/art/Conky-Harfo-613015068
 # Editor  : Erik Dubois
-# Version : v2.1.1
+# Version : v3.0.4
 # License : Distributed under the terms of GNU GPL version 2 or later
 # Documentation : http://erikdubois.be
 #======================================================================================
@@ -116,7 +116,7 @@ conky.config = {
 
 	--Colours
 
-	default_color = '#AF1C38',  				-- default color and border color
+	default_color = '#EBEA04',  				-- default color and border color
 	color0 = '#B0E0E6', 
 	color1 = '#242424', 
 	color2 = '#D8BFD8', 
@@ -154,7 +154,7 @@ ${image ~/.config/conky/harfo/images/separator-v.png -p 114,473 -s 1x95}\
 \
 ${voffset 20}${font Droid Sans :size=11}${alignc 10}${color}${execi 6000 lsb_release -d | grep 'Descr'|awk {'print $2 " " $3" " $4" " $5'}}${execi 6000 lsb_release -a | grep 'Release'|awk {'print $2""$3""$4""$5'}}${font}${color}
 ${voffset 6}${font Droid Sans :size=10}${alignc 10}Kernel : ${kernel}${font}${color}
-${voffset 6}${goto 25}${font Droid Sans :size=50}${color1}${time %I:%M}${font}
+${voffset 6}${goto 25}${font Droid Sans :size=50}${color1}${time %H:%M}${font}
 ${voffset 1}${goto 50}${font Droid Sans :size=15}${time %b %d} on ${time %a}${font}${color}
 \
 ${voffset 14}${goto 10}Cpu :${color}

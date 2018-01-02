@@ -1,14 +1,14 @@
 --[[
 #=====================================================================================
 #                               
-# Date    : 06/07/2017
+# Date    : 26/10/2017
 # name    : syclo conky (Simple System Info And Clock)
 # Author  : Adhi Pambudi
 #           https://plus.google.com/+AdhiPambudi
 #           http://addy-dclxvi.deviantart.com/
 # Github  : https://github.com/zagortenay333/conky-Vision
 # Editor  : Erik Dubois
-# Version : v2.1.1
+# Version : v3.0.4
 # License : Distributed under the terms of GNU GPL version 2 or later
 #=====================================================================================
 # CONKY
@@ -49,7 +49,7 @@ own_window_transparent = true,
 own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
 own_window_colour = '#000000',
 own_window_class = 'Conky',
-own_window_title = 'ArchLabs Top Conky',
+own_window_title = 'ArchMerge Top Conky',
 --## ARGB can be used for real transparency
 --## NOTE that a composite manager is required for real transparency.
 --## This option will not work as desired (in most cases) in conjunction with

@@ -1,10 +1,10 @@
 --[[
 #=====================================================================================
 #                               
-# Date    : 06/07/2017
+# Date    : 26/10/2017
 # Author  : Erik Dubois
 # Source  : Aureola - https://github.com/erikdubois/Aureola
-# Version : v2.1.1
+# Version : v3.0.4
 # License : Distributed under the terms of GNU GPL version 2 or later
 #=====================================================================================
 # CONKY
@@ -56,13 +56,13 @@ conky.config = {
 
 	--Placement
 
-	alignment = 'top_right',		            -- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
+	alignment = 'middle_right',		            -- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
 												-- middle_left,middle_middle,middle_right,none
 	--Arch Duoscreen
 	--gap_x = -1910,
 	gap_x = 10,									-- pixels between right or left border
 	gap_y = 20,									-- pixels between bottom or left border
-	minimum_height = 1100,						-- minimum height of window
+	minimum_height = 600,						-- minimum height of window
 	minimum_width = 230,						-- minimum height of window
 	maximum_width = 230,						-- maximum height of window
 
@@ -102,9 +102,9 @@ conky.config = {
 	xftalpha = 1,								-- alpha of the xft font - between 0-1
 
 	--Windows
-
+	
 	own_window = true,							-- create your own window to draw
-	own_window_argb_value = 150,			    -- real transparency - composite manager required 0-255
+	own_window_argb_value = 100,			    -- real transparency - composite manager required 0-255
 	own_window_argb_visual = true,				-- use ARGB - composite manager required
 	own_window_class = 'Conky',					-- manually set the WM_CLASS name for use with xprop
 	own_window_colour = '#000000',				-- set colour if own_window_transparent no
@@ -136,7 +136,7 @@ conky.config = {
 
 
 conky.text = [[
-${image ~/.config/conky/images/archlabs-white.png -p 170,0 -s 50x50}
+${image ~/.config/conky/images/archmerge-white-100x100.png -p 170,0 -s 50x50}
 ${color1}${font SourceSansPro-ExtraLight:size=18:weight:bold}${color2}${execi 6000 lsb_release -d | grep 'Descr'|awk {'print $2 " " $3" " $4" " $5'}}
 ${color1}${hr 2}
 ${voffset -10}${color1}${font SourceSansPro-ExtraLight:size=10:weight:bold:italic}${color6}$sysname $kernel ${alignr}${execi 6000 lsb_release -a | grep 'Release'|awk {'print $2""$3""$4""$5'}}${color}
@@ -173,25 +173,5 @@ ${offset 10}${color1}Up ${color1}${totalup wlan0}${color1}${alignr}${color1}${to
 ${offset 10}${color1}Up ${color1}${upspeed wlan0}${color1}${alignr}${color1}${downspeed wlan0} Down
 #${upspeedgraph wlan0 40,300 4B1B0C FF5C2B 10000000 -l -t}
 #${downspeedgraph wlan0 40,300 324D23 77B753 10000000 -l -t}
-${endif}\
-${color2}Dropbox Status :
-${if_running dropbox}\
-${alignr}${color6}${execi 5 python2 ~/.config/conky/scripts/acros/dropbox.py status}\
-${else}\
-${alignr}${color6} Offline\
-${endif}
-${color2}Insync Status : 
-${if_running insync}\
-${alignr}${color6}${execi 5 insync get_status | tr '[:upper:]' '[:lower:]'}\
-${else}\
-${alignr}${color6} Offline\
-${endif}
-${color2}Spotify Playing :
-${color6}${if_running spotify}\
-${alignr}${color1}Title : ${color6}${execi 5 dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 1 "title"|egrep -v "title"|cut -b 44-|cut -d '"' -f 1|egrep -v ^$}
-${alignr}${color1}Artist : ${color6}${execi 5 dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 2 "artist"|egrep -v "artist"|egrep -v "array"|cut -b 27-|cut -d '"' -f 1|egrep -v ^$}
-${alignr}${color1}Album : ${color6}${execi 5 dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 1 "album"|egrep -v "album"|cut -b 44-|cut -d '"' -f 1|egrep -v ^$}\
-${else}\
-${color6}${alignr}Offline\
 ${endif}\
 ]]

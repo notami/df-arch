@@ -1,9 +1,9 @@
 --[[
 #=====================================================================================
-#                               ARCHLabs
-# Date    : 04/06/2017
+#                               ArchMerge
+# Date    : 16/09/2017
 # Author  : Erik Dubois at http://www.erikdubois.be
-# Version : v1.1.0
+# Version : v1.2.0
 # License : Distributed under the terms of GNU GPL version 2 or later
 # Documentation : http://erikdubois.be/category/linux/aureola/
 #======================================================================================
@@ -30,12 +30,12 @@ conky.config = {
 
 	--Placement
 
-	alignment = 'top_right',					-- top-left,top-middle,top-right,bottom-left,bottom-middle,bottom-right,
+	alignment = 'middle_right',					-- top-left,top-middle,top-right,bottom-left,bottom-middle,bottom-right,
 												-- middle-left,middle-middle,middle-right,none
 	--Arch Duoscreen
 	--gap_x = -1910,
 	gap_x = 20,									-- pixels between right or left border
-	gap_y = 45,									-- pixels between bottom or left border
+	gap_y = 0,									-- pixels between bottom or left border
 	minimum_height = 200,						-- minimum height of window
 	minimum_width = 230,						-- minimum height of window
 	maximum_width = 230,						-- maximum height of window
@@ -78,7 +78,7 @@ conky.config = {
 	--Windows
 
 	own_window = true,							-- create your own window to draw
-	own_window_argb_value = 50,				    -- real transparency - composite manager required 0-255
+	own_window_argb_value = 150,				    -- real transparency - composite manager required 0-255
 	own_window_argb_visual = true,				-- use ARGB - composite manager required
 	own_window_class = 'Conky',					-- manually set the WM_CLASS name for use with xprop
 	own_window_colour = '#000000',				-- set colour if own_window_transparent no
@@ -91,8 +91,8 @@ conky.config = {
 	--Colours
 
 	default_color = '#ff0000',  				-- default color and border color
-	color1 = '#888888', 
-	color2 = '#AF1C38', 
+	color1 = '#FFFFFF', 
+	color2 = '#FFA726', 
 	color3 = '#cccccc', 
 	color4 = '#BDBDBD',
 	color5 = '#CCCCCC', 
@@ -131,14 +131,10 @@ ${else}${cpu cpu0}${endif}${endif}%${alignr}${freq_g}${color}
 
 ${color1}${alignc}S H O R T C U T    K E Y S${color}
 ${color1}${hr}${color}
-${color1}${color2}Right-mouse click on 
-desktop to get menu${color}
-${color1}${hr}${color}
-${color1}[S]+Space${alignr}${color2}Main Menu${color}
+${color1}[S]+Space (OB)${alignr}${color2}Main Menu${color}
 ${color1}[Alt]+F2${alignr}${color2}Alt Menu${color}
 ${color1}[Alt]+F3${alignr}${color2}Alt Menu${color}
 ${color1}[S]+[Shift]+D${alignr}${color2}Alt Menu${color}
-${color1}[S]+F11${alignr}${color2}Alt Menu${color}
 #${color1}[S] + Tab${alignr}${color2}Client Menu${color}
 ${color1}${hr}${color}
 ${color1}[S]+t${alignr}${color2}Terminal${color}
