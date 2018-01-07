@@ -30,7 +30,7 @@ clock_table = {
         border_width = 2,
         -- color settings. {color, alpha}
         background_color = {0xFFFFFF, 0.1}, -- bgcolor id draw_background is true.
-        fill_color   = {0xb5145c, 1},       -- fill color for minutes ring
+        fill_color   = {0xb61616, 1},       -- fill color for minutes ring
         border_color = {0xFFFFFF, 1},       -- border color
         text_color   = {0xFFFFFF, 1},       -- color of numbers
         -- font settings

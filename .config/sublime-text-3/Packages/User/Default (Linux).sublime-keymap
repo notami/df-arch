@@ -14,5 +14,7 @@
         [
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
-    }
+    },
+// tabs to table    
+    { "keys": ["ctrl+shift+t"], "command": "tabs_to_table" }
 ]

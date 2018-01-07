@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Cobalt2 Flat Theme",
+		"DataConverter",
 		"Emmet",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -13,7 +14,10 @@
 		"Package Control",
 		"SFTP",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-shellcheck",
 		"Sublimerge 3",
+		"TabsToTable",
 		"Theme - Cobalt2",
 		"View In Browser"
 	]

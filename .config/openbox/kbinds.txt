@@ -1,107 +1,113 @@
-2017-10-14	rc.xml KEYBINDS
--------------------------------
-
- 0	C-S-BackSpace   	openbox --reconfigure
- 1	W-KP_1          	UnmaximizeFull
- 2	W-KP_2          	UnmaximizeFull
- 3	W-KP_3          	UnmaximizeFull
- 4	W-KP_4          	UnmaximizeFull
- 5	W-KP_5          	MaximizeFull
- 6	W-KP_6          	UnmaximizeFull
- 7	W-KP_7          	UnmaximizeFull
- 8	W-KP_8          	UnmaximizeFull
- 9	W-KP_9          	UnmaximizeFull
-10	C-A-Right       	DesktopRight
-11	C-A-Left        	GoToDesktop
-12	C-A-Up          	GoToDesktop
-13	C-A-Down        	GoToDesktop
-14	A-Tab           	NextWindow
-15	A-S-Tab         	PreviousWindow
-16	W-S-Right       	DirectionalCycleWindows
-17	W-S-Left        	DirectionalCycleWindows
-18	W-S-Up          	DirectionalCycleWindows
-19	W-S-Down        	DirectionalCycleWindows
-20	S-A-Left        	SendToDesktopLeft
-21	S-A-Right       	SendToDesktopRight
-22	S-A-Up          	SendToDesktopUp
-23	S-A-Down        	SendToDesktopDown
-24	A-Escape        	Lower
-25	A-space         	client-menu
-26	XF86AudioStop   	playerctl pause
-27	XF86AudioPlay   	playerctl play-pause
-28	XF86AudioPrev   	playerctl previous
-29	XF86AudioNext   	playerctl next
-30	XF86MonBrightnessUp	xbacklight +10
-31	XF86MonBrightnessDown	xbacklight -10
-32	Print           	scrot 'ArchMerge_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES)'
-33	A-Print         	scrot -d 5 'ArchMerge_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICT.....
-34	C-Print         	xfce4-screenshooter
-35	A-F2            	gmrun
-36	A-F3            	xfce4-appfinder
-37	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
-38	A-F4            	Close
-39	A-F5            	Iconify
-40	A-F6            	ToggleMaximize
-41	A-F8            	ToggleDecorations
-42	W-d             	ToggleShowDesktop
-43	W-b             	ToggleDecorations
-44	W-f             	exo-open --launch FileManager
-45	W-t             	exo-open --launch TerminalEmulator
-46	W-w             	exo-open --launch WebBrowser
-47	W-k             	slimlock
-48	W-e             	geany
-49	W-m             	lollypop
-50	W-h             	urxvt -T 'htop task manager' -e htop
-51	W-v             	pavucontrol
-52	C-A-u           	pavucontrol
-53	W-x             	oblogout
-54	W-Escape        	xkill
-55	W-Tab           	client-list-combined-menu
-56	W-space         	root-menu
-57	W-Right         	UnmaximizeFull
-58	W-Left          	UnmaximizeFull
-59	W-Up            	MaximizeFull
-60	W-Down          	UnmaximizeFull
-61	W-A-Left        	UnmaximizeFull
-62	W-A-Right       	UnmaximizeFull
-63	A-r             	Resize
-64	A-m             	Move
-65	A-t             	variety -t
-66	A-f             	variety -f
-67	A-p             	variety -p
-68	A-Left          	variety -p
-69	A-n             	variety -n
-70	A-Right         	variety -n
-71	A-Down          	variety --resume
-72	A-Up            	variety --pause
-73	W-Pause         	oblogout
-74	S-W-q           	Close
-75	W-Return        	termite
-76	S-W-Return      	thunar
-77	W-F1            	exo-open --launch webbrowser
-78	W-F2            	subl3
-79	W-F3            	inkscape
-80	W-F4            	gimp
-81	W-F5            	meld
-82	W-F6            	vlc
-83	W-F7            	virtualbox
-84	W-F8            	thunar
-85	W-F9            	evolution
-86	W-F10           	spotify
-87	C-S-Escape      	xfce4-taskmanager
-88	C-A-q           	root-menu
-89	C-A-m           	xfce4-settings-manager
-90	C-A-j           	obmenu3
-91	C-A-k           	obkey
-92	C-A-a           	xfce4-appfinder
-93	C-A-T           	termite
-94	C-A-d           	ToggleShowDesktop
-95	C-A-V           	vivaldi-stable
-96	C-A-B           	thunar
-97	C-A-W           	subl3
-98	C-A-S           	spotify
-99	C-A-C           	catfish
-100	C-A-i           	nitrogen
-101	C-A-O           	obconf
-102	C-A-F           	firefox
-103	C-A-G           	chromium
+x C-S-BackSpace   	openbox --reconfigure
+o W-KP_1          	UnmaximizeFull
+o W-KP_2          	UnmaximizeFull
+o W-KP_3          	UnmaximizeFull
+o W-KP_4          	UnmaximizeFull
+o W-KP_5          	MaximizeFull
+o W-KP_6          	UnmaximizeFull
+o W-KP_7          	UnmaximizeFull
+o W-KP_8          	UnmaximizeFull
+o W-KP_9          	UnmaximizeFull
+o C-A-Right       	DesktopRight
+o C-A-Left        	GoToDesktop
+o C-A-Up          	GoToDesktop
+o C-A-Down        	GoToDesktop
+o A-Tab           	NextWindow
+o A-S-Tab         	PreviousWindow
+o W-S-Right       	DirectionalCycleWindows
+o W-S-Left        	DirectionalCycleWindows
+o W-S-Up          	DirectionalCycleWindows
+o W-S-Down        	DirectionalCycleWindows
+o S-A-Left        	SendToDesktopLeft
+o S-A-Right       	SendToDesktopRight
+o S-A-Up          	SendToDesktopUp
+o S-A-Down        	SendToDesktopDown
+o A-Escape        	Lower
+o A-space         	client-menu
+x XF86AudioStop   	playerctl pause
+x XF86AudioPlay   	playerctl play-pause
+x XF86AudioPrev   	playerctl previous
+x XF86AudioNext   	playerctl next
+x XF86MonBrightnessUp	xbacklight +10
+x XF86MonBrightnessDown	xbacklight -10
+x Print           	scrot 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'
+x A-Print         	scrot -d 5 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'
+x C-Print         	xfce4-screenshooter
+x A-F2            	gmrun
+x A-F3            	xfce4-appfinder
+x W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+o A-F4            	Close
+o A-F5            	Iconify
+o A-F6            	ToggleMaximize
+o A-F8            	ToggleDecorations
+o W-d             	ToggleShowDesktop
+o W-b             	ToggleDecorations
+x W-f             	thunar
+x W-t             	termite
+x W-w             	exo-open --launch webbrowser
+x W-k             	slimlock
+x W-r             	rofi-theme-selector
+x C-A-r           	rofi-theme-selector
+x W-e             	geany
+x W-m             	termite -e "neomutt"
+x W-n             	termite -e "newsboat"
+x W-b             	deadbeef
+x W-h             	urxvt -T 'htop task manager' -e htop
+x W-v             	pavucontrol
+x C-A-u           	pavucontrol
+x W-x             	oblogout
+x W-Escape        	xkill
+o W-Tab           	client-list-combined-menu
+x C-space         	rofi -modi drun,run -show drun -fullscreen -font "Noto Sans 13"
+x C-Shift-space   	rofi -modi drun,run -show drun -font "Noto Sans 13"
+x W-F11           	rofi -modi drun,run -show drun -fullscreen -font "Noto Sans 13"
+x W-F12           	rofi -modi drun,run -show drun -font "Noto Sans 13"
+o W-space         	root-menu
+o W-Right         	UnmaximizeFull
+o W-Left          	UnmaximizeFull
+o W-Up            	MaximizeFull
+o W-Down          	UnmaximizeFull
+o W-A-Left        	UnmaximizeFull
+o W-A-Right       	UnmaximizeFull
+o A-r             	Resize
+o A-m             	Move
+x A-t             	variety -t
+x A-f             	variety -f
+x A-p             	variety -p
+x                 	variety -p
+x A-n             	variety -n
+x                 	variety -n
+x A-Down          	variety --resume
+x A-Up            	variety --pause
+x W-Pause         	oblogout
+o W-q             	Close
+x W-Return        	termite
+x S-W-Return      	thunar
+x W-F1            	exo-open --launch webbrowser
+x W-F2            	subl3
+x W-F3            	inkscape
+x W-F4            	gimp
+x W-F5            	meld
+x W-F6            	vlc
+x W-F7            	virtualbox
+x W-F8            	thunar
+x W-F9            	evolution
+x W-F10           	spotify
+x C-S-Escape      	xfce4-taskmanager
+o C-A-q           	root-menu
+x C-A-m           	xfce4-settings-manager
+x C-A-j           	obmenu3
+x C-A-k           	obkey
+x C-A-a           	xfce4-appfinder
+x C-A-T           	termite
+x C-A-T           	termite -e mutt
+o C-A-d           	ToggleShowDesktop
+x C-A-V           	vivaldi-snapshot
+x C-A-B           	thunar
+x C-A-W           	subl3
+x C-A-S           	spotify
+x C-A-C           	catfish
+x C-A-i           	nitrogen
+x C-A-O           	obconf
+x C-A-F           	firefox
+x C-A-G           	chromium
