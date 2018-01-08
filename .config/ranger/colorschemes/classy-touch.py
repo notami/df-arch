@@ -11,7 +11,7 @@ class Default(ColorScheme):
 		elif context.in_browser:
 			if context.selected:
 				fg = white
-				attr = bold
+				attr = reverse
 			else:
 				attr = normal
 			if context.empty or context.error:
@@ -29,23 +29,23 @@ class Default(ColorScheme):
 				fg = green
 			if context.directory:
 				attr |= normal
-				fg = red
+				fg = blue
 			elif context.executable and not \
 					any((context.media, context.container,
 						context.fifo, context.socket)):
 				attr |= normal
-				fg = red
+				fg = blue
 			if context.socket:
-				fg = red
+				fg = blue
 			if context.fifo or context.device:
 				fg = yellow
 				if context.device:
 					attr |= bold
 			if context.link:
-				fg = context.good and white or red
+				fg = context.good and white or blue
 			if context.tag_marker and not context.selected:
 				attr |= bold
-				if fg in (red, white):
+				if fg in (blue, white):
 					fg = black
 				else:
 					fg = green
@@ -60,17 +60,17 @@ class Default(ColorScheme):
 					fg = white
 			if context.badinfo:
 				if attr & reverse:
-					bg = red
+					bg = blue
 				else:
-					fg = red
+					fg = blue
 
 		elif context.in_titlebar:
 			attr |= normal
 			if context.hostname:
 				attr |= normal
-				fg = red
+				fg = blue
 			elif context.directory:
-				fg = red
+				fg = blue
 			elif context.tab:
 				if context.good:
 					bg = green
@@ -82,14 +82,14 @@ class Default(ColorScheme):
 				if context.good:
 					fg = black
 				elif context.bad:
-					fg = red
+					fg = blue
 			if context.marked:
 				attr |= bold | reverse
 				fg = yellow
 			if context.message:
 				if context.bad:
 					attr |= bold
-					fg = red
+					fg = blue
 
 		if context.text:
 			if context.highlight:
@@ -97,7 +97,7 @@ class Default(ColorScheme):
 
 		if context.in_taskview:
 			if context.title:
-				fg = red
+				fg = blue
 
 			if context.selected:
 				attr |= normal
