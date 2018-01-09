@@ -7,6 +7,7 @@
 
 . ~/.bash.d/cheat.sh
 
+VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 export HISTCONTROL=ignoreboth:erasedups
 
 PS1='[\u@\h \W]\$ '
