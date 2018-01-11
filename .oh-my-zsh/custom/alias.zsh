@@ -47,7 +47,7 @@ alias cp="config push"
 #####################
 # ### dot files ### #
 #####################
-alias v3="vim /home/notami/.i3/config"
+alias v3="vim /home/notami/.config/i3/config"
 alias vr="vim /home/notami/.config/ranger/rc.conf"
 alias vm="vim /home/notami/.config/mutt/neomuttrc"
 alias vn="vim /home/notami/.newsboat/config"
@@ -56,6 +56,14 @@ alias vv="vim /home/notami/.vimrc"
 alias vz="vim /home/notami/.zshrc"
 alias vza="vim /home/notami/.oh-my-zsh/custom/alias.zsh"
 alias vi3="vim /home/notami/.config/i3/config"
+
+####################
+# Calling All Apps #
+####################
+
+alias mail="neomutt"
+alias rgr="ranger"
+alias music="ncmpcpp"
 
 ###############
 # ### nav ### #

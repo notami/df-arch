@@ -517,10 +517,11 @@ bindsym control+mod1+f exec --no-startup-id firefox
 bindsym control+mod1+k exec --no-startup-id Kodi
 bindsym control+mod1+v exec --no-startup-id vivaldi-stable
 bindsym control+mod1+g exec --no-startup-id termite -e ranger
+bindsym control+mod1+n exec --no-startup-id termite -e neomutt
 
 #bindsym $mod+F2 exec --no-startup-id geany
 bindsym $mod+F2 exec --no-startup-id atom
-bindsym control+mod1+w exec --no-startup-id subl3
+bindsym control+mod1+s exec --no-startup-id subl3
 
 bindsym $mod+F3 exec --no-startup-id inkscape
 
@@ -538,13 +539,15 @@ bindsym $mod+F8 exec --no-startup-id thunar
 bindsym $mod+Shift+Return exec --no-startup-id thunar
 bindsym control+mod1+b exec --no-startup-id thunar
 
-bindsym $mod+F9 exec --no-startup-id evolution
-bindsym control+mod1+e exec --no-startup-id evolution
+bindsym control+mod1+e exec --no-startup-id et
+bindsym control+mod1+w exec --no-startup-id wps
+bindsym control+mod1+o exec --no-startup-id wpp
 #bindsym $mod+F9 exec --no-startup-id geary
+#bindsym $mod+F9 exec --no-startup-id evolution
 #bindsym control+mod1+e exec --no-startup-id geary
 
 bindsym $mod+F10 exec --no-startup-id spotify
-bindsym control+mod1+s exec --no-startup-id spotify
+bindsym control+mod1+y exec --no-startup-id spotify
 
 
 
@@ -642,10 +645,10 @@ for_window [class="Terminator"] focus
 bindsym mod1+t exec --no-startup-id variety -t
 # next wallpaper
 bindsym mod1+n exec --no-startup-id variety -n
-bindsym mod1+Right exec --no-startup-id variety -n
+# bindsym mod1+Right exec --no-startup-id variety -n
 # previous wallpaper
 bindsym mod1+p exec --no-startup-id variety -p
-bindsym mod1+Left exec --no-startup-id variety -p
+# bindsym mod1+Left exec --no-startup-id variety -p
 # favorite wallpaper
 bindsym mod1+f exec --no-startup-id variety -f
 # pause wallpaper
