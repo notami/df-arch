@@ -847,8 +847,8 @@ bar {
     # put hastag in front if not installed
 
 #status_command i3blocks
-status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#status_command i3blocks -c ~/.config/i3/i3blocks-rainbow.conf
+#status_command i3blocks -c ~/.config/i3/i3blocks.conf
+status_command i3blocks -c ~/.config/i3/i3blocks-rainbow.conf
 #status_command i3blocks -c ~/.config/i3/i3blocks-original.conf
 #status_command i3blocks -c ~/.config/i3/i3blocks-awesome.conf
 
