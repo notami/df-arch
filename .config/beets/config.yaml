@@ -1,0 +1,13 @@
+directory: /mnt/Audio/Music
+library: ~/.config/beets/library.db
+import:
+  copy: no
+  write: yes
+plugins: mbsync convert web lastgenre mpdupdate
+mpd:
+    host: localhost
+    port: 6600
+paths:
+    default: $albumartist/$album%aunique{}/$track $title
+    singleton: Non-Album/$artist/$title
+    comp: Compilations/$album%aunique{}/$track $title
