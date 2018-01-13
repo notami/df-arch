@@ -2,3 +2,5 @@ delete
 rename ranger
 open_with vim
 
+rename ncmpcpp-config-1
+rename ncmpcpp-config-2
