@@ -73,11 +73,12 @@ ignore "DKIM-Signature:"
 hdr_order Date From To Cc
 alternative_order text/calendar text/plain text/enriched  text/html *
 auto_view text/calendar text/html
-set query_command="goobook query '%s'"  #connects mutt to gmail contacts
 #####################################################
 ###                  KEY BINDINGS                 ###
 #####################################################
+set query_command="goobook query '%s'"  #connects mutt to gmail contacts
 bind editor <Tab> complete-query
+macro index,pager a "<pipe-message>goobook add<return>" "add the sender address to Google contacts"
 bind editor ^T complete
 bind editor <space> noop 
 # delete msg
