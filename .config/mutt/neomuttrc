@@ -6,6 +6,8 @@
 ############ EDIT FROM HERE ###########
 #######################################
 
+source "gpg -dq $HOME/.gnupg/.mutt-pwd.gpg |"
+
 #YOUR USERNAME OF GMAIL without @gmail.com
 set imap_user = "notami"
 #
@@ -29,8 +31,8 @@ set editor = "vim"
 ######### ENTER THE VALUE IN QUOTES #############################################
 ######### IF YOU DON'T FILL THIS, MUTT WILL AUTOMATICALLY ASK WHEN YOU OPEN MUTT
 #################################################################################
-set imap_pass = "Basil339!"
-set smtp_pass = "Basil339!"
+set imap_pass = "$my_pass"
+set smtp_pass = "$my_pass"
 ########## OPTIONAL ###################
 
 #####################################################
