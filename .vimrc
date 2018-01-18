@@ -47,6 +47,7 @@ Plugin 'powerline/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'lifepillar/vim-cheat40'
 Plugin 'shime/vim-livedown'
 Plugin 'dhruvasagar/vim-table-mode'
+" Plugin 'MikeCoder/markdown-preview.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -130,7 +131,7 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " helppage -> :h vimwiki-syntax
 " refresh preview
 let g:instant_markdown_autostart = 0 " disable autostart
-map <leader>md :InstantMarkdownPreview<CR>
+map <leader>md :LivedownPreview<CR>
 " "}}}
 
 " SEARCH SANITY 
