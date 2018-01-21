@@ -1,1 +1,1 @@
-conky -c /home/notami/.config/conky/AM-Def-Cal.conkyrc & sleep 1s
+conky -c /home/notami/.config/conky/vision/Z333-vision.conkyrc & sleep 1s

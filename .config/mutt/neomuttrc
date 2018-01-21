@@ -6,6 +6,8 @@
 ############ EDIT FROM HERE ###########
 #######################################
 
+source "gpg -dq $HOME/.gnupg/.mutt-pwd.gpg |"
+
 #YOUR USERNAME OF GMAIL without @gmail.com
 set imap_user = "notami"
 #
@@ -29,8 +31,8 @@ set editor = "vim"
 ######### ENTER THE VALUE IN QUOTES #############################################
 ######### IF YOU DON'T FILL THIS, MUTT WILL AUTOMATICALLY ASK WHEN YOU OPEN MUTT
 #################################################################################
-set imap_pass = "Basil339!"
-set smtp_pass = "Basil339!"
+set imap_pass = "$my_pass"
+set smtp_pass = "$my_pass"
 ########## OPTIONAL ###################
 
 #####################################################
@@ -73,11 +75,12 @@ ignore "DKIM-Signature:"
 hdr_order Date From To Cc
 alternative_order text/calendar text/plain text/enriched  text/html *
 auto_view text/calendar text/html
-set query_command="goobook query '%s'"  #connects mutt to gmail contacts
 #####################################################
 ###                  KEY BINDINGS                 ###
 #####################################################
+set query_command="goobook query '%s'"  #connects mutt to gmail contacts
 bind editor <Tab> complete-query
+macro index,pager a "<pipe-message>goobook add<return>" "add the sender address to Google contacts"
 bind editor ^T complete
 bind editor <space> noop 
 # delete msg

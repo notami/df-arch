@@ -28,7 +28,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm)
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
-alias config='/usr/bin/git --git-dir=/home/notami/.cfg --work-tree=/home/notami'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # load zmv
 autoload -U zmv
