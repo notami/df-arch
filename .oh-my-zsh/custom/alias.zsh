@@ -60,7 +60,6 @@ alias vi3="vim /home/notami/.config/i3/config"
 ####################
 # Calling All Apps #
 ####################
-
 alias mail="neomutt"
 alias rgr="ranger"
 alias music="ncmpcpp"
