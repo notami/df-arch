@@ -105,6 +105,7 @@ set undofile
 set clipboard=unnamedplus
 let mapleader = ","			" sets leader key
 set clipboard^=unnamed      " copy paste bliss
+set pastetoggle=<F2>
 
 "
 " Allow saving of files as sudo when I forgot to start vim using sudo.
@@ -178,7 +179,7 @@ set formatoptions=qrn1
 set colorcolumn=85
 "
 
-"GENERAL GOODNESS
+"FOLDING
 "
 "=== folding ===
 set foldmethod=marker   " fold based on {{{,}}}

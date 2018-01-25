@@ -1,5 +1,9 @@
 rename ranger
 
 open_with vim
-delete 
 rename test.md
+delete 
+search vi
+search conf
+search config
+search skel

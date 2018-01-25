@@ -83,3 +83,39 @@ git clone https://github.com/notami/df-arch.git
 source .zshrc
 which zsh
 chsh -s /bin/zsh notami
+sudo vim /etc/fstab
+cs
+Documents/
+git clone https://github.com/notami/df-arch.git
+source .zshrc
+which zsh
+chsh -s /bin/zsh notami
+echo $SHELL
+personal/
+la
+..
+./010-install-all-fonts-needed-for-conkys-of-archmerge-v1.sh 
+personal/settings/
+fonts/
+ll /usr/share/fonts
+mkdir -p .local/share/fonts
+ll .local/share/fonts
+cd .local/share/fonts
+pwd
+ll
+curl -fLo "Droid Sans Mono for Powerline Nerd Font Comp    lete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSa    nsMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+~
+Documents/ArchMerge-Nemesis/
+cp -r personal/settings/fonts/* ~/.local/share/fonts/
+vim 200-install-core-software-v2.sh 
+./200-install-core-software-v2.sh 
+update
+source .zshrc
+which zsh
+chsh -s /bin/zsh notami
+Documents/ArchMerge-Nemesis/
+./010-install-all-fonts-needed-for-conkys-of-archmerge-v1.sh 
+vim 010-install-all-fonts-needed-for-conkys-of-archmerge-v1.sh 
+ll
+chsh -s /bin/zsh notami
+which zsh
