@@ -4,8 +4,8 @@
 ! https://critical.ch/xterm/
 ! ------------------------------------------------------------------------------
 
-xterm*font: 7x13
-xterm*faceName: Monospace:size=12:antialias=false
+xterm*font: Source\ Code\ Pro\ for\ Powerline
+xterm*faceName: Source\ Code\ Pro\ for\ Powerline:pixelsize=22:antialias=false
 xterm*loginShell: true
 xterm*vt100*geometry: 90x34
 xterm*saveLines: 2000
@@ -89,11 +89,12 @@ URxvt*color15: #ffffff
 ! fonts
 URxvt*letterSpace: 	    		-2
 !Xft.size:						12
-URxvt*font:                 	xft:Monospace:regular:size=13
-URxvt*imFont:               	xft:Monospace:regular:size=13
-URxvt*boldFont:             	xft:Monospace:bold:size=13
-URxvt*italicFont:           	xft:Monospace:italic:size=13
-URxvt*boldItalicFont:     		xft:Monospace:regular:size=13
+!URxvt*font:                 	xft:Noto Mono:regular:size=15
+URxvt*font                    xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=22,xft:PowerlineSymbols
+URxvt*imFont:               	xft:Source\ Code\ Pro\ for\ Powerline:regular:pixelsize=22,xft:PowerlineSymbols
+URxvt*boldFont:             	xft:Source\ Code\ Pro\ for\ Powerline:bold:pixelsize=22,xft:PowerlineSymbols
+URxvt*italicFont:           	xft:Source\ Code\ Pro\ for\ Powerline:italic:pixelsize=22,xft:PowerlineSymbols
+URxvt*boldItalicFont:     		xft:Source\ Code\ Pro\ for\ Powerline:regular:pixelsize=22,xft:PowerlineSymbols
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
@@ -136,8 +137,8 @@ UXTerm*termName: xterm-256color
 
 UXTerm*cursorColor:        white
 UXTerm*VT100.geometry:     90x30
-UXTerm*font:               Monospace
-UXTerm*faceSize:		   12
+UXTerm*font:               Source\ Code\ Pro\ for\ Powerline
+UXTerm*faceSize:		   15
 UXTerm*dynamicColors:      true
 UXTerm*utf8:               2
 UXTerm*eightBitInput:      true

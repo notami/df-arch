@@ -2,8 +2,15 @@ rename ranger
 
 open_with vim
 rename test.md
-delete 
 search vi
 search conf
 search config
 search skel
+=
+shell sudo chmod 640 docker
+shell sudo chmod 650 docker
+shell sudo chmod 655 docker
+shell sudo chmod 600 docker
+shell sudo chmod 700 docker
+shell sudo chmod 755 docker
+delete 
