@@ -84,6 +84,7 @@ alias ssh.d="ssh dbsaurer@dbsaurer.com"
 # ### commands ### #
 ####################
 alias scrimp="scrot -q 85 -d 5 screenshot.png && gimp screenshot.png &"
+alias rebar="pkill -USR1 polybar"
 
 ##################
 # ### iohyve ### #
