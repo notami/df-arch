@@ -13,7 +13,8 @@ text-width 70
 
 # External programs.
 browser firefox-esr
-player vlc
+player mpv
+external-url-viewer urlview
 
 # Navigation
 bind-key j down feedlist
@@ -34,11 +35,12 @@ bind-key h quit
 bind-key n next-unread
 bind-key p prev-unread
 bind-key D pb-download
+bind-key U show-urls
 
 # Colors
 color background black default
 color listnormal cyan default
-color listfocus black magenta standout bold
+color listfocus black yellow standout bold
 color listnormal_unread blue default
 color listfocus_unread yellow default bold
 color info red black bold

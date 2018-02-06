@@ -93,7 +93,7 @@ alias io="iohyve"
 
 ################
 # ### tmux ### #
-################
+###############
 alias tmn="tmux new -s"
 alias tma="tmux a -t"
 alias tms="tmux list-sessions"
@@ -111,6 +111,7 @@ alias rsmhd="rsync -auvzhe ssh --progress miraclesupholstery@104.255.96.68:/home
 alias rsmhf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/MiraclesHappen/" "/mnt/Data/Docs/Client/MiraclesHappen/""
 alias rsold="rsync -auvzhe ssh --progress olnb@104.255.96.68:/home/olnb/public_html/ "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/olnb.org/BU-OLNB/LocalMirror-OLNB/""
 alias rsolf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/" "/mnt/Data/Docs/Client/One Love No Boundaries/""
+alias=rshome"rsync -aP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR"
 
 ####################################
 # Aliases for software managment #

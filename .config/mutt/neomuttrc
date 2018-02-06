@@ -104,6 +104,7 @@ macro index,pager o "v<right>m" "view message in browser"
 # Make urlscan replace urlview.  urlscan supports more encodings and has more info in the url list (but can be compacted like urlview with a config option)
 macro index,pager \cu "<pipe-message> urlscan<Enter>" "call urlscan to extract URLs out of a message"
 macro attach,compose \cu "<pipe-entry> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+macro index,pager U "<enter-command>set pipe_decode = yes<enter><pipe-message>urlview<enter><enter-command>set pipe_decode = no<enter>""view URLs"
 
 ##### TEMPLATE FOR ADDING MORE SHORTCUTS ##########
 #macro index,pager gl "<change-folder>=NewLabel<enter>" "Go to NewLabel"

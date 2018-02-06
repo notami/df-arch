@@ -47,6 +47,7 @@ Plugin 'powerline/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'lifepillar/vim-cheat40'
 Plugin 'shime/vim-livedown'
 Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'junegunn/goyo.vim'
 " Plugin 'MikeCoder/markdown-preview.vim'
 
 " All of your Plugins must be added before the following line
@@ -107,6 +108,18 @@ let mapleader = ","			" sets leader key
 set clipboard^=unnamed      " copy paste bliss
 set pastetoggle=<F2>
 
+" Use urlview to choose and open a url:
+:noremap <leader>u :w<Home>silent <End> !urlview<CR>
+
+" Goyo plugin makes text more readable when writing prose:
+map <F10> :Goyo<CR>
+inoremap <F10> <esc>:Goyo<CR>a
+"
+" Enable Goyo by default for mutt writting
+autocmd BufRead,BufNewFile /tmp/neomutt* let g:goyo_width=72
+autocmd BufRead,BufNewFile /tmp/neomutt* :Goyo
+" Goyo's width will be the line limit in mutt.
+"
 "
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
