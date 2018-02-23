@@ -21,7 +21,7 @@ set from = "notami@gmail.com"
 set realname = "D Bruce Saurer"
 #
 # YOUR TEXT EDITOR 
-set editor = "vim"
+set editor="vim +13 -c 'set nobackup' -c 'set noswapfile' -c 'set nowritebackup' -c 'set tw=72 ft=mail noautoindent'"
 #
 #######################################
 ############ EDIT UPTO HERE ###########
@@ -117,5 +117,4 @@ bind attach <return> view-mailcap
 
 #####  MUTTRC CALLS #########
 source $MAILCONF~/.config/mutt/nv.sidebarrc
-source $MAILCONF~/.config/mutt/mutt-colors-solarized-dark-256.muttrc
-##### MUTTRC CALLS ##########
+source $MAILCONF~/.config/mutt/vombatidae.neomuttrc

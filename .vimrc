@@ -122,7 +122,7 @@ autocmd BufRead,BufNewFile /tmp/neomutt* :Goyo
 "
 "
 " Allow saving of files as sudo when I forgot to start vim using sudo.
-cmap w!! w !sudo tee > /dev/null %
+cmap w!! w !sudo tee % >/dev/null
 
 " Automatically source .vimrc
 " augroup autosourcing

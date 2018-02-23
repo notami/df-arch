@@ -99,6 +99,8 @@ alias tma="tmux a -t"
 alias tms="tmux list-sessions"
 alias tmks="tmux kill-session -t"
 alias tmrs="tmux source-file ~/.tmux/.tmux.rsync.conf"
+alias restore="~/scripts/tmux-s.sh restore"
+alias daily="tma daily"
 
 #################
 # ### rsync ### #
@@ -111,7 +113,7 @@ alias rsmhd="rsync -auvzhe ssh --progress miraclesupholstery@104.255.96.68:/home
 alias rsmhf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/MiraclesHappen/" "/mnt/Data/Docs/Client/MiraclesHappen/""
 alias rsold="rsync -auvzhe ssh --progress olnb@104.255.96.68:/home/olnb/public_html/ "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/olnb.org/BU-OLNB/LocalMirror-OLNB/""
 alias rsolf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/" "/mnt/Data/Docs/Client/One Love No Boundaries/""
-alias=rshome"rsync -aP --exclude-from=/var/tmp/ignorelist /home/$USER/ $BACKUPDIR"
+alias rshome="rsync -aP --exclude-from=/var/tmp/ignorelist -e ssh /home/$USER/ notami@freenas.local:/mnt/vol2/Data/Archive/monid"
 
 ####################################
 # Aliases for software managment #
@@ -169,7 +171,7 @@ alias -g M='| most'
 alias -g C='| wc -l'
 alias -g H='| head'
 alias -g T='| tail'
-alias -g G='| grep'
+alias -g G='| grep --color=auto'
 alias -g LL="2>&1 | less"
 alias -g CA="2>&1 | cat -A"
 alias -g NE="2> /dev/null"
