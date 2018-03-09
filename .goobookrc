@@ -1,15 +1,15 @@
 # "#" or ";" at the start of a line makes it a comment.
-[DEFAULT]
+#[DEFAULT]
 # The following are optional, defaults are shown
 
 # This file is written by the oauth library, and should be kept secure,
 # it's like a password to your google contacts.
-;oauth_db_filename: ~/.goobook_auth.json
+oauth_db_filename: ~/.goobook_auth.json
 
 # The client secret file is not really secret.
 ;client_secret_filename: ~/.goobook_client_secret.json
 
-;cache_filename: ~/.goobook_cache
+cache_filename: ~/.goobook_cache
 ;cache_expiry_hours: 24
 ;filter_groupless_contacts: yes
 

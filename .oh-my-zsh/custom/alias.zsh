@@ -144,6 +144,11 @@ alias cdrip="cdparanoia -BZ"
 alias cdrip+="cdparanoia -B"
 alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 
+#####################
+# You Tube Download #
+#####################
+alias ytdla="youtube-dl -x --audio-format mp3 --prefer-ffmpeg "
+
 ####################
 # Search arch wiki #
 ####################

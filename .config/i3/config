@@ -475,6 +475,9 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 bindsym $mod+Return exec --no-startup-id termite;focus
 bindsym control+mod1+t exec --no-startup-id termite; focus
 
+# st terminal
+bindsym $mod+Shift+s exec --no-startup-id /usr/local/bin/st;focus
+
 #System monitor
 bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
 
@@ -748,7 +751,7 @@ popup_during_fullscreen smart
 
 
 for_window [class="^.*"] border pixel 2
-gaps inner 5
+gaps inner 50
 gaps outer 5
 #smart_gaps on
 #smart_borders on
