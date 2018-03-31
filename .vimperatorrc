@@ -3,12 +3,18 @@
 	set wildmode=list:full
 	set cpt=l
     set tabnumbers
-    set editor="urxvt -e vim"
+    set editor="termite -e vim"
   let mapleader=","
-  set ds=yubnub
+"  set ds=yubnub
   set focuscontent
+  set defsearch=searx
+  colorscheme darkness
 
-" === Hints ===
+" Make Firefox run faster by using JIT
+" set! javascript.options.jit.chrome=true
+" set! javascript.options.jit.content=true"
+
+=== Hints ===
 /*{{{*/
 " Only use characters that don't suck to press.
 set hintchars="qwertasdfguophjk;"
@@ -32,10 +38,42 @@ hi -a CmdLine font-size: 16px;
 hi -a Normal font-size: 16px;
 hi -a Normal color: #000; 
 hi -a StatusLine color: #000;
+
+" MAKE BAR GREEN WHEN FOCUSED.
+" From: http://www.reddit.com/r/linux/comments/99d55/i_could_use_a_little_vimperator_help_also/
+javascript <<EOF
+    (function() {
+        var inputElement = document.getElementById('liberator-commandline-command');
+        function swapBGColor(event) {
+            inputElement.style.backgroundColor = event.type == "focus" ? "green" : "";
+        }
+        inputElement.addEventListener('focus', swapBGColor, false);
+        inputElement.addEventListener('blur', swapBGColor, false);
+    })();
+EOF
 /*}}}*/
+
+"===[ CUSTOM COMMANDS ]=================================================
+
+" Run :vimperatortoggle to enable or disable Vimperator as needed.
+javascript function vimperatortoggle() { if (is_vimperator_active) { liberator.execute(':disable') } else { liberator.execute(':enable') }; }
+command! vimperatortoggle javascript vimperatortoggle()
+
+" Run :disable to disable Vimperator and resume normal Firefox behavior.
+javascript function disable() { is_vimperator_active = false; liberator.execute(':set guioptions=TnbrmB showtabline=1'); modes.passAllKeys = true; }
+command! disable javascript disable()
+
+" Run :enable to enable Vimperator.
+javascript function enable() { is_vimperator_active = true; liberator.execute('set guioptions=nbr showtabline=1') }
+command! enable javascript enable()
+:enable
+
 
 " === MAPPINGS ===
 /*{{{*/
+
+" Press 'F10' to toggle Vimperator
+noremap <F10> :vimperatortoggle<CR>
 
 " Remaps d to the standard Ctrl+w to close tab and return to last focused tab.
 	:nnoremap d <C-w>
@@ -65,6 +103,8 @@ noremap K :tabmove +1<CR>
 " Load configuration file into current browser, useful for updating after editing this file.
 
 command! sourcerc :source ~/.vimperatorrc
+echo ".vimperator sourced"
+
 /*}}}*/
 
 " === TOGGLE NAVBAR ===
@@ -82,10 +122,11 @@ command! sourcerc :source ~/.vimperatorrc
 EOF
 /*}}}*/
 
+
 " === QMARK ===
 qmark a https://amazon.com/
 qmark b https://www.farmersbankgroup.com/
-qmark c https://calendar.google.com/
+mark c https://calendar.google.com/
 qmark g https://github.com/
 qmark f https://freenas.local/
 qmark k https://keep.google.com/
@@ -95,3 +136,18 @@ qmark v https://dbsaurer.com:10000
 qmark w https://managewp.com/wp-admin
 qmark y https://youtube.com/
 qmark x https://contacts.google.com/
+
+" === COPY ===
+
+" copy
+nnoremap ,c :copy<Space>
+js <<EOM
+liberator.globalVariables.copy_templates = [
+  { label: 'titleAndURL',    value: '%TITLE% \ n% %URL%' , map: ', y'},
+  { label: 'title',          value: '%TITLE%' },
+  { label: 'url',            value: '%URL%' },
+  { label: 'markdown',       value: '[%TITLE%](%URL% "%TITLE%")' },
+  { label: 'markdownsel',    value: '[%SEL%](%URL% "%TITLE%")' },
+  { label: 'htmlblockquote', value: '<blockquote cite="%URL%" title="%TITLE%">%HTMLSEL%</blockquote>' },
+];
+EOM

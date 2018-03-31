@@ -8,7 +8,7 @@
     "__value__": "AdnQywACAAAAAAMPAAABVgAABEsAAALrAAADEAAAAXYAAARKAAAC6gAAAAAAAAAAB4A="
   }, 
   "library_usage_stats": {
-    "/mnt/Data/Docs/Calibre Library": 18
+    "/mnt/Data/Docs/Calibre Library": 19
   }, 
   "book_details_splitter_horizontal_state": [
     true, 
@@ -16,7 +16,7 @@
   ], 
   "book_list_pin_splitter_state": {
     "__class__": "bytearray", 
-    "__value__": "AAAA/wAAAAEAAAACAAABAP////8A/////wEAAAABAA=="
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   }, 
   "grid view visible": false, 
   "convert_single_dialog_geom": {
@@ -132,8 +132,8 @@
   }, 
   "previous_sort_order_BooksView": {
     "timestamp": false, 
-    "authors": true, 
-    "title": true
+    "title": true, 
+    "authors": true
   }, 
   "preferences dialog geometry": {
     "__class__": "bytearray", 
@@ -162,10 +162,14 @@
   ], 
   "duplicates-question-dialog-geometry": {
     "__class__": "bytearray", 
-    "__value__": "AdnQywACAAAAAALKAAABWwAABScAAAL4AAACywAAAXsAAAUmAAAC9wAAAAAAAAAAB4A="
+    "__value__": "AdnQywACAAAAAALKAAABWQAABSkAAALZAAACzAAAAVsAAAUnAAAC1wAAAAAAAAAAB4A="
   }, 
   "tag_browser_splitter_horizontal_state": [
     true, 
     290
-  ]
+  ], 
+  "diff_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAHjAAAAbwAABZwAAARaAAAB5QAAAHEAAAWaAAAEWAAAAAAAAAAAB4A="
+  }
 }

@@ -148,7 +148,7 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 # You Tube Download #
 #####################
 alias ytdla="youtube-dl -x --audio-format mp3 --prefer-ffmpeg "
-
+alias ytdlp="youtube-dl --proxy socks://10.8.0.1:1080 "
 ####################
 # Search arch wiki #
 ####################
