@@ -1,0 +1,3 @@
+#!/bin/bash
+
+i3 exec "st -n dl -e youtube-dl $1"
