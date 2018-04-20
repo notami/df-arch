@@ -49,7 +49,7 @@ color article cyan default
 
 # LINKS
 browser linkhandler
-macro o set browser "firefox-esr"; open-in-browser ; toggle-article-read "read"
+macro , set browser "firefox-esr"; open-in-browser ; toggle-article-read "read"
 macro v set browser "i3 exec mpv"; open-in-browser ; set browser linkhandler
 macro y set browser "spawndl"; open-in-browser ; set browser linkhandler
 macro w set browser "w3m"; open-in-browser ; set browser linkhandler
