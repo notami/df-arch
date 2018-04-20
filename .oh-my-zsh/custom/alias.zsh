@@ -99,7 +99,7 @@ alias tma="tmux a -t"
 alias tms="tmux list-sessions"
 alias tmks="tmux kill-session -t"
 alias tmrs="tmux source-file ~/.tmux/.tmux.rsync.conf"
-alias restore="~/scripts/tmux-s.sh restore"
+alias restore="~/.scripts/tmux-s.sh restore"
 alias daily="tma daily"
 
 #################
