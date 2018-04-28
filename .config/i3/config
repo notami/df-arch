@@ -478,6 +478,9 @@ bindsym control+mod1+t exec --no-startup-id termite; focus
 # st terminal
 bindsym $mod+Shift+s exec --no-startup-id /usr/local/bin/st;focus
 
+# plexamp
+bindsym $mod+Shift+p exec --no-startup-id ~/Apps/plexamp-1.0.5-x86_64.AppImage;focus
+
 #System monitor
 bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
 
@@ -604,7 +607,7 @@ for_window [class="Xfce4-taskmanager"] floating enable
 for_window [class="Mullvad"] floating enable, resize set 300 450
 for_window [class="Pavucontrol"] floating enable, resize set 500 500
 for_window [class="keepassxc"] floating enable, resize set 700 600
-
+for_window [class="Plexamp"] floating enable
 
 #for_window [instance="gimp"] floating disable
 for_window [instance="script-fu"] border normal

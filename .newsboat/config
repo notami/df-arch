@@ -5,9 +5,10 @@
 
 # Settings.
 article-sort-order date-desc
-download-path ~/Download
-refresh-on-startup yes
-reload-threads 10
+download-path ~/Downloads/podcasts
+max-downloads 3
+# player "/usr/bin/ncmpcpp"
+auto-reload yes
 show-keymap-hint yes
 text-width 70
 
