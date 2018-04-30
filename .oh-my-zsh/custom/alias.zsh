@@ -124,6 +124,7 @@ alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syu'
 # pacaur or pc
 alias pcsyu="pacaur -Syu"
+alias pcsyua="yaourt -Syu --aur --noconfirm"
 # packer or pk
 alias pks="packer -S"
 alias pksn="packer -S --noconfirm --noedit"
