@@ -73,6 +73,8 @@ alias wwr="cd /mnt/www/nginx/refDesk/"
 alias wwt="cd /mnt/www/nginx/tv-home/"
 alias gam="cd /home/notami/Documents/ArchMerge-Nemesis/"
 alias gcf="cd /home/notami/.config"
+alias catc="cat ~/.scripts/configs"
+alias catf="cat ~/.scripts/folders"
 
 ###############
 # ### ssh ### #
@@ -150,6 +152,7 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 #####################
 alias ytdla="youtube-dl"
 alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
+
 ####################
 # Search arch wiki #
 ####################

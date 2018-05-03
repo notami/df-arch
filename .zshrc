@@ -6,6 +6,7 @@ export ZSH=/home/notami/.oh-my-zsh
 # export VISUAL=vim
 # export EDITOR="$VISUAL"
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
+source ~/.bash_shortcuts
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.

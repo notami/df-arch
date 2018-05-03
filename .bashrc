@@ -61,3 +61,4 @@ alias config='/usr/bin/git --git-dir=/home/notami/.cfg/ --work-tree=/home/notami
 export BROWSER=/usr/bin/firefox-esr
 
 neofetch
+source /home/notami/.bash_shortcuts

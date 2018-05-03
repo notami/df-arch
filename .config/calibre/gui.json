@@ -8,7 +8,7 @@
     "__value__": "AdnQywACAAAAAAMPAAABVgAABEsAAALrAAADEAAAAXYAAARKAAAC6gAAAAAAAAAAB4A="
   }, 
   "library_usage_stats": {
-    "/mnt/Data/Docs/Calibre Library": 20
+    "/mnt/Data/Docs/Calibre Library": 21
   }, 
   "book_details_splitter_horizontal_state": [
     true, 
@@ -132,9 +132,14 @@
   }, 
   "previous_sort_order_BooksView": {
     "timestamp": false, 
-    "authors": true, 
-    "title": true
+    "title": true, 
+    "authors": true
   }, 
+  "preferences dialog geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAFpAAAAXgAABQwAAANOAAABagAAAH4AAAULAAADTQAAAAAAAAAAB4A="
+  }, 
+  "search bar visible": true, 
   "replace_scene_breaks_history": [
     "", 
     "<hr />", 
@@ -146,11 +151,6 @@
     "\u221e \u221e \u221e", 
     "\u00a4 \u00a4 \u00a4"
   ], 
-  "search bar visible": true, 
-  "preferences dialog geometry": {
-    "__class__": "bytearray", 
-    "__value__": "AdnQywACAAAAAAFpAAAAXgAABQwAAANOAAABagAAAH4AAAULAAADTQAAAAAAAAAAB4A="
-  }, 
   "metasingle_window_geometry3": {
     "__class__": "bytearray", 
     "__value__": "AdnQywACAAAAAABEAAAAHgAAB38AAASdAAAARQAAAD4AAAd+AAAEnAAAAAAAAAAAB4A="

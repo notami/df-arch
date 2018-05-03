@@ -111,6 +111,9 @@ set pastetoggle=<F2>
 " Use urlview to choose and open a url:
 :noremap <leader>u :w<Home>silent <End> !urlview<CR>
 
+" Remaps shortcuts on save
+autocmd BufWritePost ~/.scripts/folders,~/.scripts/configs !bash ~/.scripts/shortcuts.sh
+
 " Goyo plugin makes text more readable when writing prose:
 map <F10> :Goyo<CR>
 inoremap <F10> <esc>:Goyo<CR>a

@@ -1,0 +1,50 @@
+shell sudo chmod 700 docker
+shell sudo chmod 755 docker
+mkdir -p 2015 2016 2017
+shell mkdir -p 2015 2016 2017
+shell mv OrrMuni-15*.pdf 2015
+shell mv OrrMuni-16*.pdf 2016
+shell mv OrrMuni-17*.pdf 2017
+shell mv Armstrong15*.pdf 2015
+shell extract
+shell cp
+open_withgr
+
+shell sudo mv webview.sh webniew
+rename .urlview
+rename webview
+shell sudo mv webniew webview
+rename Easy2Boot_v1.97A.rar
+shell x Easy2Boot_v1.97A.rar
+rename notami@gmail.com.ical-180205.zip
+shell x notami@gmail.com.ical-180205.zip
+rename mirrorlist.back
+rename ~commands_full.py
+shell i
+rename ~rips
+shell mkdir -p Merna/The Calling
+rename The Calling
+bulkrename 
+open_with et
+shell git clone https://github.com/LukeSmithxyz/voidrice.git
+shell git clone https://github.com/LukeSmithxyz/st.git
+rename ~rc.conf
+rename Vim
+rename Mastering Vim Quickly #7 - Registers.html
+rename Mastering Vim Quickly #3 - Christmas Edition 🎁 🌟.html
+open_with subl3
+rename S7Edge-Data.txt
+shell mkdir yoga
+rename Beginners Workshop Handout-2.pdf
+rename Beginners1.pdf
+rename Beginners Workshop Handout-1.pdf
+open_with mupdf
+open_with pdfunite
+open_with 
+open_with vim
+shell mkdir nemisis
+delete 
+yta
+rename rc.conf.old
+rename 0-Introduction .mp3
+rename 0-Introduction.mp3

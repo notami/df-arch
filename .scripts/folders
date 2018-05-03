@@ -1,0 +1,17 @@
+# You can add comments to these files with #
+d	~/Documents
+D	~/Documents/MyDocuments
+C	~/Documents/MyDocuments/Client
+w	~/Downloads
+m	~/Music
+p	~/Pictures
+v	~/Videos
+s	~/.scripts
+c	~/.config
+N /mnt/www/nginx/notes
+M /mnt
+bs /home/notami/Documents/MyDocuments/Client/DBS/dbsaurer.com/BU-DBS 
+lg /home/notami/Documents/MyDocuments/Client/LegacyIII/legacythree.org/BU-L3
+mh /home/notami/Documents/MyDocuments/Client/MiraclesHappen/miraclesupholstery.com/BU-MH
+ol /home/notami/Documents/MyDocuments/Client/One Love No Boundaries/olnb.org/BU-OLNB
+us /usr/share
