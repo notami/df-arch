@@ -2,6 +2,7 @@
 alias d='cd ~/Documents && ls -a'
 alias D='cd ~/Documents/MyDocuments && ls -a'
 alias C='cd ~/Documents/MyDocuments/Client && ls -a'
+alias nid='cd ~/Documents/MyDocuments/NID && ls -a'
 alias w='cd ~/Downloads && ls -a'
 alias m='cd ~/Music && ls -a'
 alias p='cd ~/Pictures && ls -a'
