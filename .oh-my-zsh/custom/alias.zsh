@@ -81,6 +81,8 @@ alias catf="cat ~/.scripts/folders"
 ###############
 alias ssh.f="ssh notami@freenas.local"
 alias ssh.d="ssh dbsaurer@dbsaurer.com"
+alias ssh.tv="ssh tv-am"
+alias ssh.nid="ssh nid-8164-am"
 
 ####################
 # ### commands ### #

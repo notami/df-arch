@@ -14,5 +14,5 @@ config.bind(';M', 'set downloads.location.directory /mnt ;; hint links download'
 config.bind(';bs', 'set downloads.location.directory /home/notami/Documents/MyDocuments/Client/DBS/dbsaurer.com/BU-DBS ;; hint links download')
 config.bind(';lg', 'set downloads.location.directory /home/notami/Documents/MyDocuments/Client/LegacyIII/legacythree.org/BU-L3 ;; hint links download')
 config.bind(';mh', 'set downloads.location.directory /home/notami/Documents/MyDocuments/Client/MiraclesHappen/miraclesupholstery.com/BU-MH ;; hint links download')
-config.bind(';ol', 'set downloads.location.directory /home/notami/Documents/MyDocuments/Client/One ;; hint links download')
+config.bind(';ol', 'set downloads.location.directory /home/notami/Documents/MyDocuments/Client/OLNB/olnb.org/BU-OLNB ;; hint links download')
 config.bind(';us', 'set downloads.location.directory /usr/share ;; hint links download')
