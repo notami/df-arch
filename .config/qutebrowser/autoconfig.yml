@@ -110,7 +110,7 @@ settings:
         ;o: hint links fill :open {hint-url}
         ;ol: set downloads.location.directory /home/notami/Documents/MyDocuments/Client/OLNB/olnb.org/BU-OLNB
           ;; hint links download
-        ;p: 'set downloads.location.directory ~/Pictures ;; hint links down '
+        ;p: set downloads.location.directory ~/Pictures ;; hint links download
         ;r: hint --rapid links tab-bg
         ;s: set downloads.location.directory ~/.scripts ;; hint links download
         ;t: hint inputs
@@ -161,6 +161,7 @@ settings:
         '?': set-cmd-text ?
         '@': run-macro
         B: set-cmd-text -s :quickmark-load -t
+        Ctrl+home: home
         D: tab-close -o
         F: hint all tab
         G: scroll-to-perc
@@ -309,7 +310,11 @@ settings:
   fonts.tabs:
     global: 10pt monospace
   url.default_page:
-    global: https://searx.me/
+    global: http://fnweb-local/refDesk/index.php
+  url.incdec_segments:
+    global:
+    - path
+    - query
   url.searchengines:
     global:
       '4': https://boards.4chan.org/{}

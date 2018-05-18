@@ -139,7 +139,7 @@ alias tvstart="systemctl start teamviewerd.service"
 # # show log output #
 #####################
 alias syslog="journalctl -p 3 -xb"
-
+alias pth='echo $PATH | tr ":" "\n" | nl'
 
 ######################
 # CD Rip-MP3 Convert #
@@ -187,4 +187,5 @@ alias -g LL="2>&1 | less"
 alias -g CA="2>&1 | cat -A"
 alias -g NE="2> /dev/null"
 alias -g NUL="> /dev/null 2>&1"
+
 

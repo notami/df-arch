@@ -520,6 +520,7 @@ bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser
 #qwerty/azerty conflict with w
 bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser
 bindsym control+mod1+f exec --no-startup-id firefox
+bindsym control+mod1+q exec --no-startup-id qutebrowser
 bindsym control+mod1+k exec --no-startup-id Kodi
 #bindsym control+mod1+v exec --no-startup-id vivaldi-stable
 bindsym control+mod1+r exec --no-startup-id termite -e ranger
@@ -541,9 +542,9 @@ bindsym $mod+F6 exec --no-startup-id vlc
 bindsym $mod+F7 exec --no-startup-id virtualbox
 
 for_window [class="Thunar"] focus
-bindsym $mod+F8 exec --no-startup-id thunar
+#bindsym $mod+F8 exec --no-startup-id thunar
 bindsym $mod+Shift+Return exec --no-startup-id thunar
-bindsym control+mod1+b exec --no-startup-id thunar
+#bindsym control+mod1+b exec --no-startup-id thunar
 
 bindsym control+mod1+e exec --no-startup-id et
 bindsym control+mod1+w exec --no-startup-id wps

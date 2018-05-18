@@ -36,6 +36,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-commentary'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'vimwiki/vimwiki'
 Plugin 'lervag/vimtex'
@@ -221,7 +222,7 @@ autocmd BufEnter *.html nmap ,mc !!boxes -d html-cmt<CR>
 autocmd BufEnter *.html vmap ,mc !boxes -d html-cmt<CR>
 autocmd BufEnter *.html nmap ,xc !!boxes -d html-cmt -r<CR>
 autocmd BufEnter *.html vmap ,xc !boxes -d html-cmt -r<CR>
-autocmd BufEnter *.[chly],*.[pc]c nmap ,mc !!boxes -d c-cmt<CR>
+
 autocmd BufEnter *.[chly],*.[pc]c vmap ,mc !boxes -d c-cmt<CR>
 autocmd BufEnter *.[chly],*.[pc]c nmap ,xc !!boxes -d c-cmt -r<CR>
 autocmd BufEnter *.[chly],*.[pc]c vmap ,xc !boxes -d c-cmt -r<CR>
@@ -234,6 +235,8 @@ autocmd BufEnter .vimrc*,.exrc vmap ,mc !boxes -d vim-cmt<CR>
 autocmd BufEnter .vimrc*,.exrc nmap ,xc !!boxes -d vim-cmt -r<CR>
 autocmd BufEnter .vimrc*,.exrc vmap ,xc !boxes -d vim-cmt -r<CR>
 
+" TPOPE COMMENTING
+"noremap <leader>/ :Commentary<cr>
 
 "=== BUFFERS ===
 "{{{
@@ -293,6 +296,7 @@ vmap <C-Down> ]egv
 
 nmap <leader>t :NERDTreeToggle<CR>                                 
 nmap <leader>tm :TableModeToggle<CR>                                 
+let g:table_mode_corner='|'
 
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
