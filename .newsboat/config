@@ -5,9 +5,9 @@
 
 # Settings.
 article-sort-order date-desc
-download-path ~/Downloads/podcasts
+download-path "~/Downloads/podcasts/%h/%n"
 max-downloads 3
-# player "/usr/bin/ncmpcpp"
+player "vlc"
 auto-reload yes
 show-keymap-hint yes
 text-width 70
