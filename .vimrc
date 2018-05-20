@@ -36,6 +36,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-commentary'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'vimwiki/vimwiki'
 Plugin 'lervag/vimtex'
@@ -47,6 +48,8 @@ Plugin 'powerline/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'lifepillar/vim-cheat40'
 Plugin 'shime/vim-livedown'
 Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'junegunn/goyo.vim'
+" Plugin 'MikeCoder/markdown-preview.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -104,10 +107,26 @@ set undofile
 set clipboard=unnamedplus
 let mapleader = ","			" sets leader key
 set clipboard^=unnamed      " copy paste bliss
+set pastetoggle=<F2>
 
+" Use urlview to choose and open a url:
+:noremap <leader>u :w<Home>silent <End> !urlview<CR>
+
+" Remaps shortcuts on save
+autocmd BufWritePost ~/.scripts/folders,~/.scripts/configs !bash ~/.scripts/shortcuts.sh
+
+" Goyo plugin makes text more readable when writing prose:
+map <F10> :Goyo<CR>
+inoremap <F10> <esc>:Goyo<CR>a
+"
+" Enable Goyo by default for mutt writting
+autocmd BufRead,BufNewFile /tmp/neomutt* let g:goyo_width=72
+autocmd BufRead,BufNewFile /tmp/neomutt* :Goyo
+" Goyo's width will be the line limit in mutt.
+"
 "
 " Allow saving of files as sudo when I forgot to start vim using sudo.
-cmap w!! w !sudo tee > /dev/null %
+cmap w!! w !sudo tee % >/dev/null
 
 " Automatically source .vimrc
 " augroup autosourcing
@@ -130,7 +149,7 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " helppage -> :h vimwiki-syntax
 " refresh preview
 let g:instant_markdown_autostart = 0 " disable autostart
-map <leader>md :InstantMarkdownPreview<CR>
+map <leader>md :LivedownPreview<CR>
 " "}}}
 
 " SEARCH SANITY 
@@ -177,7 +196,7 @@ set formatoptions=qrn1
 set colorcolumn=85
 "
 
-"GENERAL GOODNESS
+"FOLDING
 "
 "=== folding ===
 set foldmethod=marker   " fold based on {{{,}}}
@@ -203,7 +222,7 @@ autocmd BufEnter *.html nmap ,mc !!boxes -d html-cmt<CR>
 autocmd BufEnter *.html vmap ,mc !boxes -d html-cmt<CR>
 autocmd BufEnter *.html nmap ,xc !!boxes -d html-cmt -r<CR>
 autocmd BufEnter *.html vmap ,xc !boxes -d html-cmt -r<CR>
-autocmd BufEnter *.[chly],*.[pc]c nmap ,mc !!boxes -d c-cmt<CR>
+
 autocmd BufEnter *.[chly],*.[pc]c vmap ,mc !boxes -d c-cmt<CR>
 autocmd BufEnter *.[chly],*.[pc]c nmap ,xc !!boxes -d c-cmt -r<CR>
 autocmd BufEnter *.[chly],*.[pc]c vmap ,xc !boxes -d c-cmt -r<CR>
@@ -216,6 +235,8 @@ autocmd BufEnter .vimrc*,.exrc vmap ,mc !boxes -d vim-cmt<CR>
 autocmd BufEnter .vimrc*,.exrc nmap ,xc !!boxes -d vim-cmt -r<CR>
 autocmd BufEnter .vimrc*,.exrc vmap ,xc !boxes -d vim-cmt -r<CR>
 
+" TPOPE COMMENTING
+"noremap <leader>/ :Commentary<cr>
 
 "=== BUFFERS ===
 "{{{
@@ -275,8 +296,23 @@ vmap <C-Down> ]egv
 
 nmap <leader>t :NERDTreeToggle<CR>                                 
 nmap <leader>tm :TableModeToggle<CR>                                 
+let g:table_mode_corner='|'
 
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
 endif
+
+" TWIDDLE CASE
+
+function! TwiddleCase(str)
+  if a:str ==# toupper(a:str)
+    let result = tolower(a:str)
+  elseif a:str ==# tolower(a:str)
+    let result = substitute(a:str,'\(\<\w\+\>\)', '\u\1', 'g')
+  else
+    let result = toupper(a:str)
+  endif
+  return result
+endfunction
+vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv

@@ -1,6 +1,27 @@
-delete 
 rename ranger
-open_with vim
-
 rename ncmpcpp-config-1
 rename ncmpcpp-config-2
+shell sudo vim grub
+shell mkdir ytdl
+shell touch ruppert
+shell 
+rename ruppert.txt
+
+search youtube
+shell mkdir youtube-dl
+shell touch config
+open_with vim
+rename ~mps-youtube
+rename mps-youtube
+rename playlists
+rename input_history
+rename play_history.m3u
+open_with subl3
+shell t
+open_withm-
+shell rm -rf snap
+delete 
+rename aliasa.zsh.old
+rename rc.conf.old
+rename rifle.conf.old
+rename scope.sh.old

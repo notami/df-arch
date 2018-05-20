@@ -60,7 +60,6 @@ alias vi3="vim /home/notami/.config/i3/config"
 ####################
 # Calling All Apps #
 ####################
-
 alias mail="neomutt"
 alias rgr="ranger"
 alias music="ncmpcpp"
@@ -74,17 +73,22 @@ alias wwr="cd /mnt/www/nginx/refDesk/"
 alias wwt="cd /mnt/www/nginx/tv-home/"
 alias gam="cd /home/notami/Documents/ArchMerge-Nemesis/"
 alias gcf="cd /home/notami/.config"
+alias catc="cat ~/.scripts/configs"
+alias catf="cat ~/.scripts/folders"
 
 ###############
 # ### ssh ### #
 ###############
 alias ssh.f="ssh notami@freenas.local"
 alias ssh.d="ssh dbsaurer@dbsaurer.com"
+alias ssh.tv="ssh tv-am"
+alias ssh.nid="ssh nid-8164-am"
 
 ####################
 # ### commands ### #
 ####################
 alias scrimp="scrot -q 85 -d 5 screenshot.png && gimp screenshot.png &"
+alias rebar="pkill -USR1 polybar"
 
 ##################
 # ### iohyve ### #
@@ -93,12 +97,14 @@ alias io="iohyve"
 
 ################
 # ### tmux ### #
-################
+###############
 alias tmn="tmux new -s"
 alias tma="tmux a -t"
 alias tms="tmux list-sessions"
 alias tmks="tmux kill-session -t"
 alias tmrs="tmux source-file ~/.tmux/.tmux.rsync.conf"
+alias restore="~/.scripts/tmux-s.sh restore"
+alias daily="tma daily"
 
 #################
 # ### rsync ### #
@@ -111,6 +117,7 @@ alias rsmhd="rsync -auvzhe ssh --progress miraclesupholstery@104.255.96.68:/home
 alias rsmhf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/MiraclesHappen/" "/mnt/Data/Docs/Client/MiraclesHappen/""
 alias rsold="rsync -auvzhe ssh --progress olnb@104.255.96.68:/home/olnb/public_html/ "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/olnb.org/BU-OLNB/LocalMirror-OLNB/""
 alias rsolf="rsync -ruvzhe ssh --progress "/home/notami/Documents/MyDocuments/Client/One Love No Boundaries/" "/mnt/Data/Docs/Client/One Love No Boundaries/""
+alias rshome="rsync -aP --exclude-from=/var/tmp/ignorelist -e ssh /home/$USER/ notami@freenas.local:/mnt/vol2/Data/Archive/monid"
 
 ####################################
 # Aliases for software managment #
@@ -121,6 +128,7 @@ alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syu'
 # pacaur or pc
 alias pcsyu="pacaur -Syu"
+alias pcsyua="yaourt -Syu --aur --noconfirm"
 # packer or pk
 alias pks="packer -S"
 alias pksn="packer -S --noconfirm --noedit"
@@ -131,7 +139,7 @@ alias tvstart="systemctl start teamviewerd.service"
 # # show log output #
 #####################
 alias syslog="journalctl -p 3 -xb"
-
+alias pth='echo $PATH | tr ":" "\n" | nl'
 
 ######################
 # CD Rip-MP3 Convert #
@@ -140,6 +148,12 @@ alias cdck="cdparanoia -vsQ"
 alias cdrip="cdparanoia -BZ"
 alias cdrip+="cdparanoia -B"
 alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
+
+#####################
+# You Tube Download #
+#####################
+alias ytdla="youtube-dl"
+alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
 
 ####################
 # Search arch wiki #
@@ -168,9 +182,10 @@ alias -g M='| most'
 alias -g C='| wc -l'
 alias -g H='| head'
 alias -g T='| tail'
-alias -g G='| grep'
+alias -g G='| grep --color=auto'
 alias -g LL="2>&1 | less"
 alias -g CA="2>&1 | cat -A"
 alias -g NE="2> /dev/null"
 alias -g NUL="> /dev/null 2>&1"
+
 
