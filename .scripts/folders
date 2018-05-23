@@ -1,7 +1,7 @@
 # You can add comments to these files with #
-d	~/Documents
-D	~/Documents/MyDocuments
-C	~/Documents/MyDocuments/Client
+do	~/Documents
+dd	~/Documents/MyDocuments
+dc	~/Documents/MyDocuments/Client
 nid	~/Documents/MyDocuments/NID
 w	~/Downloads
 m	~/Music

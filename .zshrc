@@ -6,8 +6,8 @@ export ZSH=/home/notami/.oh-my-zsh
 # export VISUAL=vim
 # export EDITOR="$VISUAL"
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
-source ~/.bash_shortcuts
-export PATH=$PATH:/home/notami/.scripts
+# source ~/.bashrc
+PATH=$PATH:/home/notami/.scripts
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -165,3 +165,4 @@ bindkey "^[[Z" magic-space            # shift-tab to bypass completion
 bindkey -M isearch " " magic-space    # normal space during searches
 
 neofetch
+source /home/notami/.bash_shortcuts

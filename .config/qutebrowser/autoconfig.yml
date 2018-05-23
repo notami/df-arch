@@ -310,7 +310,7 @@ settings:
   fonts.tabs:
     global: 10pt monospace
   url.default_page:
-    global: http://fnweb-local/refDesk/index.php
+    global: https://fnweb-local/refDesk/index.php
   url.incdec_segments:
     global:
     - path
@@ -357,3 +357,5 @@ settings:
     - utm_campaign
     - utm_term
     - utm_content
+  window.hide_decoration:
+    global: false

@@ -1,7 +1,7 @@
 # qutebrowser shortcuts
-config.bind(';d', 'set downloads.location.directory ~/Documents ;; hint links download')
-config.bind(';D', 'set downloads.location.directory ~/Documents/MyDocuments ;; hint links download')
-config.bind(';C', 'set downloads.location.directory ~/Documents/MyDocuments/Client ;; hint links download')
+config.bind(';do', 'set downloads.location.directory ~/Documents ;; hint links download')
+config.bind(';dd', 'set downloads.location.directory ~/Documents/MyDocuments ;; hint links download')
+config.bind(';dc', 'set downloads.location.directory ~/Documents/MyDocuments/Client ;; hint links download')
 config.bind(';nid', 'set downloads.location.directory ~/Documents/MyDocuments/NID ;; hint links download')
 config.bind(';w', 'set downloads.location.directory ~/Downloads ;; hint links download')
 config.bind(';m', 'set downloads.location.directory ~/Music ;; hint links download')

@@ -1099,7 +1099,7 @@ c.tabs.favicons.scale = 1.0
 
 ## Show favicons in the tab bar.
 ## Type: Bool
-c.tabs.favicons.show = True
+c.tabs.favicons.show = 'always'
 
 ## Padding for tab indicators
 ## Type: Padding
@@ -1225,7 +1225,7 @@ c.url.auto_search = 'naive'
 ## The page to open if :open -t/-b/-w is used without URL. Use
 ## `about:blank` for a blank page.
 ## Type: FuzzyUrl
-c.url.default_page = 'https://www.startpage.com/do/mypage.pl?prf=2f64c64db2bd61cce04124cec2c1337fl'
+c.url.default_page = 'http://fnweb-local/refDesk/index.php'
 
 ## The URL segments where `:navigate increment/decrement` will search for
 ## a number.
@@ -1283,7 +1283,7 @@ c.url.searchengines = {
 
 ## The page(s) to open at the start.
 ## Type: List of FuzzyUrl, or FuzzyUrl
-c.url.start_pages = [' https://www.startpage.com/do/mypage.pl?prf=2f64c64db2bd61cce04124cec2c1337f']
+c.url.start_pages = ['http://fnweb-local/refDesk/index.php']
 
 ## The URL parameters to strip with `:yank url`.
 ## Type: List of String
@@ -1291,7 +1291,7 @@ c.url.yank_ignored_parameters = ['ref', 'utm_source', 'utm_medium', 'utm_campaig
 
 ## Hide the window decoration when using wayland (requires restart)
 ## Type: Bool
-c.window.hide_wayland_decoration = False
+c.window.hide_decoration = False
 
 ## The format to use for the window title. The following placeholders are
 ## defined:  * `{perc}`: The percentage as a string like `[10%]`. *
@@ -1306,7 +1306,7 @@ c.window.title_format = '{perc}{title}{title_sep}qutebrowser'
 
 ## The default zoom level.
 ## Type: Perc
-c.zoom.default = '100%'
+c.zoom.default = '125%'
 
 ## The available zoom levels.
 ## Type: List of Perc
