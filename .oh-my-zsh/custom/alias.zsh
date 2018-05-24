@@ -67,6 +67,7 @@ alias music="ncmpcpp"
 alias nb="newsboat"
 alias pp1="pipes.sh"
 alias pp3="pipes.sh -t 3 -p 3 -f 30"
+alias wall='wal -i ~/.config/variety/Downloaded/Desktoppr'
 
 ###############
 # ### nav ### #

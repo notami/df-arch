@@ -15,3 +15,4 @@ if [systemd-detect-virt = "oracle"];
 	/usr/bin/VBoxClient-all
 fi
 
+wal -R

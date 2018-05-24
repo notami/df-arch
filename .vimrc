@@ -49,6 +49,7 @@ Plugin 'lifepillar/vim-cheat40'
 Plugin 'shime/vim-livedown'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'junegunn/goyo.vim'
+Plugin 'dylanaraps/wal.vim'
 " Plugin 'MikeCoder/markdown-preview.vim'
 
 " All of your Plugins must be added before the following line
@@ -76,6 +77,7 @@ set background=dark
 " colorscheme gruvbox			" Set the colorscheme
 syntax enable				" Turn on syntax highlighting
 "
+
 
 " TABS 
 
