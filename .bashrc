@@ -41,10 +41,6 @@ alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syu'
 # pacaur or pc
 alias pcsyu="pacaur -Syu"
-# packer or pk
-alias pks="packer -S"
-alias pksn="packer -S --noconfirm --noedit"
-alias pksyu="packer -Syu  --noconfirm --noedit"
 
 alias fixpng="find . -type f -name "*.png" -exec convert {} -strip {} \;"
 

@@ -6,7 +6,8 @@ export ZSH=/home/notami/.oh-my-zsh
 # export VISUAL=vim
 # export EDITOR="$VISUAL"
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
-export PATH=$PATH:/home/notami/.scripts
+# source ~/.bashrc
+PATH=$PATH:/home/notami/.scripts
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -143,6 +144,18 @@ esac
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#########
+# PYWAL #
+#########
+
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+(cat ~/.cache/wal/sequences &)
+
+# To add support for TTYs this line can be optionally added.
+source ~/.cache/wal/colors-tty.sh
 
 ################
 # Global Alias #

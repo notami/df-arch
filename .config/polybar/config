@@ -39,6 +39,20 @@ format-margin =
 format-offset =
 
 [colors]
+; background = ${xrdb:color0:#222}
+; foreground = ${xrdb:color7:#222}
+; foreground-alt = ${xrdb:color7:#222}
+; primary = ${xrdb:color1:#222}
+; secondary = ${xrdb:color2:#222}
+; alert = ${xrdb:color3:#222}
+
+; [bar/bar]
+; ...
+; background = ${colors.background}
+; foreground = ${colors.foreground}
+
+; ...
+
 ; Nord theme ============
 background = #2F343F
 foreground = #f3f4f5
@@ -118,7 +132,7 @@ font-1 = fontawesome-regular:size=11:0
 font-2 = NotoMono-Regular: size=11;0
 
 modules-left = i3 xwindow
-modules-center = mpd
+modules-center = networkspeedup networkspeeddown
 modules-right = memory2 cpu2 date
 
 separator = |
@@ -127,7 +141,7 @@ separator = |
 
 tray-position = right
 tray-detached = false
-tray-maxsize = 25
+tray-maxsize = 22
 tray-transparent = false
 tray-background = ${colors.background}
 tray-offset-x = 0
@@ -607,9 +621,7 @@ type = internal/backlight
 card = intel_backlight
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-prefix-foreground = #7D49B6
-format-prefix-underline = #7D49B6
-format-underline = #7D49B6
+
 ################################################################################
 
 [module/backlight]
@@ -795,7 +807,7 @@ type = internal/date
 interval = 5
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
-date = " %m-%d-%y%""
+date = " %m/%d/%y%""
 date-alt = " %d-%m-%Y"
 time = %l:%M
 time-alt = %H:%M
@@ -1056,8 +1068,7 @@ format-online-background = ${colors.background}
 type = internal/network
 ;interface = wlp3s0
 ;interface = enp14s0
-;interface = enp0s31f6
-interface = enp4s0
+interface = enp0s31f6
 label-connected = "%upspeed:7%"
 format-connected = <label-connected>
 format-connected-prefix = ""
@@ -1073,8 +1084,7 @@ format-connected-background = ${colors.background}
 type = internal/network
 ;interface = wlp3s0
 ;interface = enp14s0
-;interface = enp0s31f6
-interface = enp4s0
+interface = enp0s31f6
 label-connected = "%downspeed:7%"
 format-connected = <label-connected>
 format-connected-prefix = ""
@@ -1326,7 +1336,7 @@ format-connected = <label-connected>
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
 format-connected-prefix = "  "
-format-connected-prefix-foreground = #7e52c6
+format-connected-prefix-foreground = ${colors.foreground}
 format-connected-prefix-background = ${colors.background}
 format-connected-underline = #7e52c6
 
@@ -1336,7 +1346,6 @@ label-disconnected-background = ${colors.background}
 
 format-disconnected = <label-disconnected>
 format-disconnected-foreground = ${colors.alert}
-format-disconnected-background = ${colors.background}
 format-disconnected-prefix = "  "
 format-disconnected-prefix-foreground = ${colors.alert}
 format-disconnected-prefix-background = ${colors.background}
@@ -1362,7 +1371,6 @@ format-prefix = "   "
 format-prefix-foreground = ${colors.foreground}
 format-prefix-background = ${colors.background}
 format-prefix-underline = #9f78e1
-format-underline = #9f78e1
 label = %percentage%%
 bar-width = 10
 bar-indicator = 

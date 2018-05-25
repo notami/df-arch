@@ -169,6 +169,30 @@ mode "$mode_system" {
 }
 
 
+#########
+# PYWAL #
+#########
+
+# Set colors from Xresources
+# Change 'color7' and 'color2' to whatever colors you want i3 to use 
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+
+client.background       $bg
+
+# PROTIP: You can also dynamically set dmenu's colors this way:
+# bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+
 
 #####################################################################################################################
 #################                          reload changed configuration                             #################
@@ -473,7 +497,13 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 # terminal
 bindsym $mod+Return exec --no-startup-id termite;focus
-bindsym control+mod1+t exec --no-startup-id termite; focus
+# bindsym control+mod1+t exec --no-startup-id termite; focus
+
+# st terminal
+bindsym $mod+Shift+s exec --no-startup-id /usr/local/bin/st;focus
+
+# plexamp
+# bindsym $mod+Shift+p exec --no-startup-id /usr/local/bin/st;focus
 
 #System monitor
 bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
@@ -491,8 +521,8 @@ bindsym control+mod1+c exec --no-startup-id catfish;focus
 
 #rofi theme selector  -- ROFI IS NOT INSTALLED
 #ArchMerge conflict
-#bindsym mod1+r exec rofi-theme-selector
-bindsym control+mod1+r exec --no-startup-id rofi-theme-selector
+bindsym mod1+r exec rofi-theme-selector
+#bindsym control+mod1+r exec --no-startup-id rofi-theme-selector
 
 #deadbeef or lollypop
 #ArchMerge conflict
@@ -514,9 +544,10 @@ bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser
 #qwerty/azerty conflict with w
 bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser
 bindsym control+mod1+f exec --no-startup-id firefox
+bindsym control+mod1+q exec --no-startup-id qutebrowser
 bindsym control+mod1+k exec --no-startup-id Kodi
 #bindsym control+mod1+v exec --no-startup-id vivaldi-stable
-bindsym control+mod1+g exec --no-startup-id termite -e ranger
+bindsym control+mod1+r exec --no-startup-id termite -e ranger
 bindsym control+mod1+n exec --no-startup-id termite -e neomutt
 
 #bindsym $mod+F2 exec --no-startup-id geany
@@ -535,9 +566,9 @@ bindsym $mod+F6 exec --no-startup-id vlc
 bindsym $mod+F7 exec --no-startup-id virtualbox
 
 for_window [class="Thunar"] focus
-bindsym $mod+F8 exec --no-startup-id thunar
+#bindsym $mod+F8 exec --no-startup-id thunar
 bindsym $mod+Shift+Return exec --no-startup-id thunar
-bindsym control+mod1+b exec --no-startup-id thunar
+#bindsym control+mod1+b exec --no-startup-id thunar
 
 bindsym control+mod1+e exec --no-startup-id et
 bindsym control+mod1+w exec --no-startup-id wps
@@ -601,7 +632,7 @@ for_window [class="Xfce4-taskmanager"] floating enable
 for_window [class="Mullvad"] floating enable, resize set 300 450
 for_window [class="Pavucontrol"] floating enable, resize set 500 500
 for_window [class="keepassxc"] floating enable, resize set 700 600
-
+for_window [class="Plexamp"] floating enable
 
 #for_window [instance="gimp"] floating disable
 for_window [instance="script-fu"] border normal
@@ -748,7 +779,7 @@ popup_during_fullscreen smart
 
 
 for_window [class="^.*"] border pixel 2
-gaps inner 5
+gaps inner 50
 gaps outer 5
 #smart_gaps on
 #smart_borders on
