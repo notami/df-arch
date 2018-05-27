@@ -2,6 +2,7 @@ cff	~/.scripts/folders
 cfc	~/.scripts/configs
 cfb	~/.bashrc
 cfz	~/.zshrc
+cfa ~/.oh-my-zsh/custom/alias.zsh
 cfv	~/.vimrc
 cfr	~/.config/ranger/rc.conf
 cfi	~/.config/i3/config

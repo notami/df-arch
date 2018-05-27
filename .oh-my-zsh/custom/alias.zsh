@@ -67,7 +67,8 @@ alias music="ncmpcpp"
 alias nb="newsboat"
 alias pp1="pipes.sh"
 alias pp3="pipes.sh -t 3 -p 3 -f 30"
-alias wall='wal -i ~/.config/variety/Downloaded/Desktoppr'
+alias wall='wal -i ~/.config/variety/Favorites'
+alias srr='sr -elvi | less'
 
 ###############
 # ### nav ### #
@@ -156,7 +157,7 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 
 #####################
 # You Tube Download #
-e####################
+#####################
 alias ytdl="youtube-dl -f best"
 alias ytdla="youtube-dl -x --audio-format mp3 --prefer-ffmpg"
 alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
