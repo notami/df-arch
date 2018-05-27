@@ -1,0 +1,296 @@
+sw_volume: 86
+audio_device_state:1:pulse audio
+audio_device_state:1:my-viz
+state: stop
+current: 55
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Aretha Franklin/1970 Sweet Bitter Love/01 All Night Long.mp3
+1:Aretha Franklin/1970 Sweet Bitter Love/02 Ac-cen-tchu-ate The Positive.mp3
+2:Aretha Franklin/1970 Sweet Bitter Love/03 Nobody Like You.mp3
+3:Aretha Franklin/1970 Sweet Bitter Love/04 Today I Sing The Blues.mp3
+4:Aretha Franklin/1970 Sweet Bitter Love/05 Sweet Bitter Love.mp3
+5:Aretha Franklin/1970 Sweet Bitter Love/06 Try A Little Tenderness.mp3
+6:Aretha Franklin/1970 Sweet Bitter Love/07 Skylark.mp3
+7:Aretha Franklin/1970 Sweet Bitter Love/08 Johnny.mp3
+8:Aretha Franklin/1970 Sweet Bitter Love/09 God Bless The Child.mp3
+9:Aretha Franklin/1970 Sweet Bitter Love/10 If Ever I Would Leave You.mp3
+10:Fleetwood Mac/1977 Albatross (and Christine Perfect) /01 - Albatross.mp3
+11:Fleetwood Mac/1977 Albatross (and Christine Perfect) /02 - Rambling Pony.mp3
+12:Fleetwood Mac/1977 Albatross (and Christine Perfect) /03 - I Believe My Time Ain't Long.mp3
+13:Fleetwood Mac/1977 Albatross (and Christine Perfect) /04 - Doctor Brown.mp3
+14:Fleetwood Mac/1977 Albatross (and Christine Perfect) /05 - Stop Messin' Round.mp3
+15:Fleetwood Mac/1977 Albatross (and Christine Perfect) /06 - Love That Burns.mp3
+16:Fleetwood Mac/1977 Albatross (and Christine Perfect) /07 - Jigsaw Puzzle Blues.mp3
+17:Fleetwood Mac/1977 Albatross (and Christine Perfect) /08 - Need Your Love Tonight.mp3
+18:Fleetwood Mac/1977 Albatross (and Christine Perfect) /09 - I'd Rather Go Blind.mp3
+19:Fleetwood Mac/1977 Albatross (and Christine Perfect) /10 - Crazy 'Bout You Baby.mp3
+20:Fleetwood Mac/1977 Albatross (and Christine Perfect) /11 - And That's Saying A Lot.mp3
+21:Fleetwood Mac/1977 Albatross (and Christine Perfect) /12 - I'm On My Way.mp3
+22:Fleetwood Mac/1977 Albatross (and Christine Perfect) /13 - No Road Is The Right Road.mp3
+23:Fleetwood Mac/1977 Albatross (and Christine Perfect) /14 - Let Me Go (Leave Me Alone).mp3
+24:Fleetwood Mac/1977 Albatross (and Christine Perfect) /15 - I'm Too Far Gone (To Turn Around).mp3
+25:Fleetwood Mac/1977 Albatross (and Christine Perfect) /16 - When You Say.mp3
+26:BB King/King of the Blues CD 3 of 4 (1969-1975)/01-The Thrill Is Gone.mp3
+27:BB King/King of the Blues CD 3 of 4 (1969-1975)/02-Confessin' The Blues.mp3
+28:BB King/King of the Blues CD 3 of 4 (1969-1975)/03-Nobody Loves Me But My Mother.mp3
+29:BB King/King of the Blues CD 3 of 4 (1969-1975)/04-Hummingbird.mp3
+30:BB King/King of the Blues CD 3 of 4 (1969-1975)/05-Ask Me No Questions.mp3
+31:BB King/King of the Blues CD 3 of 4 (1969-1975)/06-Chains And Things.mp3
+32:BB King/King of the Blues CD 3 of 4 (1969-1975)/07-Eyesight To The Blind (Previously Unreleased).mp3
+33:BB King/King of the Blues CD 3 of 4 (1969-1975)/08-Niji Baby (Previously Unreleased).mp3
+34:BB King/King of the Blues CD 3 of 4 (1969-1975)/09-Blue Shadows.mp3
+35:BB King/King of the Blues CD 3 of 4 (1969-1975)/10-Ghetto Woman.mp3
+36:BB King/King of the Blues CD 3 of 4 (1969-1975)/11-Ain't Nobody Home.mp3
+37:BB King/King of the Blues CD 3 of 4 (1969-1975)/12-I Got Some Help I Don't Need (Single Edit)(Previously Unreleased).mp3
+38:BB King/King of the Blues CD 3 of 4 (1969-1975)/13-Five Long Years.mp3
+39:BB King/King of the Blues CD 3 of 4 (1969-1975)/14-To Know You Is To Love You.mp3
+40:BB King/King of the Blues CD 3 of 4 (1969-1975)/15-I Like To Live The Love.mp3
+41:BB King/King of the Blues CD 3 of 4 (1969-1975)/16-Don't Make Me Pay For His Mistakes.mp3
+42:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/01 Baltimore.mp3
+43:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/02 Black Autumn.mp3
+44:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/03 The Story Of Isaac.mp3
+45:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/04 There'll Always Be.mp3
+46:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/05 Sweet Dreams.mp3
+47:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/06 Pete's Blue.mp3
+48:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/07 The Messiah Will Come Again.mp3
+49:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/08 Tribute To Elmore James.mp3
+50:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/09 After Hours.mp3
+51:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/10 Five String Blues.mp3
+52:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/11 C. C. Rider (Live).mp3
+53:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/12 My Baby Says She's Gonna Leave Me.mp3
+54:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/13 Please Don't Turn Me Away.mp3
+55:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/14 Country Preacher.mp3
+56:Roy Buchanan/1994 - Sweet Dreams The Anthology/Roy Buchanan - Sweet Dreams- The Anthology [Disc 1]/15 Wayfaring Pilgrim.mp3
+57:Etta James/Etta James - Blue Gardenia (2001)/01-This Bitter Earth.mp3
+58:Etta James/Etta James - Blue Gardenia (2001)/02-He's Funny That Way.mp3
+59:Etta James/Etta James - Blue Gardenia (2001)/03-In My Solitude.mp3
+60:Etta James/Etta James - Blue Gardenia (2001)/04-There Is No Greater Love.mp3
+61:Etta James/Etta James - Blue Gardenia (2001)/05-Don't Let the Sun Catch You Crying.mp3
+62:Etta James/Etta James - Blue Gardenia (2001)/06-Love Letters.mp3
+63:Etta James/Etta James - Blue Gardenia (2001)/07-These Foolish Things.mp3
+64:Etta James/Etta James - Blue Gardenia (2001)/08-Come Rain or Come Shine.mp3
+65:Etta James/Etta James - Blue Gardenia (2001)/09-Don't Worry 'Bout Me.mp3
+66:Etta James/Etta James - Blue Gardenia (2001)/10-Cry Me a River.mp3
+67:Etta James/Etta James - Blue Gardenia (2001)/11-Don't Blame Me.mp3
+68:Etta James/Etta James - Blue Gardenia (2001)/12-My Man.mp3
+69:Etta James/Etta James - Blue Gardenia (2001)/13-Blue Gardenia.mp3
+70:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/01 Tell Mama.mp3
+71:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/02 I'd Rather Go Blind.mp3
+72:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/03 Watch Dog.mp3
+73:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/04 The Love of My Man.mp3
+74:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/05 I'm Gonna Take What He's Got.mp3
+75:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/06 The Same Rope.mp3
+76:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/07 Security.mp3
+77:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/08 Steal Away.mp3
+78:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/09 My Mother-In-Law.mp3
+79:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/10 Don't Lose Your Good Thing.mp3
+80:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/11 It Hurts Me So Much.mp3
+81:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/12 Just a Little Bit.mp3
+82:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/13 Do Right Woman, Do Right Man.mp3
+83:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/14 You Took It.mp3
+84:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/15 I Worship the Ground You Walk On.mp3
+85:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/16 I Got You Babe.mp3
+86:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/17 You Got It.mp3
+87:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/18 I've Gone Too Far.mp3
+88:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/19 Misty.mp3
+89:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/20 Almost Persuaded.mp3
+90:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/21 Fire.mp3
+91:Etta James/Tell Mama - The Complete Muscle Shoals Sessions/22 Do Right Woman, Do Right Man (Alt.mp3
+92:Roy Buchanan/2002 - The Millenium Collection/01 Sweet Dreams.mp3
+93:Roy Buchanan/2002 - The Millenium Collection/02 Pete's Blues.mp3
+94:Roy Buchanan/2002 - The Millenium Collection/03 The Messiah Will Come Again.mp3
+95:Roy Buchanan/2002 - The Millenium Collection/04 Filthy Teddy.mp3
+96:Roy Buchanan/2002 - The Millenium Collection/05 After Hours.mp3
+97:Roy Buchanan/2002 - The Millenium Collection/06 Five String Blues.mp3
+98:Roy Buchanan/2002 - The Millenium Collection/07 Hey Joe.mp3
+99:Roy Buchanan/2002 - The Millenium Collection/08 Roy's Bluz.mp3
+100:Roy Buchanan/2002 - The Millenium Collection/09 Cc Ryder.mp3
+101:Roy Buchanan/2002 - The Millenium Collection/10 Country Preacher.mp3
+102:Roy Buchanan/2002 - The Millenium Collection/11 Wayfariing Pilgrim.mp3
+103:Roy Buchanan/2002 - The Millenium Collection/12 I'm Evil.mp3
+104:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/13 Fishing Blues.mp3
+105:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/25 Preachin' The Blues.mp3
+106:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/24 Sittin' On Top Of The World.mp3
+107:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/23 Standin' On The Corner (Blue Yodel #9).mp3
+108:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/22 K.C. Moan.mp3
+109:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/21 Diddie Wah Diddie.mp3
+110:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/20 Pony Blues.mp3
+111:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/19 Guitar Blues.mp3
+112:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/18 Pine Top's Boogie Woogie.mp3
+113:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/17 It's Tight Like That.mp3
+114:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/16 Statesboro Blues.mp3
+115:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/15 Canned Heat Blues.mp3
+116:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/14 How Long How Long Blues.mp3
+117:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/01 Shortnin'-Henduck.mp3
+118:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/12 Frankie.mp3
+119:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/11 Downtown Blues.mp3
+120:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/10 Savoy Blues.mp3
+121:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/09 Dark Was The Night, Cold Was The Ground.mp3
+122:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/08 'Ma' Rainey's Black Bottom.mp3
+123:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/07 Billy Lyons & Stack-O-Lee.mp3
+124:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/06 Match Box Blues.mp3
+125:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/05 Muddy Water.mp3
+126:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/04 St. Louis Blues.mp3
+127:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/03 Crazy Blues.mp3
+128:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 1/02 Long John.mp3
+129:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/13 Me And My Chauffeur Blues.mp3
+130:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/25 Double Crossing Blues.mp3
+131:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/24 Ain't Nobody's Business, Part One.mp3
+132:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/23 Good Rockin' Tonight.mp3
+133:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/22 Call It Stormy Monday.mp3
+134:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/21 That's All Right Mama.mp3
+135:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/20 Let The Good Times Roll.mp3
+136:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/19 Drifting Blues.mp3
+137:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/18 Honeydripper Pt.1.mp3
+138:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/17 Strange Things Happening Everyday.mp3
+139:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/16 Evil Gal Blues.mp3
+140:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/15 Cross Cut Saw Blues.mp3
+141:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/14 Worried Life Blues.mp3
+142:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/01 Devil Got My Woman.mp3
+143:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/12 Key To The Highway.mp3
+144:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/11 Going To Chicago Blues.mp3
+145:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/10 Catfish Blues.mp3
+146:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/09 Roll 'Em Pete.mp3
+147:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/08 Shake 'Em On Down.mp3
+148:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/06 Cross Road Blues.mp3
+149:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/05 Billie's Blues.mp3
+150:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/04 Dirty Mother For You (Don't You Know).mp3
+151:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/03 Baby Please Don't Go.mp3
+152:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/02 C.C. Rider.mp3
+153:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 2/07 Good Mornin' Little School Girl.mp3
+154:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/13 Blue Monday.mp3
+155:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/25 Big Boss Man.mp3
+156:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/24 First Time I Met The Blues.mp3
+157:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/23 So Many Roads, So Many Trains.mp3
+158:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/22 Farther Up The Road.mp3
+159:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/21 Johnny B. Goode.mp3
+160:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/20 I'm A King Bee.mp3
+161:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/19 Who Do You Love.mp3
+162:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/18 Smokestack Lightnin'.mp3
+163:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/16 Mystery Train.mp3
+164:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/15 I Hear You Knockin'.mp3
+165:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/14 Hard Times.mp3
+166:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/01 Mother Earth.mp3
+167:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/12 Eisenhower Blues.mp3
+168:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/11( (I'm Your) Hoochie Coochie Man.mp3
+169:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/10 In The Night.mp3
+170:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/09 The Things That I Used To Do.mp3
+171:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/08 Reconsider Baby.mp3
+172:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/07 Hound Dog.mp3
+173:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/06 Juke.mp3
+174:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/05 No More Doggin'.mp3
+175:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/04 Dust My Broom.mp3
+176:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/03 Rocket 88.mp3
+177:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/02 Please Send Me Someone To Love.mp3
+178:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/17 Don't Start Me To Talkin'.mp3
+179:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/13 Blue Monday.mp3
+180:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/25 Big Boss Man.mp3
+181:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/24 First Time I Met The Blues.mp3
+182:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/23 So Many Roads, So Many Trains.mp3
+183:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/22 Farther Up The Road.mp3
+184:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/21 Johnny B. Goode.mp3
+185:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/20 I'm A King Bee.mp3
+186:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/19 Who Do You Love.mp3
+187:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/18 Smokestack Lightnin'.mp3
+188:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/16 Mystery Train.mp3
+189:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/15 I Hear You Knockin'.mp3
+190:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/14 Hard Times.mp3
+191:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/01 Mother Earth.mp3
+192:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/12 Eisenhower Blues.mp3
+193:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/11( (I'm Your) Hoochie Coochie Man.mp3
+194:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/10 In The Night.mp3
+195:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/09 The Things That I Used To Do.mp3
+196:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/08 Reconsider Baby.mp3
+197:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/07 Hound Dog.mp3
+198:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/06 Juke.mp3
+199:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/05 No More Doggin'.mp3
+200:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/04 Dust My Broom.mp3
+201:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/03 Rocket 88.mp3
+202:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/02 Please Send Me Someone To Love.mp3
+203:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 3/17 Don't Start Me To Talkin'.mp3
+204:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/11 Wang Dang Doodle.mp3
+205:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/21 One Good Man.mp3
+206:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/20 Black Magic Woman.mp3
+207:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/19 She Caught the Katy.mp3
+208:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/18 Ain't Superstitious.mp3
+209:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/17 Tell Mama.mp3
+210:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/16 Mama Talk To Your Daughter.mp3
+211:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/15 Born Under The Bad Sign.mp3
+212:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/14 Red House.mp3
+213:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/13 I've Got A Mind To Give Up Livin'.mp3
+214:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/12 All Your Love.mp3
+215:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/01 Hide Away.mp3
+216:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/10 Hoodoo Man Blues.mp3
+217:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/09 Highway 61 Revisited.mp3
+218:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/08 You Gotta Move.mp3
+219:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/07 Death Letter Blues.mp3
+220:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/06 Killing Floor.mp3
+221:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/05 You Can't Lose What You Ain't Never Had.mp3
+222:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/03 Boom Boom.mp3
+223:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/02 Drivin' Wheel.mp3
+224:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 4/04 Frosty.mp3
+225:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/02 Dallas.mp3
+226:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/20 Sweet Home Chicago.mp3
+227:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/19 I Pity The Fool (Live).mp3
+228:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/18 Vietnam Blues.mp3
+229:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/17 Round & Round.mp3
+230:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/16 Voodoo Music.mp3
+231:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/15 Just Won't Burn.mp3
+232:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/14 Bill.mp3
+233:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/13 Cherry Red Wine.mp3
+234:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/12 Am I Wrong.mp3
+235:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/10 I'm In The Mood.mp3
+236:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/09 Tuff Enuff.mp3
+237:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/08 Smoking Gun.mp3
+238:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/06 Down Home Blues.mp3
+239:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/05 One Way Out.mp3
+240:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/04 Give Me Back My Wig.mp3
+241:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/03 Have You Ever Loved A Woman.mp3
+242:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/11 Timbarma.mp3
+243:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/07 Pride And Joy.mp3
+244:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/01 The Thrill Is Gone.mp3
+245:Marvin Gaye/The Master 1961-1984 Disc 2/16 Ain't Nothing Like the Real Thing.mp3
+246:Richie Havens/1971 The Great Blind Degree/04- Thinks About The Children.mp3
+247:Fleetwood Mac/1974 Heroes Are Hard to Find /04. Bermuda Triangle.mp3
+248:Eric Clapton/2006-2007 World Tour Box Set/107 I Shot The Sheriff.mp3
+249:Yusuf Islam/2003 - I look I See/03 - Allahu Allah.wma
+250:Eric Clapton/Derek & The Dominos - Layla AOALS 40th Anniversary Deluxe/111 Little Wing.mp3
+251:Amy Winehouse/2007 - Back To Black (Deluxe Edition)/CD 1/07. Tears Dry On Their Own.mp3
+252:Various Artists/Martin Scorsese Presents the Blues - A Musical Journey/Disc 5/06 Down Home Blues.mp3
+253:Nā Palapalai/Ha'a/03 - Ka 'Ohaohala.mp3
+254:Tom Petty & The Heartbrakers/(2006) Highway Companion/03 - Flirting With Time.mp3
+255:Louis Prima/Capitol Recordings/101 Buona Sera.mp3
+256:Louis Prima/Capitol Recordings/102 Oh Marie!.mp3
+257:Louis Prima/Capitol Recordings/103 Just A Gigolo - I Ain't Got Nobody.mp3
+258:Louis Prima/Capitol Recordings/104 Body And Soul.mp3
+259:Louis Prima/Capitol Recordings/105 Jump, Jive, An' Wail.mp3
+260:Louis Prima/Capitol Recordings/106 (Nothing's Too Good) For My Baby.mp3
+261:Louis Prima/Capitol Recordings/107 I'll Be Glad When You're Dead You Rascal You.mp3
+262:Louis Prima/Capitol Recordings/108 Basin Street Blues - When It's Sleepy Time Down South.mp3
+263:Louis Prima/Capitol Recordings/109 Night Train.mp3
+264:Louis Prima/Capitol Recordings/110 The Lip.mp3
+265:Louis Prima/Capitol Recordings/111 Whistle Stop.mp3
+266:Louis Prima/Capitol Recordings/112 Five Months, Two Weeks, Two Days.mp3
+267:Louis Prima/Capitol Recordings/113 Banana Split For My Baby.mp3
+268:Louis Prima/Capitol Recordings/114 Be Mine (Little Baby).mp3
+269:Louis Prima/Capitol Recordings/115 When You're Smiling - Sheik Of Araby.mp3
+270:Louis Prima/Capitol Recordings/116 The Birth Of The Blues.mp3
+271:Louis Prima/Capitol Recordings/117 Blow, Red Blow.mp3
+272:Louis Prima/Capitol Recordings/118 When The Saints Go Marching In.mp3
+273:Louis Prima/Capitol Recordings/119 Sentimental Journey.mp3
+274:Louis Prima/Capitol Recordings/120 There'll Be No Next Time.mp3
+275:Louis Prima/Capitol Recordings/121 The Closer To The Bone.mp3
+276:Louis Prima/Capitol Recordings/122 I've Got The World On A String.mp3
+277:Louis Prima/Capitol Recordings/123 Much Too Young To Loose My Mind.mp3
+278:Louis Prima/Capitol Recordings/124 Don't Let A Memory.mp3
+279:Louis Prima/Capitol Recordings/125 Pennies From Heaven.mp3
+280:Louis Prima/Capitol Recordings/126 Baby Won't You Please Come Home.mp3
+281:Louis Prima/Capitol Recordings/127 Autumn Leaves.mp3
+playlist_end
