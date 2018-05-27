@@ -8,7 +8,8 @@ m	~/Music
 p	~/Pictures
 v	~/Videos
 s	~/.scripts
-c	~/.config
+cc	/home/notami/.config
+cv	~/.config/variety/Favorites
 N /mnt/www/nginx/notes
 M /mnt
 bs /home/notami/Documents/MyDocuments/Client/DBS/dbsaurer.com/BU-DBS 

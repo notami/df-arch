@@ -546,6 +546,8 @@ bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser
 bindsym control+mod1+f exec --no-startup-id firefox
 bindsym control+mod1+q exec --no-startup-id qutebrowser
 bindsym control+mod1+k exec --no-startup-id Kodi
+bindsym control+mod1+x exec --no-startup-id keepassxc
+bindsym control+mod1+l exec --no-startup-id shotwell
 #bindsym control+mod1+v exec --no-startup-id vivaldi-stable
 bindsym control+mod1+r exec --no-startup-id termite -e ranger
 bindsym control+mod1+n exec --no-startup-id termite -e neomutt

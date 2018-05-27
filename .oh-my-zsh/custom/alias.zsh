@@ -188,6 +188,7 @@ alias -g L='| less'
 alias -g M='| most'
 alias -g C='| wc -l'
 alias -g H='| head'
+alias -g W='wal -i ~/.config/variety/Favorites'
 alias -g T='| tail'
 alias -g G='| grep --color=auto'
 alias -g LL="2>&1 | less"
