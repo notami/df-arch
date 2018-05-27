@@ -35,6 +35,7 @@ alias la="ls -alG"
 alias uls="cd /usr/local/share"
 alias l.="ls -A | egrep '^\.'"
 alias xpp="xprop | grep -i 'class'" 
+alias sma='sudo mount -a'
 
 ################################
 # ### config - (git alias) ### #
