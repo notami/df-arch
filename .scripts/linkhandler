@@ -12,7 +12,7 @@ vidsites="youtube.com
 	\|bitchute.com
 	"
 ext="${1##*.}"
-mpvFiles="mkv mp4 gif webm"
+mpvFiles="mp3 mkv mp4 gif webm"
 fehFiles="png jpg jpeg jpe"
 wgetFiles="mp3 flac opus mp3?source=feed pdf"
 

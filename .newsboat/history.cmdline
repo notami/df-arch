@@ -22,3 +22,9 @@ Reload
 2
 e
 4
+swap-window -3
+swap-window -t -3
+swap-window -s5-t2
+swap-window -t -1
+swapw -s5 -t3
+rgr
