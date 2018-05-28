@@ -8,7 +8,7 @@ m	~/Music
 p	~/Pictures
 v	~/Videos
 s	~/.scripts
-cc	/home/notami/.config
+cf	/home/notami/.config
 cv	~/.config/variety/Favorites
 N /mnt/www/nginx/notes
 M /mnt
