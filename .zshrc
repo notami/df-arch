@@ -144,6 +144,13 @@ esac
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+#
+# cheat autocompletion; just add to ~/.zshrc
+_cmpl_cheat() {
+reply=($(cheat -l | cut -d' ' -f1))
+}
+compctl -K _cmpl_cheat cheat
 
 #########
 # PYWAL #

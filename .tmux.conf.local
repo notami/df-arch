@@ -3,6 +3,8 @@
 #         without any warranty.
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
+# -- Variables  ----------------------------------------------------------------
+
 
 # -- navigation ----------------------------------------------------------------
 
@@ -161,14 +163,14 @@ tmux_conf_theme_status_left=' ❐ #S | ↑#{?uptime_d, #{uptime_d}d,}#{?uptime_h
 tmux_conf_theme_status_right='#{prefix}#{pairing} | %I:%M , %d %b | #{username}#{root} | #{hostname} '
 
 # status left style
-tmux_conf_theme_status_left_fg='#081403,#d6bf9b,#d6bf9b'  # black, white , white
-tmux_conf_theme_status_left_bg='#535e1a,#b06575,#ba443c'  # yellow, pink, white blue
+tmux_conf_theme_status_left_fg='${xrdb:color0},${xrdb:color6},${xrdb:color6}'  # black, white , white
+tmux_conf_theme_status_left_bg='${xrdb:color7},${xrdb:color3},${xrdb:color4}'  # yellow, pink, white blue
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 
 # status right style
-tmux_conf_theme_status_right_fg='#8a8a8a,#d6bf9b,#081403' # light gray, white, black
-tmux_conf_theme_status_right_bg='#080808,#9d1b20,#d6bf9b' # dark gray, red, white
+tmux_conf_theme_status_right_fg='${xrdb:color6},${xrdb:color7},${xrdb:color1}' # light gray, white, black
+tmux_conf_theme_status_right_bg='${xrdb:color5},${xrdb:color2},${xrdb:color5}' # dark gray, red, white
 tmux_conf_theme_status_right_attr='none,none,bold'
 
 # pairing indicator
@@ -272,5 +274,5 @@ new -s daily -n mail /usr/bin/neomutt
 neww -n rgr /usr/bin/ranger
 neww -n nb /usr/bin/newsboat
 neww -n zsh /usr/bin/zsh
-neww -n w3m /usr/bin/zsh
+neww -n ssh /usr/bin/zsh
 selectw -t 1
