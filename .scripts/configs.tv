@@ -1,0 +1,14 @@
+cff	~/.scripts/folders
+cfc	~/.scripts/configs
+cfb	~/.bashrc
+cfz	~/.zshrc
+cfv	~/.vimrc
+cfr	~/.config/ranger/rc.conf
+cfi	~/.config/i3/config
+cfq	~/.config/qutebrowser/config.py
+cft	~/.config/termite/config
+cfp	~/.config/polybar/config
+cfd	~/.Xdefaults
+cfn	~/.newsboat/urls
+cfmb	~/.ncmpcpp/bindings
+cfmc	~/.ncmpcpp/config

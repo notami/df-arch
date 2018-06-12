@@ -1,0 +1,12 @@
+# You can add comments to these files with #
+d	~/Documents
+w	~/Downloads
+m	/mnt/Audio/Music
+a /mnt/Audio/Audiobooks
+p	~/Pictures
+v	~/Videos
+s	~/.scripts
+c	~/.config
+N /mnt/www/nginx/notes
+M /mnt
+us /usr/share
