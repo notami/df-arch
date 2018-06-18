@@ -142,6 +142,7 @@ alias pks="packer -S"
 alias pksn="packer -S --noconfirm --noedit"
 alias pksyu="packer -Syu  --noconfirm --noedit"
 alias tvstart="systemctl start teamviewerd.service"
+alias ckre="sudo python2.7 ~/.scripts/checkrestart.py"
 
 #####################
 # # show log output #
