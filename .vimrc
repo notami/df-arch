@@ -103,13 +103,20 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
-set number
 set undofile
 set clipboard=unnamedplus
 let mapleader = ","			" sets leader key
 set clipboard^=unnamed      " copy paste bliss
 set pastetoggle=<F2>
+
+" LINE NUMBER TOGGLE
+:set number relativenumber
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
 
 " Use urlview to choose and open a url:
 :noremap <leader>u :w<Home>silent <End> !urlview<CR>
@@ -152,7 +159,9 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " refresh preview
 let g:instant_markdown_autostart = 0 " disable autostart
 map <leader>md :LivedownPreview<CR>
-" "}}}
+" the browser to use
+let g:livedown_browser = "firefox-esr"
+"}}}
 
 " SEARCH SANITY 
 "{{{

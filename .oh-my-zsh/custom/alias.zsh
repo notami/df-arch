@@ -133,7 +133,7 @@ alias rshome="rsync -aP --exclude-from=/var/tmp/ignorelist -e ssh /home/$USER/ n
 # pacman or pm
 alias pmsyu="sudo pacman -Syu --color=auto"
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syu'
+alias update='sudo pacman -Syu && echo Update Complete! | figlet'
 # pacaur or pc
 alias pcsyu="pacaur -Syu"
 alias pcsyua="yaourt -Syu --aur --noconfirm"

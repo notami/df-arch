@@ -289,6 +289,8 @@ settings:
       <Enter>: <Return>
       <Shift+Enter>: <Return>
       <Shift+Return>: <Return>
+  content.private_browsing:
+    global: true
   downloads.location.directory:
     global: ~/.scripts
   fonts.debug_console:

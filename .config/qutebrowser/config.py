@@ -469,7 +469,7 @@ c.content.default_encoding = 'iso-8859-1'
 ## menu. For QtWebEngine, see `--enable-webengine-inspector` in
 ## `qutebrowser --help` instead.
 ## Type: Bool
-c.content.developer_extras = False
+## c.content.developer_extras = False
 
 ## Try to pre-fetch DNS entries to speed up browsing.
 ## Type: Bool
@@ -1000,7 +1000,7 @@ c.qt.force_platform = None
 ## QtWebEngine to work with Nouveau drivers. This setting requires a
 ## restart.
 ## Type: Bool
-c.qt.force_software_rendering = True
+c.qt.force_software_rendering = 'software-opengl'
 
 ## Show a scrollbar.
 ## Type: Bool
