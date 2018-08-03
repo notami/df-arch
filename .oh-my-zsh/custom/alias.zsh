@@ -71,6 +71,7 @@ alias pp1="pipes.sh"
 alias pp3="pipes.sh -t 3 -p 3 -f 30"
 alias wall='wal -i ~/.config/variety/Favorites'
 alias srr='sr -elvi | less'
+alias hsw='history | grep --color=auto wal -i'
 
 ###############
 # ### nav ### #
@@ -97,6 +98,7 @@ alias ssh.nid="ssh nid-8164-am"
 ####################
 alias scrimp="scrot -q 85 -d 5 screenshot.png && gimp screenshot.png &"
 alias rebar="pkill -USR1 polybar"
+alias usbbye='udisksctl unmount -b /dev/sdc1'
 
 ##################
 # ### iohyve ### #
