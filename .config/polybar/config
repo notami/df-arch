@@ -1,3 +1,4 @@
+;vim:ft=dosini
 ;=====================================================
 ;
 ;   To learn more about how to configure Polybar
@@ -133,7 +134,7 @@ font-2 = NotoMono-Regular: size=11;0
 
 modules-left = i3 xwindow
 modules-center = networkspeedup networkspeeddown
-modules-right = memory2 cpu2 date
+modules-right = wired-network memory2 cpu2 date
 
 separator = |
 
@@ -724,8 +725,8 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 ;   
 format-prefix = " "
-format-prefix-foreground = #cd1f3f
-format-underline = #cd1f3f
+format-prefix-foreground = ${xrdb:color5}
+format-underline = ${xrdb:color5}
 
 ; Available tags:
 ;   <label> (default)
@@ -778,8 +779,8 @@ interval = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
-format-prefix-foreground = #cd1f3f
-format-underline = #cd1f3f
+format-prefix-foreground = ${xrdb:color5}
+format-underline = ${xrdb:color5}
 
 label-font = 3
 
@@ -812,8 +813,8 @@ date-alt = " %d-%m-%Y"
 time = %l:%M
 time-alt = %H:%M
 format-prefix = " "
-format-prefix-foreground = #c1941a
-format-underline = #c1941a
+format-prefix-foreground = ${xrdb:color8}
+format-underline = ${xrdb:color8}
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 label = %date% %time%
@@ -1007,8 +1008,8 @@ label = %percentage_used%%
 
 format = Mem <label>
 format-prefix = "  "
-format-prefix-foreground = #3384d0
-format-underline = #3384d0
+format-prefix-foreground = ${xrdb:color3}
+format-underline = ${xrdb:color3}
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1308,14 +1309,15 @@ interval = 3.0
 ;   %downspeed% [wireless+wired]
 ;   %linkspeed% [wired]
 ; Default: %ifname% %local_ip%
-label-connected =  %ifname%
+label-connected =  %local_ip%
 label-disconnected = %ifname% disconnected
 
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
-format-connected-underline = #55aa55
+; format-connected-underline = #55aa55
+format-connected-underline = ${xrdb:color6}
 format-connected-prefix = " "
-format-connected-prefix-foreground = #55aa55
+format-connected-prefix-foreground = ${xrdb:color6}
 format-connected-prefix-background = ${colors.background}
 
 format-disconnected = <label-disconnected>

@@ -265,3 +265,10 @@ tmux_conf_copy_to_os_clipboard=false
 
 # move status line to top
 #set -g status-position top
+#
+new -s daily -n zsh /usr/bin/zsh
+neww -n rgr /usr/bin/ranger
+neww -n nb /usr/bin/newsboat
+neww -n mpsyt /usr/bin/mpsyt
+neww -n music /usr/bin/ncmpcpp
+selectw -t 1

@@ -65,11 +65,15 @@ alias mail="neomutt"
 alias rgr="ranger"
 alias srgr="sudo ranger"
 alias music="ncmpcpp"
+alias viz="ncmpcpp -s visualizer"
+alias clock="ncmpcpp -s clock"
 alias nb="newsboat"
 alias pp1="pipes"
 alias pp3="pipes -t 3 -p 3 -f 30"
 alias wall='wal -i ~/.config/variety/Favorites'
 alias srr='sr -elvi | less'
+alias qbp='qutebrowser --qt-flag=force-webrtc-ip-handling-policy=default_public_interface_only > /dev/null & disown'
+alias hsw='history | grep --color=auto wal -i'
 
 ###############
 # ### nav ### #
@@ -132,7 +136,7 @@ alias rshome="rsync -aP --exclude-from=/var/tmp/ignorelist -e ssh /home/$USER/ n
 # pacman or pm
 alias pmsyu="sudo pacman -Syu --color=auto"
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syu'
+alias update='sudo pacman -Syu && echo Update Complete! | figlet'
 # pacaur or pc
 alias pcsyu="pacaur -Syu"
 alias pcsyua="yaourt -Syu --aur --noconfirm"
@@ -140,6 +144,7 @@ alias pcsyua="yaourt -Syu --aur --noconfirm"
 alias pks="packer -S"
 alias pksn="packer -S --noconfirm --noedit"
 alias pksyu="packer -Syu  --noconfirm --noedit"
+alias ckre="sudo python2.7 ~/.scripts/checkrestart.py"
 alias tvstart="systemctl start teamviewerd.service"
 
 #####################
@@ -160,7 +165,7 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 # You Tube Download #
 #####################
 alias ytdl="youtube-dl -f best"
-alias ytdla="youtube-dl -x --audio-format mp3 --prefer-ffmpg"
+alias ytdla="youtube-dl -x --audio-format mp3"
 alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
 
 ####################
@@ -190,6 +195,7 @@ alias -g M='| most'
 alias -g C='| wc -l'
 alias -g H='| head'
 alias -g T='| tail'
+alias -g W='wal -i ~/.config/variety/Favorites'
 alias -g G='| grep --color=auto'
 alias -g LL="2>&1 | less"
 alias -g CA="2>&1 | cat -A"

@@ -735,6 +735,7 @@ bindsym $mod+b bar mode toggle
 #################                          border control                                           #################
 #####################################################################################################################
 
+bindsym Mod1+Shift+b    floating toggle; sticky toggle; exec --no-startup-id bottomleft
 
 # Border control
 hide_edge_borders both

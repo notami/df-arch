@@ -7,7 +7,7 @@
 article-sort-order date-desc
 download-path "~/Downloads/podcasts/%h/%n"
 max-downloads 3
-player "vlc"
+player "mpv"
 auto-reload yes
 show-keymap-hint yes
 text-width 70
