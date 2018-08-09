@@ -653,8 +653,7 @@ for_window [window_role="^Preferences$"] floating enable
 for_window [window_role="setup"] floating enable
 
 
-
-
+bindsym Mod1+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
 
 
 #####################################################################################################################
@@ -665,10 +664,6 @@ for_window [window_role="setup"] floating enable
 for_window [class="Gnome-terminal"] focus
 for_window [class="Termite"] focus
 for_window [class="Terminator"] focus
-
-
-
-
 
 
 #####################################################################################################################

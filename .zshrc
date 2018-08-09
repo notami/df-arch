@@ -190,4 +190,4 @@ bindkey "^[[Z" magic-space            # shift-tab to bypass completion
 bindkey -M isearch " " magic-space    # normal space during searches
 
 neofetch
-source /home/notami/.bash_shortcuts
+source /home/notami/.shortcuts
