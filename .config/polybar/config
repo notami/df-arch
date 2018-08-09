@@ -1316,9 +1316,9 @@ label-disconnected = %ifname% disconnected
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
 ; format-connected-underline = #55aa55
-format-connected-underline = ${xrdb:color8}
+format-connected-underline = ${xrdb:color6}
 format-connected-prefix = " "
-format-connected-prefix-foreground = ${xrdb:color8}
+format-connected-prefix-foreground = ${xrdb:color6}
 format-connected-prefix-background = ${colors.background}
 
 format-disconnected = <label-disconnected>
