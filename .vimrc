@@ -50,6 +50,7 @@ Plugin 'shime/vim-livedown'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'junegunn/goyo.vim'
 Plugin 'dylanaraps/wal.vim'
+Plugin 'deviantfero/wpgtk.vim'
 " Plugin 'MikeCoder/markdown-preview.vim'
 
 " All of your Plugins must be added before the following line
