@@ -83,11 +83,19 @@ setopt HIST_SAVE_NO_DUPS
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z extract archlinux globalias)
+# plugins=(z fzf-mpd zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+############
+# FZF OPTS #
+############
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+########################
+# # User configuration #
+########################
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -115,7 +123,7 @@ SAVEHIST=10000
 
 # other
 setopt beep notify
-bindkey -v
+bindkey -e
 
 # TitleBar setting
 case $TERM in
@@ -191,3 +199,37 @@ bindkey -M isearch " " magic-space    # normal space during searches
 
 neofetch
 source /home/notami/.shortcuts
+
+#########
+# ZPLUG #
+#########
+
+# Check if zplug is installed
+if [[ ! -d ~/.zplug ]]; then
+  git clone https://github.com/zplug/zplug ~/.zplug
+  source ~/.zplug/init.zsh && zplug update --self
+fi
+
+# Essential
+source ~/.zplug/init.zsh
+source ~/.zplug/repos/b4b4r07/enhancd/init.sh
+
+# Make sure to use double quotes to prevent shell expansion
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "anders-dc/fzf-mpd"
+zplug "plugins/z", from:oh-my-zsh
+zplug "b4b4r07/enhancd", use:init.sh
+
+# Add a bunch more of your favorite packages!
+
+# Install packages that have not been installed yet
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    else
+        echo
+    fi
+fi
+
+zplug load
