@@ -92,6 +92,7 @@ alias ssh.f="ssh notami@freenas.local"
 alias ssh.d="ssh dbsaurer@dbsaurer.com"
 alias ssh.tv="ssh tv-am"
 alias ssh.nid="ssh nid-8164-am"
+alias ssh.kt="ssh nid-kt.local"
 
 ####################
 # ### commands ### #
@@ -164,7 +165,7 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 # You Tube Download #
 #####################
 alias ytdl="youtube-dl -f best"
-alias ytdla="youtube-dl -x --audio-format mp3 --prefer-ffmpg"
+alias ytdla="youtube-dl -x --audio-format mp3"
 alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
 
 ####################
