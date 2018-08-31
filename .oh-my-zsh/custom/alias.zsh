@@ -60,6 +60,7 @@ alias vi3="vim /home/notami/.config/i3/config"
 ####################
 # Calling All Apps #
 ####################
+alias cat="bat"
 alias mail="neomutt"
 alias rgr="ranger"
 alias srgr="sudo ranger"
@@ -72,6 +73,8 @@ alias pp3="pipes.sh -t 3 -p 3 -f 30"
 alias wall='wal -i ~/.config/variety/Favorites'
 alias srr='sr -elvi | less'
 alias hsw='history | grep --color=auto wal -i'
+alias du="ncdu --color dark -x --exclude .git --exclude node_modules"
+alias dus="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 
 ###############
 # ### nav ### #
@@ -100,6 +103,7 @@ alias ssh.kt="ssh nid-kt.local"
 alias scrimp="scrot -q 85 -d 5 screenshot.png && gimp screenshot.png &"
 alias rebar="pkill -USR1 polybar"
 alias usbbye='udisksctl unmount -b /dev/sdc1'
+alias preview="fzf --preview 'bat --color 'always' {}'"
 
 ##################
 # ### iohyve ### #
@@ -167,6 +171,11 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 alias ytdl="youtube-dl -f best"
 alias ytdla="youtube-dl -x --audio-format mp3"
 alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
+
+##############
+# TPB SEARCH #
+##############
+alias tpbs="clear && figlet -c TPB Search && ~/.scripts/tpb"
 
 ####################
 # Search arch wiki #
