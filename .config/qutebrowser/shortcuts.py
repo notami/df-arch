@@ -18,6 +18,7 @@ config.bind(";mvm", "set downloads.location.directory /mnt/Video/Movies ;; hint 
 config.bind(";mvt", "set downloads.location.directory /mnt/Video/TV ;; hint links download")
 config.bind(";mvy", "set downloads.location.directory /mnt/Video/yoga ;; hint links download")
 config.bind(";ma", "set downloads.location.directory /mnt/www/nginx/notes/articles ;; hint links download")
+config.bind(";rm", "set downloads.location.directory /run/media/notami ;; hint links download")
 config.bind(";bs", "set downloads.location.directory /mnt/Data/Docs/Client/DBS/dbsaurer.com/BU-DBS ;; hint links download")
 config.bind(";lg", "set downloads.location.directory /mnt/Data/Docs/Client/LegacyIII/legacythree.org/BU-L3 ;; hint links download")
 config.bind(";mh", "set downloads.location.directory /mnt/Data/Docs/Client/MiraclesHappen/miraclesupholstery.com/BU-MH ;; hint links download")

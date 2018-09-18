@@ -19,6 +19,7 @@ mvm	/mnt/Video/Movies
 mvt /mnt/Video/TV
 mvy	/mnt/Video/yoga
 ma /mnt/www/nginx/notes/articles
+rm /run/media/notami
 bs /mnt/Data/Docs/Client/DBS/dbsaurer.com/BU-DBS 
 lg /mnt/Data/Docs/Client/LegacyIII/legacythree.org/BU-L3
 mh /mnt/Data/Docs/Client/MiraclesHappen/miraclesupholstery.com/BU-MH

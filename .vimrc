@@ -10,7 +10,7 @@ set modelines=0				" helps security
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-" call vundle#begin('~/some/path/here')
+"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -104,6 +104,8 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
+set relativenumber
+set number
 set undofile
 set clipboard=unnamedplus
 let mapleader = ","			" sets leader key
@@ -112,43 +114,24 @@ set pastetoggle=<F2>
 
 " LINE NUMBER TOGGLE
 :set number relativenumber
+"
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
 
-:augroup numbertoggle
-:  autocmd!
-:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-:augroup END
+" Automatically source .vimrc
+augroup autosourcing
+    autocmd!
+    autocmd BufWritePost .vimrc source %
+augroup END
 
 " Use urlview to choose and open a url:
 :noremap <leader>u :w<Home>silent <End> !urlview<CR>
 
-" Remaps shortcuts on save
-autocmd BufWritePost ~/.scripts/folders,~/.scripts/configs !bash ~/.scripts/shortcuts.sh
-
-" Goyo plugin makes text more readable when writing prose:
-map <F10> :Goyo<CR>
-inoremap <F10> <esc>:Goyo<CR>a
-"
-" Enable Goyo by default for mutt writting
-autocmd BufRead,BufNewFile /tmp/neomutt* let g:goyo_width=72
-autocmd BufRead,BufNewFile /tmp/neomutt* :Goyo
-" Goyo's width will be the line limit in mutt.
-"
-"
-" Allow saving of files as sudo when I forgot to start vim using sudo.
-cmap w!! w !sudo tee % >/dev/null
-
-" Automatically source .vimrc
-" augroup autosourcing
-"     autocmd!
-"     autocmd BufWritePost .vimrc source %
-" augroup END
-
-map <leader>vimrc :tabe ~/.vimrc<cr>
-autocmd bufwritepost .vimrc source $MYVIMRC
-
 " Get out of insert mode free
 inoremap jk <Esc>
+
+" Remaps shortcuts on save
+autocmd BufWritePost ~/.scripts/folders,~/.scripts/configs !bash ~/.scripts/shortcuts.sh
 
 "" PLUGIN OPTIONS 
 " Powerline for vim
@@ -159,10 +142,8 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " helppage -> :h vimwiki-syntax
 " refresh preview
 let g:instant_markdown_autostart = 0 " disable autostart
-map <leader>md :LivedownPreview<CR>
-" the browser to use
-let g:livedown_browser = "firefox-esr"
-"}}}
+map <leader>md :InstantMarkdownPreview<CR>
+" "}}}
 
 " SEARCH SANITY 
 "{{{
@@ -208,7 +189,7 @@ set formatoptions=qrn1
 set colorcolumn=85
 "
 
-"FOLDING
+"GENERAL GOODNESS
 "
 "=== folding ===
 set foldmethod=marker   " fold based on {{{,}}}
@@ -216,7 +197,7 @@ set foldnestmax=10      " max 10 depth
 set foldenable          " don't fold files by default on open 
 nnoremap <space> za
 set foldlevelstart=10    " start with fold level of 1
-"
+
 " BOXES COMMENTING
 
 vmap ,mc !boxes -d c-cmt<CR>
@@ -234,7 +215,7 @@ autocmd BufEnter *.html nmap ,mc !!boxes -d html-cmt<CR>
 autocmd BufEnter *.html vmap ,mc !boxes -d html-cmt<CR>
 autocmd BufEnter *.html nmap ,xc !!boxes -d html-cmt -r<CR>
 autocmd BufEnter *.html vmap ,xc !boxes -d html-cmt -r<CR>
-
+autocmd BufEnter *.[chly],*.[pc]c nmap ,mc !!boxes -d c-cmt<CR>
 autocmd BufEnter *.[chly],*.[pc]c vmap ,mc !boxes -d c-cmt<CR>
 autocmd BufEnter *.[chly],*.[pc]c nmap ,xc !!boxes -d c-cmt -r<CR>
 autocmd BufEnter *.[chly],*.[pc]c vmap ,xc !boxes -d c-cmt -r<CR>
@@ -247,8 +228,6 @@ autocmd BufEnter .vimrc*,.exrc vmap ,mc !boxes -d vim-cmt<CR>
 autocmd BufEnter .vimrc*,.exrc nmap ,xc !!boxes -d vim-cmt -r<CR>
 autocmd BufEnter .vimrc*,.exrc vmap ,xc !boxes -d vim-cmt -r<CR>
 
-" TPOPE COMMENTING
-"noremap <leader>/ :Commentary<cr>
 
 "=== BUFFERS ===
 "{{{
@@ -271,17 +250,14 @@ nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
-nmap <leader>bs :ls<CR>
+nmap <leader>bl :ls<CR>i
 "}}}
 
 " Line Shortcuts 
 nnoremap G Gzz
 nnoremap { {zz
 nnoremap } }zz
-
-" Undo File
-set undofile
-set undodir=~/.vim/undodir
+"
 
 " COMMAND SHORTCUTS 
 nnoremap ; :
