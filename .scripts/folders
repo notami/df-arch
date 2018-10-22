@@ -1,13 +1,13 @@
 # You can add comments to these files with #
-a ~/Data
-d	~/Documents
-w	~/Downloads
+da ~/Data
+dd	~/Documents
+dw	~/Downloads
 m	~/Music
 p	~/Pictures
 v	~/Videos
 cf	~/.config
-cv	~/.config/variety/Favorites
-s	~/.scripts
+cvf	~/.config/variety/Favorites
+ds	~/.scripts
 mn /mnt
 mm /mnt/Audio/Music
 md	/mnt/Data/Docs

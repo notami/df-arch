@@ -29,9 +29,6 @@ Plugin 'VundleVim/Vundle.vim'
 		" Plugin 'ascenator/L9', {'name': 'newL9'}
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Plugin 'sjl/badwolf'
-" Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
@@ -39,7 +36,6 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-commentary'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'vimwiki/vimwiki'
-Plugin 'lervag/vimtex'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ftan84/vim-khaled-ipsum'
 Plugin 'mattn/emmet-vim' , {'on_ft': 'html'}
@@ -51,6 +47,7 @@ Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'junegunn/goyo.vim'
 Plugin 'dylanaraps/wal.vim'
 Plugin 'deviantfero/wpgtk.vim'
+Plugin 'easymotion/vim-easymotion'
 " Plugin 'MikeCoder/markdown-preview.vim'
 
 " All of your Plugins must be added before the following line
@@ -71,11 +68,15 @@ filetype plugin indent on    " required
 
 "set shell=zsh\ -i
 
+" LEADER
+
+let mapleader = (",")
+
 " COLORS 
 
 set t_Co=256
 set background=dark
-" colorscheme gruvbox			" Set the colorscheme
+colorscheme wal			" Set the colorscheme
 syntax enable				" Turn on syntax highlighting
 "
 
@@ -108,7 +109,6 @@ set relativenumber
 set number
 set undofile
 set clipboard=unnamedplus
-let mapleader = ","			" sets leader key
 set clipboard^=unnamed      " copy paste bliss
 set pastetoggle=<F2>
 
@@ -250,7 +250,7 @@ nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
-nmap <leader>bl :ls<CR>i
+nmap <leader>bl :ls<CR>
 "}}}
 
 " Line Shortcuts 

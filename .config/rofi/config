@@ -1,2 +1,4 @@
 # Dark theme.
-rofi.theme: /usr/share/rofi/themes/Arc-Dark.rasi
+# rofi.theme: /usr/share/rofi/themes/Arc-Dark.rasi
+# Dark theme.
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi

@@ -311,6 +311,8 @@ settings:
     global: 12pt monospace
   fonts.tabs:
     global: 10pt monospace
+  scrolling.bar:
+    global: when-searching
   url.default_page:
     global: https://fnweb-local/refDesk/index.php
   url.incdec_segments:

@@ -412,7 +412,7 @@ c.completion.timestamp_format = '%Y-%m-%d'
 ## How many URLs to show in the web history. 0: no history / -1:
 ## unlimited
 ## Type: Int
-c.completion.web_history_max_items = -1
+c.completion.web_history.max_items = -1
 
 ## Whether quitting the application requires a confirmation.
 ## Type: ConfirmQuit
@@ -477,7 +477,7 @@ c.content.dns_prefetch = True
 
 ## Expand each subframe to its contents. This will flatten all the frames
 ## to become one scrollable page.
-## Type: Bool
+## Type: String
 c.content.frame_flattening = False
 
 ## Allow websites to request geolocations.
@@ -1003,8 +1003,8 @@ c.qt.force_platform = None
 c.qt.force_software_rendering = 'software-opengl'
 
 ## Show a scrollbar.
-## Type: Bool
-c.scrolling.bar = False
+## Type: String
+c.scrolling.bar = "when-searching"
 
 ## Enable smooth scrolling for web pages. Note smooth scrolling does not
 ## work with the `:scroll-px` command.

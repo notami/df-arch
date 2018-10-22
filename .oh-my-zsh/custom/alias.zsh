@@ -1,11 +1,11 @@
-# Set personal aliases, overriding those provided by oh-my-zsh libs,              
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh               
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.            
-# For a full list of active aliases, run `alias`.                                 
-#                                                                                 
-# Example aliases                                                                 
-# alias zshconfig="mate ~/.zshrc"                                                 
-# alias ohmyzsh="mate ~/.oh-my-zsh"                                               
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #######################
 # #fix obvious typo's #
@@ -30,11 +30,11 @@ alias merge="xrdb -merge ~/.Xresources"
 ###################
 # ### general ### #
 ###################
-alias cls="clear" 
+alias cls="clear"
 alias la="ls -alG"
 alias uls="cd /usr/local/share"
 alias l.="ls -A | egrep '^\.'"
-alias xpp="xprop | grep -i 'class'" 
+alias xpp="xprop | grep -i 'class'"
 
 ################################
 # ### config - (git alias) ### #
@@ -75,7 +75,28 @@ alias srr='sr -elvi | less'
 alias hsw='history | grep --color=auto wal -i'
 alias du="ncdu --color dark -x --exclude .git --exclude node_modules"
 alias dus="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
-alias mv='/opt/mullvad-vpn/mullvad-vpn &; disown'
+alias mlv='/opt/mullvad-vpn/mullvad-vpn &; disown'
+alias wfz='wpg -s $(wpg -l | fzf)'
+alias rcp="rofi -modi 'clipboard:greenclip print' -show clipboard -run-command '{cmd}'"
+alias fcp="fzf-greenclip"
+alias gcd="nohup greenclip daemon > /dev/null 2>&1 &"
+
+################
+# Some aliases #
+################
+alias p="sudo pacman"
+alias SS="sudo systemctl"
+alias v="vim"
+alias sv="sudo vim"
+alias r="ranger"
+alias sr="sudo ranger"
+alias ka="killall"
+alias g="git"
+alias trem="transmission-remote"
+alias mkd="mkdir -pv"
+alias rf="source ~/.zshrc"
+alias ref="shortcuts.sh && source ~/.zshrc" # Refresh shortcuts manually and reload zshrc
+alias pi="bash ~/.larbs/wizard/wizard.sh"
 
 ###############
 # ### nav ### #
@@ -151,6 +172,16 @@ alias pksn="packer -S --noconfirm --noedit"
 alias pksyu="packer -Syu  --noconfirm --noedit"
 alias tvstart="systemctl start teamviewerd.service"
 alias ckre="sudo python2.7 ~/.scripts/checkrestart.py"
+
+#######################
+# System Maintainence #
+#######################
+alias mw="~/.config/mutt/mutt-wizard.sh"
+alias muttwizard="~/.config/mutt/mutt-wizard.sh"
+alias progs="(pacman -Qet && pacman -Qm) | sort -u" # List programs I've installed
+alias orphans="pacman -Qdt" # List orphan programs
+alias sdn="sudo shutdown now"
+alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 
 #####################
 # # show log output #
