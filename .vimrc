@@ -115,8 +115,13 @@ set pastetoggle=<F2>
 " LINE NUMBER TOGGLE
 :set number relativenumber
 "
+" SAVE AS ROOT
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+" XCLIP
+vmap <leader>xy :!xclip -f -sel clip<CR>
+map <leader>xp mz:-1r !xclip -o -sel clip<CR>`z
 
 " Automatically source .vimrc
 augroup autosourcing

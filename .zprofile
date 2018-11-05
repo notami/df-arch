@@ -5,7 +5,7 @@
 export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
 export TERMINAL="termite"
-export BROWSER="firefox-esr"
+export BROWSER="firefox"
 export READER="zathura"
 export BIB="$HOME/Documents/LaTeX/uni.bib"
 

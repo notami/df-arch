@@ -657,7 +657,7 @@ for_window [window_role="^Preferences$"] floating enable
 for_window [window_role="setup"] floating enable
 
 
-bindsym Mod1+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
+bindsym $mod+Shift+b  floating toggle; sticky toggle; exec --no-startup-id bottomleft
 
 
 #####################################################################################################################
@@ -739,7 +739,7 @@ bindsym $mod+b bar mode toggle
 
 # Border control
 hide_edge_borders both
-bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
+bindsym mod1+shift+b exec --no-startup-id i3-msg border toggle
 
 #changing border style
 #super+t in ArchMerge is starting terminal

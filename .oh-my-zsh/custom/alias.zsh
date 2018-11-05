@@ -203,6 +203,7 @@ alias mp3con="for t in track{01..21}*.wav; do lame $t; done"
 alias ytdl="youtube-dl -f best"
 alias ytdla="youtube-dl -x --audio-format mp3"
 alias ytdlp="youtube-dl -o --proxy socks://10.8.0.1:1080 "
+alias ytdlap="youtube-dl -x --audio-format mp3 -i -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'"
 
 ##############
 # TPB SEARCH #

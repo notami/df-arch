@@ -99,7 +99,8 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(vim {})+abort'"
 # FASD OPTS #
 #############
 
-eval"$(fasd --init posix-alias zsh-ccomp-install zsh-ccomp zsh-hook)"
+# eval "$(fasd --init auto)"
+# eval"$(fasd --init posix-alias zsh-ccomp zsh-ccomp-install zsh-hook)"
 
 ########################
 # # User configuration #
