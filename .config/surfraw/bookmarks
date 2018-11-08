@@ -1,3 +1,5 @@
-surfraw		 	http://alioth.debian.org/projects/surfraw/
-ntk			 	http://www.ntk.net/
+surfraw       http://alioth.debian.org/projects/surfraw/
+ntk			      http://www.ntk.net/
 perlmodlist		http://www.cpan.org/modules/00modlist.long.html
+gotbletu-sn   https://github.com/gotbletu/shownotes ;; shownotes gotbletu scripts 
+torsocks      https://linuxaria.com/howto/how-to-anonymize-the-programs-from-your-terminal-with-torify ;; tor w3m cli

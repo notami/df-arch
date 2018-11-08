@@ -9,6 +9,8 @@ VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 # source ~/.bashrc
 PATH=$PATH:/home/notami/.scripts
 
+#-------- Powerlevel9K {{{
+#------------------------------------------------------
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -26,6 +28,7 @@ POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
 POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm)
+# }}}# 
 
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
@@ -48,11 +51,46 @@ autoload -U zmv
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
 #
-# ignore duplicates in zsh_history
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_IGNORE_SPACE
+#-------- History {{{
+#------------------------------------------------------
+# get more info: $man zshoptions
+
+setopt APPEND_HISTORY
+setopt EXTENDED_HISTORY
 setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_NO_STORE
+setopt HIST_REDUCE_BLANKS
 setopt HIST_SAVE_NO_DUPS
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_FIND_NO_DUPS
+setopt HIST_VERIFY
+setopt SHARE_HISTORY
+setopt INTERACTIVE_COMMENTS        # pound sign in interactive prompt
+HISTFILE=~/.zsh_history            # where to save zsh history
+HISTSIZE=10000
+SAVEHIST=10000
+cfg-history() { $EDITOR $HISTFILE ;}
+
+#
+# }}}
+#-------- Globbing {{{
+#
+setopt extendedglob
+unsetopt caseglob
+
+# }}}
+
+#-------- Empty Template {{{
+#------------------------------------------------------
+# DEMO: https://www.youtube.com/watch?v=jhv-2pNWfr4
+# DESC: switch audio stream to different output (HDMI, Headphone, Speakers ...etc)
+# REFF: http://askubuntu.com/a/18210
+# LINK: http://quvi.sourceforge.net/
+
+# }}}
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"

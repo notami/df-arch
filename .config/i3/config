@@ -140,7 +140,8 @@ bindsym $mod+F11 exec --no-startup-id rofi -show run -fullscreen -font "Noto San
 # start rofi small  -- ROFI IS NOT INSTALLED
 bindsym Ctrl+Shift+space exec --no-startup-id rofi -show run -font "Noto Sans 13"
 
-
+# start rofi clipboard
+bindsym $mod+c exec  --no-startup-id ~/.scripts/rofi-bangs.sh
 
 #####################################################################################################################
 #################                          how to exit, logoff, suspend, ...                        #################
@@ -438,7 +439,7 @@ font pango:Noto Mono Regular 13
 exec --no-startup-id wal -R
 
 # Greenclip
-exec --no-startup-id greenclip daemon &
+exec_always --no-startup-id greenclip daemon &
 
 # TRAY APPLICATIONS
 

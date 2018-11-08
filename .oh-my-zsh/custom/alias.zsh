@@ -62,8 +62,6 @@ alias vi3="vim /home/notami/.config/i3/config"
 ####################
 alias cat="bat"
 alias mail="neomutt"
-alias rgr="ranger"
-alias srgr="sudo ranger"
 alias music="ncmpcpp"
 alias clock="ncmpcpp -s clock"
 alias viz="ncmpcpp -s visualizer"
@@ -77,9 +75,10 @@ alias du="ncdu --color dark -x --exclude .git --exclude node_modules"
 alias dus="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias mlv='/opt/mullvad-vpn/mullvad-vpn &; disown'
 alias wfz='wpg -s $(wpg -l | fzf)'
-alias rcp="rofi -modi 'clipboard:greenclip print' -show clipboard -run-command '{cmd}'"
+alias rcp="rofi -modi 'clipboard:greenclip print' -show clipboard -run-command '{cmd}"
 alias fcp="fzf-greenclip"
 alias gcd="nohup greenclip daemon > /dev/null 2>&1 &"
+alias tw3="torsocks w3m"
 
 ################
 # Some aliases #
