@@ -441,6 +441,9 @@ exec --no-startup-id wal -R
 # Greenclip
 exec_always --no-startup-id greenclip daemon &
 
+# Keepassxc
+exec --no-startup-id keepassxc
+
 # TRAY APPLICATIONS
 
 # applications that are not installed will not start
