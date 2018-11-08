@@ -1,13 +1,63 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+ _   _ ___ ____                      _              
+| \ | |_ _|  _ \             _______| |__  _ __ ___ 
+|  \| || || | | |  _____    |_  / __| '_ \| '__/ __|
+| |\  || || |_| | |_____|  _ / /\__ \ | | | | | (__ 
+|_| \_|___|____/          (_)___|___/_| |_|_|  \___|
+                                                    
+#-------- Empty Template {{{
+#------------------------------------------------------
+
+# }}}
+
+#-------- User Env {{{
+#------------------------------------------------------
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/notami/.oh-my-zsh
-# export VISUAL=vim
-# export EDITOR="$VISUAL"
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 # source ~/.bashrc
 PATH=$PATH:/home/notami/.scripts
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+# load zmv
+autoload -U zmv
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+source $ZSH/oh-my-zsh.sh
+# }}}
 
 #-------- Powerlevel9K {{{
 #------------------------------------------------------
@@ -33,24 +83,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm)
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-# load zmv
-autoload -U zmv
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-#
 #-------- History {{{
 #------------------------------------------------------
 # get more info: $man zshoptions
@@ -74,8 +107,11 @@ HISTSIZE=10000
 SAVEHIST=10000
 cfg-history() { $EDITOR $HISTFILE ;}
 
-#
+# other
+setopt beep notify
+bindkey -e
 # }}}
+
 #-------- Globbing {{{
 #
 setopt extendedglob
@@ -83,14 +119,8 @@ unsetopt caseglob
 
 # }}}
 
-#-------- Empty Template {{{
+#-------- Misc {{{
 #------------------------------------------------------
-# DEMO: https://www.youtube.com/watch?v=jhv-2pNWfr4
-# DESC: switch audio stream to different output (HDMI, Headphone, Speakers ...etc)
-# REFF: http://askubuntu.com/a/18210
-# LINK: http://quvi.sourceforge.net/
-
-# }}}
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -122,8 +152,10 @@ unsetopt caseglob
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(z fzf-mpd zsh-syntax-highlighting)
+# }}}
 
-source $ZSH/oh-my-zsh.sh
+#-------- FZF Options {{{
+#------------------------------------------------------
 
 ############
 # FZF OPTS #
@@ -132,6 +164,10 @@ source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(vim {})+abort'"
+# }}}
+
+#-------- FASD Options {{{
+#------------------------------------------------------
 
 #############
 # FASD OPTS #
@@ -139,38 +175,10 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(vim {})+abort'"
 
 # eval "$(fasd --init auto)"
 # eval"$(fasd --init posix-alias zsh-ccomp zsh-ccomp-install zsh-hook)"
+# }}}
 
-########################
-# # User configuration #
-########################
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-##### PCBSD DEFAULTS #####
-# history
-HISTFILE=~/.histfile
-HISTSIZE=10000
-SAVEHIST=10000
-
-# other
-setopt beep notify
-bindkey -e
+#-------Title Bar {{{
+#------------------------------------------------------
 
 # TitleBar setting
 case $TERM in
@@ -179,9 +187,10 @@ case $TERM in
 	;;
 esac
 
-# prompt
-#PROMPT="[%n@%m %~]%# "
+# }}}
 
+#-------- Key Setup {{{
+#------------------------------------------------------
 
 # setup key accordingly
 [[ -n "${key[Home]}"    ]]  && bindkey  "${key[Home]}"    beginning-of-line
@@ -196,22 +205,20 @@ esac
 # fix lxterm
 [[ -n "${key[Home_]}"    ]]  && bindkey  "${key[Home_]}"    beginning-of-line
 [[ -n "${key[End_]}"     ]]  && bindkey  "${key[End_]}"     end-of-line
+# }}}
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-#
+#-------- Cheat Autocomp {{{
+#------------------------------------------------------
+
 # cheat autocompletion; just add to ~/.zshrc
 _cmpl_cheat() {
 reply=($(cheat -l | cut -d' ' -f1))
 }
 compctl -K _cmpl_cheat cheat
+# }}}
+
+#-------- Pywal {{{
+#------------------------------------------------------
 
 #########
 # PYWAL #
@@ -224,6 +231,11 @@ compctl -K _cmpl_cheat cheat
 
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
+
+# }}}
+
+#-------- Global Alias {{{
+#------------------------------------------------------
 
 ################
 # Global Alias #
@@ -244,8 +256,13 @@ bindkey " " globalias                 # space key to expand globalalias
 bindkey "^[[Z" magic-space            # shift-tab to bypass completion
 bindkey -M isearch " " magic-space    # normal space during searches
 
+# }}}
+
 neofetch
 source /home/notami/.shortcuts
+
+#-------- Z-Plug {{{
+#------------------------------------------------------
 
 #########
 # ZPLUG #
@@ -280,3 +297,5 @@ if ! zplug check --verbose; then
 fi
 
 zplug load
+
+# }}}
