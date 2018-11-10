@@ -436,7 +436,7 @@ font pango:Noto Mono Regular 13
 #for_window [class="Spotify"] focus
 
 #Pywal
-exec --no-startup-id wal -R
+exec --no-startup-id ~/.config/wpg/wp-init.sh &
 
 # Greenclip
 exec_always --no-startup-id greenclip daemon &
