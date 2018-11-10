@@ -201,7 +201,7 @@ set foldmethod=marker   " fold based on {{{,}}}
 set foldnestmax=10      " max 10 depth
 set foldenable          " don't fold files by default on open 
 nnoremap <space> za
-set foldlevelstart=10    " start with fold level of 1
+set foldlevelstart=0    " start with fold level of 1
 
 " BOXES COMMENTING
 

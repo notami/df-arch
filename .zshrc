@@ -1,9 +1,9 @@
- _   _ ___ ____                      _              
-| \ | |_ _|  _ \             _______| |__  _ __ ___ 
-|  \| || || | | |  _____    |_  / __| '_ \| '__/ __|
-| |\  || || |_| | |_____|  _ / /\__ \ | | | | | (__ 
-|_| \_|___|____/          (_)___|___/_| |_|_|  \___|
-                                                    
+## _   _ ___ ____                      _              
+##| \ | |_ _|  _ \             _______| |__  _ __ ___ 
+##|  \| || || | | |  _____    |_  / __| '_ \| '__/ __|
+##| |\  || || |_| | |_____|  _ / /\__ \ | | | | | (__ 
+##|_| \_|___|____/          (_)___|___/_| |_|_|  \___|
+##                                                    
 #-------- Empty Template {{{
 #------------------------------------------------------
 
@@ -64,8 +64,8 @@ source $ZSH/oh-my-zsh.sh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-POWERLEVEL9K_MODE='awesome-fontconfig'
 ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_TIME_FORMAT="%D{%l:%M}"
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"

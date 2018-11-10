@@ -31,7 +31,7 @@ alias merge="xrdb -merge ~/.Xresources"
 # ### general ### #
 ###################
 alias cls="clear"
-alias la="ls -alG"
+alias la="ls -alG" --color=auto
 alias uls="cd /usr/local/share"
 alias l.="ls -A | egrep '^\.'"
 alias xpp="xprop | grep -i 'class'"
@@ -93,7 +93,7 @@ alias ka="killall"
 alias g="git"
 alias trem="transmission-remote"
 alias mkd="mkdir -pv"
-alias rf="source ~/.zshrc"
+alias rz="source ~/.zshrc"
 alias ref="shortcuts.sh && source ~/.zshrc" # Refresh shortcuts manually and reload zshrc
 alias pi="bash ~/.larbs/wizard/wizard.sh"
 
